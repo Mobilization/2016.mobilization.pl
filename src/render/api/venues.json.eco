@@ -1,5 +1,0 @@
---- 
-outContentType: 'application/json' 
----
-<%- JSON.stringify(@site.venues) %>
-

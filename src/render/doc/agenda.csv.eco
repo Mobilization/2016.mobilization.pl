@@ -1,5 +1,0 @@
---- 
-outContentType: 'application/csv' 
----
-<% for slot_key, slot of @site.schedule: %><%= @site.slots[slot_key].from %>;<% if 'break_key' of slot: %><% for venue_key, venue of @site.venues: %><%= @site.breaks[slot.break_key].title %>;<% end %><% else: %><% for venue_key, venue of @site.venues: %><% if venue_key of slot: %><%- @site.talks[slot[venue_key].talk_key].title %> - <% speakers = new Array() %><% for speaker_key in @site.talks[slot[venue_key].talk_key].speakers_keys: %><% speakers.push(@site.speakers[speaker_key].firstname + ' ' + @site.speakers[speaker_key].lastname) %><% end %><%= speakers.join(', ') %>;<% else: %>;<% end %><% end %><% end %>
-<% end %>
