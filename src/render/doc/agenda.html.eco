@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<head>
+	<!-- Standard Meta -->
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	
+	<!-- Site Properities -->
+	<title><%= @getPreparedTitle() %> - Agenda</title>	
+
+<style>
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color: #444;
+}
+
+p {
+	margin:0;
+	padding: 2px 0 4px;
+}
+
+td {
+	padding: 5px;
+	border-bottom: 1px #444 dashed;
+}
+
+td.header {
+	text-align: center;
+}
+
+td.special {
+	/* background-color: #f5f5f5; */
+}
+
+td.odd {
+	/* background-color: #eee; */
+}
+
+td.even {
+	/* background-color: #ddd; */
+}
+
+td.presentation {
+	vertical-align: top;
+}
+
+td.first {
+	width: 5%;
+}
+
+td.std {
+	width: <%- 95 / (Object.keys(@site.venues).length + 1) %>%;
+	border-left: 1px #444 dashed;
+}
+
+</style>
+
+</head>
+<body>
+
+<table>
+<tr>
+	<td class="first"></td>
+	<% for venue_key, venue of @site.venues: %>
+		<td class="header"><h3><%- venue.title %></h3></td>
+	<% end %>
+</tr>
+<% for slot_key, slot of @site.schedule: %>
+<% i = 0 %>
+<tr>
+	<td class="first"><h3><%= @site.slots[slot_key].from %></h3></td>
+	<% if 'break_key' of slot: %>
+		<td colspan="<%- Object.keys(@site.venues).length %>" style="text-align: center" class="special">
+			<strong><%= @site.breaks[slot.break_key].title %></strong>
+		</td>
+	<% else: %>
+		<% for venue_key, venue of @site.venues: %>
+			<td class="std presentation <% if i++ % 2 == 0: %>odd<% else: %>even<% end %>">
+			<% if venue_key of slot: %>
+				<p><strong><%- @site.talks[slot[venue_key].talk_key].title %></strong></p>
+				<% speakers = new Array() %>
+ 				<% for speaker_key in @site.talks[slot[venue_key].talk_key].speakers_keys: %>
+					<% speakers.push(@site.speakers[speaker_key].firstname + ' ' + @site.speakers[speaker_key].lastname) %>
+ 				<% end %>
+ 				<%= speakers.join(', ') %>
+ 			<% end %>
+			</td>
+		<% end %>
+	<% end %>
+</tr>
+<% end %>
+</table>
+
+</body>
+</html>

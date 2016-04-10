@@ -1,0 +1,86 @@
+<!-- agenda -->
+<div id="agenda">
+  <div class="container wow bounceInLeft">
+    <h2 class="text-center">AGENDA</h2>
+    <div class="row">
+
+    <div class="col-sm-4 col-md-8 col-md-offset-2 nav-agenda ">
+      <ul class="nav nav-pills">
+      	<% for venue_key, venue of @site.venues: %>
+      		<% if venue_key == 'venue-seamless': %>
+      		<li class="active">
+      		<% else: %>
+      		<li>
+      		<% end %>
+        		<a data-target="#track-<%= venue_key %>" data-toggle="tab" href="#"><%= venue.title %> Track</a>
+       		</li>
+      	<% end %>
+      </ul>
+    </div>
+    
+<!-- tab panes -->
+    <div class="col-sm-8 col-md-8 col-md-offset-2">
+    <div class="tab-content">
+    	<% for venue_key, venue of @site.venues: %>
+    	<% if venue_key == 'venue-seamless': %>
+		<div class="tab-pane active" id="track-<%= venue_key %>">
+		<% else: %>
+		<div class="tab-pane" id="track-<%= venue_key %>">
+		<% end %>
+          <ul class="timeline">
+			
+			<% for slot_key, slot of @site.schedule: %>
+				<% if venue_key of slot or 'break_key' of slot: %>
+				<li class="timeline-inverted">
+                <div class="timeline-badge"><%= @site.slots[slot_key].from %></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                  	<% if 'break_key' of slot: %>
+						<% break_ = @site.breaks[slot.break_key] %>
+						<p class="timeline-title">
+							<%= break_.title %>
+						</p>
+						
+						<% if break_.description_html.length > 0: %>
+							<p class="timeline-description"><%- break_.description_html %></p>
+						<% end %>
+					<% else: %>
+						<% _talk = @site.talks[slot[venue_key].talk_key] %>
+						<p class="timeline-title" id="agenda-<%= slot[venue_key].talk_key %>">
+	  					<%= _talk.title %>
+	  					<small class="text-muted" title="Language"><%= _talk.language %></small>
+	  					</p>
+	  					<br/>
+	  					<p>
+	  					
+	  					<% speakers = new Array() %>
+	  					<% for speaker_key in _talk.speakers_keys: %>
+	  						<% speakers.push('<a href="#" data-toggle="modal" data-target="#' + speaker_key + '">' + @site.speakers[speaker_key].firstname + ' ' + @site.speakers[speaker_key].lastname + '</a>') %> 
+	  					<% end %>
+	  					
+	  					<small class="text-muted">
+                           	<%- speakers.join(', ') %>
+                        </small>
+                        </p>
+                        
+                       	<p class="timeline-description">
+                       		<%- _talk.description_html %>
+                       	</p>
+					<% end %>
+                  </div>
+                </div>
+              	</li>
+              	<% end %>
+			<% end %>
+			
+		</ul>
+		</div>
+	<% end %>
+
+    	<a href="doc/agenda.html">Printable agenda</a>
+	</div> <!-- tab content -->
+	</div> <!-- col-sm8 -->
+	
+	</div>
+    </div>
+    </div>

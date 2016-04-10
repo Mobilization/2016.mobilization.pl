@@ -1,0 +1,8 @@
+.DS_Store
+/.project
+/clean.sh
+/generate.sh
+/publish.sh
+/run.sh
+/.idea
+/2015.mobilization.pl.iml

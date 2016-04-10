@@ -1,0 +1,69 @@
+<!-- agenda -->
+<div id="agendadodruku">
+  <div class="container wow bounceInLeft">
+
+
+
+
+<!-- tab panes -->
+
+    <div class="tab-content">
+
+<table border="1">
+        <tr>
+      	<% for venue_key, venue of @site.venues: %>
+      		<th class="mob">
+        		<%= venue.title %>
+       		</th>
+      	<% end %>
+        </tr>
+
+        <% for slot_key, slot of @site.schedule: %>
+    	<tr>
+
+            <% for venue_key, venue of @site.venues: %>
+			<td class="mob">
+				<% if venue_key of slot or 'break_key' of slot: %>
+
+                <%= @site.slots[slot_key].from %>
+
+                  	<% if 'break_key' of slot: %>
+						<% break_ = @site.breaks[slot.break_key] %>
+							<%= break_.title %>
+					<% else: %>
+						<% _talk = @site.talks[slot[venue_key].talk_key] %>
+						<p class="timeline-title" id="agenda-<%= slot[venue_key].talk_key %>">
+	  					<%= _talk.title %>
+	  					<small class="text-muted" title="Language"><%= _talk.language %></small>
+	  					</p>
+	  					<br/>
+	  					<p>
+
+	  					<% speakers = new Array() %>
+	  					<% for speaker_key in _talk.speakers_keys: %>
+	  						<% speakers.push('<a href="#" data-toggle="modal" data-target="#' + speaker_key + '">' + @site.speakers[speaker_key].firstname + ' ' + @site.speakers[speaker_key].lastname + '</a>') %>
+	  					<% end %>
+
+	  					<small class="text-muted">
+                           	<%- speakers.join(', ') %>
+                        </small>
+                        </p>
+
+
+					<% end %>
+
+              	<% end %>
+            </td>
+			<% end %>
+
+	</tr>
+	<% end %>
+
+	</div> <!-- tab content -->
+</tr>
+</table>
+</div>
+</div>
+<br/>
+<br/>
+<br/>
