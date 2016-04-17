@@ -1,56 +1,11 @@
-#form-message {
-	display: none;
+.countdown-media {
+	margin-top: 30px;
+	text-align: center;
 }
 
-#form-message > div {
-	padding: 5px;
-}
-
-h3.smaller_font{
-	font-size: 18px;
-}
-
-
-.tab-content th  {
-  vertical-align: top;
-  background-color: grey;
-  color: white;
-  padding-left: 2px;
-}
-.tab-content td  {
-  vertical-align: top;
-  padding-left: 2px;
-}
-
-.icon-help:before {
-  content: "\e085";
-}
-.icon-help-2:before {
-  content: "\e086";
-}
-
-[class*="icon-"] {
-  font-family: 'iconFont';
-  speak: none;
-  font-style: normal;
-  font-weight: normal !important;
-  font-variant: normal;
-  text-transform: none;
-  text-decoration: inherit;
-  line-height: 1;
-  display: inline-block;
-  vertical-align: -8%;
-  -webkit-font-smoothing: antialiased;
-  font-size: inherit;
-}
-
-.smallinfo {
-  font-size: 12px;
-  display: inline-block;
-  color: #ff0001;
-}
-
-
-.footer_link {
-  color: #333;
+.countdown-footer {
+	font-size: 0.8em;
+	margin: 15px;
+	text-align: center;
+	color: #eee;
 }
