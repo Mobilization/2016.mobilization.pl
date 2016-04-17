@@ -1,12 +1,3 @@
 ---
-layout: 'default'
+layout: 'countdown'
 ---
-
-<%- @partial('sponsors.html.eco', @) %>
-<%- @partial('address.html.eco', @) %>
-<%- @partial('map.html.eco', @) %>
-<%- @partial('about.html', @) %>
-<%- @partial('no-tabs-agenda.html.eco', @) %>
-<%- @partial('speakers.html.eco', @) %>
-<%- @partial('partners.html.eco', @) %>
-<%- @partial('registration.html', @) %>
