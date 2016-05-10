@@ -13,7 +13,7 @@ docpadConfig = {
       url: "http://mobilization.pl",
       oldUrls: ['www.mobilization.pl'],
       title: "Mobilization 2016",
-      description: "Mobilization is a conference dedicated to mobile technologies. The main scope is development of mobile solutions aimed at smartphones and tablets, with particular interest in Android, iOS and Windows Phone platforms.",
+      description: "Mobilization is a conference dedicated to mobile technologies. The main scope is development of mobile solutions aimed at smartphones and tablets, with particular interest in Android and iOS mobile platforms.",
       keywords: "mobilization, conference, mobile conference, Łódź",
       styles: [],
       scripts: [],
