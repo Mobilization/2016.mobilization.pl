@@ -3,9 +3,45 @@
 	text-align: center;
 }
 
+.countdown-media .separator {
+	color: white;
+	font-size: 12px;
+	height: 4px;
+}
+
+.countdown-media .fb-button {
+    padding: 4px 9px 5px 9px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #3b5998;
+    border-radius: 3px;
+		font-weight: bold;
+    box-sizing: border-box;
+		line-height: normal !important;
+}
+
+.countdown-media .fb-button span {
+		padding: 0;
+		margin: 0;
+		line-height: normal;
+		align-content: center;
+}
+
+.countdown-media .fb-button:hover {
+		background-color: #193776;
+}
+
+.countdown-media .fb-button span {
+		font-size: 12px;
+}
+
 .countdown-footer {
 	font-size: 0.8em;
-	margin: 15px;
+	margin: 20px 15px 15px;
 	text-align: center;
 	color: #eee;
+}
+
+.countdown-footer a {
+	font-weight: bold;
 }
