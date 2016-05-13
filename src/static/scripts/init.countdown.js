@@ -1,5 +1,5 @@
 /** *************Init JS*********************
-	
+
     TABLE OF CONTENTS
 	---------------------------
 	Notify Me
@@ -8,21 +8,21 @@
 	Counter JS
 	Only play video on desktop devices
  ** ***************************************/
- "use strict"; 
+ "use strict";
 
 
 /***********************************/
 /*Ready function*/
 /**********************************/
 $(document).ready(function() {
-	
+
 	/** Subscribe JS **/
-	$("#notifyMe").notifyMe(); // Activate notifyMe plugin on a '#notifyMe' element 
-	
+	$("#notifyMe").notifyMe(); // Activate notifyMe plugin on a '#notifyMe' element
+
 	/** Placeholder JS call **/
-	$('input[type=text], textarea').placeholder();	
-	
-	
+	$('input[type=text], textarea').placeholder();
+
+
 });
 
 /***********************************/
@@ -40,16 +40,14 @@ jQuery(window).load(function() {
 
 /***********************************/
 /*Counter JS*/
-/**********************************/	
+/**********************************/
 $(function () {
-  
+
   var austDay = new Date();
   //Set counter date
-  austDay =  new Date(2016,10,22,9,0,0,0);
-  jQuery('#defaultCountdown').countdown({
-	until: austDay, padZeroes: true,format: 'DHMS'});
+  austDay =  new Date(2016, 10 - 1, 22, 9, 0, 0, 0);
+  jQuery('#defaultCountdown').countdown({until: austDay, padZeroes: true, format: 'DHMS'});
   jQuery('#year').text(austDay.getFullYear());
-
 });
 /***************************************/
 /*only play video on desktop devices  */
@@ -77,11 +75,5 @@ $(function () {
 
 var trueMobile = isMobile.any()
 if (trueMobile){
-	$('#video').css('display','none');	
+	$('#video').css('display','none');
 }
-
-
-
-
-
-
