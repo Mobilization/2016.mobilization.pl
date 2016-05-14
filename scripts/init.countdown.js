@@ -22,7 +22,10 @@ $(document).ready(function() {
 	/** Placeholder JS call **/
 	$('input[type=text], textarea').placeholder();
 
-
+  /** Cookies **/
+  $.cookieCuttr({
+    cookieAnalyticsMessage: 'We use cookies just to track visits to our website, we store no personal details.'
+  });
 });
 
 /***********************************/
