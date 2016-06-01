@@ -46,13 +46,12 @@ input {
 	box-shadow: none;
 }
 
-body {
+html, body {
 	color: #000000;
 	font-family: 'Raleway', sans-serif;
 	font-size: 16px;
 	font-style: normal;
 	overflow:hidden;
-
 }
 
 ::-webkit-input-placeholder {
@@ -396,7 +395,7 @@ p {
 	height:100%;
 	width:100%;
 	top:0;
-	background-image: url(/images/page/background-1.png);
+	background: #000 url(/images/page/background-1.png);
     background-origin: padding-box;
     background-repeat: no-repeat;
     background-size: cover;
