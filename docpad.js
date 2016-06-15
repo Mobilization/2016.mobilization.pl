@@ -33,6 +33,7 @@ docpadConfig = {
       	time: '08:00-17:30'
       },
       sponsors: {
+      	diamond : [],
       	platinum: [
 			// {"name":"Seamless","logo_url":"/images/sponsors/seamless.png","link":"http://seamless.se/"},
 			// {"name":"TomTom","logo_url":"/images/sponsors/tomtom.png","link":"http://www.tomtom.com/pl_pl/"},
