@@ -93,3 +93,22 @@
     max-height: 120px;
 }
 
+.registration-button {
+    background-color: #1bce7d;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 17px 23px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.registration-button:hover {
+    color: #fff;
+}
+
+.registration-button:active {
+    position: relative;
+    top: 1px;
+}
