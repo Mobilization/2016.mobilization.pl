@@ -77,8 +77,12 @@
 }
 
 #sponsors .row {
-    padding-bottom: 15px;
+<<<<<<< HEAD
     background: transparent;
+=======
+    background: #fff;
+    padding-bottom: 15px;
+>>>>>>> 65ac2566758b499a559eb744b37b67860c21e333
     margin-bottom: 40px;
 }
 
