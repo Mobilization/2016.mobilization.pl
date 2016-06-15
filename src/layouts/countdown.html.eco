@@ -57,7 +57,7 @@
 			<a href="http://bit.ly/mobilization6-register" class="registration-button">Attendee Registration</a>
 			<br/>
 
-			<hr id="title_hr">
+			<hr id="title_hr" style="margin-top: 25px;">
 			<!-- COUNTDOWN -->
 			<div id="defaultCountdown"></div>
 			<div class="clearfix"></div>
