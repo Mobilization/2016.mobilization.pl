@@ -67,3 +67,29 @@
     width: 100%;
     height: 100%;
 }
+
+#sponsors {
+    margin-top: 60px;
+}
+
+#sponsors h2 {
+    padding: 15px;
+}
+
+#sponsors .row {
+    background: #fff;
+    margin-bottom: 40px;
+}
+
+#sponsors .mobilization-sponsor-logo {
+    padding: 0 30px;
+    vertical-align: middle;
+    display: inline-block;
+    height: 100%;
+}
+
+#sponsors .mobilization-sponsor-logo img {
+    max-width: 130px;
+    max-height: 120px;
+}
+
