@@ -65,6 +65,9 @@
 			<!-- /EVENEA -->
 		</div>
 	</div>
+
+	<%- @content %>
+
 	<!-- /TIMER -->
 	<!-- SUBSCRIBE FORM -->
 	<!-- <div class="notify-by-email align-center">
