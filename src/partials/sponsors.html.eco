@@ -2,6 +2,7 @@
 <div id="sponsors">
   <div class="container wow bounceInLeft">
 	<% for sponsor_category_key, sponsor_category of @site.sponsors: %>
+	  <% if sponsor_category.length > 0: %>
 	<div class="row text-center">
 		<h2 style="text-transform: uppercase"><%= sponsor_category_key %> sponsors</h2>
 		<% for sponsor_key, sponsor of sponsor_category: %>
@@ -14,6 +15,7 @@
 			</a>
 		<% end %>
 	</div>
+	  <% end %>
 	<% end %>        
    </div> 
  </div>
