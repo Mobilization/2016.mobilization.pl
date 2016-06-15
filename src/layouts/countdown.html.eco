@@ -55,8 +55,19 @@
 			<div id="defaultCountdown"></div>
 			<div class="clearfix"></div>
 			<!-- /COUNTDOWN	-->
+
+			<!-- EVENEA -->
+			<!-- <h1 class="col-lg-10 align-center counter-logo"><span>Registration</span></h1>
+			<hr id="title_hr">
+			<iframe src="https://mobilization-vi.evenea.pl?out=1&source=event_iframe" width="85%" scrolling="no" style="border: 0;"></iframe>
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+            <script type="text/javascript" src="//cdn.evenea.pl/js/iframe/new/iframeResizer2.js"></script> -->
+			<!-- /EVENEA -->
 		</div>
 	</div>
+
+	<%- @content %>
+
 	<!-- /TIMER -->
 	<!-- SUBSCRIBE FORM -->
 	<!-- <div class="notify-by-email align-center">

@@ -1,3 +1,5 @@
 ---
 layout: 'countdown'
 ---
+
+<%- @partial('sponsors.html.eco', @) %>
