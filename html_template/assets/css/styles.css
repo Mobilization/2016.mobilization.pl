@@ -521,7 +521,7 @@ figure.vimeo-video{
 
 .block-hover {
 	
-	background: url("../img/gallery/gallery.jpg") no-repeat scroll center center / cover rgba(0, 0, 0, 0);
+	background: url("../../static/images/page/image1.png") no-repeat scroll center center / cover rgba(0, 0, 0, 0);
 	height: 392px;
 	-webkit-transition: background .2s ;
 	-moz-transition: background .2s ;
@@ -577,7 +577,7 @@ figure.vimeo-video{
 }
 
 .grid-gal figure.3d-gallery{
-	background: url("../assets/img/gallery/gallery.jpg") no-repeat scroll 0 0 / cover  rgba(0, 0, 0, 0);
+	background: url("../../static/images/page/image1.png") no-repeat scroll 0 0 / cover  rgba(0, 0, 0, 0);
 }
 
 /*******************************/
