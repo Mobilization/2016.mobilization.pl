@@ -68,8 +68,6 @@ docpadConfig = {
       		}
       	],
       	supporters: [
-			// {"name":"Upmenu","logo_url":"/images/partners/upmenu.png","description_html":"Upmenu had created new layout for Mobilization 2014! which is used for Mobilization 2015. Besides creating mobile and responsive layouts they work in Horeca business and help restaurants with online orders. Check out more on their webpage"},
-			// {"name": "NextApps", "logo_url":"/images/partners/nxas_circle_green_512_png.png", "link":"http://nextapps.pl/"},
 			// {"name": "Miliataria Łódź", "logo_url":"/images/partners/militaria.png", "link":"http://militaria.lodz.pl/"},
       	],
       	community: [
