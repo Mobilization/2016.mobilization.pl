@@ -1614,7 +1614,7 @@ ul.planContainer li.title {
 	display: block;
 	position: absolute;
 	z-index: 20;
-	background: rgba(27, 217, 130, 1);
+	background: rgba(27, 217, 130, 0.2);
 	overflow: hidden;
 	transition: all 0.5s;
 	-webkit-transition: all 0.5s;
