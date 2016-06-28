@@ -985,7 +985,6 @@ div.avatar {
     text-transform: uppercase;
 }
 
-
 .accordion .item .heading .time {
 	border-top: 4px solid rgba(33, 39, 57, 0.15);
     box-sizing: border-box;
@@ -1023,6 +1022,48 @@ div.avatar {
     text-align: left;
 }
 
+/* b-item */
+
+.accordion .b-item {
+	background: #fafafa;
+}
+
+.accordion .b-item .heading {
+	cursor: default;
+	color: #fff;
+	box-sizing: border-box;
+}
+
+.accordion .b-item .heading .title {
+	border-top: 1px solid rgba(33, 39, 57, 0.15);
+	box-sizing: border-box;
+	color: #212739;
+	cursor: default;
+	display: inline-block;
+	float: left;
+	font-size: 0.9em;
+	font-weight: 300;
+	letter-spacing: 0.1em;
+	padding: 15px 15px 15px 0px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.accordion .b-item .heading .time {
+	border-top: 4px solid rgba(33, 39, 57, 0.15);
+	box-sizing: border-box;
+	color: #1bd982;
+	cursor: default;
+	display: inline-block;
+	float: left;
+	font-size: 1.1em;
+	font-weight: 500;
+	padding: 15px 0;
+	text-align: left;
+}
+
+/* /b-item */
+
 .details {
 	padding: 20px 0px 20px 0px;
 	border-top: dotted 1px #1bd982;
@@ -1043,18 +1084,20 @@ div.avatar {
     text-transform: uppercase;
     width: 50%;
 }
-.d-sch .fa.fa-download{
+.d-sch .fa.fa-download, .d-sch .fa.fa-list {
 	float:right;
 	font-size:30px;
 	padding-left: 30px;
 	line-height: 20px;
 }
-.fb .fa.fa-print{
+
+.fb .fa.fa-print, .fb .fa-list-alt {
 	float:left;
 	font-size:30px;
 	padding-right: 30px;
 	line-height: 20px;
 }
+
 .fb {
    /* background: url("../img/fbicn.png") no-repeat scroll left 30px top 18px rgba(0, 0, 0, 0); */
     border-left: 1px solid #c8c8c8;
@@ -1067,6 +1110,10 @@ div.avatar {
     text-align: left;
     text-transform: uppercase;
     width: 50%;
+}
+
+.fb .fa.selected, .d-sch.selected {
+	color: #1bd982;
 }
 
 .d-sch:hover{
