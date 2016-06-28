@@ -1584,9 +1584,7 @@ ul.planContainer li.title {
 }
 
 .effects .img {
-	position: relative;
 	margin-bottom: 25px;
-	position: relative;
 	z-index: 1;
 	overflow: hidden;
 }
@@ -1605,7 +1603,7 @@ ul.planContainer li.title {
 
 .effects .img img {
 	display: block;
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 	height: auto;
 }
@@ -1684,6 +1682,24 @@ button.expand {
 	opacity: 1;
 }
 
+
+.img img {
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-moz-transition: opacity 0.35s, -moz-transform 0.35s;
+	-o-transition: opacity 0.35s, -o-transform 0.35s;
+	-webkit-transform: translate3d(0, -10px, 0);
+	transform: translate3d(0, -10px, 0);
+	-ms-transform: translate3d(0, -10px, 0);
+}
+
+.img:hover img {
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, -10px, 0);
+}
+
+/*
 .img img {
 	width: -webkit-calc(100% + 40px) !important;
 	width: calc(100% + 40px) !important;
@@ -1701,6 +1717,7 @@ button.expand {
 	transform: translate3d(0, 0, 0);
 	-ms-transform: translate3d(-40px, 0, 0);
 }
+*/
 
 .designs {
 	position: absolute;
