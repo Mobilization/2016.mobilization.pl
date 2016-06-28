@@ -1052,7 +1052,7 @@ div.avatar {
 .accordion .b-item .heading .time {
 	border-top: 4px solid rgba(33, 39, 57, 0.15);
 	box-sizing: border-box;
-	color: #1bd982;
+	color: #999;
 	cursor: default;
 	display: inline-block;
 	float: left;
