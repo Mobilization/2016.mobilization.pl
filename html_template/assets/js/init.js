@@ -42,7 +42,8 @@ jQuery( document ).ready(function( $ ) {
 	
 	/*** Auto height function ***/
 	var setElementHeight = function () {
-		var height = $(window).height();
+		var height = Math.max($(window).height(), 670);
+		console.log(height);
 		$('.autoheight').css('min-height', (height));
 		
 	};
