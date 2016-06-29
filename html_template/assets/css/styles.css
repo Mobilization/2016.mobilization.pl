@@ -1653,6 +1653,7 @@ ul.planContainer li.title {
 	margin: 0 auto;
 	padding: 0;
 	height: auto;
+	width: 255px;
 }
 
 .overlay {
