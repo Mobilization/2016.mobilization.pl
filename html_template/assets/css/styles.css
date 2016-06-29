@@ -2244,3 +2244,22 @@ ul.legals li:last-child::after {
 	max-width: 130px;
 	max-height: 120px;
 }
+
+.volunteers {
+	line-height: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.volunteers button {
+	padding: 1px 1px 0 0;
+	margin: 0;
+	float: left;
+}
+
+.volunteers img {
+	width: 80px !important;
+	height: 80px !important;
+	padding: 0;
+	margin: 0;
+}
