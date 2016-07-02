@@ -1,17 +1,5 @@
- <!-- address -->
- <div id="when-where">
-  <div class="container text-center wow bounceInLeft">
-  	<% event = @site.event %>
-    <p class="lead"><%= event.data %>, <%= event.time %><p>
-    <p>
-      <%= event.location.place %>,<br />
-      <%= event.location.street %><br />
-   	  <%= event.location.zip %> <%= event.location.city %>, <%= event.location.country %>
-    </p>
-  </div>
-</div>
-
  <!-- VENUE -->
+ <% event = @site.event %>
  <section class="intro text-center section-padding" id="venue">
      <div class="container">
          <div class="col-md-8 wow animated fadeInLeft align-center" data-wow-duration="1s" data-wow-delay="0.3s">
@@ -36,17 +24,17 @@
              </div>
              <script type='text/javascript'>function init_map() {
                  var myOptions = {
-                     zoom: 14,
-                     center: new google.maps.LatLng(51.7505458, 19.45013510000001),
+                     zoom: 6,
+                     center: new google.maps.LatLng(<%= event.location.lat %>, <%= event.location.lng %>),
                      mapTypeId: google.maps.MapTypeId.ROADMAP,
                      scrollwheel: false
                  };
                  map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
                  marker = new google.maps.Marker({
                      map: map,
-                     position: new google.maps.LatLng(51.7505458, 19.45013510000001)
+                     position: new google.maps.LatLng(<%= event.location.lat %>, <%= event.location.lng %>)
                  });
-                 infowindow = new google.maps.InfoWindow({content: '<strong>Mobilization VI</strong><br>al. Politechniki 4 93-590 Łódź, Polska<br>'});
+                 infowindow = new google.maps.InfoWindow({content: '<strong>Mobilization VI</strong><br/><%= event.location.place %>'});
                  google.maps.event.addListener(marker, 'click', function () {
                      infowindow.open(map, marker);
                  });

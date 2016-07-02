@@ -9,3 +9,4 @@ layout: 'main-layout'
 <%- @partial('features.html', @) %>
 <%- @partial('agenda.html.eco', @) %>
 <%- @partial('speakers.html.eco', @) %>
+<%- @partial('venue.html.eco', @) %>
