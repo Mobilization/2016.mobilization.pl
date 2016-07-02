@@ -8,3 +8,4 @@ layout: 'main-layout'
 <%- @partial('sponsors.html.eco', @) %>
 <%- @partial('features.html', @) %>
 <%- @partial('agenda.html.eco', @) %>
+<%- @partial('speakers.html.eco', @) %>
