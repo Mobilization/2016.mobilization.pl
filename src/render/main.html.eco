@@ -1,3 +1,7 @@
 ---
 layout: 'main-layout'
 ---
+
+<%- @partial('header.html', @) %>
+<%- @partial('home.html', @) %>
+<%- @partial('about.html', @) %>

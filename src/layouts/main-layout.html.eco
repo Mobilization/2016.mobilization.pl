@@ -49,70 +49,7 @@
 </div>
 <!--/PRELOADER-->
 
-<!--HEADER-->
-<div class="header header-hide">
-    <div class="container">
-        <nav class="navbar navbar-default" role="navigation">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse"
-                        data-target="#example-navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" data-scroll href="#sec_1"><img src="assets/img/page/logo-min.png"
-                                                                       alt="logo"/></a>
-            </div>
-            <div class="collapse navbar-collapse" id="example-navbar-collapse">
-                <ul class="nav navbar-nav">
-                    <li><a data-scroll href="#sponsors">Sponsors</a></li>
-                    <li><a data-scroll href="#agenda">Agenda</a></li>
-                    <li><a data-scroll href="#team">Speakers</a></li>
-                    <li><a data-scroll href="#venue">Venue</a></li>
-                    <li style="visibility: hidden; width: 0"><a data-scroll href="#partners">Partners</a></li>
-                    <li><a data-scroll href="#contact">Contact</a></li>
-                    <li class="hidden"><a href="#sec_1">Home</a></li>
-                </ul>
-            </div>
-        </nav>
-    </div>
-</div>
-<!--/HEADER-->
-
-<!--HOME-->
-<section id="sec_1" class="autoheight">
-    <div class="home-bg"></div>
-    <div class="col-lg-10 landing-text-pos align-center">
-
-        <img src="assets/img/page/logo.png" class="main-logo wow animated fadeInDown"/>
-
-        <hr id="title_hr"/>
-        <p class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="1s">Lodz, Poland. 22 October 2016</p>
-        <a class="learn-more-btn btn-effect wow animated fadeIn" data-wow-duration="0.5s" data-wow-delay="1.5s"
-           data-scroll href="#swag">Attendee registration</a>
-    </div>
-</section>
-<!--/HOME-->
-
-<!--ABOUT-->
-<div class="intro text-center section-padding" id="intro">
-    <div class="container wow animated fadeInLeft animated" data-wow-duration="1s" data-wow-delay="0.5s">
-        <div class="row">
-            <div class="col-lg-8 align-center about">
-                <h1 class="arrow">About the Event</h1>
-                <hr/>
-                <p>
-                    <strong>Mobilization</strong> is a conference dedicated to mobile technologies.
-                    The main scope is development of mobile solutions aimed at smartphones and tablets,
-                    with particular interest in <strong>Android</strong>, <strong>iOS</strong> and
-                    <strong>HTML5</strong>.
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
-<!--/ABOUT-->
+<%- @content %>
 
 <!--SPONSORS-->
 <div id="sponsors" class="ignite-cta text-center section-padding">
