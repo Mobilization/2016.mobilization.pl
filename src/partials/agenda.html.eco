@@ -75,154 +75,53 @@
                 </section>
                 <% end %>
 
-
                 <section id="track-all">
                     <div class="container">
                         <div class="accordion">
-                            <div class="item clearfix">
-                                <div class="heading clearfix">
-                                    <div class="time col-md-3 col-sm-12 col-xs-12">9:30am - 11:30am</div>
-                                    <div class="e-title col-md-9 col-sm-12 col-xs-12">
-                                        Welcome speech and Overview<br/>
-                                        <span class="name">Andrew Yang - </span>
-                                        <span class="speaker-designaition">CEO, Microsoft</span>
+                            <% for slot_key, slot of @site.schedule: %>
+                                <% if 'break_key' of slot: %>
+                                    <% break_ = @site.breaks[slot.break_key] %>
+                                    <div class="b-item clearfix" style="background: #fafafa">
+                                        <div class="heading">
+                                            <div class="time col-md-3 col-sm-12 col-xs-12">
+                                                <%= @site.slots[slot_key].from %> - <%= @site.slots[slot_key].to %>
+                                            </div>
+                                            <div class="title col-md-9 col-sm-12 col-xs-12"><%= break_.title %></div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-md-12 col-sm-12 col-xs-12">
-                                    <div class="content venue col-md-3 col-sm-12 col-xs-12">
-                                        Venue 1
-                                    </div>
-                                    <div class="content details col-md-9 col-sm-12 col-xs-12">
-                                        This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor
-                                        aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat
-                                        ipsum, nec sagittis sem nibh id elit. The Standardistas are lecturers in
-                                        interactive design. Proin gravida nibh vel velit auctor aliquet. Aenean
-                                        sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec
-                                        sagittis sem nibh id elit. The Standardistas are lecturers in interactive
-                                        design.
-                                    </div>
-                                </div>
-                            </div>
+                                <% else: %>
+                                    <% iter = 0 %>
+                                    <% for venue_key, venue of @site.venues: %>
+                                        <% if venue_key of slot: %>
+                                            <% _talk = @site.talks[slot[venue_key].talk_key] %>
+                                            <div class="item clearfix">
+                                                <div class="heading">
+                                                    <div class="time col-md-3 col-sm-12 col-xs-12" <% if iter > 0: %> style="border:none !important;"<% end %>>
+                                                        <% if iter == 0: %><%= @site.slots[slot_key].from %> - <%= @site.slots[slot_key].to %><% end %>
+                                                    </div>
+                                                    <div class="e-title col-md-9 col-sm-12 col-xs-12"><%= _talk.title %><br/>
+                                                        <% speakers = new Array() %>
+                                                        <% for speaker_key in _talk.speakers_keys: %>
+                                                        <% speakers.push('<strong>' + @site.speakers[speaker_key].firstname + ' ' + @site.speakers[speaker_key].lastname + '</strong>') %>
+                                                        <% end %>
 
-                            <div class="item clearfix">
-                                <div class="heading clearfix">
-                                    <div class="time col-md-3 col-sm-12 col-xs-12"
-                                         style="border:none !important;"></div>
-                                    <div class="e-title col-md-9 col-sm-12 col-xs-12">
-                                        Welcome speech and Overview<br/>
-                                        <span class="name">Andrew Yang - </span>
-                                        <span class="speaker-designaition">CEO, Microsoft</span>
-                                    </div>
-                                </div>
-                                <div class="col-md-12 col-sm-12 col-xs-12">
-                                    <div class="content venue col-md-3 col-sm-12 col-xs-12">
-                                        Venue 2
-                                    </div>
-                                    <div class="content details col-md-9 col-sm-12 col-xs-12">
-                                        This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor
-                                        aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat
-                                        ipsum, nec sagittis sem nibh id elit. The Standardistas are lecturers in
-                                        interactive design. Proin gravida nibh vel velit auctor aliquet. Aenean
-                                        sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec
-                                        sagittis sem nibh id elit. The Standardistas are lecturers in interactive
-                                        design.
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="item clearfix">
-                                <div class="heading clearfix">
-                                    <div class="time col-md-3 col-sm-12 col-xs-12"
-                                         style="border:none !important;"></div>
-                                    <div class="e-title col-md-9 col-sm-12 col-xs-12">
-                                        Welcome speech and Overview<br/>
-                                        <span class="name">Andrew Yang - </span>
-                                        <span class="speaker-designaition">CEO, Microsoft</span>
-                                    </div>
-                                </div>
-                                <div class="col-md-12 col-sm-12 col-xs-12">
-                                    <div class="content venue col-md-3 col-sm-12 col-xs-12">
-                                        Venue 3
-                                    </div>
-                                    <div class="content details col-md-9 col-sm-12 col-xs-12">
-                                        This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor
-                                        aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat
-                                        ipsum, nec sagittis sem nibh id elit. The Standardistas are lecturers in
-                                        interactive design. Proin gravida nibh vel velit auctor aliquet. Aenean
-                                        sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec
-                                        sagittis sem nibh id elit. The Standardistas are lecturers in interactive
-                                        design.
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="item clearfix">
-                                <div class="heading">
-                                    <div class="time col-md-3 col-sm-12 col-xs-12">11:30am - 1:00pm</div>
-                                    <div class="e-title col-md-9 col-sm-12 col-xs-12">The Standardistas are lecturers in
-                                        interactive design<br/><span class="name">Andrew Yang - </span><span
-                                                class="speaker-designaition">CEO, Microsoft</span></div>
-                                </div>
-                                <div class="col-md-12 col-sm-12 col-xs-12">
-                                    <div class="content venue col-md-3 col-sm-12 col-xs-12">
-                                        Venue: Auditorium 1
-                                    </div>
-                                    <div class="content details col-md-9 col-sm-12 col-xs-12">
-                                        This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor
-                                        aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat
-                                        ipsum, nec sagittis sem nibh id elit. The Standardistas are lecturers in
-                                        interactive design. Proin gravida nibh vel velit auctor aliquet. Aenean
-                                        sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec
-                                        sagittis sem nibh id elit. The Standardistas are lecturers in interactive
-                                        design.
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="item clearfix">
-                                <div class="heading">
-                                    <div class="time col-md-3 col-sm-12 col-xs-12">1:00pm - 2:00pm</div>
-                                    <div class="e-title col-md-9 col-sm-12 col-xs-12">Catered Lunch<br/><span
-                                            class="name">Sponsered </span></div>
-                                </div>
-                                <div class="col-md-12 col-sm-12 col-xs-12">
-                                    <div class="content venue col-md-3 col-sm-12 col-xs-12">
-                                        Venue: Auditorium 1
-                                    </div>
-                                    <div class="content details col-md-9 col-sm-12 col-xs-12">
-                                        This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor
-                                        aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat
-                                        ipsum, nec sagittis sem nibh id elit. The Standardistas are lecturers in
-                                        interactive design. Proin gravida nibh vel velit auctor aliquet. Aenean
-                                        sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec
-                                        sagittis sem nibh id elit. The Standardistas are lecturers in interactive
-                                        design.
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="item clearfix">
-                                <div class="heading">
-                                    <div class="time col-md-3 col-sm-12 col-xs-12">3:00pm - 4:30pm</div>
-                                    <div class="e-title col-md-9 col-sm-12 col-xs-12">Proin gravida nibh vel velit
-                                        auctor aliquet<br/><span class="name">Mary Doe - </span><span
-                                                class="speaker-designaition">Lead Designer, Microsoft</span></div>
-                                </div>
-                                <div class="col-md-12 col-sm-12 col-xs-12">
-                                    <div class="content venue col-md-3 col-sm-12 col-xs-12">
-                                        Venue: Auditorium 1
-                                    </div>
-                                    <div class="content details col-md-9 col-sm-12 col-xs-12">
-                                        This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor
-                                        aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat
-                                        ipsum, nec sagittis sem nibh id elit. The Standardistas are lecturers in
-                                        interactive design. Proin gravida nibh vel velit auctor aliquet. Aenean
-                                        sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec
-                                        sagittis sem nibh id elit. The Standardistas are lecturers in interactive
-                                        design.
-                                    </div>
-                                </div>
-                            </div>
+                                                        <%- speakers.join(', ') %>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                                    <div class="content venue col-md-3 col-sm-12 col-xs-12">
+                                                        <%= venue.title %>
+                                                    </div>
+                                                    <div class="content details col-md-9 col-sm-12 col-xs-12">
+                                                        <%- _talk.description_html %>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <% iter++ %>
+                                        <% end %>
+                                    <% end %>
+                                <% end %>
+                            <% end %>
                         </div>
                     </div>
                 </section>
@@ -232,7 +131,7 @@
 </section>
 
 
-<!-- Event social links and download-->
+<!-- Event social links and download -->
 <section class="event-download-social-link section-padding">
     <div class="col-lg-6 col-md-12 align-center event-download-padding">
         <a class="d-sch text-right" href="#" target="_blank"><i class="fa fa-download"></i>save</a>
