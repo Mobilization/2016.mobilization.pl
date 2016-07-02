@@ -49,10 +49,10 @@
                                                 <div class="time col-md-3 col-sm-12 col-xs-12">
                                                     <%= @site.slots[slot_key].from %> - <%= @site.slots[slot_key].to %>
                                                 </div>
-                                                <div class="e-title col-md-9 col-sm-12 col-xs-12"><%= _talk.title %><br/>
+                                                <div class="e-title col-md-9 col-sm-12 col-xs-12"><strong><%= _talk.title %></strong><br/>
                                                     <% speakers = new Array() %>
                                                     <% for speaker_key in _talk.speakers_keys: %>
-                                                    <% speakers.push('<strong>' + @site.speakers[speaker_key].firstname + ' ' + @site.speakers[speaker_key].lastname + '</strong>') %>
+                                                    <% speakers.push(@site.speakers[speaker_key].firstname + ' ' + @site.speakers[speaker_key].lastname) %>
                                                     <% end %>
 
                                                     <%- speakers.join(', ') %>
@@ -99,10 +99,10 @@
                                                     <div class="time col-md-3 col-sm-12 col-xs-12" <% if iter > 0: %> style="border:none !important;"<% end %>>
                                                         <% if iter == 0: %><%= @site.slots[slot_key].from %> - <%= @site.slots[slot_key].to %><% end %>
                                                     </div>
-                                                    <div class="e-title col-md-9 col-sm-12 col-xs-12"><%= _talk.title %><br/>
+                                                    <div class="e-title col-md-9 col-sm-12 col-xs-12"><strong><%= _talk.title %></strong><br/>
                                                         <% speakers = new Array() %>
                                                         <% for speaker_key in _talk.speakers_keys: %>
-                                                        <% speakers.push('<strong>' + @site.speakers[speaker_key].firstname + ' ' + @site.speakers[speaker_key].lastname + '</strong>') %>
+                                                        <% speakers.push(@site.speakers[speaker_key].firstname + ' ' + @site.speakers[speaker_key].lastname) %>
                                                         <% end %>
 
                                                         <%- speakers.join(', ') %>
@@ -134,8 +134,8 @@
 <!-- Event social links and download -->
 <section class="event-download-social-link section-padding">
     <div class="col-lg-6 col-md-12 align-center event-download-padding">
-        <a class="d-sch text-right" href="#" target="_blank"><i class="fa fa-download"></i>save</a>
-        <a class="fb " href="#" target="_blank"><i class="fa fa-print"></i>print</a>
+        <div class="d-sch text-right" target="_blank">&nbsp;</div>
+        <a class="fb " href="doc/agenda.html" target="_blank"><i class="fa fa-print"></i>print</a>
     </div>
 </section>
 <!--/SCHEDULE-->
