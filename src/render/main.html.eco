@@ -11,3 +11,5 @@ layout: 'main-layout'
 <%- @partial('speakers.html.eco', @) %>
 <%- @partial('venue.html.eco', @) %>
 <%- @partial('partners.html.eco', @) %>
+<%- @partial('volunteers.html.eco', @) %>
+<%- @partial('contact.html', @) %>

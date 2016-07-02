@@ -1,0 +1,42 @@
+<!-- VOLUNTEERS -->
+<div class="intro text-center section-padding" id="volunteers">
+    <div class="container">
+        <div class="col-md-8 wow animated fadeInLeft align-center" data-wow-duration="1s" data-wow-delay="0.3s">
+            <h1 class="arrow">Team of volunteers</h1>
+            <hr>
+
+        </div>
+        <div class="row volunteers">
+            <% for volunteer_key, volunteer of @site.volunteers: %>
+            <button class="md-trigger" data-modal="volunteer-<%- volunteer_key %>">
+                <img src="<%= volunteer.photo_url %>" alt="Photo <%= volunteer.firstname %> <%= volunteer.lastname %>"/>
+            </button>
+            <% end %>
+        </div>
+    </div>
+
+    <% for volunteer_key, volunteer of @site.volunteers: %>
+    <div class="md-modal md-effect-9" id="volunteer-<%= volunteer_key %>">
+        <div class="md-content">
+            <div class="folio">
+                <img src="<%= volunteer.photo_url %>" alt="Photo of <%= volunteer.firstname %> <%= volunteer.lastname %>" style="width: 100px; height: 100px;" />
+                <div class="sp-name"><strong><%= volunteer.firstname %> <%= volunteer.lastname %></strong><br/><!-- desc --></div>
+                <div class="sp-dsc">
+                    <%- volunteer.bio_html %>
+                </div>
+                <!-- <div class="sp-social">
+                    <ul>
+                        <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#" class="social-btn"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#" class="social-btn"><i class="fa fa-dribbble"></i></a></li>
+                    </ul>
+                </div> -->
+                <button class="md-close"><i class="fa fa-times"></i></button>
+            </div>
+        </div>
+    </div>
+    <% end %>
+
+    <div class="md-overlay"></div>
+</div>
+<!-- /VOLUNTEERS -->
