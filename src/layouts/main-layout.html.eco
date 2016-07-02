@@ -52,52 +52,6 @@
 <%- @content %>
 
 
-<!--PARTNERS-->
-<div id="partners" class="ignite-cta text-center section-padding">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 align-center wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
-                <h1 class="arrow">Partners</h1>
-                <hr>
-            </div>
-        </div>
-        <div class="row text-center sponsor">
-            <h2 style="text-transform: uppercase">Organizers</h2>
-
-            <a href="https://www.seqr.com/int/" target="_blank" class="sponsor-logo">
-                <img src="http://2016.mobilization.pl/images/sponsors/seqr.png" alt="Seamless"/>
-            </a>
-            <a href="https://www.seqr.com/int/" target="_blank" class="sponsor-logo">
-                <img src="http://2016.mobilization.pl/images/sponsors/seqr.png" alt="Seamless"/>
-            </a>
-            <a href="https://www.seqr.com/int/" target="_blank" class="sponsor-logo">
-                <img src="http://2016.mobilization.pl/images/sponsors/seqr.png" alt="Seamless"/>
-            </a>
-            <a href="https://www.seqr.com/int/" target="_blank" class="sponsor-logo">
-                <img src="http://2016.mobilization.pl/images/sponsors/seqr.png" alt="Seamless"/>
-            </a>
-        </div>
-
-        <div class="row text-center sponsor">
-            <h2 style="text-transform: uppercase">Supporters</h2>
-
-            <a href="https://www.seqr.com/int/" target="_blank" class="sponsor-logo">
-                <img src="http://2016.mobilization.pl/images/sponsors/seqr.png" alt="Seamless"/>
-            </a>
-            <a href="https://www.seqr.com/int/" target="_blank" class="sponsor-logo">
-                <img src="http://2016.mobilization.pl/images/sponsors/seqr.png" alt="Seamless"/>
-            </a>
-            <a href="https://www.seqr.com/int/" target="_blank" class="sponsor-logo">
-                <img src="http://2016.mobilization.pl/images/sponsors/seqr.png" alt="Seamless"/>
-            </a>
-            <a href="https://www.seqr.com/int/" target="_blank" class="sponsor-logo">
-                <img src="http://2016.mobilization.pl/images/sponsors/seqr.png" alt="Seamless"/>
-            </a>
-        </div>
-    </div>
-</div>
-<!-- /PARTNERS -->
-
 <!-- VOLUNTEERS -->
 <div class="intro text-center section-padding" id="volunteers">
     <div class="container">
