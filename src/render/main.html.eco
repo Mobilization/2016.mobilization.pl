@@ -13,3 +13,4 @@ layout: 'main-layout'
 <%- @partial('partners.html.eco', @) %>
 <%- @partial('volunteers.html.eco', @) %>
 <%- @partial('contact.html', @) %>
+<%- @partial('footer.html', @) %>
