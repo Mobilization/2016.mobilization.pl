@@ -37,7 +37,7 @@
 							<div class="md-modal md-effect-9" id="speaker-<%= speaker_key %>">
 								<div class="md-content">
 									<div class="folio">
-										<img src="<%= speaker.photo_url %>" alt="Photo of <%= speaker.firstname %> <%= speaker.lastname %>" style="width: 100px; height: 100px;" />
+										<img src="<%= speaker.photo_url %>" alt="Photo of <%= speaker.firstname %> <%= speaker.lastname %>" />
 										<div class="sp-name"><strong><%= speaker.firstname %> <%= speaker.lastname %></strong><br/><!-- desc --></div>
 										<div class="sp-dsc">
 											<%- @site.talks[talk_key].description_html %>

@@ -19,18 +19,30 @@
     <div class="md-modal md-effect-9" id="volunteer-<%= volunteer_key %>">
         <div class="md-content">
             <div class="folio">
-                <img src="<%= volunteer.photo_url %>" alt="Photo of <%= volunteer.firstname %> <%= volunteer.lastname %>" style="width: 100px; height: 100px;" />
+                <img src="<%= volunteer.photo_url %>" alt="Photo of <%= volunteer.firstname %> <%= volunteer.lastname %>" />
                 <div class="sp-name"><strong><%= volunteer.firstname %> <%= volunteer.lastname %></strong><br/><!-- desc --></div>
                 <div class="sp-dsc">
                     <%- volunteer.bio_html %>
                 </div>
-                <!-- <div class="sp-social">
+                <div class="sp-social">
                     <ul>
-                        <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#" class="social-btn"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#" class="social-btn"><i class="fa fa-dribbble"></i></a></li>
+                        <% if 'www' of volunteer and volunteer.www.length > 0: %>
+                        <li><a href="<%= volunteer.www %>" class="social-btn" target="_blank"><i class="fa fa-globe"></i></a></li>
+                        <% end %>
+                        <% if 'twitter' of volunteer and volunteer.twitter.length > 0: %>
+                        <li><a href="<%= volunteer.twitter %>" class="social-btn" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        <% end %>
+                        <% if 'facebook' of volunteer and volunteer.facebook.length > 0: %>
+                        <li><a href="<%= volunteer.facebook %>" class="social-btn" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <% end %>
+                        <% if 'github' of volunteer and volunteer.github.length > 0: %>
+                        <li><a href="<%= volunteer.github %>" class="social-btn" target="_blank"><i class="fa fa-github"></i></a></li>
+                        <% end %>
+                        <% if 'linkedin' of volunteer and volunteer.linkedin.length > 0: %>
+                        <li><a href="<%= volunteer.linkedin %>" class="social-btn" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        <% end %>
                     </ul>
-                </div> -->
+                </div>
                 <button class="md-close"><i class="fa fa-times"></i></button>
             </div>
         </div>

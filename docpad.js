@@ -1117,7 +1117,7 @@ docpadConfig = {
                     "lastname": "Iwanicki",
                     "bio_html": "Nothing to say.",
                     "www": "",
-                    "twitter": "marciniwanicki",
+                    "twitter": "https://twitter.com/marciniwanicki",
                     "photo_url": "/images/speakers/jens-ravens.jpg"
                 }
             },
