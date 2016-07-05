@@ -215,7 +215,10 @@ docpadConfig = {
                     "lastname": "Ravens",
                     "bio_html": "Jens is an iOS and OS X Developer, writing ObjC since 2006. Currently working at nerdgeschoss helping clients to create awesome apps. Organiser of the monthly swift.berlin meetup. Scaring people with functional concepts since 2014.",
                     "www": "",
-                    "twitter": "jensravens",
+                    "twitter": "https://twitter.com/jensravens",
+                    "facebook": "",
+                    "github": "",
+                    "linkedin": "",
                     "photo_url": "/images/speakers/jens-ravens.jpg"
                 },
                 //2

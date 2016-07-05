@@ -42,13 +42,25 @@
 										<div class="sp-dsc">
 											<%- @site.talks[talk_key].description_html %>
 										</div>
-										<!-- <div class="sp-social">
+										<div class="sp-social">
 											<ul>
-												<li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
-												<li><a href="#" class="social-btn"><i class="fa fa-facebook"></i></a></li>
-												<li><a href="#" class="social-btn"><i class="fa fa-dribbble"></i></a></li>
+												<% if 'www' of speaker and speaker.www.length > 0: %>
+												<li><a href="<%= speaker.www %>" class="social-btn" target="_blank"><i class="fa fa-globe"></i></a></li>
+												<% end %>
+												<% if 'twitter' of speaker and speaker.twitter.length > 0: %>
+												<li><a href="<%= speaker.twitter %>" class="social-btn" target="_blank"><i class="fa fa-twitter"></i></a></li>
+												<% end %>
+												<% if 'facebook' of speaker and speaker.facebook.length > 0: %>
+												<li><a href="<%= speaker.facebook %>" class="social-btn" target="_blank"><i class="fa fa-facebook"></i></a></li>
+												<% end %>
+												<% if 'github' of speaker and speaker.github.length > 0: %>
+												<li><a href="<%= speaker.github %>" class="social-btn" target="_blank"><i class="fa fa-github"></i></a></li>
+												<% end %>
+												<% if 'linkedin' of speaker and speaker.linkedin.length > 0: %>
+												<li><a href="<%= speaker.linkedin %>" class="social-btn" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+												<% end %>
 											</ul>
-										</div> -->
+										</div>
 										<button class="md-close"><i class="fa fa-times"></i></button>
 									</div>
 								</div>
