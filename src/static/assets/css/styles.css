@@ -704,9 +704,15 @@ div.avatar img {
 .folio {
 	max-width: 500px;
 	height: auto;
-	text-align: center;
+	text-align: center !important;
 	padding:30px;
 
+}
+
+.folio img {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
 }
 
 .tnc-folio{
