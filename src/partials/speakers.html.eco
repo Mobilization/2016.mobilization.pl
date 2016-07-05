@@ -19,8 +19,8 @@
 								<div class="img">
 									<img src="<%= speaker.photo_url %>" alt="Photo of <%= speaker.firstname %> <%= speaker.lastname %>"
 										 class="md-trigger" data-modal="speaker-<%= speaker_key %>">
-									<button class="md-trigger" data-modal="speaker-<%= speaker_key %>" style="height: 80px">
-										<h2><%= speaker.firstname %> <%= speaker.lastname %></h2>
+									<button class="md-trigger" data-modal="speaker-<%= speaker_key %>">
+										<h2 style="height: 50px; vertical-align: top;"><%= speaker.firstname %> <%= speaker.lastname %></h2>
 									</button>
 								</div>
 							</div>
