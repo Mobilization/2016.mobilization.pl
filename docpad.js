@@ -22,7 +22,10 @@ docpadConfig = {
             keywords: "mobilization, conference, mobile conference, Łódź",
             styles: [],
             scripts: [],
-
+            visibility: {
+                "features" : false,
+                "agenda" : false
+            },
             event: {
                 title: 'Mobilization 2016',
                 location: {

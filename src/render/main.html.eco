@@ -2,12 +2,12 @@
 layout: 'main-layout'
 ---
 
-<%- @partial('header.html', @) %>
+<%- @partial('header.html.eco', @) %>
 <%- @partial('home.html', @) %>
 <%- @partial('about.html', @) %>
 <%- @partial('sponsors.html.eco', @) %>
-<%- @partial('features.html', @) %>
-<%- @partial('agenda.html.eco', @) %>
+<% if @site.visibility.features: %><%- @partial('features.html.eco', @) %><% end %>
+<% if @site.visibility.agenda: %><%- @partial('agenda.html.eco', @) %><% end %>
 <%- @partial('speakers.html.eco', @) %>
 <%- @partial('venue.html.eco', @) %>
 <%- @partial('partners.html.eco', @) %>

@@ -75,8 +75,10 @@
 <script type="text/javascript" src="assets/js/jquery.flexslider.js"></script>
 
 <!-- SCHEDULE TABS  -->
+<% if @site.visibility.agenda: %>
 <script type="text/javascript" src="assets/js/modernizr.js"></script>
 <script type="text/javascript" src="assets/js/cbpFWTabs.js"></script>
+<% end %>
 
 <!--SPONSOR SLIDER-->
 <script type="text/javascript" src="assets/js/jssor.core.js"></script>
