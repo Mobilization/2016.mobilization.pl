@@ -1,0 +1,29 @@
+<!--HEADER-->
+<div class="header header-hide">
+    <div class="container">
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#example-navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" data-scroll href="#sec_1"><img src="assets/img/page/logo-min.png"
+                                                                       alt="logo"/></a>
+            </div>
+            <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a data-scroll href="#sponsors">Sponsors</a></li>
+                    <% if @site.visibility.agenda: %><li><a data-scroll href="#agenda">Agenda</a></li><% end %>
+                    <% if @site.visibility.speakers: %><li><a data-scroll href="#team">Call 4 Papers</a></li><% end %>
+                    <li><a data-scroll href="#venue">Venue</a></li>
+                    <li><a data-scroll href="#contact">Contact</a></li>
+                    <li class="hidden"><a href="#sec_1">Home</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+<!--/HEADER-->

@@ -79,7 +79,9 @@ jQuery( document ).ready(function( $ ) {
 	
 	/*** 3D Gallery *********/
 	// new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
-	new CBPFWTabs( document.getElementById( 'tabs-ui' ) );
+	if (document.getElementById( 'tabs-ui' )) {
+		new CBPFWTabs(document.getElementById('tabs-ui'));
+	}
 	
 	/********Vimeo Video*****************/
 	$('.venobox').venobox({

@@ -1,69 +1,89 @@
-<!-- Speakers -->
-<div id="speakers">
-    <div class="container wow bounceInRight">
-		<h2 class="text-center">SPEAKERS</h2><br /><br />
+<!--SPEAKERS-->
+<section class="team text-center section-padding" id="team">
+	<div class="container">
 		<div class="row">
-			<% for speaker_key, speaker of @site.speakers: %>
-			    <% if speaker_key == 'speaker-moiblization-org': %>
-			    <% else: %>
-		   		<div class="col-md-3 speaker">
-					<a href="#" data-toggle="modal" data-target="#<%= speaker_key %>">
-						<img src="/images/page/speaker-hover.png" alt="speaker avatar" class="figcaption" />
-						<img src="<%= speaker.photo_url %>" alt="Zdjęcie <%= speaker.firstname %> <%= speaker.lastname %>" />
-					</a>
-					<p><%= speaker.firstname %> <%= speaker.lastname %></p>
-				</div>
-				<% end %>
-			<% end %>
+			<div class="col-lg-8 wow animated fadeInUp align-center" data-wow-duration="1s" data-wow-delay="1s">
+				<h1 class="arrow">Speakers</h1>
+				<hr>
+			</div>
 		</div>
-	</div>
-</div>
+		<div class="row">
+			<div class="speakers-wrap">
+				<ul>
+					<% iter = 0 %>
+					<% for speaker_key, speaker of @site.speakers: %>
+					<% if iter % 4 == 0: %><li><% end %>
+						<div class="col-md-3 wow animated fadeInUp" data-wow-duration="1s"
+							 data-wow-delay="0.5s">
+							<div class="effects clearfix">
+								<div class="img">
+									<img src="<%= speaker.photo_url %>" alt="Photo of <%= speaker.firstname %> <%= speaker.lastname %>"
+										 class="md-trigger" data-modal="speaker-<%= speaker_key %>">
+									<button class="md-trigger" data-modal="speaker-<%= speaker_key %>">
+										<h2 style="height: 50px; vertical-align: top;"><%= speaker.firstname %> <%= speaker.lastname %></h2>
+									</button>
+								</div>
+							</div>
+						</div>
+					<% iter++ %>
+					<% if iter % 4 == 0 || iter == @site.speakers.length: %></li><% end %>
+					<% end %>
+				</ul>
 
-<% for speaker_key, speaker of @site.speakers: %>
-	<div class="modal fade" id="<%= speaker_key %>" tabindex="-1" role="dialog" aria-labelledby="modal-<%= speaker_key %>" aria-hidden="true">
-	  <div class="modal-dialog">
-	    <div class="modal-content">
-	      <div class="modal-header">
-	        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-	        <h4 class="modal-title" id="modal-<%= speaker_key %>"><%= speaker.firstname %> <%= speaker.lastname %></h4>
-	      </div>
-	      <div class="modal-body">
-          <div class="speaker-description">
-			  <%- speaker.bio_html %>
-          </div>
-            <hr/>
-            <div class="speaker-agenda">
-              <ul>
-                  <li>
-                     <% speaker_talk_keys = Array() %>
-                     <% for talk_key, talk of @site.talks: %>
-                    	<% if speaker_key in talk.speakers_keys: %>
-                    		<% speaker_talk_keys.push(talk_key) %>
-                      	<% end %> 
-                     <% end %>
-                    
-                     <% for talk_key in speaker_talk_keys: %>
-                   		<% for slot_key, slot of @site.schedule: %>
-                   			<% for venue_key, venue of @site.venues: %>					
-                   				<% if venue_key of slot: %>
-                   					<% if talk_key == slot[venue_key].talk_key: %>
-                   						<a data-agenda="<%= slot[venue_key].talk_key %>" data-speaker="<%= speaker_key %>">
-                   						<small class="text-muted">
-                   						<%= @site.slots[slot_key].from %> <%= @site.talks[talk_key].title %>
-                   						</a>&nbsp;<img src="images/page/<%= @site.talks[talk_key].language %>.png" border=1/>
-                   						</small>
-                   						<br/>
-                   						<%- @site.talks[talk_key].description_html %>
-                 					<% end %>
-                   				<% end %>
-                   			<% end %>
-                   		<% end %>	
-                     <% end %>
-                  </li>
-              </ul>
-            </div>
-	      </div>
-	    </div>
-	  </div>
+			</div>
+		</div> <!--Row Ends Here-->
+		<div class="row">
+			<div class="speakers-wrap">
+				<ul>
+					<div class="col-md-3 wow animated fadeInUp" data-wow-duration="1s"
+						 data-wow-delay="0.5s">
+						<div class="effects clearfix">
+							<div class="img">
+								<a href="http://bit.ly/mobilization6-c4p" target="_blank">
+									<img src="/assets/img/content/speakers/Call4Papers.png" alt="Call 4 Papers">
+									<h2 style="height: 50px; vertical-align: top;">Become a speaker &#128640;</h2>
+								</a>
+							</div>
+						</div>
+					</div>
+				</ul>
+
+			</div>
+		</div> <!--Row Ends Here-->
 	</div>
-<% end %>
+	<% for speaker_key, speaker of @site.speakers: %><% speaker_talk_keys = Array() %><% for talk_key, talk of @site.talks: %><% if speaker_key in talk.speakers_keys: %><% speaker_talk_keys.push(talk_key) %><% end %><% end %><% for talk_key in speaker_talk_keys: %><% for slot_key, slot of @site.schedule: %><% for venue_key, venue of @site.venues: %><% if venue_key of slot: %><% if talk_key == slot[venue_key].talk_key: %>
+							<div class="md-modal md-effect-9" id="speaker-<%= speaker_key %>">
+								<div class="md-content">
+									<div class="folio">
+										<img src="<%= speaker.photo_url %>" alt="Photo of <%= speaker.firstname %> <%= speaker.lastname %>" />
+										<div class="sp-name"><strong><%= speaker.firstname %> <%= speaker.lastname %></strong><br/><!-- desc --></div>
+										<div class="sp-dsc">
+											<%- @site.talks[talk_key].description_html %>
+										</div>
+										<div class="sp-social">
+											<ul>
+												<% if 'www' of speaker and speaker.www.length > 0: %>
+												<li><a href="<%= speaker.www %>" class="social-btn" target="_blank"><i class="fa fa-globe"></i></a></li>
+												<% end %>
+												<% if 'twitter' of speaker and speaker.twitter.length > 0: %>
+												<li><a href="<%= speaker.twitter %>" class="social-btn" target="_blank"><i class="fa fa-twitter"></i></a></li>
+												<% end %>
+												<% if 'facebook' of speaker and speaker.facebook.length > 0: %>
+												<li><a href="<%= speaker.facebook %>" class="social-btn" target="_blank"><i class="fa fa-facebook"></i></a></li>
+												<% end %>
+												<% if 'github' of speaker and speaker.github.length > 0: %>
+												<li><a href="<%= speaker.github %>" class="social-btn" target="_blank"><i class="fa fa-github"></i></a></li>
+												<% end %>
+												<% if 'linkedin' of speaker and speaker.linkedin.length > 0: %>
+												<li><a href="<%= speaker.linkedin %>" class="social-btn" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+												<% end %>
+											</ul>
+										</div>
+										<button class="md-close"><i class="fa fa-times"></i></button>
+									</div>
+								</div>
+							</div>
+							<% end %><% end %><% end %><% end %><% end %><% end %>
+	<div class="md-overlay"></div>
+</section>
+<!--/SPEAKER-->

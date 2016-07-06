@@ -1,21 +1,28 @@
-<!-- main list -->
-<div id="sponsors">
-  <div class="container wow bounceInLeft">
-	<% for sponsor_category_key, sponsor_category of @site.sponsors: %>
-	  <% if sponsor_category.length > 0: %>
-	<div class="row text-center">
-		<h2 style="text-transform: uppercase"><%= sponsor_category_key %> sponsors</h2>
-		<% for sponsor_key, sponsor of sponsor_category: %>
-			<% if 'description_html' of sponsor: %>
-			<a href="#" class="mobilization-sponsor-logo" data-toggle="modal" data-target="#sponsor-<%= sponsor.name.replace(/\s+|\./g, '') %>">
-			<% else: %>
-			<a href="<%= sponsor.link %>" target="_blank" class="mobilization-sponsor-logo">
-			<% end %> 
-				<img src="<%= sponsor.logo_url %>" alt="<%= sponsor.name %>" />
+<!--SPONSORS-->
+<div id="sponsors" class="ignite-cta text-center section-padding">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 align-center wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+				<h1 class="arrow">Our Sponsors</h1>
+				<hr/>
+				<p>
+					We could not have made it happen without support from our great sponsors!
+				</p>
+			</div>
+		</div>
+		<% for sponsor_category_key, sponsor_category of @site.sponsors: %>
+		<% if sponsor_category.length > 0: %>
+		<div class="row text-center sponsor">
+			<h2 style="text-transform: uppercase"><%= sponsor_category_key %></h2>
+
+			<% for sponsor_key, sponsor of sponsor_category: %>
+			<a href="<%= sponsor.link %>" target="_blank" class="sponsor-logo">
+				<img src="<%= sponsor.logo_url %>" alt="<%= sponsor.name %>"/>
 			</a>
+			<% end %>
+		</div>
+		<% end %>
 		<% end %>
 	</div>
-	  <% end %>
-	<% end %>        
-   </div> 
- </div>
+</div>
+<!-- /SPONSORS -->
