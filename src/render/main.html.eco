@@ -11,6 +11,6 @@ layout: 'main-layout'
 <%- @partial('speakers.html.eco', @) %>
 <%- @partial('venue.html.eco', @) %>
 <%- @partial('partners.html.eco', @) %>
-<%- @partial('volunteers.html.eco', @) %>
+<% if @site.visibility.volunteers: %><%- @partial('volunteers.html.eco', @) %><% end %>
 <%- @partial('contact.html', @) %>
 <%- @partial('footer.html', @) %>
