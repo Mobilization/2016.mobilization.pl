@@ -32,6 +32,24 @@
 
 			</div>
 		</div> <!--Row Ends Here-->
+		<div class="row">
+			<div class="speakers-wrap">
+				<ul>
+					<div class="col-md-3 wow animated fadeInUp" data-wow-duration="1s"
+						 data-wow-delay="0.5s">
+						<div class="effects clearfix">
+							<div class="img">
+								<a href="http://bit.ly/mobilization6-c4p" target="_blank">
+									<img src="/assets/img/content/speakers/Call4Papers.png" alt="Call 4 Papers">
+									<h2 style="height: 50px; vertical-align: top;">Become a speaker &#128640;</h2>
+								</a>
+							</div>
+						</div>
+					</div>
+				</ul>
+
+			</div>
+		</div> <!--Row Ends Here-->
 	</div>
 	<% for speaker_key, speaker of @site.speakers: %><% speaker_talk_keys = Array() %><% for talk_key, talk of @site.talks: %><% if speaker_key in talk.speakers_keys: %><% speaker_talk_keys.push(talk_key) %><% end %><% end %><% for talk_key in speaker_talk_keys: %><% for slot_key, slot of @site.schedule: %><% for venue_key, venue of @site.venues: %><% if venue_key of slot: %><% if talk_key == slot[venue_key].talk_key: %>
 							<div class="md-modal md-effect-9" id="speaker-<%= speaker_key %>">

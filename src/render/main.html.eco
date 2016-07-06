@@ -8,7 +8,7 @@ layout: 'main-layout'
 <%- @partial('sponsors.html.eco', @) %>
 <% if @site.visibility.features: %><%- @partial('features.html.eco', @) %><% end %>
 <% if @site.visibility.agenda: %><%- @partial('agenda.html.eco', @) %><% end %>
-<%- @partial('speakers.html.eco', @) %>
+<% if @site.visibility.speakers: %><%- @partial('speakers.html.eco', @) %><% end %>
 <%- @partial('venue.html.eco', @) %>
 <%- @partial('partners.html.eco', @) %>
 <% if @site.visibility.volunteers: %><%- @partial('volunteers.html.eco', @) %><% end %>
