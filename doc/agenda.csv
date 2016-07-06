@@ -1,19 +1,2 @@
-8:00;Registration;Registration;Registration;Registration;Registration;
-9:00;Hello World;Hello World;Hello World;Hello World;Hello World;
-9:10;Biznes a technologia w mobdev - SEQR case study - Daniel Rurarz, Łukasz Szadkowski, Michał Majcherski;Developing Software for Dedicated Devices using Agile - Edwin Adriaansen;HTML5 goes for a ride - Czyli wyzwania dla technologii webowych w przemyśle automotive - Lena Rodziewicz;Android Auto - Anton Miniailo, Jacek Rondio;UX pitfalls in multi-os apps - Rafał Szpoton, Sebastian Gos, Lech Migdal;
-9:55;Coffee Break;Coffee Break;Coffee Break;Coffee Break;Coffee Break;
-10:15;Optymalizacja hierarchii widoków na platformie Android - Michał Włodarczyk;Hacking Bluetooth Smart - Sławomir Jasek;Modern iOS App Architecture - Michał Tuszyński;Titanium: Develop Native Mobile Apps with JavaScript - Fokke Zandbergen;Espressive functional testing with Espresso - Maciej Górski;
-11:00;Coffee Break;Coffee Break;Coffee Break;Coffee Break;Coffee Break;
-11:20;App Indexing i Deep linking w aplikacjach Androidowych - Krzysztof Kocel;Watch out for the watch - Peter Tuszyński;Unit Testy w Androidzie z użyciem biblioteki Spock - Konrad Krakowiak;Hunt Me od kuchni - jak powstał innowacyjny sposób na szukanie pracy - Maciej Chwiłoc, Cezary Kąpicki;AngularJS i Cordova - tworzenie hybrydowych aplikacji mobilnych - Krzysztof Ścira;
-12:05;Coffee Break;Coffee Break;Coffee Break;Coffee Break;Coffee Break;
-12:25;Behavior Driven Development - Paweł Dudek;ionic.io - services for hybrid mobile applications - Łukasz Olejarczuk;Don't reinvent the wheel, use libraries: Modern Android Stack - Paweł Junak;Przejrzysty i testowalny kod na Androidzie? Spróbujmy z Clean Architecture - Michał Charmas;Kotlin for Android - Paweł Gajda;
-13:10;Lunch Break;Lunch Break;Lunch Break;Lunch Break;Lunch Break;
-13:25;;Kiedy zespół Scrumowy nie kocha swojego produktu mobilnego - Michał Aleksander;;Czy nastała era "continuous everything"? Przewodnik po bezustannym procesie tworzenia aplikacji mobilnych na przykładzie Matrix42 Mobile [case study] - Paweł Wojdera;;
-14:10;Reaktywne programowanie z RxJava - Piotr Krystyniak;Porzuć platformy natywne! Czyli czemu HTML5 jest lepszy. - Tomasz Netczuk;Swift and Objective-C interoperability - Tomasz Grynfelder;Dagger 2 - Dependency Injection w kodzie produkcyjnym - Mirosław Stanek;QtQuick spotyka HTML - Witold Wysota;
-14:55;Coffee Break;Coffee Break;Coffee Break;Coffee Break;Coffee Break;
-15:10;Android Data Binding nie tylko w teorii - Sebastian Kacprzak;Dobry zwyczaj: nie odziedziczaj - Krzysztof Siejkowski;Hipster Oriented Programming - Jens Ravens;Co kryje Pianka, czyli o nowej wersji Androida. - Michał Szczepanik;Material design with Android Design Library - Karol Kowalski;
-15:55;Coffee Break;Coffee Break;Coffee Break;Coffee Break;Coffee Break;
-16:10;What’s in it for us after the Indiepocalipse? - Marin Todorov;Reactive UI on Android with Scala - Zbigniew Szymański;Jeden zespół czy zespół per platforma? - Paweł Urban, Łukasz Krupa, Paweł Wojdera, Filip Miłoszewski;Xamarin dla (nie tylko) deweloperów Androida - Aleksander Piotrowski;;
-16:55;No Coffee Break;No Coffee Break;No Coffee Break;No Coffee Break;No Coffee Break;
-17:00;Finally meeting;Finally meeting;Finally meeting;Finally meeting;Finally meeting;
-17:30;AfterParty in Indeks Club;AfterParty in Indeks Club;AfterParty in Indeks Club;AfterParty in Indeks Club;AfterParty in Indeks Club;
+<% for slot_key, slot of @site.schedule: %><%= @site.slots[slot_key].from %>;<% if 'break_key' of slot: %><% for venue_key, venue of @site.venues: %><%= @site.breaks[slot.break_key].title %>;<% end %><% else: %><% for venue_key, venue of @site.venues: %><% if venue_key of slot: %><%- @site.talks[slot[venue_key].talk_key].title %> - <% speakers = new Array() %><% for speaker_key in @site.talks[slot[venue_key].talk_key].speakers_keys: %><% speakers.push(@site.speakers[speaker_key].firstname + ' ' + @site.speakers[speaker_key].lastname) %><% end %><%= speakers.join(', ') %>;<% else: %>;<% end %><% end %><% end %>
+<% end %>
