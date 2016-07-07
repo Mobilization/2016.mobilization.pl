@@ -1,196 +1,432 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:fb="http://ogp.me/ns/fb#">
+<html>
 <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-        
-        <!-- FB image -->
-        <meta property="og:image" content="images/page/mobilization-vi-olive-on-transparent.png" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
-	<!-- FAVICON -->
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="assets/img/page/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/img/page/favicon.ico" type="image/x-icon">
 
-	<!-- TITLE -->
-	<title>Mobilization 2016</title>
+    <!-- FB IMAGE -->
+    <meta property="og:image" content="static/images/page/mobilization-vi-olive-on-transparent.png"/>
 
-	<!-- DESCRIPTION -->
-	<meta name="description" content="Mobilization is a conference dedicated to mobile technologies. The main scope is development of mobile solutions aimed at smartphones and tablets, with particular interest in Android and iOS mobile platforms." />
-	<meta name="keywords" content="mobilization, conference, mobile conference, Łódź" />
-	<meta name="author" content="JUG Lodz" />
+    <!-- TITLE -->
+    <title>Mobilization 2016</title>
 
-	<!-- GOOGLE FONTS -->
-	<link href='http://fonts.googleapis.com/css?family=Raleway:400,700,600,500,300,200,100,800,900' rel='stylesheet' type='text/css'>
+    <!-- DESCRIPTION -->
+    <meta name="description" content="Mobilization is a conference dedicated to mobile technologies. The main scope is development of mobile solutions aimed at smartphones and tablets, with particular interest in Android and iOS mobile platforms."/>
+    <meta name="keywords" content="mobilization, conference, mobile conference, Łódź"/>
+    <meta name="author" content="JUG Lodz"/>
 
-	<!-- STYLESHEETS -->
-	<link href="/styles/bootstrap.min.css" rel="stylesheet" type="text/css" />
-	<link href="/styles/font-awesome.min.css" rel="stylesheet" type="text/css" />
-	<link href="/styles/jquery.countdown.css" rel="stylesheet" type="text/css" >
-	<link href="/styles/styles.countdown.css" rel="stylesheet" type="text/css" />
-	<link href="/styles/cookiecuttr.css" rel="stylesheet" type="text/css" />
-	<link href="/styles/mobilization.css" rel="stylesheet" type="text/css" />
+    <!-- GOOGLE FONTS -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,700,600,500,300,200,100,800,900' rel='stylesheet'
+          type='text/css'>
+
+    <!-- STYLESHEETS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/css/flexslider.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/schedule.css" rel="stylesheet">
+    <link href="assets/css/gridgallery.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/css/venobox.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/css/styles.css" rel="stylesheet"/>
+    <link href="assets/css/queries.css" rel="stylesheet"/>
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
-<body>
 
-<!-- PRELOADER -->
+<body id="top" data-spy="scroll" data-target=".header" data-offset="80">
+
+<!--PRELOADER-->
 <div class="preloader">
-	<div class="status"></div>
+    <div class="status"></div>
 </div>
-<!-- /PRELOADER -->
+<!--/PRELOADER-->
 
-<!-- WRAPER -->
-<div class="wraper">
-	<div class="overlay"></div>
+<!--HEADER-->
+<div class="header header-hide">
+    <div class="container">
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#example-navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" data-scroll href="#sec_1"><img src="assets/img/page/logo-min.png"
+                                                                       alt="logo"/></a>
+            </div>
+            <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a data-scroll href="#sponsors">Sponsors</a></li>
+                    
+                    <li><a data-scroll href="#team">Call 4 Papers</a></li>
+                    <li><a data-scroll href="#venue">Venue</a></li>
+                    <li><a data-scroll href="#contact">Contact</a></li>
+                    <li class="hidden"><a href="#sec_1">Home</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+<!--/HEADER-->
+<!--HOME-->
+<section id="sec_1" class="autoheight">
+    <div class="home-bg"></div>
+    <div class="col-lg-10 landing-text-pos align-center">
 
-	<!-- TIMER -->
-	<div class=" align-center" >
+        <img src="assets/img/page/logo.png" class="main-logo wow animated fadeInDown"/>
 
-		<div class="heading">
-			<img class="logo" alt="logo" src="/images/page/logo.png" style="max-width: 320px" />
+        <hr id="title_hr"/>
+        <p class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="1s">Lodz, Poland. 22 October 2016</p>
+        <a class="learn-more-btn btn-effect wow animated fadeIn" data-wow-duration="0.5s" data-wow-delay="1.5s"
+           data-scroll href="http://mobilization-vi.evenea.pl/">Attendee registration</a>
+    </div>
+</section>
+<!--/HOME-->
 
-			<h1 class="col-lg-10 align-center counter-logo"><span>Stay ready, stay mobilized!</span></h1>
-
-			<br/>
-			<h2>Book your ticket today!</h2>
-
-			<a href="http://bit.ly/mobilization6-register" class="registration-button">Attendee Registration</a>
-			<br/>
-
-			<hr id="title_hr" style="margin-top: 25px;">
-			<!-- COUNTDOWN -->
-			<div id="defaultCountdown"></div>
-			<div class="clearfix"></div>
-			<!-- /COUNTDOWN	-->
-
-			<!-- EVENEA -->
-			<!-- <h1 class="col-lg-10 align-center counter-logo"><span>Registration</span></h1>
-			<hr id="title_hr">
-			<iframe src="https://mobilization-vi.evenea.pl?out=1&source=event_iframe" width="85%" scrolling="no" style="border: 0;"></iframe>
-            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-            <script type="text/javascript" src="//cdn.evenea.pl/js/iframe/new/iframeResizer2.js"></script> -->
-			<!-- /EVENEA -->
+<!--ABOUT-->
+<div class="intro text-center section-padding" id="intro">
+  <div class="container wow animated fadeInLeft animated" data-wow-duration="1s" data-wow-delay="0.5s">
+    <div class="row">
+      <div class="col-lg-8 align-center about">
+        <h1 class="arrow">About the Event</h1>
+        <hr/>
+        <p>
+          <strong>Mobilization</strong> is a conference dedicated to mobile technologies.
+          The main scope is development of mobile solutions aimed at smartphones and tablets,
+          with particular interest in <strong>Android</strong>, <strong>iOS</strong> and
+          <strong>HTML5</strong>.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--/ABOUT-->
+<!--SPONSORS-->
+<div id="sponsors" class="ignite-cta text-center section-padding">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 align-center wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+				<h1 class="arrow">Our Sponsors</h1>
+				<hr/>
+				<p>
+					We could not have made it happen without support from our great sponsors!
+				</p>
+			</div>
 		</div>
-	</div>
+		
+		
+		
+		
+		<div class="row text-center sponsor">
+			<h2 style="text-transform: uppercase">platinum</h2>
 
-	<!-- main list -->
-<div id="sponsors">
-    <div class="container wow bounceInLeft">
-        
-        
-        
-        
-        <div class="row text-center">
-            <h2 style="text-transform: uppercase">platinum sponsors</h2>
-            
-            
-                <a href="https://www.seqr.com/int/" target="_blank" class="mobilization-sponsor-logo">
-                    
-                    <img src="/images/sponsors/seqr.png" alt="Seamless" />
-                </a>
-                
-            
-                <a href="http://www.tomtom.com/pl_pl/" target="_blank" class="mobilization-sponsor-logo">
-                    
-                    <img src="/images/sponsors/tomtom-on-white.png" alt="TomTom" />
-                </a>
-                
-            
-            <a href="#" class="mobilization-sponsor-logo" data-toggle="modal" data-target="#sponsor-Mobica">
-                
-                    <img src="/images/sponsors/mobica.png" alt="Mobica" />
-                </a>
-                
+			
+			<a href="https://www.seqr.com/int/" target="_blank" class="sponsor-logo">
+				<img src="/images/sponsors/seqr.png" alt="Seamless"/>
+			</a>
+			
+			<a href="http://www.tomtom.com/pl_pl/" target="_blank" class="sponsor-logo">
+				<img src="/images/sponsors/tomtom-on-white.png" alt="TomTom"/>
+			</a>
+			
+			<a href="" target="_blank" class="sponsor-logo">
+				<img src="/images/sponsors/mobica.png" alt="Mobica"/>
+			</a>
+			
+		</div>
+		
+		
+		
+		<div class="row text-center sponsor">
+			<h2 style="text-transform: uppercase">gold</h2>
+
+			
+			<a href="http://www.ceri.pl/" target="_blank" class="sponsor-logo">
+				<img src="/images/sponsors/ceri.png" alt="Ceri International"/>
+			</a>
+			
+		</div>
+		
+		
+		
+		
+		
+		
+	</div>
+</div>
+<!-- /SPONSORS -->
+
+
+<!--SPEAKERS-->
+<section class="team text-center section-padding" id="team">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 wow animated fadeInUp align-center" data-wow-duration="1s" data-wow-delay="1s">
+				<h1 class="arrow">Speakers</h1>
+				<hr>
+			</div>
+		</div>
+		<div class="row">
+			<div class="speakers-wrap">
+				<ul>
+					
+					
+				</ul>
+
+			</div>
+		</div> <!--Row Ends Here-->
+		<div class="row">
+			<div class="speakers-wrap">
+				<ul>
+					<div class="col-md-3 wow animated fadeInUp" data-wow-duration="1s"
+						 data-wow-delay="0.5s">
+						<div class="effects clearfix">
+							<div class="img">
+								<a href="http://bit.ly/mobilization6-c4p" target="_blank">
+									<img src="/assets/img/content/speakers/Call4Papers.png" alt="Call 4 Papers">
+									<h2 style="height: 50px; vertical-align: top;">Become a speaker &#128640;</h2>
+								</a>
+							</div>
+						</div>
+					</div>
+				</ul>
+
+			</div>
+		</div> <!--Row Ends Here-->
+	</div>
+	
+	<div class="md-overlay"></div>
+</section>
+<!--/SPEAKER-->
+
+ <!-- VENUE -->
+ 
+ <section class="intro text-center section-padding" id="venue">
+     <div class="container">
+         <div class="col-md-8 wow animated fadeInLeft align-center" data-wow-duration="1s" data-wow-delay="0.3s">
+             <h1 class="arrow">Venue</h1>
+             <hr>
+             <p>
+                 Expo-Łódź Sp. z o.o.,<br />
+                 al. Politechniki 4<br />
+                 93-590 Łódź, Polska
+             </p>
+             <br/>
+         </div>
+         <div class="row">
+             <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+
+             <div id='gmap_canvas' style='height:400px;width:100%'></div>
+             <div>
+                 <style>#gmap_canvas img {
+                     max-width: none !important;
+                     background: none !important
+                 }</style>
+             </div>
+             <script type='text/javascript'>function init_map() {
+                 var myOptions = {
+                     zoom: 6,
+                     center: new google.maps.LatLng(51.7505458, 19.4501351),
+                     mapTypeId: google.maps.MapTypeId.ROADMAP,
+                     scrollwheel: false
+                 };
+                 map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+                 marker = new google.maps.Marker({
+                     map: map,
+                     position: new google.maps.LatLng(51.7505458, 19.4501351)
+                 });
+                 infowindow = new google.maps.InfoWindow({content: '<strong>Mobilization VI</strong><br/>Expo-Łódź Sp. z o.o.'});
+                 google.maps.event.addListener(marker, 'click', function () {
+                     infowindow.open(map, marker);
+                 });
+                 infowindow.open(map, marker);
+             }
+             google.maps.event.addDomListener(window, 'load', init_map);
+             </script>
+         </div>
+     </div>
+ </section>
+ <!-- /VENUE -->
+
+<!--PARTNERS-->
+<div id="partners" class="ignite-cta text-center section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 align-center wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+                <h1 class="arrow">Partners</h1>
+                <hr>
+            </div>
         </div>
+
         
-        
-        
-        <div class="row text-center">
-            <h2 style="text-transform: uppercase">gold sponsors</h2>
             
-            
-                <a href="http://www.ceri.pl/" target="_blank" class="mobilization-sponsor-logo">
-                    
-                    <img src="/images/sponsors/ceri.png" alt="Ceri International" />
-                </a>
+            <div class="row text-center sponsor">
+                <h2 style="text-transform: uppercase">organizers</h2>
                 
-        </div>
+                    <span class="sponsor-logo">
+                    
+                        <img src="/images/partners/juglodz.png" alt="Logo of Java User Group Łódź" />
+                    
+                    </span>
+                
+            </div>
+            
         
+            
         
+            
+            <div class="row text-center sponsor">
+                <h2 style="text-transform: uppercase">community</h2>
+                
+                    <span class="sponsor-logo">
+                    
+                        <img src="/images/partners/lodz-wiosluje.png" alt="Logo of Łódź WiOSłuje" />
+                    
+                    </span>
+                
+                    <span class="sponsor-logo">
+                    <a href="http://www.meetup.com/Poznan-Android-Developer-Group/" target="_blank">
+                        <img src="/images/partners/adgp.jpeg" alt="Logo of Android Developer Group Poznań" />
+                    </a>
+                    </span>
+                
+                    <span class="sponsor-logo">
+                    <a href="http://droidcon.pl/" target="_blank">
+                        <img src="/images/partners/droidcon.png" alt="Logo of Droidcon Poland" />
+                    </a>
+                    </span>
+                
+            </div>
+            
         
-        
-        
+            
+            <div class="row text-center sponsor">
+                <h2 style="text-transform: uppercase">media</h2>
+                
+                    <span class="sponsor-logo">
+                    <a href="http://programistamag.pl" target="_blank">
+                        <img src="/images/partners/programistamag.png" alt="Logo of Programista Magazine" />
+                    </a>
+                    </span>
+                
+            </div>
+            
         
     </div>
 </div>
+<!-- /PARTNERS -->
 
-	<!-- /TIMER -->
-	<!-- SUBSCRIBE FORM -->
-	<!-- <div class="notify-by-email align-center">
-		<div class="row form-notify">
-		<h2>notify Me</h2>
-			<form action="notify-me.php" id="notifyMe" method="POST" class="center-block align-center col-lg-3 col-md-4 col-sm-6 col-xs-10">
-				<div class="input-group">
-				  <input type="text" class="form-control email-add" name="email" placeholder="Email Address">
-				  <span class="input-group-btn " >
-					<button class="btn btn-default notify-button"><i class="icon-arrow right"><span></span></i></button>
-				  </span>
-				</div>
-			</form>
-		</div>
-	</div> -->
-	<!-- /SUBSCRIBE FORM -->
-	<!-- HOME -->
+<!--CONTACT-->
+<section class="text-center section-padding contact-wrap" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 wow animated fadeInLeft align-center" data-wow-duration="1s" data-wow-delay="0.3s">
+                <h1 class="arrow">Contact</h1>
+                <hr>
+                <p>Our team looks forward to hearing from you!</p>
+            </div>
+        </div>
+        <div class="row contact-details">
+            <div class="col-md-6 wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.9s">
+                <div class="light-box box-hover">
+                    <h2><span>Email</span></h2>
+                    <p><a href="mailto:contact@mobilization.pl">contact@mobilization.pl</a><br>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.9s">
+                <div class="light-box box-hover">
+                    <h2><span>Phone</span></h2>
+                    <p>Marek Defeciński<br>+48 517 725 068
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="social-buttons">
+                    <li><a href="https://twitter.com/mobilizationpl" class="social-btn"><i
+                            class="fa fa-twitter"></i></a></li>
+                    <li><a href="mailto:contact@mobilization.pl" class="social-btn"><i class="fa fa-envelope"></i></a>
+                    </li>
+                    <li><a href="https://www.facebook.com/mobilization" class="social-btn"><i
+                            class="fa fa-facebook"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /CONTACT -->
+<!--FOOTER-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 align-center">
+                Copyright 2016 by <b>Mobilization</b>. Generated by <a href="http://docpad.org/">DocPad</a>.<br/>
+                Hosted with &#9829; by <a href="https://github.com/Mobilization/2016.mobilization.pl">GitHub</a>.
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- /FOOTER -->
 
-	<div class="countdown-media">
-		<a href="https://twitter.com/mobilizationpl" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @mobilizationpl</a>
-		<div class="separator">and</div>
-		<br/>
-	  <a class="fb-button" title="Visit Mobilization on Facebook" href="https://facebook.com/mobilization"><span>Visit Mobilization on Facebook</span></a>
-	</div>
-
-	<div class="countdown-footer">
-		Copyright 2016 by <b>Mobilization</b>. Generated by <a href="http://docpad.org/">DocPad</a>.<br/>
-		Hosted with &#9829; by <a href="https://github.com/Mobilization/2016.mobilization.pl">GitHub</a>.
-	</div>
 </div>
 <!-- /WRAPER -->
 
-<!-- SCRIPTS -->
-<script type="text/javascript" src="/scripts/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="/scripts/jquery-ui-1.10.4.min.js"></script>
-<script type="text/javascript" src="/scripts/bootstrap.min.js"></script>
+<!--SCRIPTS-->
 
-<!-- COOKIES -->
-<script type="text/javascript" src="/scripts/jquery.cookie.js"></script>
-<script type="text/javascript" src="/scripts/jquery.cookiecuttr.js"></script>
+<script type="text/javascript" src="assets/js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery-ui-1.10.4.min.js"></script>
 
-<!-- SUBSCRIPTION FORM -->
-<script type="text/javascript" src="/scripts/notifyMe.js"></script>
-<script type="text/javascript" src="/scripts/jquery.placeholder.js"></script>
-<script type="text/javascript" src="/scripts/jquery.plugin.js"></script>
+<!--VIMEO VIDEO-->
+<script type="text/javascript" src="assets/js/venobox.js"></script>
 
-<!-- COUNTER -->
-<script type="text/javascript" src="/scripts/jquery.countdown.js"></script>
+<!--3D GALLERY-->
+<script type="text/javascript" src="assets/js/classie.grid.gallery.js"></script>
+<script type="text/javascript" src="assets/js/modernizr.gridgallery.js"></script>
 
-<!-- INITIALIZATION -->
-<script type="text/javascript" src="/scripts/init.countdown.js"></script>
+<script type="text/javascript" src="assets/js/classie.js"></script>
+<script type="text/javascript" src="assets/js/modalEffects.js"></script>
 
-<!-- TWITTER -->
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 
-<!-- GOOGLE ANALYTICS -->
-<script>
-if (jQuery.cookie('cc_cookie_accept') == "cc_cookie_accept") {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<!-- TEAM SLIDER  -->
+<script type="text/javascript" src="assets/js/jquery.flexslider.js"></script>
 
-	ga('create', 'UA-52861103-3', 'auto');
-	ga('send', 'pageview');
-}
-</script>
+<!-- SCHEDULE TABS  -->
+
+
+<!--SPONSOR SLIDER-->
+<script type="text/javascript" src="assets/js/jssor.core.js"></script>
+<script type="text/javascript" src="assets/js/jssor.utils.js"></script>
+<script type="text/javascript" src="assets/js/jssor.slider.js"></script>
+
+<!-- SMOOTH SCROLL  -->
+<script type="text/javascript" src="assets/js/smooth-scroll.js"></script>
+
+<!-- NICE SCROLL  -->
+<script type="text/javascript" src="assets/js/jquery.nicescroll.js"></script>
+
+<!-- SUBSCRIPTION FORM  -->
+<script type="text/javascript" src="assets/js/notifyMe.js"></script>
+
+<script type="text/javascript" src="assets/js/jquery.placeholder.js"></script>
+
+<!-- ANIMATION  -->
+<script type="text/javascript" src="assets/js/wow.min.js"></script>
+
+<!-- INITIALIZATION  -->
+<script type="text/javascript" src="assets/js/init.js"></script>
 
 </body>
 </html>
