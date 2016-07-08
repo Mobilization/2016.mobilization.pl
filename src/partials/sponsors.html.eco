@@ -16,7 +16,7 @@
 			<h2 style="text-transform: uppercase"><%= sponsor_category_key %></h2>
 
 			<% for sponsor_key, sponsor of sponsor_category: %>
-			<a href="<%= sponsor.link %>" target="_blank" class="sponsor-logo">
+			<a href="<%= sponsor.link %>" target="_blank" class="sponsor-logo-adblock">
 				<img src="<%= sponsor.logo_url %>" alt="<%= sponsor.name %>"/>
 			</a>
 			<% end %>

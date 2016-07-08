@@ -13,7 +13,7 @@
             <div class="row text-center sponsor">
                 <h2 style="text-transform: uppercase"><%= partner_category_key %></h2>
                 <% for partner_key, partner of partner_category: %>
-                    <span class="sponsor-logo">
+                    <span class="sponsor-logo-adblock">
                     <% if 'link' of partner: %><a href="<%= partner.link %>" target="_blank"><% end %>
                         <img src="<%= partner.logo_url %>" alt="Logo of <%= partner.name %>" />
                     <% if 'link' of partner: %></a><% end %>
