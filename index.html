@@ -235,19 +235,12 @@
                  }</style>
              </div>
              <script type='text/javascript'>function init_map() {
-
-                 var dragging = true;
-
-                 if (Modernizr.touch) {
-                     dragging = false;
-                 }
-
                  var myOptions = {
                      zoom: 6,
                      center: new google.maps.LatLng(51.7505458, 19.4501351),
                      mapTypeId: google.maps.MapTypeId.ROADMAP,
                      scrollwheel: false,
-                     draggable: dragging
+                     draggable: !('ontouchstart' in document.documentElement)
                  };
                  map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
                  marker = new google.maps.Marker({
