@@ -2155,14 +2155,14 @@ ul.legals li:last-child::after {
 
 }
 
-.sponsor-logo {
+.sponsor-logo-adblock {
 	padding: 20px 30px 0;
 	vertical-align: middle;
 	display: inline-block;
 	height: 100%;
 }
 
-.sponsor-logo img {
+.sponsor-logo-adblock img {
 	max-width: 130px;
 	max-height: 120px;
 }
