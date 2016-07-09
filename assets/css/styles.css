@@ -40,8 +40,6 @@ body {
 	font-size: 14px;
 	font-style: normal;
 	line-height:1.5;
-	overflow:hidden;
-
 }
 
 a:hover,a:active {
@@ -108,9 +106,7 @@ p {
     font-size: 1.1em;
     line-height: 1.6em;
 }
-html{
-	overflow:hidden;
-}
+
 .bottom-spacing{
 	margin-bottom:2.5%;
 }
