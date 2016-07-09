@@ -57,16 +57,20 @@ jQuery( document ).ready(function( $ ) {
 	if (scroll > height) {
 		$(".header-hide").addClass("scroll-header");
 	}
-	
-	smoothScroll.init({
-		speed: 1000,
-		easing: 'easeInOutCubic',
-		offset: height,
-		updateURL: false,
-		callbackBefore: function ( toggle, anchor ) {},
-		callbackAfter: function ( toggle, anchor ) {},
-	});
-	
+
+	var ua = navigator.userAgent.toLowerCase();
+	var isAndroid = ua.indexOf("android") > -1;
+	if (!isAndroid) {
+		smoothScroll.init({
+			speed: 1000,
+			easing: 'easeInOutCubic',
+			offset: height,
+			updateURL: false,
+			callbackBefore: function ( toggle, anchor ) {},
+			callbackAfter: function ( toggle, anchor ) {},
+		});
+	}
+
 	$(window).scroll(function() {
 		var height = $(window).height();
 		var scroll = $(window).scrollTop();
