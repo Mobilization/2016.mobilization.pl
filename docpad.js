@@ -65,7 +65,7 @@ docpadConfig = {
                         "logo_url": "/images/sponsors/ceri.png",
                         "link": "http://www.ceri.pl/"
                     },
-                    // {"name":"Ericpol","logo_url":"/images/sponsors/ericpol.png","link":"http://www.ericpol.pl/"},
+                    {"name":"Appyourself","logo_url":"/images/sponsors/appyourself.png","link":"http://www.appyourself.net/"},
                     // {"name":"eConsulting","logo_url":"/images/sponsors/econsulting.gif","link":"http://econsulting.pl/"},
                     // {"name":"GFT","logo_url":"/images/sponsors/gft.jpg","link":"http://gft.com/"},
                     // {"name":"Pracuj.pl","logo_url":"/images/sponsors/pracuj-pl.jpg","link":"http://www.pracuj.pl/"},
