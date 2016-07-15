@@ -78,7 +78,7 @@ docpadConfig = {
                     //          {"name":"Cybercom","logo_url":"/images/sponsors/cybercom.png","link":"http://www.cybercom.com/pl/Poland/"},
                 ],
                 copper: [
-                    // {"name":"Appcelerator","logo_url":"/images/sponsors/appc-logo-mark-light.png","link":"http://www.appcelerator.com/"}
+                    {"name":"Jetbrains","logo_url":"/images/sponsors/jetbrains.png","link":"http://www.jetbrains.com/"}
                 ],
             },
             partners: {
