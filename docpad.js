@@ -970,153 +970,153 @@ docpadConfig = {
                 }
             },
             venues: {
-                "venue-seamless": {
-                    "title": "Seamless"
+                "venue-diamond": {
+                    "title": "Diamond"
+                },
+                "venue-seqr": {
+                    "title": "SEQR"
+                },
+                "venue-mobica": {
+                    "title": "Platinum"
+                },
+                "venue-platinum": {
+                    "title": "Mobica"
                 },
                 "venue-tomtom": {
                     "title": "TomTom"
-                },
-                "venue-mobica": {
-                    "title": "Mobica"
-                },
-                "venue-harman": {
-                    "title": "Harman"
-                },
-                "venue-hp": {
-                    "title": "HP"
                 }
             },
             schedule: {
                 // "slot-registration": {"break_key": "break-registration"},
                 // "slot-hello-world": {"break_key": "break-hello-world"},
                 // "slot-1": {
-                //     "venue-seamless": {
+                //     "venue-diamond": {
                 //         "talk_key": "talk-potrzeby-biznesowe-a-technologia-w-mobdev-na-przykladzie-seqr"
                 //     },
-                //     "venue-tomtom": {
+                //     "venue-seqr": {
                 //         "talk_key": "talk-developing-software-for-dedicated-devices-using-agile"
                 //     },
                 //     "venue-mobica": {
                 //         "talk_key": "talk-html5-goes-for-a-ride-czyli-wyzwania-dla-technologii-webowych-w-przemysle-automotive"
                 //     },
-                //     "venue-harman": {
+                //     "venue-platinum": {
                 //         "talk_key": "talk-android-auto"
                 //     },
-                //     "venue-hp": {
+                //     "venue-tomtom": {
                 //         "talk_key": "talk-ux-pitfalls-in-multi-os-apps"
                 //     }
                 // },
                 // "slot-coffee-1": {"break_key": "break-coffee"},
                 //
                 // "slot-2": {
-                //     "venue-seamless": {
+                //     "venue-diamond": {
                 //         "talk_key": "talk-optymalizacja-hierarchii-widokow-na-platformie-android"
                 //     },
-                //     "venue-tomtom": {
+                //     "venue-seqr": {
                 //         "talk_key": "talk-hacking-bluetooth-smart"
                 //     },
                 //     "venue-mobica": {
                 //         "talk_key": "talk-modern-ios-app-architecture"
                 //     },
-                //     "venue-harman": {
+                //     "venue-platinum": {
                 //         "talk_key": "talk-titanium-develop-native-mobile-apps-with-javascript"
                 //     },
-                //     "venue-hp": {
+                //     "venue-tomtom": {
                 //         "talk_key": "talk-espressive-functional-testing-with-espresso"
                 //     }
                 // },
                 // "slot-coffee-2": {"break_key": "break-coffee"},
                 // "slot-3": {
-                //     "venue-seamless": {
+                //     "venue-diamond": {
                 //         "talk_key": "talk-app-indexing-i-deep-linking-w-aplikacjach-androidowych"
                 //     },
-                //     "venue-tomtom": {
+                //     "venue-seqr": {
                 //         "talk_key": "talk-watch-out-for-the-watch"
                 //     },
                 //     "venue-mobica": {
                 //         "talk_key": "talk-unit-testy-w-androidzie-z-uzyciem-biblioteki-spock"
                 //     },
-                //     "venue-harman": {
+                //     "venue-platinum": {
                 //         "talk_key": "talk-hunt-me-od-kuchni-jak-powstal-innowacyjny-sposob-na-szukanie-pracy"
                 //     },
-                //     "venue-hp": {
+                //     "venue-tomtom": {
                 //         "talk_key": "talk-angular-js-i-cordova-tworzenie-hybrydowych-aplikacji-mobilnych"
                 //     }
                 // },
                 // "slot-coffee-3": {"break_key": "break-coffee"},
                 // "slot-4": {
-                //     "venue-seamless": {
+                //     "venue-diamond": {
                 //         "talk_key": "talk-behavior-driven-development"
                 //     },
-                //     "venue-tomtom": {
+                //     "venue-seqr": {
                 //         "talk_key": "talk-ionic-io-services-for-hybrid-mobile-applications"
                 //     },
                 //     "venue-mobica": {
                 //         "talk_key": "talk-dont-reinvent-the-wheel-use-libraries-modern-android-stack"
                 //     },
-                //     "venue-harman": {
+                //     "venue-platinum": {
                 //         "talk_key": "talk-clean-architecture"
                 //     },
-                //     "venue-hp": {
+                //     "venue-tomtom": {
                 //         "talk_key": "talk-kotlin-for-android"
                 //     }
                 // },
                 // "slot-lunch": {"break_key": "break-lunch"},
                 // "slot-5": {
-                //     "venue-tomtom": {
+                //     "venue-seqr": {
                 //         "talk_key": "talk-kiedy-zespol-scrumowy-nie-kocha-swojego-produktu-mobilnego"
                 //     },
-                //     "venue-harman": {
+                //     "venue-platinum": {
                 //         "talk_key": "talk-czy-nastala-era-continuous-everything"
                 //     },
                 // },
                 // "slot-6": {
-                //     "venue-seamless": {
+                //     "venue-diamond": {
                 //         "talk_key": "talk-reaktywne-programowanie-z-rxjava"
                 //     },
-                //     "venue-tomtom": {
+                //     "venue-seqr": {
                 //         "talk_key": "talk-no-platformy-natywne"
                 //     },
                 //     "venue-mobica": {
                 //         "talk_key": "talk-swift-and-objective-c-interoperability"
                 //     },
-                //     "venue-harman": {
+                //     "venue-platinum": {
                 //         "talk_key": "talk-dagger-2-dependency-injection-w-kodzie-produkcyjnym"
                 //     },
-                //     "venue-hp": {
+                //     "venue-tomtom": {
                 //         "talk_key": "talk-qtquick-spotyka-html"
                 //     }
                 // },
                 // "slot-coffee-4": {"break_key": "break-coffee"},
                 // "slot-7": {
-                //     "venue-seamless": {
+                //     "venue-diamond": {
                 //         "talk_key": "talk-android-data-binding-nie-tylko-w-teorii"
                 //     },
-                //     "venue-tomtom": {
+                //     "venue-seqr": {
                 //         "talk_key": "talk-dobry-zwyczaj-nie-odziedziczaj"
                 //     },
                 //     "venue-mobica": {
                 //         "talk_key": "talk-hipster-oriented-programming"
                 //     },
-                //     "venue-harman": {
+                //     "venue-platinum": {
                 //         "talk_key": "talk-co-kryje-pianka-czyli-o-nowej-wersji-androida"
                 //     },
-                //     "venue-hp": {
+                //     "venue-tomtom": {
                 //         "talk_key": "talk-material-design-with-android-design-library"
                 //     }
                 // },
                 // "slot-coffee-5": {"break_key": "break-coffee"},
                 // "slot-8": {
-                //     "venue-seamless": {
+                //     "venue-diamond": {
                 //         "talk_key": "talk-what-s-in-it-for-us-after-the-indiepocalipse"
                 //     },
-                //     "venue-tomtom": {
+                //     "venue-seqr": {
                 //         "talk_key": "talk-reactive-ui-on-adroid-with-scala"
                 //     },
                 //     "venue-mobica": {
                 //         "talk_key": "talk-zwinna-lodz-przedstawia-panel"
                 //     },
-                //     "venue-harman": {
+                //     "venue-platinum": {
                 //         "talk_key": "talk-xamarin-dla-nie-tylko-deweloperow-androida"
                 //     },
                 // },
