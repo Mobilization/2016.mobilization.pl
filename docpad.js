@@ -223,90 +223,90 @@ docpadConfig = {
 
             },
             speakers: {
-                // //1
-                // "speaker-jens-ravens": {
-                //     "firstname": "Jens",
-                //     "lastname": "Ravens",
-                //     "bio_html": "Jens is an iOS and OS X Developer, writing ObjC since 2006. Currently working at nerdgeschoss helping clients to create awesome apps. Organiser of the monthly swift.berlin meetup. Scaring people with functional concepts since 2014.",
-                //     "www": "",
-                //     "twitter": "https://twitter.com/jensravens",
-                //     "facebook": "",
-                //     "github": "",
-                //     "linkedin": "",
-                //     "photo_url": "/images/speakers/jens-ravens.jpg"
-                // },
-                // //2
-                // "speaker-tomasz-grynfelder": {
-                //     "firstname": "Tomasz",
-                //     "lastname": "Grynfelder",
-                //     "bio_html": "Tomasz Grynfelder, Senior Software Engineer at Neofonie Mobile GmbH, mobile technologies freak highly focused on iOS development and security. Great fan of cycling and sailing.",
-                //     "www": "",
-                //     "twitter": "",
-                //     "photo_url": "/images/speakers/tomasz-grynfelder.png"
-                // },
-                // //3
-                // "speaker-pawel-dudek": {
-                //     "firstname": "Paweł",
-                //     "lastname": "Dudek",
-                //     "bio_html": "I'm an iOS developer that has been building iOS apps for over 6 years now. I've shipped a variety of apps during my initial stage of career. Right now I'm focusing on building rich, content heavy and beautiful apps for Fortune 500 companies at a US-based startup Taptera. I've been publicly speaking and sharing my knowledge for over a year now. You can find full list of my talks, including videos and slides <a href=\"http://paweldudek.github.io/speaking/\">here</a>",
-                //     "wwww": "http://paweldudek.github.io/speaking/",
-                //     "twitter": "",
-                //     "photo_url": "/images/speakers/pawel-dudek.jpeg"
-                // },
-                // //4
-                // "speaker-pawel-gajda": {
-                //     "firstname": "Paweł",
-                //     "lastname": "Gajda",
-                //     "bio_html": "Android Developer, laureate of the national finals of Microsoft Imagine Cup 2013. Associated with Android since 2010, when platform was taking its first steps. Enthusiast of JetBrains products (mainly IntelliJ IDEA). Student at Military University of Technology. Speaker at Mobile Warsaw. After-hours blogger, indie game developer and amateur runner.",
-                //     "wwww": "",
-                //     "twitter": "",
-                //     "photo_url": "/images/speakers/pawel-gajda.png"
-                // },
-                // //5
-                // "speaker-miroslaw-stanek": {
-                //     "firstname": "Mirosław",
-                //     "lastname": "Stanek",
-                //     "bio_html": "Wielki pasjonat technologii mobilnych, na zmianę programuje Androida i iOSa, na co dzień Head of Mobile w firmie Azimo Money Transfer. Po godzinach prowadzi bloga <a href=\"http://frogermcs.github.io/\">http://frogermcs.github.io/</a>, tweetuje o mobile, udziela się na lokalnych meetupach i dokłada swoje cegiełki w open source. Fan hackathonów, szczególnie tych bardziej hardware'owych.",
-                //     "www": "http://frogermcs.github.io/",
-                //     "twitter": "",
-                //     "photo_url": "/images/speakers/miroslaw-stanek.jpeg"
-                // },
-                // //6
-                // "speaker-krzysztof-kocel": {
-                //     "firstname": "Krzysztof",
-                //     "lastname": "Kocel",
-                //     "bio_html": "Developer Androida w Allegro od 2012.<br>Pasjonat technologii mobilnych.<br>Prelegent na konferencji mobilization 2013.<br>Prywatnie piwowar domowy.",
-                //     "www": "",
-                //     "twitter": "",
-                //     "photo_url": "/images/speakers/krzysztof-kocel.jpg"
-                // },
-                // //7
-                // "speaker-witold-wysota": {
-                //     "firstname": "Witold",
-                //     "lastname": "Wysota",
-                //     "bio_html": "Inżynier oprogramowania z wieloletnim doświadczeniem, wielki miłośnik Qt, którym zajmuje się od kilkunastu lat, uczestnik wcześniejszych konferencji Mobilization.",
-                //     "www": "",
-                //     "twitter": "",
-                //     "photo_url": "/images/speakers/witold-wysota.jpg"
-                // },
-                // //8
-                // "speaker-michal-charmas": {
-                //     "firstname": "Michał",
-                //     "lastname": "Charmas",
-                //     "bio_html": "Aktualnie freelancer zajmujący się aplikacjami mobilnymi na platformę Android, co-founder startupu eWejściówki.pl i trener w firmie Bottega IT Solutions. Pasjonat Androida praktycznie od momentu jego powstania. W pracy szczególny nacisk kładzie na jakość zarówno pod względem architektury i czystości kodu jak i wydajności. Po pracy gitarzysta porwany przez muzykę.",
-                //     "www": "",
-                //     "twitter": "",
-                //     "photo_url": "/images/speakers/michal-charmas.jpg"
-                // },
-                // //9
-                // "speaker-maciej-gorski": {
-                //     "firstname": "Maciej",
-                //     "lastname": "Górski",
-                //     "bio_html": "Maciej is a passionate Android developer. He cares about writing cleaner code and less of it. He is spending time to automate things to save even more time. He also bikes a lot and would love to be able to code while doing it… using only mind controlled wearables or bikeables.",
-                //     "www": "",
-                //     "twitter": "",
-                //     "photo_url": "/images/speakers/maciej-gorski.jpg"
-                // },
+                //1
+                "speaker-jens-ravens": {
+                   "firstname": "Jens",
+                     "lastname": "Ravens",
+                     "bio_html": "Jens is an iOS, macOS and backend Developer, writing ObjC since 2006. Currently working at nerdgeschoss helping clients to create awesome apps. Organiser of the monthly swift.berlin meetup. Scaring people with functional concepts since 2014.",
+                "www": "",
+                "twitter": "https://twitter.com/jensravens",
+                "facebook": "",
+                "github": "",
+                "linkedin": "",
+                "photo_url": "/images/speakers/jens-ravens.jpg"
+                },
+                 //2
+                 "speaker-pedro-buendia": {
+                     "firstname": "Pedro",
+                     "lastname": "Buendia",
+                     "bio_html": "Pedro is an iOS Developer at SoundCloud. Open source lover and runner in his free time. He loves coding and contributing with his own libraries. In his spare time, Pedro is starting his own project, GitDo. Open to learning new concepts and paradigms, of late he is interested in architectures like VIPER, and reactive programming.",
+                     "www": "",
+                     "twitter": "",
+                     "photo_url": "/images/speakers/pedro-buendia.png"
+                 },
+                 //3
+                 "speaker-konstantin-raev": {
+                     "firstname": "Konstantin",
+                     "lastname": "Raev",
+                     "bio_html": "Konstantin is a Developer at Facebook who is working in React Native team. For the last few years his passions were infrastructure, Continuous Delivery, JavaScript and stable builds. Before joining Facebook he worked at a New Zealand startup <a href='www.booktrack.com'>Booktrack</a>.",
+                     "wwww": "",
+                     "twitter": "https://github.com/bestander",
+                     "photo_url": "/images/speakers/konstantin-raev.png"
+                 },
+                 //4
+                 "speaker-pawel-gajda": {
+                     "firstname": "Gautier",
+                     "lastname": "Mechling",
+                     "bio_html": "Gautier is an aspiring Software Craftsman in Paris, France. Agile thinker passionate in Android Development, he creates and maintains some FOSS tools to improve productivity. Talk to him about Kotlin, Clean Code, or Free Software and you will see his eyes light up.",
+                     "wwww": "",
+                     "twitter": "https://twitter.com/Nilhcem",
+                     "photo_url": "/images/speakers/gautier-mechling.png"
+                 },
+                 //5
+                 "speaker-nicola-zaghini": {
+                     "firstname": "Nicola",
+                     "lastname": "Zaghini",
+                     "bio_html": "Nicola Zaghini is a software architect at Mobile Travel Technologies. He has been developing mobile apps since the first iOS SDK was released, from indie game development to major airlines and travel companies. Prior to that, he enjoyed Java development as professional and researcher in academia. He is currently in charge of mobile architecture in MTT and helps teams deliver amazing apps.",
+                     "www": "",
+                     "twitter": "https://twitter.com/nzaghini",
+                     "photo_url": "/images/speakers/nicola-zaghini.png"
+                 },
+                 //6
+                 "speaker-roberto-orgiu": {
+                     "firstname": "Roberto",
+                     "lastname": "Orgiu",
+                     "bio_html": "Android developer and enthusiastic, DroidCon and community fan, I love the Android environment and pushing the limits of the platform.",
+                     "www": "",
+                     "twitter": "",
+                     "photo_url": "/images/speakers/roberto-orgiu.png"
+                 },
+                 //7
+                 "speaker-eric-kok": {
+                     "firstname": "Eric",
+                     "lastname": "Kok",
+                     "bio_html": "Hi, I'm Eric. I currently work as a contractor at KBC Bank in Belgium creating the next mobile banking app. But if you know me, it is through my open-source work published under the 2312 development name. I build apps, such as RateBeer, and libraries, such as RxCupboard. I love brewing and drinking craft beer, chatting about Android and building with Legos with my son.",
+                     "www": "",
+                     "twitter": "",
+                     "photo_url": "/images/speakers/eric-kok.png"
+                 },
+                 //8
+                 "speaker-dan-cuello": {
+                     "firstname": "Dan",
+                     "lastname": "Cuellar",
+                     "bio_html": "Dan Cuellar is the creator of the open source mobile automation framework Appium, and Head of Test Engineering at FOODit in London. Previously, he headed the test organisation at Shazam in London and Zoosk in San Francisco, and worked as a software engineer on Microsoft Outlook for Mac, and other products in the Microsoft Office suite. He is an advocate of open source technologies and technical software testing. He earned a Bachelor’s degree in Computer Science, with a minor in Music Technology, from the world-renowned School of Computer Science at Carnegie Mellon University in Pittsburgh.",
+                     "www": "",
+                     "twitter": "",
+                     "photo_url": "/images/speakers/dan-cuellar.png"
+                 },
+                 //9
+                 "speaker-roman-mazur": {
+                     "firstname": "Roman",
+                     "lastname": "Mazur",
+                     "bio_html": "Roman has been working with Android for more than 6 years. You can find him delivering fixes and new features to a plenty of Android libraries and frameworks including support library, Robolectric, Madge, Spoon, Retrofit, and Helium. At Stanfy he is working on a customized Android OS for in-room tablets installed at hotels by KEYPR.",
+                     "www": "",
+                     "twitter": "",
+                     "photo_url": "/images/speakers/roman-mazur.png"
+                 },
                 // //10
                 // "speaker-piotr-krystyniak": {
                 //     "firstname": "Piotr",
