@@ -307,15 +307,15 @@ docpadConfig = {
                      "twitter": "",
                      "photo_url": "/images/speakers/roman-mazur.png"
                  },
-                // //10
-                // "speaker-piotr-krystyniak": {
-                //     "firstname": "Piotr",
-                //     "lastname": "Krystyniak",
-                //     "bio_html": "Moje zainteresowania zawodowe koncentrują się wokół platformy Android, której jestem szczerym entuzjastą. Na co dzień pracuję w Appunite budując aplikacje mobilne. Poza pracą również czynnie uczestniczę w różnorodnych eventach programistycznych - jestem m.in.  współorganizatorem spotkań z cyklu Poznań Android Developer Group, na których wielokrotnie miałem okazję przeprowadzać prelekcje.",
-                //     "www": "",
-                //     "twitter": "",
-                //     "photo_url": "/images/speakers/piotr-krystyniak.png"
-                // },
+                 //10
+                 "speaker-markus-junginger": {
+                     "firstname": "Markus",
+                     "lastname": "Junginger",
+                     "bio_html": "Markus Junginger is an Android enthusiast and developer since the first SDK release in 2007. His mobile software company greenrobot focuses on high quality Android apps and open source libraries, which are widely used by many popular apps. Markus has 15+ years experience with Java and did his first mobile software project in 2001. He regularly speaks and writes about Android, gives Android trainings, and develops for Android.",
+                     "www": "",
+                     "twitter": "",
+                     "photo_url": "/images/speakers/markus-junginger.png"
+                 },
                 // //11
                 // "speaker-peter-tuszynski": {
                 //     "firstname": "Peter",
