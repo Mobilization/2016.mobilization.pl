@@ -250,7 +250,7 @@ docpadConfig = {
                      "lastname": "Raev",
                      "bio_html": "Konstantin is a Developer at Facebook who is working in React Native team. For the last few years his passions were infrastructure, Continuous Delivery, JavaScript and stable builds. Before joining Facebook he worked at a New Zealand startup <a href='www.booktrack.com'>Booktrack</a>.",
                      "wwww": "",
-                     "twitter": "https://github.com/bestander",
+                     "twitter": "https://twitter.com/bestander_nz",
                      "photo_url": "/images/speakers/konstantin-raev.png"
                  },
                  //4
@@ -316,24 +316,24 @@ docpadConfig = {
                      "twitter": "",
                      "photo_url": "/images/speakers/markus-junginger.png"
                  },
-                // //11
-                // "speaker-peter-tuszynski": {
-                //     "firstname": "Peter",
-                //     "lastname": "Tuszyński",
-                //     "bio_html": "Mobile developer since early days of iPhone/Android platforms, product engineer. Co-founder of Appvetica lab. Almost-a-pilot :). Spoke at Mobilization in 2012 and a bunch of other conferences",
-                //     "www": "www.appvetica.com",
-                //     "twitter": "dusker",
-                //     "photo_url": "/images/speakers/peter-tuszynski.png"
-                // },
-                // //12
-                // "speaker-fokke-zandbergen": {
-                //     "firstname": "Fokke",
-                //     "lastname": "Zandbergen",
-                //     "bio_html": "Fokke is a Developer Evangelist for Appcelerator, the company behind Titanium. Before that, he was already active in the Titanium community for a long time with initiatives like gitt.io, ticons.fokkezb.nl, tidev.io, contributions to Alloy and Alloy widgets and by leading the Dutch user group. He has a passion for understanding new technologies by using and hacking them and sharing from that experience.",
-                //     "www": "",
-                //     "twitter": "",
-                //     "photo_url": "/images/speakers/fokke-zandbergen.png"
-                // },
+                //11
+                "speaker-madis-pink": {
+                    "firstname": "Madis",
+                    "lastname": "Pink",
+                    "bio_html": "Madis is currently working on JRebel for Android at ZeroTurnaround. He started hacking on Android apps on a T-Mobile G1 more than 7 years ago and quickly grew a particular interest in build systems and developer tooling. His previous experience includes working on the Android Platform team at Spotify and producing multiple apps at Mobi Lab. During his free time he likes to dabble around with guitars and home recording.",
+                    "www": "www.appvetica.com",
+                    "twitter": "dusker",
+                    "photo_url": "/images/speakers/madis-pink.png"
+                },
+                //12
+                "speaker-pablo-guardiola": {
+                    "firstname": "Pablo",
+                    "lastname": "Guardiola",
+                    "bio_html": "I'm a Software Engineer, lover of new technologies, passionate about challenges and motivated to continue learning current coding languages and methodologies. I'm a regular attendee at developers’ events and meetups. I'm a Testing-lover and I try to share my knowledge collaborating @AprendiendoTDD and @theEvnt facilitating coding dojos, katas and other stuff.",
+                    "www": "",
+                    "twitter": "",
+                    "photo_url": "/images/speakers/pablo-guardiola.png"
+                },
                 // //13
                 // "speaker-krzysztof-siejkowski": {
                 //     "firstname": "Krzysztof",
