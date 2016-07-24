@@ -2159,8 +2159,8 @@ ul.legals li:last-child::after {
 }
 
 .sponsor-logo-adblock img {
-	max-width: 130px;
-	max-height: 120px;
+	max-width: 300px;
+	max-height: 300px;
 }
 
 .volunteers {
