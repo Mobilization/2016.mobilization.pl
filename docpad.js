@@ -72,7 +72,7 @@ docpadConfig = {
                     // {"name":"Accenture","logo_url":"/images/sponsors/accenture.png","link":"http://www.accenture.com/pl-pl/Pages/index.aspx"},
                 ],
                 silver: [
-                    {"name":"Sii","logo_url":"/images/sponsors/sii.png","link":"http://http://sii.pl/oddzialy/lodz/"},
+                    {"name":"Sii","logo_url":"/images/sponsors/sii.png","link":"http://sii.pl/oddzialy/lodz/"},
                     // {"name":"ABB","logo_url":"/images/sponsors/abb.png","link":"http://new.abb.com/pl/o-nas/technologie/centrum-systemow-informatycznych-abb"},
                     //          {"name":"Touk","logo_url":"/images/sponsors/touk-logo.png","link":"http://www.touk.pl/"},
                     //          {"name":"Cybercom","logo_url":"/images/sponsors/cybercom.png","link":"http://www.cybercom.com/pl/Poland/"},
