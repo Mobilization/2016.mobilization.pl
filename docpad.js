@@ -321,7 +321,7 @@ docpadConfig = {
                     "firstname": "Madis",
                     "lastname": "Pink",
                     "bio_html": "Madis is currently working on JRebel for Android at ZeroTurnaround. He started hacking on Android apps on a T-Mobile G1 more than 7 years ago and quickly grew a particular interest in build systems and developer tooling. His previous experience includes working on the Android Platform team at Spotify and producing multiple apps at Mobi Lab. During his free time he likes to dabble around with guitars and home recording.",
-                    "www": "www.appvetica.com",
+                    "www": "http://www.appvetica.com",
                     "twitter": "dusker",
                     "photo_url": "/images/speakers/madis-pink.png"
                 },
