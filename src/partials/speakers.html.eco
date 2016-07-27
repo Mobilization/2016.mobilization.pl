@@ -51,14 +51,30 @@
 			</div>
 		</div> <!--Row Ends Here-->
 	</div>
-	<% for speaker_key, speaker of @site.speakers: %><% speaker_talk_keys = Array() %><% for talk_key, talk of @site.talks: %><% if speaker_key in talk.speakers_keys: %><% speaker_talk_keys.push(talk_key) %><% end %><% end %><% for talk_key in speaker_talk_keys: %><% for slot_key, slot of @site.schedule: %><% for venue_key, venue of @site.venues: %><% if venue_key of slot: %><% if talk_key == slot[venue_key].talk_key: %>
+	<% for speaker_key, speaker of @site.speakers: %>
+
 							<div class="md-modal md-effect-9" id="speaker-<%= speaker_key %>">
 								<div class="md-content">
 									<div class="folio">
 										<img src="<%= speaker.photo_url %>" alt="Photo of <%= speaker.firstname %> <%= speaker.lastname %>" />
 										<div class="sp-name"><strong><%= speaker.firstname %> <%= speaker.lastname %></strong><br/><!-- desc --></div>
 										<div class="sp-dsc">
-											<%- @site.talks[talk_key].description_html %>
+											<%- speaker.bio_html %>
+										</div>
+										<div class="sp-talks">
+											<% speaker_talk_keys = Array() %>
+											<% for talk_key, talk of @site.talks: %>
+											<% if speaker_key in talk.speakers_keys: %>
+											<% speaker_talk_keys.push(talk_key) %>
+											<% end %>
+											<% end %>
+											<% for talk_key in speaker_talk_keys: %>
+											<% for slot_key, slot of @site.schedule: %>
+											<% for venue_key, venue of @site.venues: %>
+											<% if venue_key of slot: %>
+											<% if talk_key == slot[venue_key].talk_key: %>
+											<!-- nothing -->
+											<% end %><% end %><% end %><% end %><% end %>
 										</div>
 										<div class="sp-social">
 											<ul>
@@ -83,7 +99,7 @@
 									</div>
 								</div>
 							</div>
-							<% end %><% end %><% end %><% end %><% end %><% end %>
+	<% end %>
 	<div class="md-overlay"></div>
 </section>
 <!--/SPEAKER-->
