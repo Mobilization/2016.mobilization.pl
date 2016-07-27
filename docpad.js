@@ -338,7 +338,7 @@ docpadConfig = {
                 "speaker-jorge-castillo": {
                     "firstname": "Jorge",
                     "lastname": "Castillo",
-                    "bio_html": "Jorge Castillo is a spanish experienced Android developer currently working as an Android Engineer at Jobandtalent, an important International product company from Madrid. Its main work is focused on Open Source projects (https://github.com/JorgeCastilloPrz).",
+                    "bio_html": "Jorge Castillo is a spanish experienced Android developer currently working as an Android Engineer at Jobandtalent, an important International product company from Madrid. Its main work is focused on Open Source projects.",
                     "www": "http://jorgecastillo.xyz/",
                     "twitter": "https://twitter.com/JorgeCastilloPr",
                     "github" : "https://github.com/JorgeCastilloPrz/",
