@@ -17,7 +17,7 @@
                 <ul class="nav navbar-nav">
                     <li><a data-scroll href="#sponsors">Sponsors</a></li>
                     <% if @site.visibility.agenda: %><li><a data-scroll href="#agenda">Agenda</a></li><% end %>
-                    <% if @site.visibility.speakers: %><li><a data-scroll href="#team">Call 4 Papers</a></li><% end %>
+                    <% if @site.visibility.speakers: %><li><a data-scroll href="#speakers">Speakers</a></li><% end %>
                     <li><a data-scroll href="#venue">Venue</a></li>
                     <li><a data-scroll href="#contact">Contact</a></li>
                     <li class="hidden"><a href="#sec_1">Home</a></li>
