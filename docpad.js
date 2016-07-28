@@ -238,7 +238,7 @@ docpadConfig = {
                  //2
                  "speaker-pedro-buendia": {
                      "firstname": "Pedro",
-                     "lastname": "Buendia",
+                     "lastname": "Piñera Buendía",
                      "bio_html": "Pedro is an iOS Developer at SoundCloud. Open source lover and runner in his free time. He loves coding and contributing with his own libraries. In his spare time, Pedro is starting his own project, GitDo. Open to learning new concepts and paradigms, of late he is interested in architectures like VIPER, and reactive programming.",
                      "www": "",
                      "twitter": "",
