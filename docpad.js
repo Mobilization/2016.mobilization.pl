@@ -321,8 +321,9 @@ docpadConfig = {
                     "firstname": "Madis",
                     "lastname": "Pink",
                     "bio_html": "Madis is currently working on JRebel for Android at ZeroTurnaround. He started hacking on Android apps on a T-Mobile G1 more than 7 years ago and quickly grew a particular interest in build systems and developer tooling. His previous experience includes working on the Android Platform team at Spotify and producing multiple apps at Mobi Lab. During his free time he likes to dabble around with guitars and home recording.",
-                    "www": "http://www.appvetica.com",
-                    "twitter": "dusker",
+                    "www": "",
+                    "github":"https://github.com/madisp",
+                    "twitter": "https://twitter.com/madisp",
                     "photo_url": "/images/speakers/madis-pink.png"
                 },
                 //12
@@ -330,8 +331,8 @@ docpadConfig = {
                     "firstname": "Pablo",
                     "lastname": "Guardiola",
                     "bio_html": "I'm a Software Engineer, lover of new technologies, passionate about challenges and motivated to continue learning current coding languages and methodologies. I'm a regular attendee at developers’ events and meetups. I'm a Testing-lover and I try to share my knowledge collaborating @AprendiendoTDD and @theEvnt facilitating coding dojos, katas and other stuff.",
-                    "www": "",
-                    "twitter": "",
+                    "www": "http://pguardiola.com/",
+                    "twitter": "https://twitter.com/guardiola31337",
                     "photo_url": "/images/speakers/pablo-guardiola.png"
                 },
                 //13
