@@ -1,0 +1,54 @@
+<!-- VOLUNTEERS -->
+<div class="intro text-center section-padding" id="volunteers">
+    <div class="container">
+        <div class="col-md-8 wow animated fadeInLeft align-center" data-wow-duration="1s" data-wow-delay="0.3s">
+            <h1 class="arrow">Team of volunteers</h1>
+            <hr>
+
+        </div>
+        <div class="row volunteers">
+            <% for volunteer_key, volunteer of @site.volunteers: %>
+            <button class="md-trigger" data-modal="volunteer-<%- volunteer_key %>">
+                <img src="<%= volunteer.photo_url %>" alt="Photo <%= volunteer.firstname %> <%= volunteer.lastname %>"/>
+            </button>
+            <% end %>
+        </div>
+    </div>
+
+    <% for volunteer_key, volunteer of @site.volunteers: %>
+    <div class="md-modal md-effect-9" id="volunteer-<%= volunteer_key %>">
+        <div class="md-content">
+            <div class="folio">
+                <img src="<%= volunteer.photo_url %>" alt="Photo of <%= volunteer.firstname %> <%= volunteer.lastname %>" />
+                <div class="sp-name"><strong><%= volunteer.firstname %> <%= volunteer.lastname %></strong><br/><!-- desc --></div>
+                <div class="sp-dsc">
+                    <%- volunteer.bio_html %>
+                </div>
+                <div class="sp-social">
+                    <ul>
+                        <% if 'www' of volunteer and volunteer.www.length > 0: %>
+                        <li><a href="<%= volunteer.www %>" class="social-btn" target="_blank"><i class="fa fa-globe"></i></a></li>
+                        <% end %>
+                        <% if 'twitter' of volunteer and volunteer.twitter.length > 0: %>
+                        <li><a href="<%= volunteer.twitter %>" class="social-btn" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        <% end %>
+                        <% if 'facebook' of volunteer and volunteer.facebook.length > 0: %>
+                        <li><a href="<%= volunteer.facebook %>" class="social-btn" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <% end %>
+                        <% if 'github' of volunteer and volunteer.github.length > 0: %>
+                        <li><a href="<%= volunteer.github %>" class="social-btn" target="_blank"><i class="fa fa-github"></i></a></li>
+                        <% end %>
+                        <% if 'linkedin' of volunteer and volunteer.linkedin.length > 0: %>
+                        <li><a href="<%= volunteer.linkedin %>" class="social-btn" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        <% end %>
+                    </ul>
+                </div>
+                <button class="md-close"><i class="fa fa-times"></i></button>
+            </div>
+        </div>
+    </div>
+    <% end %>
+
+    <div class="md-overlay"></div>
+</div>
+<!-- /VOLUNTEERS -->

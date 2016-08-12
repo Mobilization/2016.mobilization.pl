@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="assets/img/page/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/img/page/favicon.ico" type="image/x-icon">
+
+    <!-- FB IMAGE -->
+    <meta property="og:image" content="static/images/page/mobilization-vi-olive-on-transparent.png"/>
+
+    <!-- TITLE -->
+    <title><%= @getPreparedTitle() %></title>
+
+    <!-- DESCRIPTION -->
+    <meta name="description" content="<%= @getPreparedDescription() %>"/>
+    <meta name="keywords" content="<%= @getPreparedKeywords() %>"/>
+    <meta name="author" content="JUG Lodz"/>
+
+    <!-- GOOGLE FONTS -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,700,600,500,300,200,100,800,900' rel='stylesheet'
+          type='text/css'>
+
+    <!-- STYLESHEETS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/css/flexslider.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/schedule.css" rel="stylesheet">
+    <link href="assets/css/gridgallery.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/css/venobox.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/css/styles.css" rel="stylesheet"/>
+    <link href="assets/css/queries.css" rel="stylesheet"/>
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="top" data-spy="scroll" data-target=".header" data-offset="80">
+
+<!--PRELOADER-->
+<div class="preloader">
+    <div class="status"></div>
+</div>
+<!--/PRELOADER-->
+
+<%- @content %>
+
+</div>
+<!-- /WRAPER -->
+
+<!--SCRIPTS-->
+
+<script type="text/javascript" src="assets/js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery-ui-1.10.4.min.js"></script>
+
+<!--VIMEO VIDEO-->
+<script type="text/javascript" src="assets/js/venobox.js"></script>
+
+<!--3D GALLERY-->
+<script type="text/javascript" src="assets/js/classie.grid.gallery.js"></script>
+<script type="text/javascript" src="assets/js/modernizr.gridgallery.js"></script>
+
+<script type="text/javascript" src="assets/js/classie.js"></script>
+<script type="text/javascript" src="assets/js/modalEffects.js"></script>
+
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+
+<!-- TEAM SLIDER  -->
+<script type="text/javascript" src="assets/js/jquery.flexslider.js"></script>
+
+<!-- SCHEDULE TABS  -->
+<% if @site.visibility.agenda: %>
+<script type="text/javascript" src="assets/js/modernizr.js"></script>
+<script type="text/javascript" src="assets/js/cbpFWTabs.js"></script>
+<% end %>
+
+<!--SPONSOR SLIDER-->
+<script type="text/javascript" src="assets/js/jssor.core.js"></script>
+<script type="text/javascript" src="assets/js/jssor.utils.js"></script>
+<script type="text/javascript" src="assets/js/jssor.slider.js"></script>
+
+<!-- SMOOTH SCROLL  -->
+<script type="text/javascript" src="assets/js/smooth-scroll.js"></script>
+
+<!-- NICE SCROLL  -->
+<script type="text/javascript" src="assets/js/jquery.nicescroll.js"></script>
+
+<!-- SUBSCRIPTION FORM  -->
+<script type="text/javascript" src="assets/js/notifyMe.js"></script>
+
+<script type="text/javascript" src="assets/js/jquery.placeholder.js"></script>
+
+<!-- ANIMATION  -->
+<script type="text/javascript" src="assets/js/wow.min.js"></script>
+
+<!-- INITIALIZATION  -->
+<script type="text/javascript" src="assets/js/init.js"></script>
+
+</body>
+</html>

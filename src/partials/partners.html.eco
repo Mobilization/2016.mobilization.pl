@@ -1,43 +1,27 @@
-<!-- Partners -->
-<div id="partners">
-  <div class="container wow bounceInRight">
-  <h2 class="text-center">PARTNERS</h2><br /><br />
-
-		<% for partner_category_key, partner_category of @site.partners: %>
-        <div class="row text-center">
-          <h4 style="text-transform: uppercase"><%= partner_category_key %></h4>
-         	 <% for partner_key, partner of partner_category: %>
-         	 	<% if 'link' of partner: %>
-         	 	<a href="<%= partner.link %>" target="_blank" class="partner-logo">
-         	 	<% else: %>
-           		<a href="#" class="partner-logo" data-toggle="modal" data-target="#<%= partner_category_key %><%= partner_key %>">
-           		<% end %>
-              		<img src="<%= partner.logo_url %>" alt="Logo <%= partner.name %>" />
-            	</a>
-             <% end %>
+<!--PARTNERS-->
+<div id="partners" class="ignite-cta text-center section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 align-center wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+                <h1 class="arrow">Partners</h1>
+                <hr>
+            </div>
         </div>
+
+        <% for partner_category_key, partner_category of @site.partners: %>
+            <% if partner_category.length > 0: %>
+            <div class="row text-center sponsor">
+                <h2 style="text-transform: uppercase"><%= partner_category_key %></h2>
+                <% for partner_key, partner of partner_category: %>
+                    <span class="sponsor-logo-adblock">
+                    <% if 'link' of partner: %><a href="<%= partner.link %>" target="_blank"><% end %>
+                        <img src="<%= partner.logo_url %>" alt="Logo of <%= partner.name %>" />
+                    <% if 'link' of partner: %></a><% end %>
+                    </span>
+                <% end %>
+            </div>
+            <% end %>
         <% end %>
-  </div>
-</div>
-
-
-
-<% for partner_category_key, partner_category of @site.partners: %>
-	<% for partner_key, partner of partner_category: %>
-		<% if 'description_html' of partner: %>
-<div class="modal fade" id="<%= partner_category_key %><%= partner_key %>" tabindex="-1" role="dialog" aria-labelledby="partner-modal-<%= partner_category_key %><%= partner_key %>" aria-hidden="true">
-   <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-          <h4 class="modal-title" id="partner-modal-<%= partner_category_key %><%= partner_key %>"><%- partner.name %></h4>
-        </div>
-        <div class="modal-body">
-    		<%- partner.description_html %>
-        </div>
-      </div>
     </div>
-  </div>
-		<% end %>
-	<% end %>
-<% end %>
+</div>
+<!-- /PARTNERS -->

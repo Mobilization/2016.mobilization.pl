@@ -1,86 +1,141 @@
-<!-- agenda -->
-<div id="agenda">
-  <div class="container wow bounceInLeft">
-    <h2 class="text-center">AGENDA</h2>
-    <div class="row">
+<!--SCHEDULE-->
+<section class="text-center section-padding" id="agenda">
+    <div class="container wow animated fadeInLeft bottom-spacing">
+        <div class="row">
+            <div class="col-md-8 align-center wow animated fadeInLeft">
+                <h1 class="arrow">Agenda</h1>
+                <hr/>
+                <p></p>
+            </div>
+        </div>
+    </div>
 
-    <div class="col-sm-4 col-md-8 col-md-offset-2 nav-agenda ">
-      <ul class="nav nav-pills">
-      	<% for venue_key, venue of @site.venues: %>
-      		<% if venue_key == 'venue-seamless': %>
-      		<li class="active">
-      		<% else: %>
-      		<li>
-      		<% end %>
-        		<a data-target="#track-<%= venue_key %>" data-toggle="tab" href="#"><%= venue.title %> Track</a>
-       		</li>
-      	<% end %>
-      </ul>
-    </div>
-    
-<!-- tab panes -->
-    <div class="col-sm-8 col-md-8 col-md-offset-2">
-    <div class="tab-content">
-    	<% for venue_key, venue of @site.venues: %>
-    	<% if venue_key == 'venue-seamless': %>
-		<div class="tab-pane active" id="track-<%= venue_key %>">
-		<% else: %>
-		<div class="tab-pane" id="track-<%= venue_key %>">
-		<% end %>
-          <ul class="timeline">
-			
-			<% for slot_key, slot of @site.schedule: %>
-				<% if venue_key of slot or 'break_key' of slot: %>
-				<li class="timeline-inverted">
-                <div class="timeline-badge"><%= @site.slots[slot_key].from %></div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                  	<% if 'break_key' of slot: %>
-						<% break_ = @site.breaks[slot.break_key] %>
-						<p class="timeline-title">
-							<%= break_.title %>
-						</p>
-						
-						<% if break_.description_html.length > 0: %>
-							<p class="timeline-description"><%- break_.description_html %></p>
-						<% end %>
-					<% else: %>
-						<% _talk = @site.talks[slot[venue_key].talk_key] %>
-						<p class="timeline-title" id="agenda-<%= slot[venue_key].talk_key %>">
-	  					<%= _talk.title %>
-	  					<small class="text-muted" title="Language"><%= _talk.language %></small>
-	  					</p>
-	  					<br/>
-	  					<p>
-	  					
-	  					<% speakers = new Array() %>
-	  					<% for speaker_key in _talk.speakers_keys: %>
-	  						<% speakers.push('<a href="#" data-toggle="modal" data-target="#' + speaker_key + '">' + @site.speakers[speaker_key].firstname + ' ' + @site.speakers[speaker_key].lastname + '</a>') %> 
-	  					<% end %>
-	  					
-	  					<small class="text-muted">
-                           	<%- speakers.join(', ') %>
-                        </small>
-                        </p>
-                        
-                       	<p class="timeline-description">
-                       		<%- _talk.description_html %>
-                       	</p>
-					<% end %>
-                  </div>
-                </div>
-              	</li>
-              	<% end %>
-			<% end %>
-			
-		</ul>
-		</div>
-	<% end %>
+    <div class="container-schedule container wow animated fadeInDown animated" data-wow-duration="1s"
+         data-wow-delay="1s">
+        <div id="tabs-ui" class="tabs">
+            <nav>
+                <ul>
+                    <% for venue_key, venue of @site.venues: %>
+                    <li><a href="#track-<%= venue_key %>"><span><%= venue.title %></span></a></li>
+                    <% end %>
+                    <li style="background:none !important; width: 100%">
+                        <a href="#track-all" style="color: #212739 !important;">
+                            <i class="fa fa-table"></i> All talks + all venues
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="content">
+                <% for venue_key, venue of @site.venues: %>
+                <section id="#track-<%= venue_key %>">
+                    <div class="container">
+                        <div class="accordion">
+                            <% for slot_key, slot of @site.schedule: %>
+                                <% if 'break_key' of slot: %>
+                                    <% break_ = @site.breaks[slot.break_key] %>
+                                    <div class="b-item clearfix" style="background: #fafafa">
+                                        <div class="heading">
+                                            <div class="time col-md-3 col-sm-12 col-xs-12">
+                                                <%= @site.slots[slot_key].from %> - <%= @site.slots[slot_key].to %>
+                                            </div>
+                                            <div class="title col-md-9 col-sm-12 col-xs-12"><%= break_.title %></div>
+                                        </div>
+                                    </div>
+                                <% else: %>
+                                    <% if venue_key of slot: %>
+                                        <% _talk = @site.talks[slot[venue_key].talk_key] %>
+                                        <div class="item clearfix">
+                                            <div class="heading">
+                                                <div class="time col-md-3 col-sm-12 col-xs-12">
+                                                    <%= @site.slots[slot_key].from %> - <%= @site.slots[slot_key].to %>
+                                                </div>
+                                                <div class="e-title col-md-9 col-sm-12 col-xs-12"><strong><%= _talk.title %></strong><br/>
+                                                    <% speakers = new Array() %>
+                                                    <% for speaker_key in _talk.speakers_keys: %>
+                                                    <% speakers.push(@site.speakers[speaker_key].firstname + ' ' + @site.speakers[speaker_key].lastname) %>
+                                                    <% end %>
 
-    	<a href="doc/agenda.html">Printable agenda</a>
-	</div> <!-- tab content -->
-	</div> <!-- col-sm8 -->
-	
-	</div>
+                                                    <%- speakers.join(', ') %>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                                <div class="content venue col-md-3 col-sm-12 col-xs-12">
+                                                    <!-- not sure what to put here -->
+                                                </div>
+                                                <div class="content details col-md-9 col-sm-12 col-xs-12">
+                                                    <%- _talk.description_html %>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    <% end %>
+                                <% end %>
+                            <% end %>
+                        </div>
+                    </div><!--CONTAINER ENDS-->
+                </section>
+                <% end %>
+
+                <section id="track-all">
+                    <div class="container">
+                        <div class="accordion">
+                            <% for slot_key, slot of @site.schedule: %>
+                                <% if 'break_key' of slot: %>
+                                    <% break_ = @site.breaks[slot.break_key] %>
+                                    <div class="b-item clearfix" style="background: #fafafa">
+                                        <div class="heading">
+                                            <div class="time col-md-3 col-sm-12 col-xs-12">
+                                                <%= @site.slots[slot_key].from %> - <%= @site.slots[slot_key].to %>
+                                            </div>
+                                            <div class="title col-md-9 col-sm-12 col-xs-12"><%= break_.title %></div>
+                                        </div>
+                                    </div>
+                                <% else: %>
+                                    <% iter = 0 %>
+                                    <% for venue_key, venue of @site.venues: %>
+                                        <% if venue_key of slot: %>
+                                            <% _talk = @site.talks[slot[venue_key].talk_key] %>
+                                            <div class="item clearfix">
+                                                <div class="heading">
+                                                    <div class="time col-md-3 col-sm-12 col-xs-12" <% if iter > 0: %> style="border:none !important;"<% end %>>
+                                                        <% if iter == 0: %><%= @site.slots[slot_key].from %> - <%= @site.slots[slot_key].to %><% end %>
+                                                    </div>
+                                                    <div class="e-title col-md-9 col-sm-12 col-xs-12"><strong><%= _talk.title %></strong><br/>
+                                                        <% speakers = new Array() %>
+                                                        <% for speaker_key in _talk.speakers_keys: %>
+                                                        <% speakers.push(@site.speakers[speaker_key].firstname + ' ' + @site.speakers[speaker_key].lastname) %>
+                                                        <% end %>
+
+                                                        <%- speakers.join(', ') %>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                                    <div class="content venue col-md-3 col-sm-12 col-xs-12">
+                                                        <%= venue.title %>
+                                                    </div>
+                                                    <div class="content details col-md-9 col-sm-12 col-xs-12">
+                                                        <%- _talk.description_html %>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <% iter++ %>
+                                        <% end %>
+                                    <% end %>
+                                <% end %>
+                            <% end %>
+                        </div>
+                    </div>
+                </section>
+            </div><!-- /content -->
+        </div><!-- /tabs -->
     </div>
+</section>
+
+
+<!-- Event social links and download -->
+<section class="event-download-social-link section-padding">
+    <div class="col-lg-6 col-md-12 align-center event-download-padding">
+        <div class="d-sch text-right" target="_blank">&nbsp;</div>
+        <a class="fb " href="doc/agenda.html" target="_blank"><i class="fa fa-print"></i>print</a>
     </div>
+</section>
+<!--/SCHEDULE-->

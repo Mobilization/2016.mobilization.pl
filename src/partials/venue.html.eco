@@ -1,0 +1,49 @@
+ <!-- VENUE -->
+ <% event = @site.event %>
+ <section class="intro text-center section-padding" id="venue">
+     <div class="container">
+         <div class="col-md-8 wow animated fadeInLeft align-center" data-wow-duration="1s" data-wow-delay="0.3s">
+             <h1 class="arrow">Venue</h1>
+             <hr>
+             <p>
+                 <%= event.location.place %>,<br />
+                 <%= event.location.street %><br />
+                 <%= event.location.zip %> <%= event.location.city %>, <%= event.location.country %>
+             </p>
+             <br/>
+         </div>
+         <div class="row">
+             <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+
+             <div id='gmap_canvas' style='height:400px;width:100%'></div>
+             <div>
+                 <style>#gmap_canvas img {
+                     max-width: none !important;
+                     background: none !important
+                 }</style>
+             </div>
+             <script type='text/javascript'>function init_map() {
+                 var myOptions = {
+                     zoom: 6,
+                     center: new google.maps.LatLng(<%= event.location.lat %>, <%= event.location.lng %>),
+                     mapTypeId: google.maps.MapTypeId.ROADMAP,
+                     scrollwheel: false,
+                     draggable: !('ontouchstart' in document.documentElement)
+                 };
+                 map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+                 marker = new google.maps.Marker({
+                     map: map,
+                     position: new google.maps.LatLng(<%= event.location.lat %>, <%= event.location.lng %>)
+                 });
+                 infowindow = new google.maps.InfoWindow({content: '<strong>Mobilization VI</strong><br/><%= event.location.place %>'});
+                 google.maps.event.addListener(marker, 'click', function () {
+                     infowindow.open(map, marker);
+                 });
+                 infowindow.open(map, marker);
+             }
+             google.maps.event.addDomListener(window, 'load', init_map);
+             </script>
+         </div>
+     </div>
+ </section>
+ <!-- /VENUE -->
