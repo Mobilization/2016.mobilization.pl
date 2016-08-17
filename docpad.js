@@ -241,7 +241,7 @@ docpadConfig = {
                      "lastname": "Piñera Buendía",
                      "bio_html": "Pedro is an iOS Developer at SoundCloud. Open source lover and runner in his free time. He loves coding and contributing with his own libraries. In his spare time, Pedro is starting his own project, GitDo. Open to learning new concepts and paradigms, of late he is interested in architectures like VIPER, and reactive programming.",
                      "www": "",
-                     "twitter": "",
+                     "twitter": "https://twitter.com/pepibumur",
                      "photo_url": "/images/speakers/pedro-buendia.png"
                  },
                  //3
@@ -254,7 +254,7 @@ docpadConfig = {
                      "photo_url": "/images/speakers/konstantin-raev.png"
                  },
                  //4
-                 "speaker-pawel-gajda": {
+                 "speaker-gautier-mechling": {
                      "firstname": "Gautier",
                      "lastname": "Mechling",
                      "bio_html": "Gautier is an aspiring Software Craftsman in Paris, France. Agile thinker passionate in Android Development, he creates and maintains some FOSS tools to improve productivity. Talk to him about Kotlin, Clean Code, or Free Software and you will see his eyes light up.",
@@ -277,7 +277,7 @@ docpadConfig = {
                      "lastname": "Orgiu",
                      "bio_html": "Android developer and enthusiastic, DroidCon and community fan, I love the Android environment and pushing the limits of the platform.",
                      "www": "",
-                     "twitter": "",
+                     "twitter": "https://github.com/tiwiz",
                      "photo_url": "/images/speakers/roberto-orgiu.png"
                  },
                  //7
@@ -286,16 +286,16 @@ docpadConfig = {
                      "lastname": "Kok",
                      "bio_html": "Hi, I'm Eric. I currently work as a contractor at KBC Bank in Belgium creating the next mobile banking app. But if you know me, it is through my open-source work published under the 2312 development name. I build apps, such as RateBeer, and libraries, such as RxCupboard. I love brewing and drinking craft beer, chatting about Android and building with Legos with my son.",
                      "www": "",
-                     "twitter": "",
+                     "twitter": "https://twitter.com/erickoknl",
                      "photo_url": "/images/speakers/eric-kok.png"
                  },
                  //8
-                 "speaker-dan-cuello": {
+                 "speaker-dan-cuellar": {
                      "firstname": "Dan",
                      "lastname": "Cuellar",
                      "bio_html": "Dan Cuellar is the creator of the open source mobile automation framework Appium, and Head of Test Engineering at FOODit in London. Previously, he headed the test organisation at Shazam in London and Zoosk in San Francisco, and worked as a software engineer on Microsoft Outlook for Mac, and other products in the Microsoft Office suite. He is an advocate of open source technologies and technical software testing. He earned a Bachelor’s degree in Computer Science, with a minor in Music Technology, from the world-renowned School of Computer Science at Carnegie Mellon University in Pittsburgh.",
                      "www": "",
-                     "twitter": "",
+                     "twitter": "https://twitter.com/thedancuellar",
                      "photo_url": "/images/speakers/dan-cuellar.png"
                  },
                  //9
@@ -304,7 +304,7 @@ docpadConfig = {
                      "lastname": "Mazur",
                      "bio_html": "Roman has been working with Android for more than 6 years. You can find him delivering fixes and new features to a plenty of Android libraries and frameworks including support library, Robolectric, Madge, Spoon, Retrofit, and Helium. At Stanfy he is working on a customized Android OS for in-room tablets installed at hotels by KEYPR.",
                      "www": "",
-                     "twitter": "",
+                     "twitter": "https://twitter.com/roman_mazur",
                      "photo_url": "/images/speakers/roman-mazur.png"
                  },
                  //10
@@ -313,7 +313,7 @@ docpadConfig = {
                      "lastname": "Junginger",
                      "bio_html": "Markus Junginger is an Android enthusiast and developer since the first SDK release in 2007. His mobile software company greenrobot focuses on high quality Android apps and open source libraries, which are widely used by many popular apps. Markus has 15+ years experience with Java and did his first mobile software project in 2001. He regularly speaks and writes about Android, gives Android trainings, and develops for Android.",
                      "www": "",
-                     "twitter": "",
+                     "twitter": "https://twitter.com/greenrobot_de",
                      "photo_url": "/images/speakers/markus-junginger.png"
                  },
                 //11
