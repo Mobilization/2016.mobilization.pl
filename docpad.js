@@ -1134,8 +1134,17 @@ docpadConfig = {
                     "bio_html": "Nothing to say.",
                     "www": "",
                     "twitter": "https://twitter.com/marciniwanicki",
-                    "photo_url": "/images/speakers/jens-ravens.jpg"
-                }
+                    "photo_url": "/images/speakers/marcin-iwanicki.png"
+                },
+                //2
+                "volunteer-marek-defecinski": {
+                    "firstname": "Marek",
+                    "lastname": "Defeciński",
+                    "bio_html": "",
+                    "www": "",
+                    "twitter": "https://twitter.com/marekdef",
+                    "photo_url": "/images/speakers/marek-defecinski.png"
+                },
             },
         },
         getPreparedTitle: function () {
