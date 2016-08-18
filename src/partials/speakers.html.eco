@@ -60,21 +60,17 @@
 										<div class="sp-name"><strong><%= speaker.firstname %> <%= speaker.lastname %></strong><br/><!-- desc --></div>
 										<div class="sp-dsc">
 											<%- speaker.bio_html %>
-										</div>
-										<div class="sp-talks">
-											<% speaker_talk_keys = Array() %>
-											<% for talk_key, talk of @site.talks: %>
-											<% if speaker_key in talk.speakers_keys: %>
-											<% speaker_talk_keys.push(talk_key) %>
-											<% end %>
-											<% end %>
-											<% for talk_key in speaker_talk_keys: %>
-											<% for slot_key, slot of @site.schedule: %>
-											<% for venue_key, venue of @site.venues: %>
-											<% if venue_key of slot: %>
-											<% if talk_key == slot[venue_key].talk_key: %>
-											<!-- nothing -->
-											<% end %><% end %><% end %><% end %><% end %>
+
+												<% speaker_talk_keys = Array() %>
+												<% for talk_key, talk of @site.talks: %>
+												<% if speaker_key in talk.speakers_keys: %>
+												<% speaker_talk_keys.push(talk_key) %>
+												<span style="display: block; padding-top: 20px;">
+												Talk: <strong><%= talk.title %></strong>
+												</span>
+												<% end %>
+												<% end %>
+
 										</div>
 										<div class="sp-social">
 											<ul>
