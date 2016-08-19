@@ -114,7 +114,7 @@ docpadConfig = {
                     // {"name":"Codepot.pl","logo_url":"/images/partners/codepot-logo.png","link":"http://codepot.pl"},
                     {"name":"Zwinna Łódź","logo_url":"/images/partners/zwinna_lodz.jpg","link":"http://zwinnalodz.eu/"},
                     {"name":"Mobile Warsaw","logo_url":"/images/partners/mw-logo.png","link":"http://mobile-warsaw.pl"},
-                    // {"name":"Ionic Poland", "logo_url":"/images/partners/ionicpoland-logo.png", "link":"http://www.meetup.com/ionicpoland/"},
+                    {"name":"Meet Mobile", "logo_url":"/images/partners/meet-mobile.png", "link":"https://www.meetup.com/meet-mobile/"},
                     {
                         "name": "Droidcon Poland",
                         "logo_url": "/images/partners/droidcon.png",
