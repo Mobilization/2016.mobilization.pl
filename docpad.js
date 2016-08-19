@@ -638,30 +638,30 @@ docpadConfig = {
                 // },
             },
             talks: {
-                // "talk-clean-architecture": {
-                //     "title": "Przejrzysty i testowalny kod na Androidzie? Spróbujmy z Clean Architecture",
-                //     "description_html": "Pisanie dobrego oprogramowania na platformę Android jest trudnym zadaniem. Jednym z dużych problemów, zwłaszcza w przypadku sporych aplikacji, może być podział logiki aplikacji tak, aby nasze Activity czy Fragmenty nie były nią przeładowane oraz aplikacja była podatna na testowanie jednostkowe. Szukając pomysłu na architekturę aplikacji, która będzie dobrze się skalowała wraz z rozwojem projektu, natknąłem się na Clean Architecture zaproponowaną przez Boba C. Martina. Podczas prezentacji zobaczymy czy i jak CA sprawdza się w przypadku aplikacji mobilnych na Androida i na co pozwala jej zastosowanie. Oczywiście nie pominiemy takich kluczowych kwestii jak pogodzenie tego wszystkiego z wszechobecną na Androidzie asynchronicznością.",
-                //     "speakers_keys": [
-                //         "speaker-jens-ravens"
-                //     ],
-                //     "language": "PL"
-                // },
-                // "talk-swift-and-objective-c-interoperability": {
-                //     "title": "Swift and Objective-C interoperability",
-                //     "description_html": "Have a look at how to make Swift and Objective-C interoperability seamless. Basics of including Swift code in your new or existing Objective-C based projects and helping yourself when you want to deliver some parts of Swift-based application using Objective-C code.",
-                //     "speakers_keys": [
-                //         "speaker-jens-ravens"
-                //     ],
-                //     "language": "EN"
-                // },
-                // "talk-espressive-functional-testing-with-espresso": {
-                //     "title": "Espressive functional testing with Espresso",
-                //     "description_html": "Testing mobile apps is not easy. If you wanted to test \"Hello World\" app with a button and text label, that wouldn't be really hard. But our apps do a lot more. They are calling RESTful services, checking on user's GPS location or using Facebook or Google+ login buttons, which connect to network themselves. How do you test that? I want to show you my approach to functional testing with Espresso and a bit of dependency inversion magic. Do you have a feeling testing network error conditions is hard or cumbersome when done manually. Turns out it's even easier to automatically test it than \"the happy path\". You will see real code from production app, so remember to drink a shot of espresso before joining this session.",
-                //     "speakers_keys": [
-                //         "speaker-maciej-gorski"
-                //     ],
-                //     "language": "EN"
-                // },
+                "talk-modularizing-apps-framework-oriented-programming": {
+                    "title": "Modularizing your apps: Framework Oriented Programming",
+                    "description_html": "Have you ever tried to reuse code from your mobile apps and you haven’t been able to? Did you start using frameworks only when Apple suggested it for Watch Extensions? With more platforms coming out, there's a clear need of bundling logic that can be reused and shared in multiple platforms. Frameworks will help us with that and will benefit our application code bases in many ways. Learn how to do it, with or without dependency manager involved, recommendations and some caveats you must keep in mind. Start building your own Foundation frameworks, reusable, well designed, and with single responsibilities.",
+                    "speakers_keys": [
+                        "speaker-pedro-buendia"
+                    ],
+                    "language": "EN"
+                },
+                "talk-reactive-programming-for-ios-with-interstellar-2": {
+                    "title": "Reactive Programming for iOS with Interstellar 2",
+                    "description_html": "Have a look at how to make Swift and Objective-C interoperability seamless. Basics of including Swift code in your new or existing Objective-C based projects and helping yourself when you want to deliver some parts of Swift-based application using Objective-C code.",
+                    "speakers_keys": [
+                        "speaker-jens-ravens"
+                    ],
+                    "language": "EN"
+                },
+                "talk-taming-node-modules-at-facebook": {
+                    "title": "Taming node_modules at Facebook",
+                    "description_html": "Managing Node.js dependencies is a common problem for anyone who does JavaScript development these days. Should you check in node_modules into github or should you rely on shrinkwrap.json? The path of taming node_modules is long for Facebook Engineering, I will talk about a solution that satisfied multiple parties: source control team, engineers who manage dependencies, security team and app developers.",
+                    "speakers_keys": [
+                        "speaker-konstantin-raev"
+                    ],
+                    "language": "EN"
+                },
                 // "talk-kotlin-for-android": {
                 //     "title": "Kotlin for Android",
                 //     "description_html": "Wprowadzenie do Kotlina na Androida. Omówienie składni języka oraz jego kluczowych aspektów umożliwiających znacznie szybsze pisanie aplikacji na platformę Android. Porównanie Kotlina z alternatywnymi językami JVM. Zakończone sesją Q&A.",
