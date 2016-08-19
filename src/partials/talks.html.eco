@@ -1,0 +1,25 @@
+<!--TALKS-->
+<section class="talks text-center section-padding" id="talks">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 wow animated fadeInLeft align-center" data-wow-duration="1s" data-wow-delay="0.3s">
+                <h1 class="arrow">Talks</h1>
+                <hr>
+            </div>
+            <div class="wow animated fadeInUp" data-wow-duration="1s"
+                 data-wow-delay="0.5s">
+                <% for speaker_key, speaker of @site.speakers: %>
+                    <% for talk_key, talk of @site.talks: %>
+                    <% if speaker_key in talk.speakers_keys: %>
+                    <h2 style="margin: 1em 0 0;"><%= talk.title %></h2>
+                    <button class="md-trigger" data-modal="speaker-<%= speaker_key %>">
+                        <h2><%= speaker.firstname %> <%= speaker.lastname %></h2>
+                    </button>
+                    <% end %>
+                    <% end %>
+                <% end %>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /TALKS -->

@@ -25,6 +25,7 @@ docpadConfig = {
             visibility: {
                 "features": false,
                 "agenda": false,
+                "talks": false,
                 "speakers": true,
                 "volunteers": false
             },
@@ -641,7 +642,7 @@ docpadConfig = {
                 //     "title": "Przejrzysty i testowalny kod na Androidzie? Spróbujmy z Clean Architecture",
                 //     "description_html": "Pisanie dobrego oprogramowania na platformę Android jest trudnym zadaniem. Jednym z dużych problemów, zwłaszcza w przypadku sporych aplikacji, może być podział logiki aplikacji tak, aby nasze Activity czy Fragmenty nie były nią przeładowane oraz aplikacja była podatna na testowanie jednostkowe. Szukając pomysłu na architekturę aplikacji, która będzie dobrze się skalowała wraz z rozwojem projektu, natknąłem się na Clean Architecture zaproponowaną przez Boba C. Martina. Podczas prezentacji zobaczymy czy i jak CA sprawdza się w przypadku aplikacji mobilnych na Androida i na co pozwala jej zastosowanie. Oczywiście nie pominiemy takich kluczowych kwestii jak pogodzenie tego wszystkiego z wszechobecną na Androidzie asynchronicznością.",
                 //     "speakers_keys": [
-                //         "speaker-michal-charmas"
+                //         "speaker-jens-ravens"
                 //     ],
                 //     "language": "PL"
                 // },
@@ -649,7 +650,7 @@ docpadConfig = {
                 //     "title": "Swift and Objective-C interoperability",
                 //     "description_html": "Have a look at how to make Swift and Objective-C interoperability seamless. Basics of including Swift code in your new or existing Objective-C based projects and helping yourself when you want to deliver some parts of Swift-based application using Objective-C code.",
                 //     "speakers_keys": [
-                //         "speaker-tomasz-grynfelder"
+                //         "speaker-jens-ravens"
                 //     ],
                 //     "language": "EN"
                 // },

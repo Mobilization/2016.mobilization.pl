@@ -433,7 +433,7 @@ body{
 /** Features **/
 /*****************************/
 
-.intro {
+.intro, .talks {
 	background: #f3f5f8;
 }
 
@@ -2179,5 +2179,11 @@ ul.legals li:last-child::after {
 	width: 80px !important;
 	height: 80px !important;
 	padding: 0;
+	margin: 0;
+}
+
+.talks button h2 {
+	color: #1bce7c;
+	text-transform: uppercase;
 	margin: 0;
 }

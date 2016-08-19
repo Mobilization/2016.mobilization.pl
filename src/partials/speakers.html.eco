@@ -66,7 +66,7 @@
 												<% if speaker_key in talk.speakers_keys: %>
 												<% speaker_talk_keys.push(talk_key) %>
 												<span style="display: block; padding-top: 20px;">
-												Talk: <strong><%= talk.title %></strong>
+												<small>Talk:</small><br/><strong><%= talk.title %></strong>
 												</span>
 												<% end %>
 												<% end %>
