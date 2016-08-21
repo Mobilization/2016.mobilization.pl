@@ -27,7 +27,7 @@ docpadConfig = {
                 "agenda": false,
                 "talks": false,
                 "speakers": true,
-                "volunteers": false
+                "volunteers": true
             },
             event: {
                 title: 'Mobilization 2016',
@@ -1132,20 +1132,110 @@ docpadConfig = {
                 "volunteer-marcin-iwanicki": {
                     "firstname": "Marcin",
                     "lastname": "Iwanicki",
-                    "bio_html": "Nothing to say.",
+                    "bio_html": "Created docpad generator for mobilization webpage. Deals with iOS talks.",
                     "www": "",
                     "twitter": "https://twitter.com/marciniwanicki",
-                    "photo_url": "/images/speakers/marcin-iwanicki.png"
+                    "photo_url": "/images/team/marcin-iwanicki.png"
                 },
                 //2
                 "volunteer-marek-defecinski": {
                     "firstname": "Marek",
                     "lastname": "Defeciński",
-                    "bio_html": "",
+                    "bio_html": "Coordinates all things with Mobilization. Seeks for speakers.",
                     "www": "",
                     "twitter": "https://twitter.com/marekdef",
-                    "photo_url": "/images/speakers/marek-defecinski.png"
+                    "photo_url": "/images/team/marek-defecinski.png"
                 },
+                //3
+                "volunteer-karolina-draus": {
+                    "firstname": "Karolina",
+                    "lastname": "Draus",
+                    "bio_html": "Responsible for social media & sponsors",
+                    "www": "",
+                    "twitter": "",
+                    "photo_url": "/images/team/karolina-draus.png"
+                },
+                //4
+                "volunteer-mariusz-saramak": {
+                    "firstname": "Mariusz",
+                    "lastname": "Saramak",
+                    "bio_html": "Responsible ",
+                    "www": "",
+                    "twitter": "",
+                    "photo_url": "/images/team/mariusz-saramak.png"
+                },
+                //5
+                "volunteer-tomasz-zielinski": {
+                    "firstname": "Tomasz",
+                    "lastname": "Zieliński",
+                    "bio_html": "",
+                    "www": "",
+                    "twitter": "",
+                    "photo_url": "/images/team/tomasz-zielinski.png"
+                },
+                //6
+                "volunteer-beata-nagorniewicz": {
+                    "firstname": "Beata",
+                    "lastname": "Nagórniewicz",
+                    "bio_html": "",
+                    "www": "",
+                    "twitter": "",
+                    "photo_url": "/images/team/beata-nagorniewicz.png"
+                },
+                //7
+                "volunteer-cezary-draus": {
+                    "firstname": "Cezary",
+                    "lastname": "Draus",
+                    "bio_html": "",
+                    "www": "",
+                    "twitter": "",
+                    "photo_url": "/images/team/cezary-draus.png"
+                },
+                //8
+                "volunteer-agnieszka-saramak": {
+                    "firstname": "Agnieszka",
+                    "lastname": "Saramak",
+                    "bio_html": "",
+                    "www": "",
+                    "twitter": "",
+                    "photo_url": "/images/team/agnieszka-saramak.png"
+                },
+                //8
+                "volunteer-rafal-lenarczyk": {
+                    "firstname": "Rafał",
+                    "lastname": "Lenarczyk",
+                    "bio_html": "",
+                    "www": "",
+                    "twitter": "",
+                    "photo_url": "/images/team/rafal-lenarczyk.png"
+                },       
+                //9
+                "volunteer-anna-defecinska": {
+                    "firstname": "Anna",
+                    "lastname": "Defecińska",
+                    "bio_html": "",
+                    "www": "",
+                    "twitter": "",
+                    "photo_url": "/images/team/anna-defecinska.png"
+                },  
+                //10
+                "volunteer-andrzej-jozwiak": {
+                    "firstname": "Andrzej",
+                    "lastname": "Jóźwiak",
+                    "bio_html": "",
+                    "www": "",
+                    "twitter": "",
+                    "photo_url": "/images/team/andrzej-jozwiak.png"
+                },
+                //11
+                "volunteer-krzysztof-gutowski": {
+                    "firstname": "Krzysztof",
+                    "lastname": "Gutowski",
+                    "bio_html": "",
+                    "www": "",
+                    "twitter": "",
+                    "photo_url": "/images/team/krzysztof-gutowski.png"
+                },                                  
             },
         },
         getPreparedTitle: function () {
