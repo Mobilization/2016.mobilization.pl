@@ -41,6 +41,9 @@
                         <% if 'linkedin' of volunteer and volunteer.linkedin.length > 0: %>
                         <li><a href="<%= volunteer.linkedin %>" class="social-btn" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                         <% end %>
+                        <% if 'medium' of volunteer and volunteer.medium.length > 0: %>
+                        <li><a href="<%= volunteer.medium %>" class="social-btn" target="_blank"><i class="fa fa-medium"></i></a></li>
+                        <% end %>
                     </ul>
                 </div>
                 <button class="md-close"><i class="fa fa-times"></i></button>
