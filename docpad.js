@@ -642,135 +642,135 @@ docpadConfig = {
                 // },
             },
             talks: {
-                // "talk-clean-architecture": {
-                //     "title": "Przejrzysty i testowalny kod na Androidzie? Spróbujmy z Clean Architecture",
-                //     "description_html": "Pisanie dobrego oprogramowania na platformę Android jest trudnym zadaniem. Jednym z dużych problemów, zwłaszcza w przypadku sporych aplikacji, może być podział logiki aplikacji tak, aby nasze Activity czy Fragmenty nie były nią przeładowane oraz aplikacja była podatna na testowanie jednostkowe. Szukając pomysłu na architekturę aplikacji, która będzie dobrze się skalowała wraz z rozwojem projektu, natknąłem się na Clean Architecture zaproponowaną przez Boba C. Martina. Podczas prezentacji zobaczymy czy i jak CA sprawdza się w przypadku aplikacji mobilnych na Androida i na co pozwala jej zastosowanie. Oczywiście nie pominiemy takich kluczowych kwestii jak pogodzenie tego wszystkiego z wszechobecną na Androidzie asynchronicznością.",
-                //     "speakers_keys": [
-                //         "speaker-jens-ravens"
-                //     ],
-                //     "language": "PL"
-                // },
-                // "talk-swift-and-objective-c-interoperability": {
-                //     "title": "Swift and Objective-C interoperability",
-                //     "description_html": "Have a look at how to make Swift and Objective-C interoperability seamless. Basics of including Swift code in your new or existing Objective-C based projects and helping yourself when you want to deliver some parts of Swift-based application using Objective-C code.",
-                //     "speakers_keys": [
-                //         "speaker-jens-ravens"
-                //     ],
-                //     "language": "EN"
-                // },
-                // "talk-espressive-functional-testing-with-espresso": {
-                //     "title": "Espressive functional testing with Espresso",
-                //     "description_html": "Testing mobile apps is not easy. If you wanted to test \"Hello World\" app with a button and text label, that wouldn't be really hard. But our apps do a lot more. They are calling RESTful services, checking on user's GPS location or using Facebook or Google+ login buttons, which connect to network themselves. How do you test that? I want to show you my approach to functional testing with Espresso and a bit of dependency inversion magic. Do you have a feeling testing network error conditions is hard or cumbersome when done manually. Turns out it's even easier to automatically test it than \"the happy path\". You will see real code from production app, so remember to drink a shot of espresso before joining this session.",
-                //     "speakers_keys": [
-                //         "speaker-maciej-gorski"
-                //     ],
-                //     "language": "EN"
-                // },
-                // "talk-kotlin-for-android": {
-                //     "title": "Kotlin for Android",
-                //     "description_html": "Wprowadzenie do Kotlina na Androida. Omówienie składni języka oraz jego kluczowych aspektów umożliwiających znacznie szybsze pisanie aplikacji na platformę Android. Porównanie Kotlina z alternatywnymi językami JVM. Zakończone sesją Q&A.",
-                //     "speakers_keys": [
-                //         "speaker-pawel-gajda"
-                //     ],
-                //     "language": "PL"
-                // },
-                // "talk-reaktywne-programowanie-z-rxjava": {
-                //     "title": "Reaktywne programowanie z RxJava",
-                //     "description_html": "Programowanie reaktywne jako lekarstwo na ból głowy związany z kodem asynchronicznym. W czasie mojej prezentacji przedstawię fundamentalne idee stojące za tym paradygmatem oraz zademonstruję od podstaw jak tworzyć reaktywne rozwiązania. Wszystko to na przykładzie biblioteki RxJava na platformie Android.",
-                //     "speakers_keys": [
-                //         "speaker-piotr-krystyniak"
-                //     ],
-                //     "language": "PL"
-                // },
-                // "talk-hipster-oriented-programming": {
-                //     "title": "Hipster Oriented Programming",
-                //     "description_html": "Not sure if you should order a burrito or a monad for lunch? Get a quick overview of Object Oriented, Functional and Protocol Oriented programming in Swift 2 and learn what all that fuss is about and why you should care.",
-                //     "speakers_keys": [
-                //         "speaker-jens-ravens"
-                //     ],
-                //     "language": "EN"
-                // },
-                // "talk-behavior-driven-development": {
-                //     "title": "Behavior Driven Development",
-                //     "description_html": "Building apps is hard. But making sure that apps don't break in the process of adding new functionality is even harder. Your code is constantly changing. If you're lucky your requirements aren't changing that much, but you probably live in the world of constant change. And that change poses a certain risk. Things sometimes might go missing. Pieces of code, pieces of behavior that should be there. But are not. In this talk you'll learn how you can avoid falling into this trap by leveraging behavior driven development. You'll find out how to write tests for iOS and what technologies you can use to keep your code safe and sound. ",
-                //     "speakers_keys": [
-                //         "speaker-pawel-dudek"
-                //     ],
-                //     "language": "EN"
-                // },
-                // "talk-dagger-2-dependency-injection-w-kodzie-produkcyjnym": {
-                //     "title": "Dagger 2 - Dependency Injection w kodzie produkcyjnym",
-                //     "description_html": "Dagger 2 to pierwszy framework do Dependency Injection, który można uznać za Android friendly. Nie korzysta z refleksji, jest tak szybki jak ręcznie pisany kod, nie wymaga dodatkowej konfiguracji Proguarda. W związku z tym, że wartość Dependency Injection wzrasta wraz ze złożonością projektu, na prezentacji pokazane zostaną przykłady użycia Daggera w kodzie produkcyjnym. Zobaczymy co dają nam Scope'y, jak Dagger 2 pomaga w różnych typach testów, jak unikać wycieków pamięci oraz jak Dagger 2 pomaga w pracy zespołowej.",
-                //     "speakers_keys": [
-                //         "speaker-miroslaw-stanek"
-                //     ],
-                //     "language": "PL"
-                // },
-                // "talk-watch-out-for-the-watch": {
-                //     "title": "Watch out for the watch",
-                //     "description_html": "Apple Watch might be the most polarising, controversial and innovative product added to Apple's portfolio in the last few years. Let's take a brief look to see if it's worth it, and first and foremost how to bring our apps to people's wrists.",
-                //     "speakers_keys": [
-                //         "speaker-peter-tuszynski"
-                //     ],
-                //     "language": "EN"
-                // },
-                // "talk-app-indexing-i-deep-linking-w-aplikacjach-androidowych": {
-                //     "title": "App Indexing i Deep linking w aplikacjach Androidowych",
-                //     "description_html": "Podczas prelekcji dowiesz się w jaki sposób wzbogacić aplikację o wsparcie dla App Indexingu, pozwoli to zwiększyć zaangażowanie obecnych użytkowników oraz przyciągnąć nowych. Zobaczysz na jakie problemy można natknąć się podczas implementacji, jak można sobie z nimi poradzić, a także poznasz kilka sztuczek ułatwiających wdrożenie App Indexingu.",
-                //     "speakers_keys": [
-                //         "speaker-krzysztof-kocel"
-                //     ],
-                //
-                //     "language": "PL"
-                // },
-                // "talk-qtquick-spotyka-html": {
-                //     "title": "QtQuick spotyka HTML",
-                //     "description_html": "Celem prezentacji jest pokazanie w jaki sposób połączyć ze sobą dwa światy -- oferowany przez Qt wydajny i prosty w użyciu mechanizm QtQuick/QML oraz niezwykle popularny HTML. Zademonstrowane zostanie, jak osadzić w scenie QtQuickowej treść HTML i jak komunikować ze sobą skrypt QML i JavaScript na stronie.",
-                //     "speakers_keys": [
-                //         "speaker-witold-wysota"
-                //     ],
-                //     "language": "PL"
-                // },
-                // "talk-dobry-zwyczaj-nie-odziedziczaj": {
-                //     "title": "Dobry zwyczaj: nie odziedziczaj",
-                //     "description_html": "Swift zainspirował środowisko programistów OSX/iOS do poszukiwań w miejscach, w które się dotąd nie zapuszczali. Na przykład w rejony programowania funkcyjnego. My też się tam wybierzemy, żeby przejrzeć kilka prostych koncepcji i technik gotowych do natychmiastowego wykorzystania w aplikacjach mobilnych. W podróż zabierze nas rollercoster emocji: radość na widok znajomych problemów, przed którymi programowanie funkcyjne nas chroni, oraz smutek na widok nowych, które wprowadza.",
-                //     "speakers_keys": [
-                //         "speaker-krzysztof-siejkowski"
-                //     ],
-                //     "language": "PL"
-                // },
-                // "talk-reactive-ui-on-adroid-with-scala": {
-                //     "title": "Reactive UI on Android with Scala",
-                //     "description_html": "Reactive programming can bring many benefits to mobile application development, especially when implementing UI. User interfaces developed this way are naturally responsive and code tends to be much more concise, which leads to easier development and less bugs. Reactive Extensions is became quite popular among Android developers recently, unfortunately creating UI with this library tends to be very unnatural, partially due to Java language limitations. Using Scala and techniques borrowed from Functional Reactive Programming we can achieve much better results. This talk is not going to be about Scala itself, nor about using Scala on Android. This talk is going to show how we can use Scala to implement UI in reactive fashion, achieving better results, with less code. There will be quite a lot of Scala code, but it should be accessible for Java developers.",
-                //     "speakers_keys": [
-                //         "speaker-zbigniew-szymanski"
-                //     ],
-                //     "language": "EN"
-                // },
-                // "talk-ionic-io-services-for-hybrid-mobile-applications": {
-                //     "title": "ionic.io - services for hybrid mobile applications",
-                //     "description_html": "ionic.io - usługi dla hybrydowych aplikacji mobilnych W prezentacji przedstawię możliwości platformy ionic.io oraz ich wykorzystanie w hybrydowej aplikacji mobilnej. Podzielę się także nowościami ze świata Ionic i powiem parę słów o inicjatywie Ionic Poland. ionic.io - services for hybrid mobile applications In the presentation I will introduce service of the ionic.io platform and show how to use it in hybrid mobile applications. I'm going to share news from the ionic world and introduce Ionic Poland.",
-                //     "speakers_keys": [
-                //         "speaker-lukasz-olejarczuk"
-                //     ],
-                //     "language": "PL"
-                // },
-                // "talk-angular-js-i-cordova-tworzenie-hybrydowych-aplikacji-mobilnych": {
-                //     "title": "AngularJS i Cordova - tworzenie hybrydowych aplikacji mobilnych",
-                //     "description_html": "Prelekcja dotycząca programowania urządzeń mobilnych z wykorzystaniem AngularJS na systemy iOS, Android i Windows Phone z wykorzystaniem Cordova / Phonegap. Poruszone będą następujące tematy: wstęp do tworzenia hybrydowych aplikacji mobilnych, wykorzystanie AngularJS w budowie aplikacji webowych, zwiększanie wydajności aplikacji hybrydowych, zalecane narzędzia i biblioteki, typowe i nietypowe pułapki i sposoby ich rozwiązywania. Na koniec wystąpienia przewidziana dyskusja z uczestnikami.",
-                //     "speakers_keys": [
-                //         "speaker-krzysztof-scira"
-                //     ],
-                //     "language": "PL"
-                // },
-                // "talk-titanium-develop-native-mobile-apps-with-javascript": {
-                //     "title": "Titanium: Develop Native Mobile Apps with JavaScript",
-                //     "description_html": "Forget about the whole Mobile Web versus Native Apps debate; if you already (truly) know JavaScript then you can use those Web skills to create Native Apps! Titanium is a cross-platform proxy between JavaScript and the iOS, Android and Windows Native API's. Unlike some other solutions this allows you not only to access potentially any system API like that for Geolocation, but also use Native UI Components to build truly Native Interfaces. You wil be introduced to Titanium and see how easy it is to get started via actual code samples and live cross-platform demos. Bring your JavaScript skills and you will leave this presentation as a Native Mobile App Developer!",
-                //     "speakers_keys": [
-                //         "speaker-fokke-zandbergen"
-                //     ],
-                //     "language": "EN"
-                // },
+                "talk-modularizing-apps-framework-oriented-programming": {//1
+                    "title": "Modularizing your apps: Framework Oriented Programming",
+                    "description_html": "Have you ever tried to reuse code from your mobile apps and you haven’t been able to? Did you start using frameworks only when Apple suggested it for Watch Extensions? With more platforms coming out, there's a clear need of bundling logic that can be reused and shared in multiple platforms. Frameworks will help us with that and will benefit our application code bases in many ways. Learn how to do it, with or without dependency manager involved, recommendations and some caveats you must keep in mind. Start building your own Foundation frameworks, reusable, well designed, and with single responsibilities.",
+                    "speakers_keys": [
+                        "speaker-pedro-buendia"
+                    ],
+                    "language": "EN"
+                },
+                "talk-reactive-programming-for-ios-with-interstellar-2": {//2
+                    "title": "Reactive Programming for iOS with Interstellar 2",
+                    "description_html": "Have a look at how to make Swift and Objective-C interoperability seamless. Basics of including Swift code in your new or existing Objective-C based projects and helping yourself when you want to deliver some parts of Swift-based application using Objective-C code.",
+                    "speakers_keys": [
+                        "speaker-jens-ravens"
+                    ],
+                    "language": "EN"
+                },
+                "talk-taming-node-modules-at-facebook": {//3
+                    "title": "Taming node_modules at Facebook",
+                    "description_html": "Managing Node.js dependencies is a common problem for anyone who does JavaScript development these days. Should you check in node_modules into github or should you rely on shrinkwrap.json? The path of taming node_modules is long for Facebook Engineering, I will talk about a solution that satisfied multiple parties: source control team, engineers who manage dependencies, security team and app developers.",
+                    "speakers_keys": [
+                        "speaker-konstantin-raev"
+                    ],
+                    "language": "EN"
+                },
+                "talk-the-2016-android-developer-toolbox": {//4
+                    "title": "The 2016 Android Developer Toolbox",
+                    "description_html": "Whether your native Android app is a pet project or has millions of users, you probably need the right tools, during the development, to help you modify persisted data in real time, simulate an slow/unstable HTTP(s) connection, detect bugs as fast as possible, or create mock servers to anticipate the development of a feature. We'll make a demonstration of all the tools we use, in 2016, to write maintainable code and improve our productivity.",
+                    "speakers_keys": [
+                        "speaker-gautier-mechling"
+                    ],
+                    "language": "EN"
+                },
+                "talk-break-the-monolith-with-b-viper-modules": {//5
+                    "title": "Break the monolith with (B)VIPER Modules. Or how do I start modularising my code for a better (engineering) life.",
+                    "description_html": "In the software engineering business there is no one fits all solution but when design patterns arise in the community it is important to understand the reasons why they were originated and how to tweak them for our purposes. This talk will explore the VIPER design with top-down approach, deriving the design decisions from quality attributes of a software system including modularity, reusability, testability, single responsibility and more. You will learn the reasons why the design was initially conceived (Clean Architecture by Uncle Bob) then formalised for mobile (by Mutual Mobile) and how to revise it to fit your purposes. Eventually a modified version of the design, friendly called (B)VIPER, will be discussed as improvement for better reuse of modules among different teams.",
+                    "speakers_keys": [
+                        "speaker-nicola-zaghini"
+                    ],
+                    "language": "EN"
+                },
+                "talk-green-dao-3-and-beyond": {//6
+                    "title": "greenDAO 3 and beyond",
+                    "description_html": "greenDAO is the fastest ORM for Android. greenDAO 3 brings annotations and prepares the way for further enhancements like RX support. The author of greenDAO gives deep insights about how to best use ORM to make app development productive and fun.",
+                    "speakers_keys": [
+                        "speaker-markus-junginger"
+                    ],
+                    "language": "EN"
+                },
+                "talk-bonjour-android-it-is-zeroconf": {//7
+                    "title": "Bonjour Android, it's ZeroConf",
+                    "description_html": "ZeroConf is a protocol that helps us advertising a service or discovering the available services in our networks. This is how Chromecast works, but why don’t we go deeper? We will dive into the definition of ZeroConf and why the protocol is needed, how it works and what libraries will help us implementing it on Android.",
+                    "speakers_keys": [
+                        "speaker-roberto-orgiu"
+                    ],
+                    "language": "EN"
+                },
+                "talk-functional-on-android-lambdas-rx-and-streams-in-your-app": {//8
+                    "title": "Functional on Android: lambdas, Rx and streams in your app",
+                    "description_html": "On Android, more and more developers are attracted to the functional programming-style concept of declarative data manipulation using lambdas. Java 8 has a new steams API, but it's limited to Android N. Backports exist, but it's RxJava that's all the rage, with its elegant threading solution. How do we use lambdas, streams and Rx effectively on Android? Orientation changes and background tasks? I propose to stop worrying about the lifecycle and cache your way into a blissful user experience.",
+                    "speakers_keys": [
+                        "speaker-eric-kok"
+                    ],
+                    "language": "EN"
+                },
+                "talk-appium-automation-for-apps": {//9
+                    "title": "Appium: Automation for Apps",
+                    "description_html": "Basic introduction to automating mobile apps with Appium.",
+                    "speakers_keys": [
+                        "speaker-dan-cuellar"
+                    ],
+                    "language": "EN"
+                },
+                "talk-interacting-with-your-app-through": { //10
+                    "title": "Interacting with your app through command line",
+                    "description_html": "Android command line is a very powerful tool. During this talk, we'll briefly review what Android shell commands can be useful for development, testing, and automation. We'll concentrate on how your application can interact with the command line considering 2 approaches. The first one is based on Android framework tools and the second is the core of Facebook Stetho tool.",
+                    "speakers_keys": [
+                        "speaker-roman-mazur"
+                    ],
+                
+                    "language": "EN"
+                },
+                "talk-how-jrebel-for-android-does-performance-testing": { //11
+                    "title": "How JRebel for Android Does Performance Testing",
+                    "description_html": "As developers we often employ unit- and integration testing to catch bugs early during development. But how to detect regressions in performance? Sometimes a small slowdown can go unnoticed for weeks or months until the app becomes unbearably slow and a profiler gets attached. In this talk, we'll take an in-the-trenches look at how we set up a performance testing suite for JRebel for Android. We'll talk about challenges we faced when running the tests on our CI servers. We'll also cover how we pinpoint regressions to a single commit with the help of Elasticsearch and Kibana.",
+                    "speakers_keys": [
+                        "speaker-madis-pink"
+                    ],
+                    "language": "EN"
+                },
+                "talk-elegant-unit-testing": { //12
+                    "title": "Elegant?? Unit Testing",
+                    "description_html": "In this session we will learn the basics of Unit Testing and its importance. We will define what a Unit Test is, what type of Unit Tests there are and then talk about Test Doubles. Finally, we will focus on how to write new tests and improve existing ones by reviewing some Android Github projects. Can you sleep soundly without writing tests? Really???",
+                    "speakers_keys": [
+                        "speaker-pablo-guardiola"
+                    ],
+                    "language": "EN"
+                },
+                "talk-custom-annotation-processors-for-your-production-code": { //13
+                    "title": "Custom Annotation processors for your production code",
+                    "description_html": "The annotation processing tool (APT) was released into the JDK 5, but we did not paid enough attention to it in order to exploit its potential. Today, annotation processors are part of many well known libraries that we use everyday in our professional code. On this talk we will learn how to code our custom annotation processor and to start looking at it as a very useful tool to reduce overhead in our production code. Because many recurrent problems could get solved using annotation processors!",
+                    "speakers_keys": [
+                        "speaker-jorge-castillo"
+                    ],
+                    "language": "EN"
+                },
+                "talk-espresso-beyond-the-basics": { // 14
+                    "title": "Espresso, beyond the basics",
+                    "description_html": "More than the typical onView example Espresso offers a complete framework to interact with your UI. Once you start developing your tests you find common issues, in this talk learn tips and tricks on how to deal with the framework and avoid problems like synchronization, permissions, environment test scenarios and much more. ",
+                    "speakers_keys": [
+                        "speaker-inaki-villar"
+                    ],
+                    "language": "EN"
+                },
+                "talk-android-high-performance": { //15
+                    "title": "Android High Performance",
+                    "description_html": "Performant applications are one of the key drivers of success in the mobile world. Users may abandon an app if it runs slowly. Learning how to build applications that balance speed and performance with functionality and UX can be a challenge; however, it's now more important than ever to get that balance right. This session will show you how to wring the most from any hardware your app is installed on, so you can increase your reach and engagement. An introduction to state–of-the-art Android techniques and the importance of performance in an Android application will be introduced, and later we will slowly walk through the Android SDK tools regularly used to debug and profile Android applications, learn about some advanced topics such as building layouts, multithreading, networking, security and battery life ( one of the biggest bottleneck in applications).",
+                    "speakers_keys": [
+                        "speaker-enrique-manas"
+                    ],
+                    "language": "EN"
+                },
+                "talk-titanium-develop-native-mobile-apps-with-javascript": { //16
+                    "title": "RxJava for the rest of us",
+                    "description_html": "The Reactive Extensions for the JVM, better known as RxJava, have become a popular tool in Android development over the past years. Many new and existing libraries added support for Rx and “reactive” solutions to existing problems popped up over time. RxJava is both known for it’s power and it’s steep learning curve, so if you aren’t using RxJava already, what are you missing out on? Should you even be using RxJava? In this talk we’ll go over what RxJava is and how you can use it to solve problems in your Android apps, one step at a time. We will discuss how you can prevent shooting yourself in the foot by looking at common mistakes you may make when using RxJava and discussing tips and tricks for keeping your reactive app manageable.",
+                    "speakers_keys": [
+                        "speaker-hugo-visser"
+                    ],
+                    "language": "EN"
+                },
                 // "talk-modern-ios-app-architecture": {
                 //     "title": "Modern iOS App Architecture",
                 //     "description_html": "Programowanie aplikacji na iOS zmieniają się z roku na roku wraz z rozwojem języka Objective-C, wprowadzenia nowego języka Swift jak i niezliczonych ulepszeń bibliotek wchodzących w skład iOS SDK. Prezentacja pokaże najlepsze praktyki jakie współczesne aplikacje powinny wykorzystywać.",
@@ -972,8 +972,8 @@ docpadConfig = {
                     description_html: 'Time to give thanks to all the sponsors and the organizer\'s team.'
                 },
                 'break-afterparty': {
-                    title: 'AfterParty in Indeks Club',
-                    description_html: 'Free pizza and beer and follow up talks.<br>5min from conference venue.<br>Stefanowskiego 17 90-452 Łódź'
+                    title: 'AfterParty in All Start Klubokawiarnia',
+                    description_html: 'Free pizza and beer and follow up talks.<br>15min from conference venue.<br>Piotrkowska 217 Łódź'
                 }
             },
             venues: {
