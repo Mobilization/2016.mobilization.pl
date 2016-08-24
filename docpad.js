@@ -1181,10 +1181,10 @@ docpadConfig = {
                 "volunteer-beata-nagorniewicz": {
                     "firstname": "Beata",
                     "lastname": "Nagórniewicz",
-                    "bio_html": "",
+                    "bio_html": "Responsible for AfterParty :)",
                     "www": "",
                     "twitter": "",
-                    "photo_url": "/images/team/beata-nagorniewicz.png"
+                    "photo_url": "/images/team/beata-nagorniewicz.jpg"
                 },
                 //7
                 "volunteer-cezary-draus": {

@@ -90,7 +90,7 @@
 												<li><a href="<%= speaker.linkedin %>" class="social-btn" target="_blank"><i class="fa fa-linkedin"></i></a></li>
 												<% end %>
 												<% if 'medium' of speaker and speaker.medium.length > 0: %>
-												<li><a href="<%= speaker.medium%>" class="social-btn" target="_blank"><i class="fa fa-medium"></i></a></li>
+												<li><a href="<%= speaker.medium %>" class="social-btn" target="_blank"><i class="fa fa-medium"></i></a></li>
 												<% end %>
 											</ul>
 										</div>
