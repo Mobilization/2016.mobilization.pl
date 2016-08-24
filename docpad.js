@@ -59,7 +59,7 @@ docpadConfig = {
                     },
                     {"name":"Harman","logo_url":"/images/sponsors/harman.jpg","link":"http://services.harman.com/"},
                     {"name":"Ericpol","logo_url":"/images/sponsors/ericpol.png","link":"http://www.ericpol.pl"},
-                ],
+                    {"name":"Cybercom","logo_url":"/images/sponsors/cybercom.png","link":"http://www.cybercom.com/pl/Poland/"},                ],
                 gold: [
                     {
                         "name": "Ceri International",
@@ -76,7 +76,6 @@ docpadConfig = {
                     {"name":"Sii","logo_url":"/images/sponsors/sii.png","link":"http://sii.pl/oddzialy/lodz/"},
                     {"name":"ITKontrakt","logo_url":"/images/sponsors/itkontrakt.png","link":"https://www.itkontrakt.pl/"},
                     //          {"name":"Touk","logo_url":"/images/sponsors/touk-logo.png","link":"http://www.touk.pl/"},
-                    //          {"name":"Cybercom","logo_url":"/images/sponsors/cybercom.png","link":"http://www.cybercom.com/pl/Poland/"},
                 ],
                 copper: [
                     {"name":"Jetbrains","logo_url":"/images/sponsors/jetbrains.png","link":"http://www.jetbrains.com/"}
@@ -229,11 +228,11 @@ docpadConfig = {
                    "firstname": "Jens",
                      "lastname": "Ravens",
                      "bio_html": "Jens is an iOS, macOS and backend Developer, writing ObjC since 2006. Currently working at nerdgeschoss helping clients to create awesome apps. Organiser of the monthly swift.berlin meetup. Scaring people with functional concepts since 2014.",
-                "www": "",
+                "www": "http://jensravens.com/",
                 "twitter": "https://twitter.com/jensravens",
                 "facebook": "",
-                "github": "",
-                "linkedin": "",
+                "github": "https://github.com/JensRavens",
+                "linkedin": "https://www.linkedin.com/in/jens-ravens-31416251",
                 "photo_url": "/images/speakers/jens-ravens.jpg"
                 },
                  //2
@@ -241,7 +240,8 @@ docpadConfig = {
                      "firstname": "Pedro",
                      "lastname": "Piñera Buendía",
                      "bio_html": "Pedro is an iOS Developer at SoundCloud. Open source lover and runner in his free time. He loves coding and contributing with his own libraries. In his spare time, Pedro is starting his own project, GitDo. Open to learning new concepts and paradigms, of late he is interested in architectures like VIPER, and reactive programming.",
-                     "www": "",
+                     "www": "http://www.ppinera.es/",
+                     "github": "https://github.com/pepibumur",
                      "twitter": "https://twitter.com/pepibumur",
                      "photo_url": "/images/speakers/pedro-buendia.png"
                  },
@@ -251,7 +251,10 @@ docpadConfig = {
                      "lastname": "Raev",
                      "bio_html": "Konstantin is a Developer at Facebook who is working in React Native team. For the last few years his passions were infrastructure, Continuous Delivery, JavaScript and stable builds. Before joining Facebook he worked at a New Zealand startup <a href='www.booktrack.com'>Booktrack</a>.",
                      "wwww": "",
+                     "github": "https://github.com/bestander/",
+                     "linkedin": "https://uk.linkedin.com/in/koraev",
                      "twitter": "https://twitter.com/bestander_nz",
+                     "medium": "https://medium.com/@bestander_nz",
                      "photo_url": "/images/speakers/konstantin-raev.png"
                  },
                  //4
@@ -259,7 +262,8 @@ docpadConfig = {
                      "firstname": "Gautier",
                      "lastname": "Mechling",
                      "bio_html": "Gautier is an aspiring Software Craftsman in Paris, France. Agile thinker passionate in Android Development, he creates and maintains some FOSS tools to improve productivity. Talk to him about Kotlin, Clean Code, or Free Software and you will see his eyes light up.",
-                     "wwww": "",
+                     "wwww": "http://nilhcem.com",
+                     "github": "https://github.com/Nilhcem",
                      "twitter": "https://twitter.com/Nilhcem",
                      "photo_url": "/images/speakers/gautier-mechling.png"
                  },
