@@ -980,15 +980,15 @@ docpadConfig = {
                 "venue-diamond": {
                     "title": "Diamond"
                 },
-                "venue-seqr": {
-                    "title": "SEQR"
+                "venue-ericpol": {
+                    "title": "Ericpol"
                 },
                 "venue-mobica": {
-                    "title": "Platinum"
-                },
-                "venue-platinum": {
                     "title": "Mobica"
-                },
+                },                
+                "venue-seqr": {
+                    "title": "SEQR"
+                },                
                 "venue-tomtom": {
                     "title": "TomTom"
                 }
@@ -1145,7 +1145,7 @@ docpadConfig = {
                 "volunteer-marek-defecinski": {
                     "firstname": "Marek",
                     "lastname": "Defeciński",
-                    "bio_html": "Coordinates all things with Mobilization. Seeks for speakers.",
+                    "bio_html": "Coordinates all things with Mobilization. Seeks for speakers. The brain of Mobilization conference.",
                     "www": "",
                     "twitter": "https://twitter.com/marekdef",
                     "photo_url": "/images/team/marek-defecinski.png"
@@ -1154,7 +1154,7 @@ docpadConfig = {
                 "volunteer-karolina-draus": {
                     "firstname": "Karolina",
                     "lastname": "Draus",
-                    "bio_html": "Responsible for social media & sponsors",
+                    "bio_html": "Coordinates promotion and contact with partners. Content Manager - Facebook & Twitter. Talented copywriter.",
                     "www": "",
                     "twitter": "",
                     "photo_url": "/images/team/karolina-draus.png"
@@ -1163,7 +1163,7 @@ docpadConfig = {
                 "volunteer-mariusz-saramak": {
                     "firstname": "Mariusz",
                     "lastname": "Saramak",
-                    "bio_html": "Responsible ",
+                    "bio_html": "If Marek is the brain, he is the heart of Mobilization. Full of crazy ideas - the first one was this conference.",
                     "www": "",
                     "twitter": "",
                     "photo_url": "/images/team/mariusz-saramak.png"
