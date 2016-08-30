@@ -269,7 +269,7 @@ docpadConfig = {
                  },
                  //5
                  "speaker-nicola-zaghini": {
-                     "firstname": "Nico la",
+                     "firstname": "Nicola",
                      "lastname": "Zaghini",
                      "bio_html": "Nicola Zaghini is a software architect at Mobile Travel Technologies. He has been developing mobile apps since the first iOS SDK was released, from indie game development to major airlines and travel companies. Prior to that, he enjoyed Java development as professional and researcher in academia. He is currently in charge of mobile architecture in MTT and helps teams deliver amazing apps.",
                      "www": "",
@@ -355,67 +355,72 @@ docpadConfig = {
                     "photo_url": "/images/speakers/jorge-castillo.png"
                 },
                 // //14
-                // "speaker-zbigniew-szymanski": {
-                //     "firstname": "Zbigniew",
-                //     "lastname": "Szymański",
-                //     "bio_html": "Senior Developer / Architect at <a href=\"wire.com\">wire.com</a>, responsible for keeping Android Wire app in sync. Focusing on Android development in Scala, obsessed with idea of creating apps with simpler and more powerful abstractions",
+                // "speaker-inaki-villar": {
+                //     "firstname": "Inaki",
+                //     "lastname": "Villar",
+                //     "bio_html": "Android Developer since 5 years ago. I worked with Bank apps in Spain for three years. Later I moved to Ireland to work with apps of Airlines and GSM carriers. Actually I'm living in Thailand working for Agoda. I'm Google Developer Expert and I enjoy being involve with the android community.",
                 //     "www": "",
-                //     "twitter": "",
-                //     "photo_url": "/images/speakers/zbigniew-szymanski.png"
+                //     "github" : "https://github.com/cdsap",
+                //     "twitter": "https://twitter.com/inyaki_mwc",
+                //     "photo_url": "/images/speakers/inaki-villar.png"
                 // },
                 // //15
-                // "speaker-lukasz-olejarczuk": {
-                //     "firstname": "Łukasz",
-                //     "lastname": "Olejarczuk",
-                //     "bio_html": "Łukasz is a technology evangelist and software developer at Bank Zachodni WBK where he is creating a wide variety of state-of-the-art applications. Now he is strongly focused on mobile hybrid applications in the enterprise world.",
-                //     "www": "",
-                //     "twitter": "",
-                //     "photo_url": "/images/speakers/lukasz-olejarczuk.png"
+                // "speaker-enrique-manas": {
+                //     "firstname": "Enrique",
+                //     "lastname": "López Mañas",
+                //     "bio_html": "Enrique López-Mañas is a Google Developer Expert and independent IT consultor. He has been working with mobile technologies and learning from then since 2007.  He is an avid contributor to the Open Source community and a FLOSS (Free Libre Open Source Software) kind of guy, being among the top 10 Open Source Java Contributors in Germany. He is a part of the Google LaunchPad accelerator, where he participates in Google global initiatives to influence over hundreds of the best startups from all around the globe. He is also a Big Data and Machine Learning aficionado. On his free time he rides his bike, take pictures and travel until extenuation. He also writes literature and enjoys all kind of arts. He also likes to write about himself in third person.",
+                //     "www" : "http://www.lopez-manas.com/",
+                //     "github" : "https://github.com/kikoso",
+                //     "twitter" : "https://twitter.com/eenriquelopez",
+                //     "photo_url": "/images/speakers/enrique-manas.png"
                 // },
                 // //16
-                // "speaker-krzysztof-scira": {
-                //     "firstname": "Krzysztof",
-                //     "lastname": "Ścira",
-                //     "bio_html": "Prezes i front-end developer firmy desi9n.pl sp. z o. o. - tworzącej hybrydowe aplikacje mobilne (iOS, Android, WindowsPhone), aplikacje i strony internetowe RWD. Wielokrotny prelegent na wydarzeniach związanych z programowaniem urządzeń mobilnych i programowaniem front-end. Na co dzień pracuje w HTML5, CSS3, SASS / SCSS, AngularJS i oczywiście Cordova / Phonegap - czy to jako developer w desi9n.pl czy to trener programowania w firmie SAGES. W wolnych chwilach pasjonat boksu olimpijskiego.",
-                //     "www": "",
-                //     "twitter": "",
-                //     "photo_url": "/images/speakers/krzysztof-scira.png"
+                // "speaker-hugo-visser": {
+                //     "firstname": "Hugo",
+                //     "lastname": "Visser",
+                //     "bio_html": "Hugo is a software engineer who has worked on enterprise, desktop and mobile software products. Since the introduction of Android he has been steadily focussing on developing for Android only, resulting in his first app in 2009. Hugo has released several open source libraries and tools to help him and other developers build better software. He’s a Google Developer Expert for Android and one of the organizers of the Dutch Android User Group. With his company Little Robots, he focuses on smart use of Android in every possible way.",
+                //     "www": "http://littlerobots.nl/",
+                //     "github": "https://github.com/hvisser",
+                //     "twitter": "https://twitter.com/botteaap",
+                //     "photo_url": "/images/speakers/hugo-visser.png"
                 // },
                 // //17
-                // "speaker-michal-tuszynski": {
-                //     "firstname": "Michał",
-                //     "lastname": "Tuszyński",
-                //     "bio_html": "Programista iOS w aplikacji Tidal związany z polską sceną startupową oraz miłośnik wszelkich nowych technologii",
+                // "speaker-saul-diaz": {
+                //     "firstname": "Saúl",
+                //     "lastname": "Díaz",
+                //     "bio_html": "Saúl Díaz has been developing Android since 2010. Currently he is working on Chicisimo, and Android app selected as one of the best of 2015 on Spain, and featured on Google Play by the Google Play Team. Previously he has worked as Android Lead on Fever and Android Developer on Tuenti, two renowned companies of Spain. He is an active member of the Spanish Android Development community and regularly participates in events and conferences.",
                 //     "www": "",
-                //     "twitter": "",
-                //     "photo_url": "/images/speakers/michal-tuszynski.png"
+                //     "twitter": "https://twitter.com/sefford",
+                //     "photo_url": "/images/speakers/saul-diaz.png"
                 // },
                 // //18
-                // "speaker-marin-todorov": {
-                //     "firstname": "Marin",
-                //     "lastname": "Todorov",
-                //     "bio_html": "Marin Todorov is an independent iOS consultant and publisher. He started developing on an Apple ][ more than 20 years ago and keeps rocking till today. Meanwhile he has worked in great companies like Monster Technologies and Native Instruments, has lived in 4 different countries, and (more recently) is one the founding members of the raywenderlich.com tutorial team. Besides crafting code, Marin also enjoys bloging on www.touch-code-magazine.com, writing books www.ios-animations-by-tutorials.com, and speaking at mobile conferences. He sometimes open sources his code. He walked the way to Santiago. More info & prev. speaking experience <a href=\"http://www.underplot.com/#speaking\">here</a>",
-                //     "www": "",
+                // "speaker-francisco-estevez": {
+                //     "firstname": "Francisco",
+                //     "lastname": "Estevez",
+                //     "bio_html": "Paco Estevez is an Android developer at Hudl by day, and an opensource contributor by night. He's been an early adopter of new paradigms and techniques in Android, like reactive programming with RxJava or a functional approach to Kotlin. You can follow his thoughts on his <a href='http://www.pacoworks.com'>blog</a>, or his <a href='https://github.com/pakoito'>libraries</a>",
+                //     "www": "http://www.pacoworks.com",
                 //     "twitter": "",
-                //     "photo_url": "/images/speakers/marin-todorov.png"
+                //     "github" : "https://github.com/pakoito",
+                //     "photo_url": "/images/speakers/francisco-estevez.png"
                 // },
                 // //19
-                // "speaker-edwin-adriaansen": {
-                //     "firstname": "Edwin",
-                //     "lastname": "Adriaansen",
-                //     "bio_html": "Edwin Adriaansen has been programming since the early nineties. He worked for several IT companies and joined TomTom 7 years ago. Currently he is managing the teams responsible for the software running on the TomTom navigation devices. Furthermore he has a personal interest in new technical developments (geeky products), mechanical watches and good food.",
+                // "speaker-frederik-schweiger": {
+                //     "firstname": "Frederik",
+                //     "lastname": "Schweiger",
+                //     "bio_html": "Frederik is a young computer science student from Germany who's chief interest is creating and inventing new stuff. He currently works as an Android Developer at trivago. Besides writing code he loves jumping out of airplanes and to go skiing.",
                 //     "www": "",
                 //     "twitter": "",
-                //     "photo_url": "/images/speakers/edwin-adriaansen.png"
+                //     "photo_url": "/images/speakers/frederik-schweiger.png"
                 // },
                 // //20
-                // "speaker-daniel-rurarz": {
-                //     "firstname": "Daniel",
-                //     "lastname": "Rurarz",
-                //     "bio_html": "Scrum Master w Seamless Payments. Uczestniczył w wielu projektach informatycznych od systemów operacyjnych na kary bankomatowe po High Performance Computing. Zaczynał od programowania, prowadził projekty informatyczne, najwięcej satysfakcji daje mu jednak praca z zaangażowanymi samozorganizowanymi zespołami i usprawnianie całej organizacji w roli Scrum Mastera.",
-                //     "www": "",
-                //     "twitter": "",
-                //     "photo_url": "/images/speakers/daniel-rurarz.png"
+                // "speaker-roy-marmelstein": {
+                //     "firstname": "Roy",
+                //     "lastname": "Marmelstein",
+                //     "bio_html": "Creator of PhoneNumberKit, Interpolate and Localize.",
+                //     "www": "http://marmelroy.github.io/",
+                //     "github" : "https://github.com/marmelroy",
+                //     "twitter": "https://twitter.com/marmelroy",
+                //     "photo_url": "/images/speakers/roy-marmelstein.png"
                 // },
                 // //21
                 // "speaker-lukasz-szadkowski": {
@@ -775,38 +780,38 @@ docpadConfig = {
                     ],
                     "language": "EN"
                 },
-                // "talk-modern-ios-app-architecture": {
-                //     "title": "Modern iOS App Architecture",
-                //     "description_html": "Programowanie aplikacji na iOS zmieniają się z roku na roku wraz z rozwojem języka Objective-C, wprowadzenia nowego języka Swift jak i niezliczonych ulepszeń bibliotek wchodzących w skład iOS SDK. Prezentacja pokaże najlepsze praktyki jakie współczesne aplikacje powinny wykorzystywać.",
-                //     "speakers_keys": [
-                //         "speaker-michal-tuszynski"
-                //     ],
-                //     "language": "PL"
-                // },
-                // "talk-what-s-in-it-for-us-after-the-indiepocalipse": {
-                //     "title": "What’s in it for us after the Indiepocalipse?",
-                //     "description_html": "We’re an indie iOS studi of two. We released our first iPhone app for iOS 3.1 and we kept putting out small fun apps for the next five years. Times were good and we thought it’s always gonna be like this in the App Store. Apple isn’t into indies anymore and the App Store is a slaughterhouse. Tons of developers are in a kind of limbo - why is this happening and what to do after the Indiepocalipse is over? What is the next logical step - try harder on the App Store, pivot, change platforms? But now that the Indiepocalipse is upon us. Or is it?",
-                //     "speakers_keys": [
-                //         "speaker-marin-todorov"
-                //     ],
-                //     "language": "EN"
-                // },
-                // "talk-developing-software-for-dedicated-devices-using-agile": {
-                //     "title": "Developing Software for Dedicated Devices using Agile",
-                //     "description_html": "Agile methodologies like SCRUM, DaD and SAFe help us to effectively develop software products. But when developing software for dedicated devices for the consumer market such as navigation devices, watches and multimedia systems you need some adaptation to make it work. I’ll guide you through the world of software engineering using the principles of the SAFe framework (with some adaptations), starting from running Android on your device till having a final product in she shops. And of course some do’s – don’ts, tools that you could use and much more.",
-                //     "speakers_keys": [
-                //         "speaker-edwin-adriaansen"
-                //     ],
-                //     "language": "EN"
-                // },
-                // "talk-dont-reinvent-the-wheel-use-libraries-modern-android-stack": {
-                //     "title": "Don't reinvent the wheel, use libraries: Modern Android Stack",
-                //     "description_html": "Use of libraries gives you speed and smaller error rate than writing everything by yourself. In this talk you gonna learn about how to use modern libraries that make your developer life easier. From Timber through Picasso, ButterKnife to RoboSpice, Dagger2 and few other libs you gonna learn about modern approach to build Android apps that make your customers happy.",
-                //     "speakers_keys": [
-                //         "speaker-pawel-junak"
-                //     ],
-                //     "language": "EN"
-                // },
+                "talk-getting-down-to-business-with-firebase": { // 17
+                    "title": "Getting down to business with Firebase",
+                    "description_html": "Firebase goes beyond being just an alternative to building a serverless application. It is a complete solution to control and monitor several aspects of both your product and business. We will discuss how easy is to integrate Firebase with your current application and how it can be used to improve your experience towards your users from a technical standpoint.",
+                    "speakers_keys": [
+                        "speaker-saul-diaz"
+                    ],
+                    "language": "EN"
+                },
+                "talk-revisiting-types-in-kotlin": { // 18
+                    "title": "Revisiting types in Kotlin",
+                    "description_html": "With a domain driven approach, this talk will go through several coding examples and how they can be improved by leveraging the powerful type system in Kotlin with function objects, sealed classes, tuples, and the core collections. We'll review the way your application communicates across layers, and how you can improve your APIs with explicit types.",
+                    "speakers_keys": [
+                        "speaker-francisco-estevez"
+                    ],
+                    "language": "EN"
+                },
+                "talk-security-at-your-fingertips": { //19
+                    "title": "Security at your Fingertips - A dive into M&N's new Fingerprint and Keystore APIs.",
+                    "description_html": "Android Marshmallow (and most recently Android Nougat) have introduced a lot of fresh features and the new permission system is by far not the only new security enhancement. Most of you already use their finger to unlock the smartphone and may have heard about this new fingerprint API - but have you ever played with it? And once we’re there: Do you know about the newly introduced improvements in the Keystore API? No? Then this talk is definitely for you! Still hesitating? Just remember that security and a good user experience is something we cannot know enough about. With just a few simple steps you can learn how to increase the security of your app, making authentication easier and your users happier - all at once. And to be honest: in the end that’s all we want, right?",
+                    "speakers_keys": [
+                        "speaker-frederik-schweiger"
+                    ],
+                    "language": "EN"
+                },
+                "talk-the-objective-c-runtime-and-swift-dynamism-a-2016-perspective": { //20
+                    "title": "The Objective C runtime and Swift dynamism - a 2016 perspective",
+                    "description_html": "A new talk introducing advanced techniques with the Objective C runtime and assessing their relevance in an increasingly Swifty world. ",
+                    "speakers_keys": [
+                        "speaker-roy-marmelstein"
+                    ],
+                    "language": "EN"
+                },
                 // "talk-unit-testy-w-androidzie-z-uzyciem-biblioteki-spock": {
                 //     "title": "Unit Testy w Androidzie z użyciem biblioteki Spock",
                 //     "description_html": "Chciałbym pokazać jak w łatwy, prosty i przyjemny sposób można pisać Unit Testy na platformę Android z użyciem biblioteki Spock. Mój wykład pokazuję w jaki sposób konfigurować a potem tworzyć test w groovy-m dla Androidowego projektu.",
