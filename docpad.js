@@ -108,7 +108,7 @@ docpadConfig = {
                     // {"name":"Polish Java User Group","logo_url":"/images/partners/polish-jug.png","description_html":"Polish Java User Group is a group of Java technology developers and enthusiasts. The main goal of the group is to popularize Java and modern software development methodologies. Since the beginning in 1999, the group had great impact on the Polish Java community growth. They main activity are meetings with students, programmers and project managers as well as conferences with famous professionals."},
                     // {"name":"Mobile Central Europe 2016","logo_url":"/images/partners/mce2016.png","description_html":"We put our best effort into creating a stimulating experience for everyone involved. Help us make it one of the best mobile events in Europe! MCE is about bringing together the greatest minds in tech to exchange groundbreaking ideas. For Mobilization attendees promo-code will be offered giving 20% discount. Code will be visible during Mobilization event so you have to be on Mobilization! With this discount and early bird the ticket for MCE is really good price."},
                     {"name":"GDG Kraków","logo_url":"/images/partners/gdgkrakow.png","link":"http://www.meetup.com/GDG-Krakow/"},
-                    // {"name":"MIT Łódź","logo_url":"/images/partners/mit.png","link":"http://mitlodz.pl"},
+                    {"name":"Let Swift","logo_url":"/images/partners/letswift.png","link":"https://www.facebook.com/letswiftwroclaw/"},
                     // {"name":"Dev Day 2015","logo_url":"/images/partners/abb-dev-day.png","link":"http://devday.pl"},
                     // {"name":"Codepot.pl","logo_url":"/images/partners/codepot-logo.png","link":"http://codepot.pl"},
                     {"name":"Zwinna Łódź","logo_url":"/images/partners/zwinna_lodz.jpg","link":"http://zwinnalodz.eu/"},
@@ -984,15 +984,15 @@ docpadConfig = {
                 "venue-diamond": {
                     "title": "Diamond"
                 },
-                "venue-seqr": {
-                    "title": "SEQR"
+                "venue-ericpol": {
+                    "title": "Ericpol"
                 },
                 "venue-mobica": {
-                    "title": "Platinum"
-                },
-                "venue-platinum": {
                     "title": "Mobica"
-                },
+                },                
+                "venue-seqr": {
+                    "title": "SEQR"
+                },                
                 "venue-tomtom": {
                     "title": "TomTom"
                 }
@@ -1149,7 +1149,7 @@ docpadConfig = {
                 "volunteer-marek-defecinski": {
                     "firstname": "Marek",
                     "lastname": "Defeciński",
-                    "bio_html": "Coordinates all things with Mobilization. Seeks for speakers.",
+                    "bio_html": "Coordinates all things with Mobilization. Seeks for speakers. The brain of Mobilization conference.",
                     "www": "",
                     "twitter": "https://twitter.com/marekdef",
                     "photo_url": "/images/team/marek-defecinski.png"
@@ -1158,7 +1158,7 @@ docpadConfig = {
                 "volunteer-karolina-draus": {
                     "firstname": "Karolina",
                     "lastname": "Draus",
-                    "bio_html": "Responsible for social media & sponsors",
+                    "bio_html": "Coordinates promotion and contact with partners. Content Manager - Facebook & Twitter. Talented copywriter.",
                     "www": "",
                     "twitter": "",
                     "photo_url": "/images/team/karolina-draus.png"
@@ -1167,7 +1167,7 @@ docpadConfig = {
                 "volunteer-mariusz-saramak": {
                     "firstname": "Mariusz",
                     "lastname": "Saramak",
-                    "bio_html": "Responsible ",
+                    "bio_html": "If Marek is the brain, he is the heart of Mobilization. Full of crazy ideas - the first one was this conference.",
                     "www": "",
                     "twitter": "",
                     "photo_url": "/images/team/mariusz-saramak.png"
