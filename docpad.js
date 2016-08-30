@@ -269,7 +269,7 @@ docpadConfig = {
                  },
                  //5
                  "speaker-nicola-zaghini": {
-                     "firstname": "Nicola",
+                     "firstname": "Nico la",
                      "lastname": "Zaghini",
                      "bio_html": "Nicola Zaghini is a software architect at Mobile Travel Technologies. He has been developing mobile apps since the first iOS SDK was released, from indie game development to major airlines and travel companies. Prior to that, he enjoyed Java development as professional and researcher in academia. He is currently in charge of mobile architecture in MTT and helps teams deliver amazing apps.",
                      "www": "",
@@ -299,6 +299,8 @@ docpadConfig = {
                      "firstname": "Dan",
                      "lastname": "Cuellar",
                      "bio_html": "Dan Cuellar is the creator of the open source mobile automation framework Appium, and Head of Test Engineering at FOODit in London. Previously, he headed the test organisation at Shazam in London and Zoosk in San Francisco, and worked as a software engineer on Microsoft Outlook for Mac, and other products in the Microsoft Office suite. He is an advocate of open source technologies and technical software testing. He earned a Bachelor’s degree in Computer Science, with a minor in Music Technology, from the world-renowned School of Computer Science at Carnegie Mellon University in Pittsburgh.",
+                     "github": "https://github.com/penguinho",
+                     "linkedin": "https://uk.linkedin.com/in/dacuellar",
                      "www": "",
                      "twitter": "https://twitter.com/thedancuellar",
                      "photo_url": "/images/speakers/dan-cuellar.png"
@@ -308,7 +310,8 @@ docpadConfig = {
                      "firstname": "Roman",
                      "lastname": "Mazur",
                      "bio_html": "Roman has been working with Android for more than 6 years. You can find him delivering fixes and new features to a plenty of Android libraries and frameworks including support library, Robolectric, Madge, Spoon, Retrofit, and Helium. At Stanfy he is working on a customized Android OS for in-room tablets installed at hotels by KEYPR.",
-                     "www": "",
+                     "www": "https://www.stanfy.com/",
+                     "github":"https://github.com/roman-mazur",
                      "twitter": "https://twitter.com/roman_mazur",
                      "photo_url": "/images/speakers/roman-mazur.png"
                  },
@@ -337,6 +340,7 @@ docpadConfig = {
                     "lastname": "Guardiola",
                     "bio_html": "I'm a Software Engineer, lover of new technologies, passionate about challenges and motivated to continue learning current coding languages and methodologies. I'm a regular attendee at developers’ events and meetups. I'm a Testing-lover and I try to share my knowledge collaborating @AprendiendoTDD and @theEvnt facilitating coding dojos, katas and other stuff.",
                     "www": "http://pguardiola.com/",
+                    "github": "https://github.com/Guardiola31337",
                     "twitter": "https://twitter.com/guardiola31337",
                     "photo_url": "/images/speakers/pablo-guardiola.png"
                 },
