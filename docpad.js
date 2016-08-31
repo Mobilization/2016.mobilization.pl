@@ -354,74 +354,74 @@ docpadConfig = {
                     "github" : "https://github.com/JorgeCastilloPrz/",
                     "photo_url": "/images/speakers/jorge-castillo.png"
                 },
-                // //14
-                // "speaker-inaki-villar": {
-                //     "firstname": "Inaki",
-                //     "lastname": "Villar",
-                //     "bio_html": "Android Developer since 5 years ago. I worked with Bank apps in Spain for three years. Later I moved to Ireland to work with apps of Airlines and GSM carriers. Actually I'm living in Thailand working for Agoda. I'm Google Developer Expert and I enjoy being involve with the android community.",
-                //     "www": "",
-                //     "github" : "https://github.com/cdsap",
-                //     "twitter": "https://twitter.com/inyaki_mwc",
-                //     "photo_url": "/images/speakers/inaki-villar.png"
-                // },
-                // //15
-                // "speaker-enrique-manas": {
-                //     "firstname": "Enrique",
-                //     "lastname": "López Mañas",
-                //     "bio_html": "Enrique López-Mañas is a Google Developer Expert and independent IT consultor. He has been working with mobile technologies and learning from then since 2007.  He is an avid contributor to the Open Source community and a FLOSS (Free Libre Open Source Software) kind of guy, being among the top 10 Open Source Java Contributors in Germany. He is a part of the Google LaunchPad accelerator, where he participates in Google global initiatives to influence over hundreds of the best startups from all around the globe. He is also a Big Data and Machine Learning aficionado. On his free time he rides his bike, take pictures and travel until extenuation. He also writes literature and enjoys all kind of arts. He also likes to write about himself in third person.",
-                //     "www" : "http://www.lopez-manas.com/",
-                //     "github" : "https://github.com/kikoso",
-                //     "twitter" : "https://twitter.com/eenriquelopez",
-                //     "photo_url": "/images/speakers/enrique-manas.png"
-                // },
-                // //16
-                // "speaker-hugo-visser": {
-                //     "firstname": "Hugo",
-                //     "lastname": "Visser",
-                //     "bio_html": "Hugo is a software engineer who has worked on enterprise, desktop and mobile software products. Since the introduction of Android he has been steadily focussing on developing for Android only, resulting in his first app in 2009. Hugo has released several open source libraries and tools to help him and other developers build better software. He’s a Google Developer Expert for Android and one of the organizers of the Dutch Android User Group. With his company Little Robots, he focuses on smart use of Android in every possible way.",
-                //     "www": "http://littlerobots.nl/",
-                //     "github": "https://github.com/hvisser",
-                //     "twitter": "https://twitter.com/botteaap",
-                //     "photo_url": "/images/speakers/hugo-visser.png"
-                // },
-                // //17
-                // "speaker-saul-diaz": {
-                //     "firstname": "Saúl",
-                //     "lastname": "Díaz",
-                //     "bio_html": "Saúl Díaz has been developing Android since 2010. Currently he is working on Chicisimo, and Android app selected as one of the best of 2015 on Spain, and featured on Google Play by the Google Play Team. Previously he has worked as Android Lead on Fever and Android Developer on Tuenti, two renowned companies of Spain. He is an active member of the Spanish Android Development community and regularly participates in events and conferences.",
-                //     "www": "",
-                //     "twitter": "https://twitter.com/sefford",
-                //     "photo_url": "/images/speakers/saul-diaz.png"
-                // },
-                // //18
-                // "speaker-francisco-estevez": {
-                //     "firstname": "Francisco",
-                //     "lastname": "Estevez",
-                //     "bio_html": "Paco Estevez is an Android developer at Hudl by day, and an opensource contributor by night. He's been an early adopter of new paradigms and techniques in Android, like reactive programming with RxJava or a functional approach to Kotlin. You can follow his thoughts on his <a href='http://www.pacoworks.com'>blog</a>, or his <a href='https://github.com/pakoito'>libraries</a>",
-                //     "www": "http://www.pacoworks.com",
-                //     "twitter": "",
-                //     "github" : "https://github.com/pakoito",
-                //     "photo_url": "/images/speakers/francisco-estevez.png"
-                // },
-                // //19
-                // "speaker-frederik-schweiger": {
-                //     "firstname": "Frederik",
-                //     "lastname": "Schweiger",
-                //     "bio_html": "Frederik is a young computer science student from Germany who's chief interest is creating and inventing new stuff. He currently works as an Android Developer at trivago. Besides writing code he loves jumping out of airplanes and to go skiing.",
-                //     "www": "",
-                //     "twitter": "",
-                //     "photo_url": "/images/speakers/frederik-schweiger.png"
-                // },
-                // //20
-                // "speaker-roy-marmelstein": {
-                //     "firstname": "Roy",
-                //     "lastname": "Marmelstein",
-                //     "bio_html": "Creator of PhoneNumberKit, Interpolate and Localize.",
-                //     "www": "http://marmelroy.github.io/",
-                //     "github" : "https://github.com/marmelroy",
-                //     "twitter": "https://twitter.com/marmelroy",
-                //     "photo_url": "/images/speakers/roy-marmelstein.png"
-                // },
+                //14
+                "speaker-inaki-villar": {
+                    "firstname": "Inaki",
+                    "lastname": "Villar",
+                    "bio_html": "Android Developer since 5 years ago. I worked with Bank apps in Spain for three years. Later I moved to Ireland to work with apps of Airlines and GSM carriers. Actually I'm living in Thailand working for Agoda. I'm Google Developer Expert and I enjoy being involve with the android community.",
+                    "www": "",
+                    "github" : "https://github.com/cdsap",
+                    "twitter": "https://twitter.com/inyaki_mwc",
+                    "photo_url": "/images/speakers/inaki-villar.png"
+                },
+                //15
+                "speaker-enrique-manas": {
+                    "firstname": "Enrique",
+                    "lastname": "López Mañas",
+                    "bio_html": "Enrique López-Mañas is a Google Developer Expert and independent IT consultor. He has been working with mobile technologies and learning from then since 2007.  He is an avid contributor to the Open Source community and a FLOSS (Free Libre Open Source Software) kind of guy, being among the top 10 Open Source Java Contributors in Germany. He is a part of the Google LaunchPad accelerator, where he participates in Google global initiatives to influence over hundreds of the best startups from all around the globe. He is also a Big Data and Machine Learning aficionado. On his free time he rides his bike, take pictures and travel until extenuation. He also writes literature and enjoys all kind of arts. He also likes to write about himself in third person.",
+                    "www" : "http://www.lopez-manas.com/",
+                    "github" : "https://github.com/kikoso",
+                    "twitter" : "https://twitter.com/eenriquelopez",
+                    "photo_url": "/images/speakers/enrique-manas.png"
+                },
+                //16
+                "speaker-hugo-visser": {
+                    "firstname": "Hugo",
+                    "lastname": "Visser",
+                    "bio_html": "Hugo is a software engineer who has worked on enterprise, desktop and mobile software products. Since the introduction of Android he has been steadily focussing on developing for Android only, resulting in his first app in 2009. Hugo has released several open source libraries and tools to help him and other developers build better software. He’s a Google Developer Expert for Android and one of the organizers of the Dutch Android User Group. With his company Little Robots, he focuses on smart use of Android in every possible way.",
+                    "www": "http://littlerobots.nl/",
+                    "github": "https://github.com/hvisser",
+                    "twitter": "https://twitter.com/botteaap",
+                    "photo_url": "/images/speakers/hugo-visser.png"
+                },
+                //17
+                "speaker-saul-diaz": {
+                    "firstname": "Saúl",
+                    "lastname": "Díaz",
+                    "bio_html": "Saúl Díaz has been developing Android since 2010. Currently he is working on Chicisimo, and Android app selected as one of the best of 2015 on Spain, and featured on Google Play by the Google Play Team. Previously he has worked as Android Lead on Fever and Android Developer on Tuenti, two renowned companies of Spain. He is an active member of the Spanish Android Development community and regularly participates in events and conferences.",
+                    "www": "",
+                    "twitter": "https://twitter.com/sefford",
+                    "photo_url": "/images/speakers/saul-diaz.png"
+                },
+                //18
+                "speaker-francisco-estevez": {
+                    "firstname": "Francisco",
+                    "lastname": "Estevez",
+                    "bio_html": "Paco Estevez is an Android developer at Hudl by day, and an opensource contributor by night. He's been an early adopter of new paradigms and techniques in Android, like reactive programming with RxJava or a functional approach to Kotlin. You can follow his thoughts on his <a href='http://www.pacoworks.com'>blog</a>, or his <a href='https://github.com/pakoito'>libraries</a>",
+                    "www": "http://www.pacoworks.com",
+                    "twitter": "",
+                    "github" : "https://github.com/pakoito",
+                    "photo_url": "/images/speakers/francisco-estevez.png"
+                },
+                //19
+                "speaker-frederik-schweiger": {
+                    "firstname": "Frederik",
+                    "lastname": "Schweiger",
+                    "bio_html": "Frederik is a young computer science student from Germany who's chief interest is creating and inventing new stuff. He currently works as an Android Developer at trivago. Besides writing code he loves jumping out of airplanes and to go skiing.",
+                    "www": "",
+                    "twitter": "",
+                    "photo_url": "/images/speakers/frederik-schweiger.png"
+                },
+                //20
+                "speaker-roy-marmelstein": {
+                    "firstname": "Roy",
+                    "lastname": "Marmelstein",
+                    "bio_html": "Creator of PhoneNumberKit, Interpolate and Localize.",
+                    "www": "http://marmelroy.github.io/",
+                    "github" : "https://github.com/marmelroy",
+                    "twitter": "https://twitter.com/marmelroy",
+                    "photo_url": "/images/speakers/roy-marmelstein.png"
+                },
                 // //21
                 // "speaker-lukasz-szadkowski": {
                 //     "firstname": "Łukasz",
