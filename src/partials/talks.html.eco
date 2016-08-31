@@ -11,7 +11,8 @@
                 <% for speaker_key, speaker of @site.speakers: %>
                     <% for talk_key, talk of @site.talks: %>
                     <% if speaker_key in talk.speakers_keys: %>
-                    <h2 style="margin: 1em 0 0;"><%= talk.title %></h2>
+                    <h2 style="margin: 2em 0 0;font-size: 2em"><%= talk.title %></h2>
+                    <div><%= talk.description_html %></div>
                     <button class="md-trigger" data-modal="speaker-<%= speaker_key %>">
                         <h2><%= speaker.firstname %> <%= speaker.lastname %></h2>
                     </button>
