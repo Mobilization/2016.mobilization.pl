@@ -70,7 +70,7 @@ docpadConfig = {
                     {"name":"Oberthur Technologies R&D Poland","logo_url":"/images/sponsors/oberthur.png","link":"http://www.oberthur.com/"},
                     // {"name":"GFT","logo_url":"/images/sponsors/gft.jpg","link":"http://gft.com/"},
                     {"name":"Pracuj.pl","logo_url":"/images/sponsors/pracujpl.png","link":"http://www.pracuj.pl/"},
-                    // {"name":"Accenture","logo_url":"/images/sponsors/accenture.png","link":"http://www.accenture.com/pl-pl/Pages/index.aspx"},
+                    {"name":"SMT Software","logo_url":"/images/sponsors/smt-blstream-kupferwerk.png","link":"http://smtsoftware.com/pl/"},
                 ],
                 silver: [
                     {"name":"Sii","logo_url":"/images/sponsors/sii.png","link":"http://sii.pl/oddzialy/lodz/"},
