@@ -1148,7 +1148,7 @@ docpadConfig = {
                     "bio_html": "Created docpad generator for mobilization webpage. Deals with iOS talks.",
                     "www": "",
                     "twitter": "https://twitter.com/marciniwanicki",
-                    "photo_url": "/images/team/marcin-iwanicki.png"
+                    "photo_url": "/images/team/marcin-iwanicki.jpeg"
                 },
                 //2
                 "volunteer-marek-defecinski": {
@@ -1157,7 +1157,7 @@ docpadConfig = {
                     "bio_html": "Coordinates all things with Mobilization. Seeks for speakers. The brain of Mobilization conference.",
                     "www": "",
                     "twitter": "https://twitter.com/marekdef",
-                    "photo_url": "/images/team/marek-defecinski.png"
+                    "photo_url": "/images/team/marek-defecinski.jpeg"
                 },
                 //3
                 "volunteer-karolina-draus": {
@@ -1166,7 +1166,7 @@ docpadConfig = {
                     "bio_html": "Coordinates promotion and contact with partners. Content Manager - Facebook & Twitter. Talented copywriter.",
                     "www": "",
                     "twitter": "",
-                    "photo_url": "/images/team/karolina-draus.png"
+                    "photo_url": "/images/team/karolina-draus.jpeg"
                 },
                 //4
                 "volunteer-mariusz-saramak": {
@@ -1175,7 +1175,7 @@ docpadConfig = {
                     "bio_html": "If Marek is the brain, he is the heart of Mobilization. Full of crazy ideas - the first one was this conference.",
                     "www": "",
                     "twitter": "",
-                    "photo_url": "/images/team/mariusz-saramak.png"
+                    "photo_url": "/images/team/mariusz-saramak.jpeg"
                 },
                 //5
                 "volunteer-tomasz-zielinski": {
@@ -1184,7 +1184,7 @@ docpadConfig = {
                     "bio_html": "",
                     "www": "",
                     "twitter": "",
-                    "photo_url": "/images/team/tomasz-zielinski.png"
+                    "photo_url": "/images/team/tomasz-zielinski.jpeg"
                 },
                 //6
                 "volunteer-beata-nagorniewicz": {
@@ -1193,7 +1193,7 @@ docpadConfig = {
                     "bio_html": "Responsible for AfterParty :)",
                     "www": "",
                     "twitter": "",
-                    "photo_url": "/images/team/beata-nagorniewicz.jpg"
+                    "photo_url": "/images/team/beata-nagorniewicz.jpeg"
                 },
                 //7
                 "volunteer-cezary-draus": {
@@ -1202,7 +1202,7 @@ docpadConfig = {
                     "bio_html": "",
                     "www": "",
                     "twitter": "",
-                    "photo_url": "/images/team/cezary-draus.png"
+                    "photo_url": "/images/team/cezary-draus.jpeg"
                 },
                 //8
                 "volunteer-agnieszka-saramak": {
@@ -1211,7 +1211,7 @@ docpadConfig = {
                     "bio_html": "",
                     "www": "",
                     "twitter": "",
-                    "photo_url": "/images/team/agnieszka-saramak.png"
+                    "photo_url": "/images/team/agnieszka-saramak.jpeg"
                 },
                 //8
                 "volunteer-rafal-lenarczyk": {
@@ -1220,7 +1220,7 @@ docpadConfig = {
                     "bio_html": "",
                     "www": "",
                     "twitter": "",
-                    "photo_url": "/images/team/rafal-lenarczyk.png"
+                    "photo_url": "/images/team/rafal-lenarczyk.jpeg"
                 },       
                 //9
                 "volunteer-anna-defecinska": {
@@ -1229,7 +1229,7 @@ docpadConfig = {
                     "bio_html": "",
                     "www": "",
                     "twitter": "",
-                    "photo_url": "/images/team/anna-defecinska.png"
+                    "photo_url": "/images/team/anna-defecinska.jpeg"
                 },  
                 //10
                 "volunteer-andrzej-jozwiak": {
@@ -1238,7 +1238,7 @@ docpadConfig = {
                     "bio_html": "",
                     "www": "",
                     "twitter": "",
-                    "photo_url": "/images/team/andrzej-jozwiak.png"
+                    "photo_url": "/images/team/andrzej-jozwiak.jpeg"
                 },
                 //11
                 "volunteer-krzysztof-gutowski": {
@@ -1247,7 +1247,7 @@ docpadConfig = {
                     "bio_html": "",
                     "www": "",
                     "twitter": "",
-                    "photo_url": "/images/team/krzysztof-gutowski.png"
+                    "photo_url": "/images/team/krzysztof-gutowski.jpeg"
                 },                                  
             },
         },
