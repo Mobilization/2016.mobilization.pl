@@ -57,8 +57,8 @@ docpadConfig = {
                         "logo_url": "/images/sponsors/mobica.png",
                         "description_html": "<p>Mobica provides high-end software development and integration services for consumer electronics manufacturers, operators, application vendors and platform providers. We work on all mainstream mobile platforms and operating systems and can work on virtually any component of a device: from embedded systems and device drivers, core multimedia components and middleware, through to innovative applications/UI design and connectivity solutions.</p><p>We have grown a world-class team of architects, project managers and software engineers based in our UK and Poland development centres, enabling us to provide consultancy services across the software and product lifecycle from initial concept definition and design, through to implementation and testing.</p><p>Mobica adds value to our customers through a combination of flexible consultancy services, the highest levels of technical expertise, and the creation of innovative, technically optimised software component design.</p><p>Mobica are listed in The Sunday Times Tech Track 100 as the 4th fastest growing private technology company in the UK in 2009. See: <a href='http://www.fasttrack.co.uk/fasttrack2002/bin/techreport.pdf'>http://www.fasttrack.co.uk/fasttrack2002/bin/techreport.pdf</a></p><p>Mobica is hiring and looking for talented engineers! Check our current job offers at <a href='http://www.mobica.com/careers'>http://www.mobica.com/careers</a></p><p>&nbsp;</p>"
                     },
-                    {"name":"Harman","logo_url":"/images/sponsors/harman.jpg","link":"http://services.harman.com/"},
-                    {"name":"Ericpol","logo_url":"/images/sponsors/ericpol.png","link":"http://www.ericpol.pl"},
+                    {"name":"Harman","logo_url":"/images/sponsors/harman.jpeg","link":"http://services.harman.com/"},
+                    {"name":"Ericpol","logo_url":"/images/sponsors/ericpol.jpeg","link":"http://www.ericpol.pl"},
                     {"name":"Cybercom","logo_url":"/images/sponsors/cybercom.png","link":"http://www.cybercom.com/pl/Poland/"},                ],
                 gold: [
                     {
@@ -85,7 +85,7 @@ docpadConfig = {
                 organizers: [
                     {
                         name: 'Java User Group Łódź',
-                        logo_url: partnersImgBaseUrl + 'juglodz.png',
+                        logo_url: partnersImgBaseUrl + 'juglodz.jpeg',
                         description_html: 'Łódź JUG is an association of Java developers, architects and enthusiasts of Java technology from Łódź, the city in the centre of Poland. The aim of the association is to promote exchange of knowledge and competence growth among Java professionals in the Łódźarea. The main activity towards this goal is organisation of IT-related seminars and meetings that usually involve a presentation about chosen topic and then follow-up discussion. LJUG cooperates with other JUGs in Poland, like Polish JUG and Warsaw JUG. We encourage everyone interested in Java technologies to join and start participating in our expertise-sharing activities! Java User Group Łódź is main organizer of Mobilization event since 2011'
                     }
                 ],
@@ -107,11 +107,11 @@ docpadConfig = {
                     },
                     // {"name":"Polish Java User Group","logo_url":"/images/partners/polish-jug.png","description_html":"Polish Java User Group is a group of Java technology developers and enthusiasts. The main goal of the group is to popularize Java and modern software development methodologies. Since the beginning in 1999, the group had great impact on the Polish Java community growth. They main activity are meetings with students, programmers and project managers as well as conferences with famous professionals."},
                     // {"name":"Mobile Central Europe 2016","logo_url":"/images/partners/mce2016.png","description_html":"We put our best effort into creating a stimulating experience for everyone involved. Help us make it one of the best mobile events in Europe! MCE is about bringing together the greatest minds in tech to exchange groundbreaking ideas. For Mobilization attendees promo-code will be offered giving 20% discount. Code will be visible during Mobilization event so you have to be on Mobilization! With this discount and early bird the ticket for MCE is really good price."},
-                    {"name":"GDG Kraków","logo_url":"/images/partners/gdgkrakow.png","link":"http://www.meetup.com/GDG-Krakow/"},
+                    {"name":"GDG Kraków","logo_url":"/images/partners/gdgkrakow.jpeg","link":"http://www.meetup.com/GDG-Krakow/"},
                     {"name":"Let Swift","logo_url":"/images/partners/letswift.png","link":"https://www.facebook.com/letswiftwroclaw/"},
                     // {"name":"Dev Day 2015","logo_url":"/images/partners/abb-dev-day.png","link":"http://devday.pl"},
                     // {"name":"Codepot.pl","logo_url":"/images/partners/codepot-logo.png","link":"http://codepot.pl"},
-                    {"name":"Zwinna Łódź","logo_url":"/images/partners/zwinna_lodz.jpg","link":"http://zwinnalodz.eu/"},
+                    {"name":"Zwinna Łódź","logo_url":"/images/partners/zwinna_lodz.jpeg","link":"http://zwinnalodz.eu/"},
                     {"name":"Mobile Warsaw","logo_url":"/images/partners/mw-logo.png","link":"http://mobile-warsaw.pl"},
                     {"name":"Meet Mobile", "logo_url":"/images/partners/meet-mobile.png", "link":"https://www.meetup.com/meet-mobile/"},
                     {
