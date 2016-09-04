@@ -1,5 +1,5 @@
-var docpadConfig,
-    indexOf = [].indexOf || function (item) {
+var docpadConfig;
+var indexOf = [].indexOf || function (item) {
             for (var i = 0, l = this.length; i < l; i++) {
                 if (i in this && this[i] === item) return i;
             }
@@ -68,14 +68,12 @@ docpadConfig = {
                     },
                     {"name":"Appyourself","logo_url":"/images/sponsors/appyourself.png","link":"http://www.appyourself.net/"},
                     {"name":"Oberthur Technologies R&D Poland","logo_url":"/images/sponsors/oberthur.png","link":"http://www.oberthur.com/"},
-                    // {"name":"GFT","logo_url":"/images/sponsors/gft.jpg","link":"http://gft.com/"},
                     {"name":"Pracuj.pl","logo_url":"/images/sponsors/pracujpl.png","link":"http://www.pracuj.pl/"},
                     {"name":"SMT Software","logo_url":"/images/sponsors/smt-blstream-kupferwerk.png","link":"http://smtsoftware.com/pl/"},
                 ],
                 silver: [
                     {"name":"Sii","logo_url":"/images/sponsors/sii.png","link":"http://sii.pl/oddzialy/lodz/"},
                     {"name":"ITKontrakt","logo_url":"/images/sponsors/itkontrakt.png","link":"https://www.itkontrakt.pl/"},
-                    //          {"name":"Touk","logo_url":"/images/sponsors/touk-logo.png","link":"http://www.touk.pl/"},
                 ],
                 copper: [
                     {"name":"Jetbrains","logo_url":"/images/sponsors/jetbrains.png","link":"http://www.jetbrains.com/"}
@@ -243,7 +241,7 @@ docpadConfig = {
                      "www": "http://www.ppinera.es/",
                      "github": "https://github.com/pepibumur",
                      "twitter": "https://twitter.com/pepibumur",
-                     "photo_url": "/images/speakers/pedro-buendia.png"
+                     "photo_url": "/images/speakers/pedro-buendia.jpeg"
                  },
                  //3
                  "speaker-konstantin-raev": {
@@ -255,7 +253,7 @@ docpadConfig = {
                      "linkedin": "https://uk.linkedin.com/in/koraev",
                      "twitter": "https://twitter.com/bestander_nz",
                      "medium": "https://medium.com/@bestander_nz",
-                     "photo_url": "/images/speakers/konstantin-raev.png"
+                     "photo_url": "/images/speakers/konstantin-raev.jpeg"
                  },
                  //4
                  "speaker-gautier-mechling": {
@@ -265,7 +263,7 @@ docpadConfig = {
                      "wwww": "http://nilhcem.com",
                      "github": "https://github.com/Nilhcem",
                      "twitter": "https://twitter.com/Nilhcem",
-                     "photo_url": "/images/speakers/gautier-mechling.png"
+                     "photo_url": "/images/speakers/gautier-mechling.jpeg"
                  },
                  //5
                  "speaker-nicola-zaghini": {
@@ -274,7 +272,7 @@ docpadConfig = {
                      "bio_html": "Nicola Zaghini is a software architect at Mobile Travel Technologies. He has been developing mobile apps since the first iOS SDK was released, from indie game development to major airlines and travel companies. Prior to that, he enjoyed Java development as professional and researcher in academia. He is currently in charge of mobile architecture in MTT and helps teams deliver amazing apps.",
                      "www": "",
                      "twitter": "https://twitter.com/nzaghini",
-                     "photo_url": "/images/speakers/nicola-zaghini.png"
+                     "photo_url": "/images/speakers/nicola-zaghini.jpeg"
                  },
                  //6
                  "speaker-roberto-orgiu": {
@@ -283,7 +281,7 @@ docpadConfig = {
                      "bio_html": "Android developer and enthusiastic, DroidCon and community fan, I love the Android environment and pushing the limits of the platform.",
                      "www": "",
                      "twitter": "https://github.com/tiwiz",
-                     "photo_url": "/images/speakers/roberto-orgiu.png"
+                     "photo_url": "/images/speakers/roberto-orgiu.jpeg"
                  },
                  //7
                  "speaker-eric-kok": {
@@ -292,7 +290,7 @@ docpadConfig = {
                      "bio_html": "Hi, I'm Eric. I currently work as a contractor at KBC Bank in Belgium creating the next mobile banking app. But if you know me, it is through my open-source work published under the 2312 development name. I build apps, such as RateBeer, and libraries, such as RxCupboard. I love brewing and drinking craft beer, chatting about Android and building with Legos with my son.",
                      "www": "",
                      "twitter": "https://twitter.com/erickoknl",
-                     "photo_url": "/images/speakers/eric-kok.png"
+                     "photo_url": "/images/speakers/eric-kok.jpeg"
                  },
                  //8
                  "speaker-dan-cuellar": {
@@ -303,7 +301,7 @@ docpadConfig = {
                      "linkedin": "https://uk.linkedin.com/in/dacuellar",
                      "www": "",
                      "twitter": "https://twitter.com/thedancuellar",
-                     "photo_url": "/images/speakers/dan-cuellar.png"
+                     "photo_url": "/images/speakers/dan-cuellar.jpeg"
                  },
                  //9
                  "speaker-roman-mazur": {
@@ -313,7 +311,7 @@ docpadConfig = {
                      "www": "https://www.stanfy.com/",
                      "github":"https://github.com/roman-mazur",
                      "twitter": "https://twitter.com/roman_mazur",
-                     "photo_url": "/images/speakers/roman-mazur.png"
+                     "photo_url": "/images/speakers/roman-mazur.jpeg"
                  },
                  //10
                  "speaker-markus-junginger": {
@@ -322,7 +320,7 @@ docpadConfig = {
                      "bio_html": "Markus Junginger is an Android enthusiast and developer since the first SDK release in 2007. His mobile software company greenrobot focuses on high quality Android apps and open source libraries, which are widely used by many popular apps. Markus has 15+ years experience with Java and did his first mobile software project in 2001. He regularly speaks and writes about Android, gives Android trainings, and develops for Android.",
                      "www": "",
                      "twitter": "https://twitter.com/greenrobot_de",
-                     "photo_url": "/images/speakers/markus-junginger.png"
+                     "photo_url": "/images/speakers/markus-junginger.jpeg"
                  },
                 //11
                 "speaker-madis-pink": {
@@ -332,7 +330,7 @@ docpadConfig = {
                     "www": "",
                     "github":"https://github.com/madisp",
                     "twitter": "https://twitter.com/madisp",
-                    "photo_url": "/images/speakers/madis-pink.png"
+                    "photo_url": "/images/speakers/madis-pink.jpeg"
                 },
                 //12
                 "speaker-pablo-guardiola": {
@@ -342,7 +340,7 @@ docpadConfig = {
                     "www": "http://pguardiola.com/",
                     "github": "https://github.com/Guardiola31337",
                     "twitter": "https://twitter.com/guardiola31337",
-                    "photo_url": "/images/speakers/pablo-guardiola.png"
+                    "photo_url": "/images/speakers/pablo-guardiola.jpeg"
                 },
                 //13
                 "speaker-jorge-castillo": {
@@ -362,7 +360,7 @@ docpadConfig = {
                     "www": "",
                     "github" : "https://github.com/cdsap",
                     "twitter": "https://twitter.com/inyaki_mwc",
-                    "photo_url": "/images/speakers/inaki-villar.png"
+                    "photo_url": "/images/speakers/inaki-villar.jpeg"
                 },
                 //15
                 "speaker-enrique-manas": {
@@ -372,7 +370,7 @@ docpadConfig = {
                     "www" : "http://www.lopez-manas.com/",
                     "github" : "https://github.com/kikoso",
                     "twitter" : "https://twitter.com/eenriquelopez",
-                    "photo_url": "/images/speakers/enrique-manas.png"
+                    "photo_url": "/images/speakers/enrique-manas.jpeg"
                 },
                 //16
                 "speaker-hugo-visser": {
@@ -382,7 +380,7 @@ docpadConfig = {
                     "www": "http://littlerobots.nl/",
                     "github": "https://github.com/hvisser",
                     "twitter": "https://twitter.com/botteaap",
-                    "photo_url": "/images/speakers/hugo-visser.png"
+                    "photo_url": "/images/speakers/hugo-visser.jpeg"
                 },
                 //17
                 "speaker-saul-diaz": {
@@ -391,7 +389,7 @@ docpadConfig = {
                     "bio_html": "Saúl Díaz has been developing Android since 2010. Currently he is working on Chicisimo, and Android app selected as one of the best of 2015 on Spain, and featured on Google Play by the Google Play Team. Previously he has worked as Android Lead on Fever and Android Developer on Tuenti, two renowned companies of Spain. He is an active member of the Spanish Android Development community and regularly participates in events and conferences.",
                     "www": "",
                     "twitter": "https://twitter.com/sefford",
-                    "photo_url": "/images/speakers/saul-diaz.png"
+                    "photo_url": "/images/speakers/saul-diaz.jpeg"
                 },
                 //18
                 "speaker-francisco-estevez": {
@@ -401,7 +399,7 @@ docpadConfig = {
                     "www": "http://www.pacoworks.com",
                     "twitter": "",
                     "github" : "https://github.com/pakoito",
-                    "photo_url": "/images/speakers/francisco-estevez.png"
+                    "photo_url": "/images/speakers/francisco-estevez.jpeg"
                 },
                 //19
                 "speaker-frederik-schweiger": {
@@ -410,7 +408,7 @@ docpadConfig = {
                     "bio_html": "Frederik is a young computer science student from Germany who's chief interest is creating and inventing new stuff. He currently works as an Android Developer at trivago. Besides writing code he loves jumping out of airplanes and to go skiing.",
                     "www": "",
                     "twitter": "",
-                    "photo_url": "/images/speakers/frederik-schweiger.png"
+                    "photo_url": "/images/speakers/frederik-schweiger.jpeg"
                 },
                 //20
                 "speaker-roy-marmelstein": {
@@ -420,235 +418,8 @@ docpadConfig = {
                     "www": "http://marmelroy.github.io/",
                     "github" : "https://github.com/marmelroy",
                     "twitter": "https://twitter.com/marmelroy",
-                    "photo_url": "/images/speakers/roy-marmelstein.png"
-                },
-                // //21
-                // "speaker-lukasz-szadkowski": {
-                //     "firstname": "Łukasz",
-                //     "lastname": "Szadkowski",
-                //     "bio_html": "UX Designer w Seamless Payments, autor bloga UserExpired.com. Wierzy w rolę UX we wspieraniu biznesu. Wie, że ta dziedzina to dużo więcej niż diagramy, mapy, czy makiety. To tylko środki wspierające kreowanie wizji, gdzie główną rolę gra Klient i jego potrzeby. Myśli o UX w kontekście zachowań konsumenckich, możliwości technologicznych, trendów rynkowych, ale przede wszystkim spełniania oczekiwań użytkowników.",
-                //     "www": "",
-                //     "twitter": "",
-                //     "photo_url": "/images/speakers/lukasz-szadkowski.png"
-                // },
-                // //22
-                // "speaker-lena-rodziewicz": {
-                //     "firstname": "Lena",
-                //     "lastname": "Rodziewicz",
-                //     "bio_html": "Wielka orędowniczka WebComponents oraz pierwsza osoba do testowania  wszelkich nowości technologicznych. Nieszczęśliwie zakochana w Internet of Things. Stara się, z różnym skutkiem, chociaż trochę ulepszyć świat z użyciem techniki. W branży od 10 lat oraz wiele nieprzespanych nocy. Od ponad 4 lat kieruje zespołami programistów pod flagą Mobica Limited. Odpowiedzialna za dostarczanie ekspertyzy technicznej w zakresie JavaScript jako wsparcie dla biura CTO. Ma kota o imieniu Java. Na Mobilization po raz trzeci.",
-                //     "www": "",
-                //     "twitter": "",
-                //     "photo_url": "/images/speakers/lena-rodziewicz.png"
-                // },
-                // //23
-                // "speaker-maciej-chwiloc": {
-                //     "firstname": "Maciej",
-                //     "lastname": "Chwiłoc",
-                //     "bio_html": "Dyrektor Rozwoju Produktu Grupy Pracuj S.A. pracujący na co dzień z ponad 80 osobowym zespołem developerów – pasjonatów. W wolnych chwilach budowy dronów i lotów FPV.",
-                //     "www": "",
-                //     "twitter": "",
-                //     "photo_url": "/images/speakers/maciej-chwiloc.png"
-                // },
-                // //24
-                // "speaker-cezary-kapicki": {
-                //     "firstname": "Cezary",
-                //     "lastname": "Kąpicki",
-                //     "bio_html": "Starszy programista w Grupie Pracuj S.A.. Zawodowo zajmuje się programowaniem aplikacji webowych w C# i PHP.  Wolny czas spędza na wielogodzinnych spacerach i poznawaniu nowych miejsc.",
-                //     "www": "",
-                //     "twitter": "",
-                //     "photo_url": "/images/speakers/cezary-kapicki.png"
-                // },
-                // //25
-                // "speaker-jacek-rondio": {
-                //     "firstname": "Jacek",
-                //     "lastname": "Rondio",
-                //     "bio_html": "Senior Software Engineer w firmie HARMAN Connected Services zajmujący się głównie rozwijaniem aplikacji na platformę Android, nie bojący się jednak siegać do głębszych warstw systemu. Obecnie związany z branżą automotive, wcześniej z accessibility i komercyjnymi aplikacjami jednego z operatorów komórkowych. Entuzjasta nowych technologii mobilnych, wciąż szukający nowych technologicznych wyzwań.",
-                //     "www": "",
-                //     "twitter": "",
-                //     "photo_url": "/images/speakers/jacek-rondio.png"
-                // },
-                // //26
-                // "speaker-anton-miniailo": {
-                //     "firstname": "Anton",
-                //     "lastname": "Miniailo",
-                //     "bio_html": "Inżynier oprogramowania Android z 5 letnim doświadczeniem. Entuzjasta Javy, lubiący wyzwania z zakresu architektury oprogramowania. Interesuje sie zarówno pracą z software jak i middleware. Do HARMAN Connected Services dołączył rok temu.",
-                //     "www": "",
-                //     "twitter": "",
-                //     "photo_url": "/images/speakers/anton-miniailo.png"
-                // },
-                // //27
-                // "speaker-rafal-szpoton": {
-                //     "firstname": "Rafał",
-                //     "lastname": "Szpoton",
-                //     "bio_html": "A very retro gadgets maniac.. He used to know how to program modern windows UI in MS DOS using Turbo Pascal 7.0 but he doesn’t know it anymore J As his primary field of expertise disappeared in the mists of history he moved to more modern environments like iOS or Android.",
-                //     "www": "",
-                //     "twitter": "",
-                //     "photo_url": "/images/speakers/rafal-szpoton.jpg"
-                // },
-                // //28
-                // "speaker-tomasz-netczuk": {
-                //     "firstname": "Tomasz",
-                //     "lastname": "Netczuk",
-                //     "bio_html": "Programista nie trzymający się kurczowo jednej platformy. Na koncie ma: frontendy webowe, aplikacje iOS, backendy w node i pythone, devopowanie... Organizator Warsjawy 2014, Codepota 2015, wcześniej prowadził wykład o Foundation na Mobilization oraz warsztaty o tym frameworku na Warsjawie 2013.",
-                //     "www": "",
-                //     "twitter": "",
-                //     "photo_url": "/images/speakers/tomasz-netczuk.png"
-                // },
-                // //29
-                // "speaker-karol-kowalski": {
-                //     "firstname": "Karol",
-                //     "lastname": "Kowalski",
-                //     "bio_html": "Karol began his journey into the world of developers two years ago. From the very first day he learned best practices from Uncle Bob and after one year in Impaq, he took a fancy to Groovy and Android development. Since march he combined both these interests in ElPassion as Android-Groovy Dev.",
-                //     "www": "",
-                //     "twitter": "",
-                //     "photo_url": "/images/speakers/karol-kowalski.png"
-                // },
-                // //30
-                // "speaker-pawel-junak": {
-                //     "firstname": "Paweł",
-                //     "lastname": "Junak",
-                //     "bio_html": "Wroclaw University of Technology graduate, interested in Android from the first Google announce. After few years in Film industry, engineering mindset and love for technology made him come back to roots and start programming full time. Now he works in Polidea making great mobile apps for the whole world.",
-                //     "www": "",
-                //     "twitter": "",
-                //     "photo_url": "/images/speakers/pawel-junak.png"
-                // },
-                // //31
-                // "speaker-konrad-krakowiak": {
-                //     "firstname": "Konrad",
-                //     "lastname": "Krakowiak",
-                //     "bio_html": "Senior Software Engineer w Polidea. Prawie 6 lat doświadczenia z czego 5 jako programista na platformę Android. Doświadczenie prelegenckie: wykład na Politechnice Wrocławskiej, (o bibliotece SPen Samsunga), wykład o AndEginie, (w ramach konkursu z Samsunga), wykład na Politechnice Warszawskiej w ramach przedmiotu Szlif, mentor na CodePot 2015",
-                //     "www": "",
-                //     "twitter": "",
-                //     "photo_url": "/images/speakers/konrad-krakowiak.jpg"
-                // },
-                // //32
-                // "speaker-slawomir-jasek": {
-                //     "firstname": "Sławomir",
-                //     "lastname": "Jasek",
-                //     "bio_html": "Konsultant bezpieczeństwa z kilkunastoletnim doświadczeniem. Jako programista tworzył bezpieczne systemy certyfikowane dla użytku w instytucjach rządowych. Jako pentester wskazał krytyczne podatności w dziesiątkach aplikacji - www, mobilnych, embedded - wiodących firm z sektora finansowego, IT, branży internetowej, nowych technologii.  Entuzjasta innowacyjnych rozwiązań i gadżetów, a zwłaszcza możliwości ich ataku. Prelegent wielu polskich i zagranicznych konferencji. Od 10 lat w firmie SecuRing doradza bezpieczne rozwiązania dla różnego typu aplikacji - coraz częściej już od etapu projektowania.",
-                //     "www": "",
-                //     "twitter": "",
-                //     "photo_url": "/images/speakers/slawomir-jasek.png"
-                // },
-                // //33
-                // "speaker-sebastian-kacprzak": {
-                //     "firstname": "Sebastian",
-                //     "lastname": "Kacprzak",
-                //     "bio_html": "Sebastian pracuje jako Solutions Architect w firmie Outline. Pasjonat kasowania kodu, upraszczanie architektury i wyodrębniania powtarzalnych fragmentów kodu jako open sourcowe biblioteki. Prowadził pierwszą edycję Warsaw Android Livecode. Po pracy lubi fotografować.",
-                //     "www": "",
-                //     "twitter": "",
-                //     "photo_url": "/images/speakers/sebastian-kacprzak.png"
-                // },
-                // //34
-                // "speaker-pawel-wojdera": {
-                //     "firstname": "Paweł",
-                //     "lastname": "Wojdera",
-                //     "bio_html": "I'm goal-oriented mobile evangelist with technical background and strong communication skills. Main assumption is to be 1% better than yesterday, so day-by-day I’m studying details of programming Android platform, exploring Android Arsenal and following influencers via Github. Personally, I can't wait when Internet of Things will glut the market, beacons technology will be on daily basis and driveless cars will drop me anywhere I want.",
-                //     "www": "",
-                //     "twitter": "",
-                //     "photo_url": "/images/speakers/pawel-wojdera.png"
-                // },
-                // //35
-                // "speaker-aleksander-piotrowski": {
-                //     "firstname": "Aleksander",
-                //     "lastname": "Piotrowski",
-                //     "bio_html": "Kiedyś backendowiec, dziś deweloper mobilny. Ze względu na wiek piastujący stanowisko Senior Android Developer od pierwszego dnia jako androidowiec.",
-                //     "www": "",
-                //     "twitter": "",
-                //     "photo_url": "/images/speakers/aleksander-piotrowski.png"
-                // },
-                // //36
-                // "speaker-michal-wlodarczyk": {
-                //     "firstname": "Michał",
-                //     "lastname": "Włodarczyk",
-                //     "bio_html": "Senior Software Engineer w firmie Open-RnD. Od 4 zajmuje się rozwijaniem aplikacji mobilnych na platformę Android. Uczestnik studiów doktoranckich na Politechnice Łódzkiej, w Katedrze Mikroelektroniki i Technik Informatycznych (wydział Elektroniki, Elektrotechniki, Informatyki i Automatyki). Odpowiedzialny za przedmioty \"Systemy operacyjne na platformach mobilnych\", \"Przetwarzanie w chmurze dla aplikacji mobilnych\" oraz \"m-Commerce\". Autor licznych publikacji z zakresu biometrii i przetwarzania danych na platformie Android. Więcej informacji na profilu na <a href='https://pl.linkedin.com/pub/michał-włodarczyk/33/3a4/b08'>LinkedIn</a>",
-                //     "www": "",
-                //     "twitter": "",
-                //     "photo_url": "/images/speakers/michal-wlodarczyk.png"
-                // },
-                // //37
-                // "speaker-michal-szczepanik": {
-                //     "firstname": "Michał",
-                //     "lastname": "Szczepanik",
-                //     "bio_html": "Badacz, projektant, programista. Od wielu lat związany z branżą mobilną, swoją przygodę zaczynał JME, Symbianem, Blackberry, obecnie programista Androida w BLStream. Założyciel  Meet.Mobile Wrocław. Fan planszówek i nowych technologii oraz prelegent wielu eventów mobilnych.",
-                //     "www": "",
-                //     "twitter": "",
-                //     "photo_url": "/images/speakers/michal-szczepanik.png"
-                // },
-                // //38
-                // /*
-                //  "speaker-maciej-schmidt":{
-                //  "firstname": "Maciej",
-                //  "lastname":"Schmidt",
-                //  "bio_html":"Zapalony programista, grafik, freelancer, miłośnik nowoczesnych technologii, w skrócie: informatyczny człowiek orkiestra. Od kilku lat specjalizuje się w technologii Augmented Reality (Rzeczywistości Rozszerzonej) oraz tworzy użytkowe i rozrywkowe aplikacje mobilne. Od 2007 roku prowadzi firmę MASKOM.pl świadczącą zaawansowane rozwiązania informatyczne dla biznesu. W swoim portfolio posiada realizacje m.in. dla sieci ROSSMANN, RTV Euro AGD, PKP S.A. Prelegent na temat Augmented Reality m.in. na Mobilization 4 for Mobile Conference w Łodzi, JUG Zielona Góra, Mobile Trends Conference 2015 w Krakowie, I Kongresie Mobilnym w Warszawie.",
-                //  "www":"",
-                //  "twitter":"",
-                //  "photo_url":"/images/speakers/maciej-schmidt.png"
-                //  },
-                //  */
-                // //39
-                // "speaker-sebastian-gos": {
-                //     "firstname": "Sebastian",
-                //     "lastname": "Gos",
-                //     "bio_html": "A special Agent 007 on Her Majesty Secret Frontend Services which include but is not limited to: UX espionage, mobile warfare discovery, UI takeovers. Currently under cover at HP Polska working on his another top secret assignment. Big fan of  rock stars, leisure activities like guitar playing and sailing culinary travels. During his missions a very active Android and iOS user. A big fan of Moneypenny.",
-                //     "www": "",
-                //     "twitter": "",
-                //     "photo_url": "/images/speakers/sebastian-gos.png"
-                // },
-                // //40
-                // "speaker-lech-migdal": {
-                //     "firstname": "Lech",
-                //     "lastname": "Migdal",
-                //     "bio_html": "A big fan of simplicity and usability.",
-                //     "www": "",
-                //     "twitter": "",
-                //     "photo_url": "/images/speakers/lech-migdal.jpg"
-                // },
-                // //41
-                // "speaker-michal-aleksander": {
-                //     "firstname": "Michał",
-                //     "lastname": "Aleksander",
-                //     "bio_html": "Z wykształcenia dziennikarz, który w pewnym momencie swojego życia bardzo skręcił w stronę (bliskiej mu od zawsze) technologii i projektowania. Przez 5 lat projektował dla kluczowego serwisu e-commerce w Europie Środkowo-Wschodniej, mocno skupiając się na mobilności, rozpoznaniu potrzeb użytkownika oraz naturalnym kontekście użycia projektowanych produktów. Obecnie Interaction Designer i Design Team Manager w przedsionku technologicznym największej na świecie firmy edukacyjnej - Pearson English Technologies, w której mocno skupia sieę na porządkowaniu procesów, wypracowywaniu najlepszych podejść projektowych oraz metodach warsztatowych, w które angażuje reprezentantów wszystkich działów w firmie. Autor elektronicznej książki <a href='http://www.ibuk.pl/fiszka/141731/jak-stac-sie-lepszym-projektantem-ux.html'>Jak stać się lepszym projektantem UX</a>. Prelegent na UXCampie (Gdynia, 2014), World of Usability Day (Gdynia, 2014) oraz Product Campie (Gdynia, 2015).",
-                //     "www": "",
-                //     "twitter": "",
-                //     "photo_url": "/images/speakers/michal-aleksander.png"
-                // },
-                // //42
-                // "speaker-pawel-urban": {
-                //     "firstname": "Paweł",
-                //     "lastname": "Urban",
-                //     "bio_html": "Developer z krwi i kości od 6 lat. Do tej pory związany z firmami takimi jak LG Electronics, Allegro oraz PayU. Pasjonat świata mobilnego, szczególnie z zielonym robotem w tle.",
-                //     "www": "",
-                //     "twitter": "",
-                //     "photo_url": "/images/speakers/pawel-urban.png"
-                // },
-                // //43
-                // "speaker-lukasz-krupa": {
-                //     "firstname": "Łukasz",
-                //     "lastname": "Krupa",
-                //     "bio_html": "Aktualnie odpowiedzialny za rozwój działu rozwiązań mobilnych w R&D Viessmann we Wrocławiu. Miłośnik zwinnych metod rozwoju produktów i filozofii Kaizen. Swoją przygodę z IT rozpoczynał jako tester oprogramowania i przez ostatnie 10 lat uczestniczył w kilkudziesięciu projektach współpracując ze znanymi firmami branży IT w różnorodnych rolach m.in. Inżyniera rozwoju oprogramowania, kierownika projektu, lidera zespołu, kierownika działu, Agile Coacha. Inicjator społeczności „Agile Wrocław”, konsultant zwinnych metod, praktyk Scruma, współorganizator pierwszego na świecie szkolenia o Scrumie w formie gry miejskiej. Potwierdzeniem jego kompetencji są liczne międzynarodowe certyfikaty: PMI-ACP, PRINCE-2, IPMA-D, PSM I, CSM oraz ISTQB Foundation. W tym roku występował m.in. na konferencji Scrum Days, Testing Cup oraz wielokrotnie na spotkaniach branżowych.",
-                //     "www": "",
-                //     "twitter": "",
-                //     "photo_url": "/images/speakers/lukasz-krupa.png"
-                // },
-                // //44
-                // "speaker-michal-majcherski": {
-                //     "firstname": "Michał",
-                //     "lastname": "Majcherski",
-                //     "bio_html": "Software Engineer w Seamless Payments. Podczas blisko 8 letniej kariery brał udział w tworzeniu i utrzymywaniu oprogramowania zarówno dla dużych korporacji jak i szybko dostosowujących się do aktualnych potrzeb rynku kilkuosobowych startupów. Zwolennik czystego kodu i dobrych praktyk wytwarzania oprogramowania.",
-                //     "www": "l",
-                //     "twitter": "",
-                //     "photo_url": "/images/speakers/michal-majcherski.png"
-                // },
-                // //44
-                // "speaker-filip-miloszewski": {
-                //     "firstname": "Filip",
-                //     "lastname": "Miłoszewski",
-                //     "bio_html": "Co-founder of Listonic, one of the most popular Polish apps, available on Android, iPhone, Windows Phone and few other platforms. Working on mobile apps since 2007. Speaker on many conferences including: Internet Beta, Mobile Standard, Mobile Trends for Business, Akademia Mediarun, App Academy, Jungle Web, Łódź WiOSłuje, MIT and more.",
-                //     "www": "l",
-                //     "twitter": "",
-                //     "photo_url": "/images/speakers/filip-miloszewski.jpg"
-                // },
+                    "photo_url": "/images/speakers/roy-marmelstein.jpeg"
+                }
             },
             talks: {
                 "talk-modularizing-apps-framework-oriented-programming": {//1
@@ -811,149 +582,7 @@ docpadConfig = {
                         "speaker-roy-marmelstein"
                     ],
                     "language": "EN"
-                },
-                // "talk-unit-testy-w-androidzie-z-uzyciem-biblioteki-spock": {
-                //     "title": "Unit Testy w Androidzie z użyciem biblioteki Spock",
-                //     "description_html": "Chciałbym pokazać jak w łatwy, prosty i przyjemny sposób można pisać Unit Testy na platformę Android z użyciem biblioteki Spock. Mój wykład pokazuję w jaki sposób konfigurować a potem tworzyć test w groovy-m dla Androidowego projektu.",
-                //     "speakers_keys": [
-                //         "speaker-konrad-krakowiak"
-                //     ],
-                //     "language": "PL"
-                // },
-                //
-                // "talk-android-data-binding-nie-tylko-w-teorii": {
-                //     "title": "Android Data Binding nie tylko w teorii",
-                //     "description_html": "Data Binding na Androidzie - zalety, wady, przykłady użycia. Demonstracja biblioteki ułatwiającej (u)życie.",
-                //     "speakers_keys": [
-                //         "speaker-sebastian-kacprzak"
-                //     ],
-                //     "language": "PL"
-                // },
-                // "talk-xamarin-dla-nie-tylko-deweloperow-androida": {
-                //     "title": "Xamarin dla (nie tylko) deweloperów Androida",
-                //     "description_html": "W ramach moich przygotowań do warsztatu o Xamarinie na codepot.pl 2015 powstała prezentacja o tym czym właściwie ta platforma jest. Często, mylnie, mówi się że Xamarin to kolejna hybrydowa technologia, zupełnie jak, fuj, cordova.W ramach prezentacji dowiemy się:<br/>- co to właściwie jest Xamarin<br/>- czy to druga, równie kiepska, technologia co Cordova<br/>- co właściwie jest natywne (platform-specific) a co można współdzielić między projektami<br/>- jakie natywne komponenty są dostępne (UIKit dla iOS, RecycleView czy Support Library dla Androida)<br/>- czy to jest wreszcie to rozwiąznie gdzie piszemy raz a działa wszędzieBędę szczęśliwy jeśli w czasie prezentacji iOS-owcy pomyślą sobie \"o fajnie, normalnie mam tam UIKit i moge nawet pisać kawałki w Objective-C\", a Androidowcy westchną \"o super, jest wspierana najnowsza wersja Support Library, już tydzień po wydaniu\".",
-                //     "speakers_keys": [
-                //         "speaker-aleksander-piotrowski"
-                //     ],
-                //     "language": "PL"
-                // },
-                // "talk-material-design-with-android-design-library": {
-                //     "title": "Material design with Android Design Library",
-                //     "description_html": "At Google I/O 2015 the Material Design Support Library was announced, and with it creating material apps suddenly got a lot easier. With a little help from the new Android Design Support Library, we are getting a number of important material design components to all developers and to all Android 2.1 or higher devices. In this talk I will show most important components of design library from developer point of view. I will show how to start and what may be unintuitive in the begining.",
-                //     "speakers_keys": [
-                //         "speaker-karol-kowalski"
-                //     ],
-                //     "language": "PL"
-                // },
-                // "talk-optymalizacja-hierarchii-widokow-na-platformie-android": {
-                //     "title": "Optymalizacja hierarchii widoków na platformie Android",
-                //     "description_html": 'Optymalizacja hierarchii widoków na przykładzie aplikacji "Stereoscopic Image Calculator" realizowanej w ramach projektu ROS3D. Celem prezentacji jest omówienie sposobu renderowania widoków jako podstawy do opracowywania wydajnych aplikacji na platformę Android. Na prezentacji porszuane będą następujące tematy:<ol><li>Szczegóły techniczne dotyczące sposobu renderowania widoków<li>Omówienie kluczowych metod, które są wywoływane podczas rysowania i odświeżania poszczególnych elementów<li>Pisanie własnych "ViewGroup"<li>Narzędzie "HierarchyViewer"<li>Pomiary wykokane na przykładzie aplikacji "Stereoscopic Image Calculator"',
-                //     "speakers_keys": [
-                //         "speaker-michal-wlodarczyk"
-                //     ],
-                //     "language": "PL"
-                // },
-                // "talk-czy-ar-i-vr-zmienia-nasza-przyszlosc": {
-                //     "title": "Czy AR i VR zmienią naszą przyszłość?",
-                //     "description_html": "W ostatnim czasie przeżywamy prawdziwy boom na technologie Virtual i Augmented Reality dzięki pojawieniu się łatwo dostępnych „gogli” na telefon takich jak Google Cardboard czy Samsung Gear VR. Czy mobilne zwiedzanie odległych światów dzięki VR lub interaktywne gry z wykorzystaniem AR wzbogacą niedługo naszą percepcję? Przegląd dostępnych urządzeń oraz środowisk programistycznych. Analiza przykładów dobrego użycia i wskazówki jakich błędów uniknąć, aby aplikacja AR/VR odniosła sukces.",
-                //     "speakers_keys": [
-                //         "speaker-maciej-schmidt"
-                //     ],
-                //     "language": "PL"
-                // },
-                // "talk-potrzeby-biznesowe-a-technologia-w-mobdev-na-przykladzie-seqr": {
-                //     "title": "Biznes a technologia w mobdev - SEQR case study",
-                //     "description_html": "Specjaliści z dziedziny rozwoju produktu, użyteczności i technologii opowiedzą:- W jaki sposób warto planować rozwój ekosystemu usług płatniczych w sytuacji, gdy potrzeba jak najszybciej adaptować się do zmieniającego się rynku, potrzeb użytkowników i działań konkurencji.<br/>- Jak skalujemy SCRUM by dobrze koordynować pracę wielu zespołów.<br/>- Dlaczego stawiamy na jak najszybsze zmiany (i ewentualne niepowodzenia) i jak się to nam udaje.<br/>- Dotychczasowa implementacja Lean Startup - doświadczone pętle zwrotne między strategią biznesową, UX, a zastosowaną technologią.<br/>- Dlaczego User Experience jest tak ważny - jaką wartość biznesową daje w przypadku SEQR.",
-                //     "speakers_keys": [
-                //         "speaker-daniel-rurarz",
-                //         "speaker-lukasz-szadkowski",
-                //         "speaker-michal-majcherski"
-                //     ],
-                //     "language": "PL"
-                // },
-                // "talk-czy-nastala-era-continuous-everything": {
-                //     "title": "Czy nastała era \"continuous everything\"? Przewodnik po bezustannym procesie tworzenia aplikacji mobilnych na przykładzie Matrix42 Mobile [case study]",
-                //     "description_html": "Przedstawienie idei medotologii \"continiuous\", skupiając się na aspektach: integration, development, delivery, testing i wszystich pozostałych, wykorzystywanych w tworzeniu aplikacji mobilnych na przykładzie Matrix42 Mobile, wdrażanej na platformy Android oraz iOS. Kilka słów wprowadzających w połączeniu z przykładami wykorzystania w procesie developmentu - przybliżenie narzędzi oraz sposobu ich wykorzystania w codziennej pracy. Dodatkowo kilka zdań na tematy pokrewne niezwykle ważne dla użytkownika końcowego, czyli \"BYOD - Private Devices, Company Content\" oraz \"Mobile Management\".Link <a href='https://play.google.com/store/apps/details?id=com.matrix42.m42mobileLink'>Android</a>,<a href='https://itunes.apple.com/pl/app/m42mobile/id430536897?mt=8'>iOS</a>",
-                //     "speakers_keys": [
-                //         "speaker-pawel-wojdera"
-                //     ],
-                //     "language": "PL"
-                // },
-                // "talk-html5-goes-for-a-ride-czyli-wyzwania-dla-technologii-webowych-w-przemysle-automotive": {
-                //     "title": "HTML5 goes for a ride - Czyli wyzwania dla technologii webowych w przemyśle automotive",
-                //     "description_html": "Biorąc pod uwagę fakt, że samochody należą do konstrukcji dość mobilnych było jedynie kwestią czasu kiedy trafi tam HTML5. Tradycyjne środowisko tej technologii dawno przestało przestało być jedynym.Jak jednak wygląda tworzenie aplikacji typu IVI (In-vehicle infotainment)? Czym ekran w aucie różni się od tabletu?Opowiem o wyzwaniach jakie stawia przed HTML5 rynek automotive oraz innych doświadczeniach specyficznych dla tej platformy. W części praktycznej zaprezentuje różnice w działaniu demonstracyjnej aplikacji, na zbliżonym do docelowego sprzęcie, w porównaniu z urządzeniami mobilnymi i PC.",
-                //     "speakers_keys": [
-                //         "speaker-lena-rodziewicz"
-                //     ],
-                //     "language": "PL"
-                // },
-                //
-                // "talk-hacking-bluetooth-smart": {
-                //     "title": "Hacking Bluetooth Smart",
-                //     "description_html": "Rozłożymy na czynniki pierwsze bezpieczeństwo jednej z najpopularniejszych, a zarazem najbliższej aplikacjom mobilnym technologii związanej z Internet of Things: Bluetooth Smart. Jak zwykle z pomocą niezawodnej publiczności Mobilization, na rzeczywistych przykładach krok po kroku wspólnie zaatakujemy kolejne urządzenia: m.in. beacony, opaskę sportową, samochód. Analizując warunki i skutki ataków ustalimy wpływ na ryzyko konkretnych podatności, i zastanowimy się w jakich przypadkach bezpieczeństwo będzie naprawdę istotne. Uczestnicy wyniosą spojrzenie intruza na nową technologię oraz jej ograniczenia, co pozwoli projektować bezpieczniejsze rozwiązania.",
-                //     "speakers_keys": [
-                //         "speaker-slawomir-jasek"
-                //     ],
-                //     "language": "PL"
-                // },
-                // "talk-hunt-me-od-kuchni-jak-powstal-innowacyjny-sposob-na-szukanie-pracy": {
-                //     "title": "Hunt Me od kuchni - jak powstał innowacyjny sposób na szukanie pracy",
-                //     "description_html": "Podczas prelekcji opowiemy jak powstał projekt angażujący 3 niezależne zespoły developerskie.Tematami na których się skupimy będzie organizacja pracy nad aplikacją powstającą w 3 różnych miejscach i z wykorzystaniem 3 różnych platform, oraz część wspólna dla wszystkich obsługiwanych platform, czyli API po stronie serwera. Przy jego tworzeniu z powodzeniem integrowaliśmy różnorodne technologie (WebAPI, OAuth), korzystaliśmy z istniejących bibliotek zewnętrznych (Ninject, EF) i stworzonych w Grupie Pracuj (GP.Juno, EndpointSwitcher). Opowiemy też o tym co niewidoczne - czyli architekturze, WebAPI jako rozbudowanym proxy i funkcjonowaniu na w rozproszonym środowisku. Zapraszamy!",
-                //     "speakers_keys": [
-                //         "speaker-maciej-chwiloc",
-                //         "speaker-cezary-kapicki"
-                //     ],
-                //     "language": "PL"
-                // },
-                // "talk-android-auto": {
-                //     "title": "Android Auto",
-                //     "description_html": "Aplikacja Android Auto stworzona została, aby umożliwić dostęp do głównych funkcji smartphona przy zachowaniu maksimum bezpieczeństwa w trakcie jazdy. Kontrolowanie nawigacji, odtwarzacza audio, telefonu i wiadomości bezpośrednio z wbudowanego ekranu przy użyciu głosu i przycisków na kierownicy pozwala skupić się na drodze i zminimalizować niebezpieczeństwo związane z obsługą smartphona.Podczas prezentacji pokażemy działającą implementację Android Auto wraz z krótkim omówieniem funkcjonalności, a także przeprowadzimy Państwa przez proces tworzenia aplikacji umożliwiającej komunikację z kierowcą w trakcie jazdy.",
-                //     "speakers_keys": [
-                //         "speaker-anton-miniailo",
-                //         "speaker-jacek-rondio"
-                //     ],
-                //     "language": "PL"
-                // },
-                // "talk-co-kryje-pianka-czyli-o-nowej-wersji-androida": {
-                //     "title": "Co kryje Pianka, czyli o nowej wersji Androida.",
-                //     "description_html": "Pewnie każdy fan i developer Androida oglądał Google I/O, podczas którego usłyszał o zmianach M-ki. Nowy sposób zarządzania permission'ami oraz doze mode to tylko nieliczne zmiany, które nowa wersja wprowadza. Poznaj jakie zmiany powinieneś(aś)  zrobić, by Twoja aplikacja  nadal poprawnie działała na Androidzie 6.0 (Marshmallow) .  Ta prelekcja uwzględnia wiele nowości i zmian o których Google nie wspomina, nie daj się zaskoczyć ... przyjdź.",
-                //     "speakers_keys": [
-                //         "speaker-michal-szczepanik"
-                //     ],
-                //     "language": "PL"
-                // },
-                // "talk-no-platformy-natywne": {
-                //     "title": "Porzuć platformy natywne! Czyli czemu HTML5 jest lepszy.",
-                //     "description_html": "Skoro to czytasz, to znaczy że tytuł zadziałał. Tak na prawdę nie twierdzę że HTML5 jest lepszy. On jest inny, a to można wykorzystać w naszej pracy, jaką jest dostarczanie gotowych, działających rozwiązań klientom.Podczas prezentacji chcę poruszyć temat zalet, wad i różnic w programowaniu aplikacji klienckich na platformy natywne i webowe. Przedstawię powody czemu moim zdaniem większość MVP można wykonywać przy użyciu HTML5 zamiast technologii natywnych.Dla uwiarygodnienia mojej tezy planuję wykonać odrobinę live-codingu.",
-                //     "speakers_keys": [
-                //         "speaker-tomasz-netczuk"
-                //     ],
-                //     "language": "PL"
-                // },
-                // "talk-ux-pitfalls-in-multi-os-apps": {
-                //     "title": "UX pitfalls in multi-os apps",
-                //     "description_html": "In this session we will answer simple but demanding questions: </br>- Is UX really device agnostic? </br>- What should be our approach when designing a multi-OS or multi-platform apps? </br>- Is the philosophy “design once – run anywhere” still alive? </br> We will take you on a short journey from a simple idea to the mockup realization. Be prepared for silly ideas, tricky questions and unconventional approach to challenges awaiting you in the design process.",
-                //     "speakers_keys": [
-                //         "speaker-rafal-szpoton", "speaker-sebastian-gos", "speaker-lech-migdal"
-                //     ],
-                //     "language": "EN"
-                // },
-                // "talk-kiedy-zespol-scrumowy-nie-kocha-swojego-produktu-mobilnego": {
-                //     "title": "Kiedy zespół Scrumowy nie kocha swojego produktu mobilnego",
-                //     "description_html": "Celem prezentacji jest przedstawienie różnych technik (w tym metod Agile UX), które mogą sprawić, że zespół Scrumowy bardziej zaangażuje się w produkt i nie skupi tylko na realizacji oczekiwań Product Ownera w określonych odcinkach czasu. Jak sprawić, żeby członkowie zespołu scrumowego utożsamiali się z produktem, który tworzą, co jest szczególnie trudne w dużych organizacjach? Prezentacja oparta na doświadczeniach i eksperymentach przeprowadzonych w kilku zespołach Scrumowych, pracujących nad takimi projektami, jak aplikacja mobilna czy strona responsywna.",
-                //     "speakers_keys": [
-                //         "speaker-michal-aleksander"
-                //     ],
-                //     "language": "PL"
-                // },
-                // "talk-zwinna-lodz-przedstawia-panel": {
-                //     "title": "Jeden zespół czy zespół per platforma?",
-                //     "description_html": "Panel dyskusyjny oparty na konkretnych case studies organizowany przez grupę Zwinna Łódź.<br>Czy interdyscyplinarność w jednym zespole ma dobry wpływ na tworzenie nowych funkcjonalności? Jak wygodnie synchronizować pracę, gdy kilka zespołów różnych platform tworzy jeden produkt? Zalety i wady, czyli które podejście jest bardziej korzystne?",
-                //     "speakers_keys": [
-                //         "speaker-pawel-urban", "speaker-lukasz-krupa", "speaker-pawel-wojdera", "speaker-filip-miloszewski"
-                //     ],
-                //     "language": "PL"
-                // }
+                }
             },
             breaks: {
                 'break-registration': {
