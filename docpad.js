@@ -350,7 +350,7 @@ docpadConfig = {
                     "www": "http://jorgecastillo.xyz/",
                     "twitter": "https://twitter.com/JorgeCastilloPr",
                     "github" : "https://github.com/JorgeCastilloPrz/",
-                    "photo_url": "/images/speakers/jorge-castillo.png"
+                    "photo_url": "/images/speakers/jorge-castillo.jpeg"
                 },
                 //14
                 "speaker-inaki-villar": {
