@@ -137,8 +137,9 @@ docpadConfig = {
                     // {"name":"Linux Magazine","logo_url":"/images/partners/linuxmag.png","link":"http://www.linux-magazine.pl"},
                     // {"name":"Kariera Plus","logo_url":"/images/partners/karieraplus.png","link":"http://karieraplus.pl"},
                     // {"name":"Młodzi w Łodzi","logo_url":"/images/partners/mlodzi-w-lodzi.jpg","link":"http://mlodziwlodzi.pl"},
-                    // {"name":"Helion","logo_url":"/images/partners/helionpl.png","link":"http://helion.pl"},
-                    {"name":"Manning Publications","logo_url":"/images/partners/manning.png","link":"http://www.manning.com"}
+                    {"name":"Helion","logo_url":"/images/partners/helionpl.png","link":"http://helion.pl"},
+                    {"name":"Manning Publications","logo_url":"/images/partners/manning.png","link":"http://www.manning.com"},
+                    {"name":"Pluralsight","logo_url":"/images/partners/pluralsight.png","link":"https://www.pluralsight.com/"}
                 ]
             },
             slots: {
