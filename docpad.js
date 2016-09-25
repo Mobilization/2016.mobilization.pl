@@ -491,14 +491,14 @@ docpadConfig = {
                 "speaker-lukasz-mroz" : {
                     "firstname" : "Łukasz",
                     "lastname" : "Mróz",
-                    "bio_htmk" : "Started as a back-end web developer, quickly found a new home in iOS. In ❤︎ with Swift, learning and everything that's being reactive. Endorsed on LinkedIn for coffee skills.",
+                    "bio_html" : "Started as a back-end web developer, quickly found a new home in iOS. In ❤︎ with Swift, learning and everything that's being reactive. Endorsed on LinkedIn for coffee skills.",
                     "photo_url" : "/images/speakers/lukasz-mroz.png"
                 },
                 //28
                 "speaker-anton-minashkin" : {
                     "firstname" : "Anton",
                     "lastname" : "Minashkin",
-                    "bio_htmk" : "Lead Android developer, speaker, GDG Lviv organizer and co-founder of GDG Kremenchuk, currently works at EPAM. Have experience in both server and mobile side development. All my free time I spend on the endless search of silver bullets, perfect architectures and holy wars",
+                    "bio_htmlż" : "Lead Android developer, speaker, GDG Lviv organizer and co-founder of GDG Kremenchuk, currently works at EPAM. Have experience in both server and mobile side development. All my free time I spend on the endless search of silver bullets, perfect architectures and holy wars",
                     "photo_url" : "/images/speakers/anton-minashkin.png"
                 }
             },
@@ -722,7 +722,7 @@ docpadConfig = {
                     ],
                     "language": "EN"
                 },
-                "talk-how-to-design-your-app-and-not-to-be-damned-by-maitenance-team": { //27
+                "talk-how-to-design-your-app-and-not-to-be-damned-by-maitenance-team": { //29
                     "title": "How to design your app and not be damned by maintenance team",
                     "description_html": "How to deal with complexity, technical debt and not to fall into depression. Let's discuss the ways, architecture patterns and common mistakes and let's try to find the \"silver bullet\" of architecture, or at least let's find requirements for it",
                     "speakers_keys": [
