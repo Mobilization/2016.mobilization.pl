@@ -420,6 +420,86 @@ docpadConfig = {
                     "github" : "https://github.com/marmelroy",
                     "twitter": "https://twitter.com/marmelroy",
                     "photo_url": "/images/speakers/roy-marmelstein.jpeg"
+                },
+                //21
+                "speaker-esteban-torres": {
+                    "firstname": "Esteban",
+                    "lastname": "Torres",
+                    "bio_html": "iOS Developer for over 5 years. Big proponent of OSS and head organizer of CocoaHeads Costa Rica.",
+                    "www": "http://estebantorr.es",
+                    "github" : "https://github.com/esttorhe",
+                    "twitter": "https://twitter.com/esttorhe",
+                    "photo_url": "/images/speakers/esteban-torres.png"
+                },
+                //22
+                "speaker-kostiantyn-koval": {
+                    "firstname": "Kostiantyn",
+                    "lastname": "Koval",
+                    "bio_html": "Kostiantyn Koval is in Love with Swift. He is a contributor to Swift open source, a Swift High Performance book author and just a person who loves to type some code at night :)",
+                    "www": "http://kostiakoval.github.io/",
+                    "github": "https://github.com/kostiakoval",
+                    "twitter": "https://twitter.com/KostiaKoval",
+                    "photo_url": "/images/speakers/kostiantyn-koval.png"
+                },
+                //23
+                "speaker-marius-rackwitz": {
+                    "firstname": "Marius",
+                    "lastname": "Rackwitz",
+                    "bio_html": "Marius has been developing mobile & web applications ever since he graduated from university. In more recent years, he's shifted his focus towards mobile development, especially iOS and Objective-C, and since it came out a growing portion of Swift. With his work on the CocoaPods team, he hasn't forgotten about Ruby either.",
+                    "github": "https://github.com/mrackwitz",
+                    "twitter": "https://twitter.com/mrackwitz",
+                    "photo_url": "/images/speakers/marius-rackwitz.png"
+                },
+                //24"
+                "speaker-tomasz-gebarowski": {
+                    "firstname": "Tomasz",
+                    "lastname": "Gebarowski",
+                    "bio_html": "Software Engineer, currently working as an iOS Developer at mBank. Working full time in Swift. Switched to Mobile apps development after +4 years of C/C++ and writing distributed VoIP servers. Experienced in maintaining large and long term projects.",
+                    "photo_url": "/images/speakers/tomasz-gebarowski.png"
+                },
+                //24.5
+                "speaker-wojciech-lukaszuk": {
+                    "firstname": "Wojciech",
+                    "lastname": "Łukaszuk",
+                    "bio_html": "Software engineer at mBank. Lifelong learner. Can’t stand workarounds and spaghetti code.",
+                    "twitter" : "https://twitter.com/wojteklu",
+                    "www": "http://wojteklu.com/",
+                    "photo_url": "/images/speakers/wojciech-lukaszuk.png"
+                },
+                //25
+                "speaker-michal-kucharski": {
+                    "firstname": "Michał",
+                    "lastname": "Kucharski",
+                    "bio_html": "Fan of technological solutions that makes life easier. From own proof-of-concept hardware, to designed IoT devices or ConnectedCar solution. Carpenter with love and passion, claiming that the best way to relax is a chisel, plane and a piece of wood. With testing and security connected from childhood - Everything can be breached and everything can be automated :)",
+                    "photo_url": "/images/speakers/mobilization-soldier.png"
+                },
+                //26
+                "speaker-agnieszka-czyzak": {
+                    "firstname": "Agnieszka",
+                    "lastname": "Czyżak",
+                    "bio_html": "For the past 4 years Rafał has been involved in mobile app development. He is Currently working at Polidea as a senior iOS developer. Passionate programmer and triathlete he is constantly looking for new thrills both in app development and in sports",
+                    "photo_url": "/images/speakers/agnieszka-czyzak.png"
+                },
+                //26.5
+                "speaker-rafal-tulwin": {
+                    "firstname": "Rafał",
+                    "lastname": "Tulwin",
+                    "bio_html": "For the past 4 years Rafał has been involved in mobile app development. He is Currently working at Polidea as a senior iOS developer. Passionate programmer and triathlete he is constantly looking for new thrills both in app development and in sports",
+                    "photo_url": "/images/speakers/rafal-tulwin.png"
+                },
+                //27
+                "speaker-lukasz-mroz" : {
+                    "firstname" : "Łukasz",
+                    "lastname" : "Mróz",
+                    "bio_htmk" : "Started as a back-end web developer, quickly found a new home in iOS. In ❤︎ with Swift, learning and everything that's being reactive. Endorsed on LinkedIn for coffee skills.",
+                    "photo_url" : "/images/speakers/lukasz-mroz.png"
+                },
+                //28
+                "speaker-anton-minashkin" : {
+                    "firstname" : "Anton",
+                    "lastname" : "Minashkin",
+                    "bio_htmk" : "Lead Android developer, speaker, GDG Lviv organizer and co-founder of GDG Kremenchuk, currently works at EPAM. Have experience in both server and mobile side development. All my free time I spend on the endless search of silver bullets, perfect architectures and holy wars",
+                    "photo_url" : "/images/speakers/anton-minashkin.png"
                 }
             },
             talks: {
@@ -581,6 +661,72 @@ docpadConfig = {
                     "description_html": "A new talk introducing advanced techniques with the Objective C runtime and assessing their relevance in an increasingly Swifty world. ",
                     "speakers_keys": [
                         "speaker-roy-marmelstein"
+                    ],
+                    "language": "EN"
+                },
+                "talk-hacking-sirkit": { //21
+                    "title": "Hacking SiriKit",
+                    "description_html": "iOS talk detailing the benefits that SiriKit exposes and how can developers would greatly benefit from Apple actually opening it up for other users. <ul><li>Introduction to SiriKit<li>How to implement it<li>Pro and Cons of th current implementation<li>Hacking it to overuse or abuse it to communicate without TravisCi",
+                    "speakers_keys": [
+                        "speaker-esteban-torres"
+                    ],
+                    "language": "EN"
+                },
+                "talk-swift-revolution": { //22
+                    "title": "Swift rEvolution",
+                    "description_html": "Swift have huge impact and on how we develop software these days. In thin talk I will explain why everyone needs to learn Swift regardless if you are  iOS, android, backend or any software developer. I will cover why Swift is so powerful and popular, how huge impact it has on whole Software development, what you need to do to stay competitive and productive developer and how you can shape Swift they way you want",
+                    "speakers_keys": [
+                        "speaker-kostiantyn-koval"
+                    ],
+                    "language": "EN"
+                },
+                "talk-crafting-reactive-apps-with-realm": { //23
+                    "title": "Crafting Reactive Apps with Realm",
+                    "description_html": "Realm is a popular database for mobile used already in thousands of apps in the app stores and deployed on over a billion devices. This talk will show you how you can craft reactive applications, especially if you embrace persistence and state as a central part of your application architecture, by using the unique features of this database.",
+                    "speakers_keys": [
+                        "speaker-marius-rackwitz"
+                    ],
+                    "language": "EN"
+                },
+                "talk-swift-at-scale": { //24
+                    "title": "Swift at scale",
+                    "description_html": "Is Swift ready for large scale business apps?  We would like to share our experience on writing one of the most popular mobile banking apps in Poland. The mBank app, that is entirely written in Swift. The problems we faced, lessons learnt, pitfalls and benefits",
+                    "speakers_keys": [
+                        "speaker-tomasz-gebarowski",
+                        "speaker-wojciech-lukaszuk"
+                    ],
+                    "language": "EN"
+                },
+                "talk-mobile-and-application-security-based-on-man-in-the-middle-MITM-vectors": { //25
+                    "title": "Mobile and application security based on Man-in-the-middle (MITM) vectors",
+                    "description_html": "We have that good feeling that if we have AV and Firewall, we are safe and secure in cyber space. Nothing more misleading. If you are targeted, then every access vector will be tailored to compromise your security. These days every kid knows how to bypass wireless network security to get a free internet access. What could happen if a real attacker broke into your network and targeted his payloads into your sensitive data? What about gathering sensitive data from around 50? 100? 500? Mobiles, laptop devices at once? From penetration testing, reverse engineering to intercepting mobile application traffic. How to craft attacks and how to avoid them? Theory and practice.",
+                    "speakers_keys": [
+                        "speaker-michal-kucharski"
+                    ],
+                    "language": "EN"
+                },
+                "talk-design-that-breaks-down-barriers": { //26
+                    "title": "Design that breaks down barriers",
+                    "description_html": "While having an opportunity to start an enterprise from scratch, humans tend to try out new processes, tools or technology. It is with that state of mind that we embraced “accessibility”. Indeed, as one of the hottest emerging topic in UX Design, “accessibility” methodology was to be integrated in the development of our latest project. Considering both designer’s and developer's point of view, we will talk about how we approached accessibility while making Shuttle - a mobile app for Android and iOS. We will describe step by step our full working process related to “accessibility”, with a strong focus on the importance of interdisciplinary collaboration and end user testing",
+                    "speakers_keys": [
+                        "speaker-agnieszka-czyzak",
+                        "speaker-rafal-tulwin"
+                    ],
+                    "language": "EN"
+                },
+                "talk-mvvm-with-coordinators-and-rx-swift": { //27
+                    "title": "MVVM with Coordinators & RxSwift",
+                    "description_html": "Every application needs good architecture. In my talk I will try to show you our architecture that we use in our iOS projects: MVVM with Coordinators & RxSwift. Not only I will talk about basics, but we will quickly start writing the code live, describing what belongs where, controlling the flow using Coordinators, testing everything using Quick/Nimble, and make network requests using Moya",
+                    "speakers_keys": [
+                        "speaker-lukasz-mroz"
+                    ],
+                    "language": "EN"
+                },
+                "talk-how-to-design-your-app-and-not-to-be-damned-by-maitenance-team": { //27
+                    "title": "How to design your app and not be damned by maintenance team",
+                    "description_html": "How to deal with complexity, technical debt and not to fall into depression. Let's discuss the ways, architecture patterns and common mistakes and let's try to find the \"silver bullet\" of architecture, or at least let's find requirements for it",
+                    "speakers_keys": [
+                        "speaker-anton-minashkin"
                     ],
                     "language": "EN"
                 }
