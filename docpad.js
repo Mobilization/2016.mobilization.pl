@@ -477,7 +477,7 @@ docpadConfig = {
                 "speaker-agnieszka-czyzak": {
                     "firstname": "Agnieszka",
                     "lastname": "Czyżak",
-                    "bio_html": "For the past 4 years Rafał has been involved in mobile app development. He is Currently working at Polidea as a senior iOS developer. Passionate programmer and triathlete he is constantly looking for new thrills both in app development and in sports",
+                    "bio_html": "Agnieszka is currently working as a UI Designer at Polidea. She graduated from the Warsaw Academy of Arts in 2016. Her bottomless passion for humans beings developed her constant question-asking attitude, and her love for design and design thinking lead her career path toward Service and Experience Design. It is during a Summer School at the Copenhagen Institute of Interactive Design that she polished her skills in user research, prototyping, design thinking, basic programming, workability and teamwork",
                     "photo_url": "/images/speakers/agnieszka-czyzak.png"
                 },
                 //26.5
@@ -498,7 +498,7 @@ docpadConfig = {
                 "speaker-anton-minashkin" : {
                     "firstname" : "Anton",
                     "lastname" : "Minashkin",
-                    "bio_htmlż" : "Lead Android developer, speaker, GDG Lviv organizer and co-founder of GDG Kremenchuk, currently works at EPAM. Have experience in both server and mobile side development. All my free time I spend on the endless search of silver bullets, perfect architectures and holy wars",
+                    "bio_html" : "Lead Android developer, speaker, GDG Lviv organizer and co-founder of GDG Kremenchuk, currently works at EPAM. Have experience in both server and mobile side development. All my free time I spend on the endless search of silver bullets, perfect architectures and holy wars",
                     "photo_url" : "/images/speakers/anton-minashkin.png"
                 }
             },
