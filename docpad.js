@@ -135,7 +135,7 @@ docpadConfig = {
                     // {"name":"4tech.tv","logo_url":"/images/partners/4techmobile.png","link":"http://testytelefonow.pl"},
                     // {"name":"StartUpTV","logo_url":"/images/partners/startuptv.png","link":"http://startuptv.pl"},
                     // {"name":"Linux Magazine","logo_url":"/images/partners/linuxmag.png","link":"http://www.linux-magazine.pl"},
-                    // {"name":"Kariera Plus","logo_url":"/images/partners/karieraplus.png","link":"http://karieraplus.pl"},
+                    {"name":"Packt Publishing","logo_url":"/images/partners/packt.png","link":"https://www.packtpub.com/"},
                     // {"name":"Młodzi w Łodzi","logo_url":"/images/partners/mlodzi-w-lodzi.jpg","link":"http://mlodziwlodzi.pl"},
                     {"name":"Helion","logo_url":"/images/partners/helionpl.png","link":"http://helion.pl"},
                     {"name":"Manning Publications","logo_url":"/images/partners/manning.png","link":"http://www.manning.com"},
