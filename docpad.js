@@ -44,7 +44,9 @@ docpadConfig = {
                 time: '08:00-17:30'
             },
             sponsors: {
-                diamond: [],
+                diamond: [
+                    {"name": "Rndity", "logo_url": "/images/sponsors/rndity.png", "link": "https://rndity.com/"},
+                ],
                 platinum: [
                     {"name": "Seqr", "logo_url": "/images/sponsors/seqr.png", "link": "https://www.seqr.com/int/"},
                     {
