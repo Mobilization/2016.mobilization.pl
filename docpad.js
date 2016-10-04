@@ -500,6 +500,13 @@ docpadConfig = {
                     "lastname" : "Minashkin",
                     "bio_html" : "Lead Android developer, speaker, GDG Lviv organizer and co-founder of GDG Kremenchuk, currently works at EPAM. Have experience in both server and mobile side development. All my free time I spend on the endless search of silver bullets, perfect architectures and holy wars",
                     "photo_url" : "/images/speakers/anton-minashkin.png"
+                },
+                //29
+                "speaker-cybercom-mastercorder": {
+                    "firstname": "Master",
+                    "lastname": "Coder",
+                    "bio_html": "MasterCoder is a national programming contest organized by Cybercom Poland. It is a competition created by programmers for programmers. This year over 300 participants from Poland joined the unique coding challenge. The challenge includes accomplishing ten different tasks in ten days. It fosters creativity, innovation and enables participants to test their ability to perform under pressure. During the finals we will see 10 best ranked coders who will fight for MasterCoder title and Samsung Galaxy S6, Samsung Gear VR, AirWheel X3, GoPro Hero Session Full HD! The semi-final will include a variety of tasks such as live programming. Join the audience and become a part of real programming battle !!!",
+                    "photo_url" : "/images/speakers/master-coder.png"
                 }
             },
             talks: {
@@ -729,6 +736,22 @@ docpadConfig = {
                         "speaker-anton-minashkin"
                     ],
                     "language": "EN"
+                },
+                "talk-master-coder-final" : {
+                    "title": "MASTERCODER VOL. 3 – NATIONAL PROGRAMMING CONTEST FINALS",
+                    "description_html" : "MasterCoder is a national programming contest organized by Cybercom Poland. It is a competition created by programmers for programmers. This year over 300 participants from Poland joined the unique coding challenge. The challenge includes accomplishing ten different tasks in ten days. It fosters creativity, innovation and enables participants to test their ability to perform under pressure. During the finals we will see 10 best ranked coders who will fight for MasterCoder title and Samsung Galaxy S6, Samsung Gear VR, AirWheel X3, GoPro Hero Session Full HD! The semi-final will include a variety of tasks such as live programming. Join the audience and become a part of real programming battle !!!",
+                    "speakers_keys" : [
+                        "speaker-cybercom-mastercorder"
+                    ],
+                    "langauge" : "EN"
+                },
+                "talk-master-coder-eliminations" : {
+                    "title": "MASTERCODER VOL. 3 – NATIONAL PROGRAMMING CONTEST ELIMINATIONS",
+                    "description_html" : "MasterCoder is a national programming contest organized by Cybercom Poland. It is a competition created by programmers for programmers. This year over 300 participants from Poland joined the unique coding challenge. The challenge includes accomplishing ten different tasks in ten days. It fosters creativity, innovation and enables participants to test their ability to perform under pressure. During the finals we will see 10 best ranked coders who will fight for MasterCoder title and Samsung Galaxy S6, Samsung Gear VR, AirWheel X3, GoPro Hero Session Full HD! The semi-final will include a variety of tasks such as live programming. Join the audience and become a part of real programming battle !!!",
+                    "speakers_keys" : [
+                        "speaker-cybercom-mastercorder"
+                    ],
+                    "langauge" : "EN"
                 }
             },
             breaks: {
