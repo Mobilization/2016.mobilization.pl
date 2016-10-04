@@ -510,6 +510,20 @@ docpadConfig = {
                     "lastname": "Coder",
                     "bio_html": "MasterCoder is a national programming contest organized by Cybercom Poland. It is a competition created by programmers for programmers. This year over 300 participants from Poland joined the unique coding challenge. The challenge includes accomplishing ten different tasks in ten days. It fosters creativity, innovation and enables participants to test their ability to perform under pressure. During the finals we will see 10 best ranked coders who will fight for MasterCoder title and Samsung Galaxy S6, Samsung Gear VR, AirWheel X3, GoPro Hero Session Full HD! The semi-final will include a variety of tasks such as live programming. Join the audience and become a part of real programming battle !!!",
                     "photo_url" : "/images/speakers/master-coder.png"
+                },
+                //30
+                "speaker-krzysztof-kudrynski": {
+                    "firstname": "Krzysztof",
+                    "lastname": "Kudryński",
+                    "bio_html": "Passionate problem solver with experience in algorithms prototyping, software design and optimization for mobile platforms. Perfectionist in public presentations. On a daily basis working for Tomtom, trying to squeeze the self-driving-car's imagination within an SD card, and the cars' eyes and ears within the tip of a side mirror",
+                    "photo_url" : "/images/speakers/krzysztof-kudrynski.png"
+                },
+                //30.5
+                "speaker-blazej-kubiak": {
+                    "firstname": "Błażej",
+                    "lastname": "Kubiak",
+                    "bio_html": "An enthusiast of all aspects of big data processing and all technologies that bring this enthusiasm from dream into reality. Blazej has been working in Tele Atlas and TomTom for eight years and has been involved in many challenging projects related to image and laser data processing. Blazej is one of the authors of automated traffic signs detection systems and bird-eye image mosaic creation tools. Currently he works as Expert Software Engineer in areas of Deep Neural Networks for object detection and recognition.",
+                    "photo_url" : "/images/speakers/blazej-kubiak.png"
                 }
             },
             talks: {
@@ -732,7 +746,7 @@ docpadConfig = {
                     ],
                     "language": "EN"
                 },
-                "talk-how-to-design-your-app-and-not-to-be-damned-by-maitenance-team": { //29
+                "talk-how-to-design-your-app-and-not-to-be-damned-by-maitenance-team": { //28
                     "title": "How to design your app and not be damned by maintenance team",
                     "description_html": "How to deal with complexity, technical debt and not to fall into depression. Let's discuss the ways, architecture patterns and common mistakes and let's try to find the \"silver bullet\" of architecture, or at least let's find requirements for it",
                     "speakers_keys": [
@@ -740,7 +754,7 @@ docpadConfig = {
                     ],
                     "language": "EN"
                 },
-                "talk-master-coder-final" : {
+                "talk-master-coder-final" : { //29
                     "title": "MASTERCODER VOL. 3 – NATIONAL PROGRAMMING CONTEST FINALS",
                     "description_html" : "MasterCoder is a national programming contest organized by Cybercom Poland. It is a competition created by programmers for programmers. This year over 300 participants from Poland joined the unique coding challenge. The challenge includes accomplishing ten different tasks in ten days. It fosters creativity, innovation and enables participants to test their ability to perform under pressure. During the finals we will see 10 best ranked coders who will fight for MasterCoder title and Samsung Galaxy S6, Samsung Gear VR, AirWheel X3, GoPro Hero Session Full HD! The semi-final will include a variety of tasks such as live programming. Join the audience and become a part of real programming battle !!!",
                     "speakers_keys" : [
@@ -748,11 +762,21 @@ docpadConfig = {
                     ],
                     "langauge" : "EN"
                 },
-                "talk-master-coder-eliminations" : {
+                "talk-master-coder-eliminations" : { //29.5
                     "title": "MASTERCODER VOL. 3 – NATIONAL PROGRAMMING CONTEST ELIMINATIONS",
                     "description_html" : "MasterCoder is a national programming contest organized by Cybercom Poland. It is a competition created by programmers for programmers. This year over 300 participants from Poland joined the unique coding challenge. The challenge includes accomplishing ten different tasks in ten days. It fosters creativity, innovation and enables participants to test their ability to perform under pressure. During the finals we will see 10 best ranked coders who will fight for MasterCoder title and Samsung Galaxy S6, Samsung Gear VR, AirWheel X3, GoPro Hero Session Full HD! The semi-final will include a variety of tasks such as live programming. Join the audience and become a part of real programming battle !!!",
                     "speakers_keys" : [
                         "speaker-cybercom-mastercorder"
+                    ],
+                    "langauge" : "EN"
+                }
+                ,
+                "talk-flying-services-using-mobile-phone-paired-with-drone" : { //30
+                    "title": "Flying services using mobile phone paired with drone",
+                    "description_html" : "Android mobile phone, a drone, strong passion and a lot of patience. These are all the ingredients you need to start your adventure in the emerging world of flying services. During this presentation we will show you how we started ours. Hovewer funny and amusing, this will be a presentation about serious, high-level technology, unpredictable ideas and insistent scientific struggle to make all the algorithmic meat work on a mobile phone communicating with the flying machine. If you are planning to start a remote post office on the Moon, you cannot miss this presentation.",
+                    "speakers_keys" : [
+                        "speaker-krzysztof-kudrynski",
+                        "speaker-blazej-kubiak"
                     ],
                     "langauge" : "EN"
                 }
