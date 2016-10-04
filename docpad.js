@@ -1039,7 +1039,7 @@ docpadConfig = {
                     "twitter": "",
                     "photo_url": "/images/team/agnieszka-saramak.jpeg"
                 },
-                //8
+                //9
                 "volunteer-rafal-lenarczyk": {
                     "firstname": "Rafał",
                     "lastname": "Lenarczyk",
@@ -1048,7 +1048,7 @@ docpadConfig = {
                     "twitter": "",
                     "photo_url": "/images/team/rafal-lenarczyk.jpeg"
                 },       
-                //9
+                //10
                 "volunteer-anna-defecinska": {
                     "firstname": "Anna",
                     "lastname": "Defecińska",
@@ -1057,7 +1057,7 @@ docpadConfig = {
                     "twitter": "",
                     "photo_url": "/images/team/anna-defecinska.jpeg"
                 },  
-                //10
+                //11
                 "volunteer-andrzej-jozwiak": {
                     "firstname": "Andrzej",
                     "lastname": "Jóźwiak",
@@ -1066,7 +1066,7 @@ docpadConfig = {
                     "twitter": "",
                     "photo_url": "/images/team/andrzej-jozwiak.jpeg"
                 },
-                //11
+                //12
                 "volunteer-krzysztof-gutowski": {
                     "firstname": "Krzysztof",
                     "lastname": "Gutowski",
@@ -1074,7 +1074,16 @@ docpadConfig = {
                     "www": "",
                     "twitter": "",
                     "photo_url": "/images/team/krzysztof-gutowski.jpeg"
-                },                                  
+                },
+		//13
+		"volunteer-krystian-laskowski": {
+                    "firstname": "Krystian",
+                    "lastname": "Laskowski",
+                    "bio_html": "",
+                    "www": "",
+                    "twitter": "",
+                    "photo_url": "/images/team/krystian-laskowski.jpeg"
+                },
             },
         },
         getPreparedTitle: function () {
