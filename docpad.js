@@ -92,6 +92,16 @@ docpadConfig = {
                 ],
                 supporters: [
                     // {"name": "Miliataria Łódź", "logo_url":"/images/partners/militaria.png", "link":"http://militaria.lodz.pl/"},
+                    {
+                        "name": "Krawka",
+                        "logo_url": "/images/partners/krawka.png",
+                        "link": "http://krawka.blogspot.com/"
+                    },
+                    {
+                        "name": "Medialab",
+                        "logo_url": "/images/partners/medialab.png",
+                        "link": "http://www.medialab.pl/"
+                    },
                 ],
                 community: [
                     {
