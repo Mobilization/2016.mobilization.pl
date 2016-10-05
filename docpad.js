@@ -524,6 +524,20 @@ docpadConfig = {
                     "lastname": "Kubiak",
                     "bio_html": "An enthusiast of all aspects of big data processing and all technologies that bring this enthusiasm from dream into reality. Blazej has been working in Tele Atlas and TomTom for eight years and has been involved in many challenging projects related to image and laser data processing. Blazej is one of the authors of automated traffic signs detection systems and bird-eye image mosaic creation tools. Currently he works as Expert Software Engineer in areas of Deep Neural Networks for object detection and recognition.",
                     "photo_url" : "/images/speakers/blazej-kubiak.png"
+                },
+                //31
+                "speaker-jaroslaw-jaryszew": {
+                    "firstname": "Jarosław",
+                    "lastname": "Jaryszew",
+                    "bio_html": "After several years of programming got bored with it and now works as a product manager at SEQR.",
+                    "photo_url" : "/images/speakers/jaroslaw-jaryszew.png"
+                },
+                //31.5
+                "speaker-justyna-kalebasiak": {
+                    "firstname": "Justyna",
+                    "lastname": "Kałębasiak",
+                    "bio_html": "Product manager with several years of experience in card and contactless payments. Joined fintech company SEQR after leaving mBank, where she worked on many products you may be familiar with. Apart from payments, you can also talk to her about crossfit and other sports, baking and brain training apps",
+                    "photo_url" : "/images/speakers/justyna-kalebasiak.png"
                 }
             },
             talks: {
@@ -777,6 +791,15 @@ docpadConfig = {
                     "speakers_keys" : [
                         "speaker-krzysztof-kudrynski",
                         "speaker-blazej-kubiak"
+                    ],
+                    "langauge" : "EN"
+                },
+                "talk-mobile-contactless-payments" : { //31
+                    "title": "Mobile Contactless Payments",
+                    "description_html" : "Contactless payments have become a standard. MasterCard or VISA cards are no longer pieces of plastic but an information spread between cloud and your mobile. We are going to make a short introduction about Host Card Emulation (HCE) so you understand how a card lands (although actually it doesn't) on your smarthphone. We'll tell you how banks, Apple and Google do it. And in the end what challenges must a small fintech company like SEQR must overcome to provide our own solution.",
+                    "speakers_keys" : [
+                        "speaker-jaroslaw-jaryszew",
+                        "speaker-justyna-kalebasiak"
                     ],
                     "langauge" : "EN"
                 }
