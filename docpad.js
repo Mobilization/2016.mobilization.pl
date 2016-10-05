@@ -45,7 +45,7 @@ docpadConfig = {
             },
             sponsors: {
                 diamond: [
-                    {"name": "Rndity", "logo_url": "/images/sponsors/rndity.png", "link": "https://rndity.com/"},
+                    {"name": "Rndity", "logo_url": "/images/sponsors/rndity.png", "link": "http://rndity.com/"},
                 ],
                 platinum: [
                     {"name":"Cybercom","logo_url":"/images/sponsors/cybercom.png","link":"http://www.cybercom.com/pl/Poland/"},
@@ -785,7 +785,7 @@ docpadConfig = {
                 'break-registration': {
                     title: 'Registration',
                     description_html: 'If you do not want to miss any presentation please register between 7:30-9:10. However, registration will be opened all day!'
-                },
+                },      
                 'break-hello-world': {
                     title: 'Hello World',
                     description_html: 'This is couple of words about Mobilization. For community by community.'
