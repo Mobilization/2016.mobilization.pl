@@ -3,7 +3,7 @@
 GIT_STATUS_LINES=$(git status --porcelain | wc -l)
 GIT_REMOTE_LOCAL_DIFF=$(git log origin/master..master | wc -l)
 
-if [ $GIT_STATUS_LINES -ge 1 ] && [ $GIT_REMOTE_LOCAL_DIFF -ne 0 ] ; then
+if [ $GIT_STATUS_LINES -ge 1 ] || [ $GIT_REMOTE_LOCAL_DIFF -ne 0 ] ; then
 	echo "Error: Cannot publish changes. Some changes have not been committed or pushed. See git status to get more details.";
  	git status;
 	exit 1;
