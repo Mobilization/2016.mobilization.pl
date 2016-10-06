@@ -95,7 +95,7 @@ docpadConfig = {
                     {
                         "name": "Krawka",
                         "logo_url": "/images/partners/krawka.png",
-                        "link": "http://krawka.blogspot.com/"
+                        "link": "https://www.etsy.com/shop/Krawka?ref=hdr_shop_menu"
                     },
                     {
                         "name": "Medialab",
@@ -162,74 +162,74 @@ docpadConfig = {
                 },
                 'slot-hello-world': {
                     from: '9:00',
-                    to: '9:10'
+                    to: '9:15'
                 },
                 'slot-1': {
-                    from: '9:10',
-                    to: '9:55'
+                    from: '9:15',
+                    to: '10:00'
                 },
                 'slot-coffee-1': {
-                    from: '9:55',
-                    to: '10:15'
+                    from: '10:00',
+                    to: '10:20'
                 },
                 'slot-2': {
-                    from: '10:15',
-                    to: '11:00'
+                    from: '10:20',
+                    to: '11:05'
                 },
                 'slot-coffee-2': {
-                    from: '11:00',
-                    to: '11:20'
+                    from: '11:05',
+                    to: '11:25'
                 },
                 'slot-3': {
-                    from: '11:20',
-                    to: '12:05'
-                },
-                'slot-coffee-3': {
-                    from: '12:05',
-                    to: '12:25'
-                },
-                'slot-4': {
-                    from: '12:25',
-                    to: '13:10'
+                    from: '11:25',
+                    to: '12:10'
                 },
                 'slot-lunch': {
-                    from: '13:10',
-                    to: '14:10'
+                    from: '12:10',
+                    to: '13:15'
+                },
+                'slot-during-lunch' : {
+                    from: '12:20',
+                    to: '13:05'
+                },
+                'slot-4': {
+                    from: '13:15',
+                    to: '14:00'
+                },
+                'slot-coffee-3': {
+                    from: '14:00',
+                    to: '14:15'
                 },
                 'slot-5': {
-                    from: '13:25',
-                    to: '13:55'
-                },
-                'slot-6': {
-                    from: '14:10',
-                    to: '14:55'
+                    from: '14:15',
+                    to: '15:00'
                 },
                 'slot-coffee-4': {
-                    from: '14:55',
-                    to: '15:10'
+                    from: '15:00',
+                    to: '15:15'
                 },
-                'slot-7': {
-                    from: '15:10',
-                    to: '15:55'
+                'slot-6': {
+                    from: '15:15',
+                    to: '16:00'
                 },
                 'slot-coffee-5': {
-                    from: '15:55',
-                    to: '16:10'
+                    from: '16:00',
+                    to: '16:15'
                 },
-                'slot-8': {
-                    from: '16:10',
-                    to: '16:55'
-                },
-                'slot-no-coffee-6': {
-                    from: '16:55',
+                'slot-7': {
+                    from: '16:15',
                     to: '17:00'
                 },
-                'slot-finally': {
+                'slot-no-coffee-6': {
                     from: '17:00',
-                    to: '17:15'
+                    to: '17:10'
+                },
+                'slot-finally': {
+                    from: '17:10',
+                    to: '17:40  '
                 },
                 'slot-afterparty': {
-                    from: '17:30',
+                    from: '18:00',
                     to: '23:59'
                 },
 
