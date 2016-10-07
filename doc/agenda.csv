@@ -1,2 +1,19 @@
-<% for slot_key, slot of @site.schedule: %><%= @site.slots[slot_key].from %>;<% if 'break_key' of slot: %><% for venue_key, venue of @site.venues: %><%= @site.breaks[slot.break_key].title %>;<% end %><% else: %><% for venue_key, venue of @site.venues: %><% if venue_key of slot: %><%- @site.talks[slot[venue_key].talk_key].title %> - <% speakers = new Array() %><% for speaker_key in @site.talks[slot[venue_key].talk_key].speakers_keys: %><% speakers.push(@site.speakers[speaker_key].firstname + ' ' + @site.speakers[speaker_key].lastname) %><% end %><%= speakers.join(', ') %>;<% else: %>;<% end %><% end %><% end %>
-<% end %>
+8:00;Registration;Registration;Registration;Registration;Registration;
+9:00;Hello World;Hello World;Hello World;Hello World;Hello World;
+9:15;;;Mobile and application security based on Man-in-the-middle (MITM) vectors - Michał Kucharski;Prawdziwe bezpieczeństwo w aplikacjach mobilnych - Paweł Karpiński;Flying services using mobile phone paired with drone - Krzysztof Kudryński, Błażej Kubiak;
+10:00;Coffee Break;Coffee Break;Coffee Break;Coffee Break;Coffee Break;
+10:20;Android High Performance - Enrique López Mañas;Swift at scale - Tomasz Gebarowski, Wojciech Łukaszuk;Modularizing your apps: Framework Oriented Programming - Pedro Piñera Buendía;Revisiting types in Kotlin - Francisco Estevez;Taming node_modules at Facebook - Konstantin Raev;
+11:05;Coffee Break;Coffee Break;Coffee Break;Coffee Break;Coffee Break;
+11:25;RxJava for the rest of us - Hugo Visser;Design that breaks down barriers - Agnieszka Czyżak, Rafał Tulwin;Security at your Fingertips - A dive into M&N's new Fingerprint and Keystore APIs. - Frederik Schweiger;MVVM with Coordinators & RxSwift - Łukasz Mróz;greenDAO 3 and beyond - Markus Junginger;
+12:10;Lunch Break;Lunch Break;Lunch Break;Lunch Break;Lunch Break;
+12:20;;;;;MASTERCODER VOL. 3 – NATIONAL PROGRAMMING CONTEST ELIMINATIONS - Master Coder;
+13:15;Functional on Android: lambdas, Rx and streams in your app - Eric Kok;Reactive Programming for iOS with Interstellar 2 - Jens Ravens;Espresso, beyond the basics - Inaki Villar;Bonjour Android, it's ZeroConf - Roberto Orgiu;Hacking SiriKit - Esteban Torres;
+14:00;Coffee Break;Coffee Break;Coffee Break;Coffee Break;Coffee Break;
+14:15;The 2016 Android Developer Toolbox - Gautier Mechling;How JRebel for Android Does Performance Testing - Madis Pink;Interacting with your app through command line - Roman Mazur;Custom Annotation processors for your production code - Jorge Castillo;The Objective C runtime and Swift dynamism - a 2016 perspective - Roy Marmelstein;
+15:00;Coffee Break;Coffee Break;Coffee Break;Coffee Break;Coffee Break;
+15:15;How to design your app and not be damned by maintenance team - Anton Minashkin;;;Break the monolith with (B)VIPER Modules. Or how do I start modularising my code for a better (engineering) life. - Nicola Zaghini;Getting down to business with Firebase - Saúl Díaz;
+16:00;Coffee Break;Coffee Break;Coffee Break;Coffee Break;Coffee Break;
+16:15;Elegant?? Unit Testing - Pablo Guardiola;Crafting Reactive Apps with Realm - Marius Rackwitz;Swift rEvolution - Kostiantyn Koval;Appium: Automation for Apps - Dan Cuellar;MASTERCODER VOL. 3 – NATIONAL PROGRAMMING CONTEST FINALS - Master Coder;
+17:00;No Coffee Break;No Coffee Break;No Coffee Break;No Coffee Break;No Coffee Break;
+17:10;Finally meeting;Finally meeting;Finally meeting;Finally meeting;Finally meeting;
+18:15;AfterParty in All Star Klubokawiarnia;AfterParty in All Star Klubokawiarnia;AfterParty in All Star Klubokawiarnia;AfterParty in All Star Klubokawiarnia;AfterParty in All Star Klubokawiarnia;
