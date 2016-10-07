@@ -838,7 +838,7 @@ docpadConfig = {
             },
             venues: {
                 "venue-diamond": {
-                    "title": "Diamond"
+                    "title": "Rndity"
                 },
                 "venue-ericpol": {
                     "title": "Ericpol"
