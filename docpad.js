@@ -597,6 +597,20 @@ docpadConfig = {
                     "lastname": "Karpiński",
                     "bio_html": "9+ lat w zawodzie, w przeszłości zajmowałem się dostarczeniem aplikacji bankowości internetowej (stack JEE). Obecnie od prawie 2 lat zajmuję się dostarczeniem aplikacji dla sektora telekomunikacji, gdzie bezpieczeństwo jest priorytetem numer 1.",
                     "photo_url": "/images/speakers/pawel-karpinski.png"
+                },
+                //32
+                "speaker-jacek-rondio": {
+                    "firstname": "Jacek",
+                    "lastname": "Rondio",
+                    "bio_html": "A software engineer currently working at HARMAN Connected Services mainly focused on Android applications development, however not afraid of deeper layers of the system. Team leader in the project dedicated to advanced head unit software development for Mercedes cars.",
+                    "photo_url": "/images/speakers/jacek-rondio.png"
+                },
+                //32.5
+                "speaker-krzysztof-sasiak": {
+                    "firstname": "Krzysztof",
+                    "lastname": "Sasiak",
+                    "bio_html": "A software engineer, Linux enthusiast. Currently working at Harman Connected Services, assumed a role of Bluetooth and Telephony architect in one of the projects. Doesn’t like Facebook and Twitter, likes to build things and getting his hands dirty. Afterwards, he always washes his hands.",
+                    "photo_url": "/images/speakers/krzysztof-sasiak.png"
                 }
             },
             talks: {
@@ -858,6 +872,15 @@ docpadConfig = {
                     "description_html": "Najbardziej popularne zabezpieczenie to szyfrowanie danych na telefonie, ale czy to jest bezpieczne? Tak, o ile ustawisz bardzo długie hasło, ale czy długie hasło jest praktyczne? Nie, bo normalny użytkownik nie będzie go w stanie zapamiętać. Więc jak dostarczyć prawdzie bezpieczeństwo? Trzeba skorzystać z embedded secure elementu (eSE) lub eUICC. W ramach prezentacji dowiesz się czym jest eSE, czym różni się od eUICC (następcy karty SIM). Dowiesz się również jak wygląda ekosystem zarządzania eUICC/eSE (live demo) i bezpiecznymi aplikacji. A jak starczy czasu, to dowiesz się jak zacząć przygodę z secure elementem i Androidem.",
                     "speakers_keys": [
                         "speaker-pawel-karpinski"
+                    ],
+                    "langauge": "PL"
+                },
+                "talk-make-your-mobile-more-mobile": { //32
+                    "title": "Make your mobile more mobile",
+                    "description_html": "How car became a rich accessory for the mobile. We will present the wide range of possibilities that arose with the development of technologically advanced head units. From Bluetooth hands-free to advanced companion applications. All based on Mercedes S-class example.",
+                    "speakers_keys": [
+                        "speaker-jacek-rondio",
+                        "speaker-krzysztof-sasiak"
                     ],
                     "langauge": "EN"
                 }
