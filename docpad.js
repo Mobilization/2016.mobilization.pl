@@ -534,6 +534,13 @@ docpadConfig = {
                     "lastname": "Kubiak",
                     "bio_html": "An enthusiast of all aspects of big data processing and all technologies that bring this enthusiasm from dream into reality. Blazej has been working in Tele Atlas and TomTom for eight years and has been involved in many challenging projects related to image and laser data processing. Blazej is one of the authors of automated traffic signs detection systems and bird-eye image mosaic creation tools. Currently he works as Expert Software Engineer in areas of Deep Neural Networks for object detection and recognition.",
                     "photo_url" : "/images/speakers/blazej-kubiak.png"
+                },
+                //31
+                "speaker-pawel-karpinski": {
+                    "firstname": "Paweł",
+                    "lastname": "Karpiński",
+                    "bio_html" : "9+ lat w zawodzie, w przeszłości zajmowałem się dostarczeniem aplikacji bankowości internetowej (stack JEE). Obecnie od prawie 2 lat zajmuję się dostarczeniem aplikacji dla sektora telekomunikacji, gdzie bezpieczeństwo jest priorytetem numer 1.",
+                    "photo_url" : "/images/speakers/pawel-karpinski.png"
                 }
             },
             talks: {
@@ -787,6 +794,14 @@ docpadConfig = {
                     "speakers_keys" : [
                         "speaker-krzysztof-kudrynski",
                         "speaker-blazej-kubiak"
+                    ],
+                    "langauge" : "EN"
+                },
+                "talk-prawdziwe-bezpieczenstwo-w-aplikacjach-mobilnych" : { //31
+                    "title": "Prawdziwe bezpieczeństwo w aplikacjach mobilnych",
+                    "description_html": "Najbardziej popularne zabezpieczenie to szyfrowanie danych na telefonie, ale czy to jest bezpieczne? Tak, o ile ustawisz bardzo długie hasło, ale czy długie hasło jest praktyczne? Nie, bo normalny użytkownik nie będzie go w stanie zapamiętać. Więc jak dostarczyć prawdzie bezpieczeństwo? Trzeba skorzystać z embedded secure elementu (eSE) lub eUICC. W ramach prezentacji dowiesz się czym jest eSE, czym różni się od eUICC (następcy karty SIM). Dowiesz się również jak wygląda ekosystem zarządzania eUICC/eSE (live demo) i bezpiecznymi aplikacji. A jak starczy czasu, to dowiesz się jak zacząć przygodę z secure elementem i Androidem.",
+                    "speakers_keys" : [
+                        "speaker-pawel-karpinski"
                     ],
                     "langauge" : "EN"
                 }
