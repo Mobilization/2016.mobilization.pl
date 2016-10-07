@@ -1034,9 +1034,9 @@ docpadConfig = {
                     "venue-rndity": {
                         "talk_key": "talk-how-to-design-your-app-and-not-to-be-damned-by-maitenance-team"
                     },
-                    // "venue-ericpol": {
-                    //     "talk_key": ""
-                    // },
+                    "venue-ericpol": {
+                        "talk_key": "talk-make-your-mobile-more-mobile"
+                    },
                     // "venue-mobica": {
                     //     "talk_key": ""
                     // },
