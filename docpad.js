@@ -1,10 +1,10 @@
 var docpadConfig;
 var indexOf = [].indexOf || function (item) {
-            for (var i = 0, l = this.length; i < l; i++) {
-                if (i in this && this[i] === item) return i;
-            }
-            return -1;
-        };
+        for (var i = 0, l = this.length; i < l; i++) {
+            if (i in this && this[i] === item) return i;
+        }
+        return -1;
+    };
 
 var imgBaseUrl = '/images/';
 var sponsorsImgBaseUrl = imgBaseUrl + 'sponsors/';
@@ -48,15 +48,27 @@ docpadConfig = {
                     {"name": "Rndity", "logo_url": "/images/sponsors/rndity.png", "link": "http://rndity.com/"},
                 ],
                 platinum: [
-                    {"name":"Cybercom","logo_url":"/images/sponsors/cybercom.png","link":"http://www.cybercom.com/pl/Poland/"},
-                    {"name":"Ericpol","logo_url":"/images/sponsors/ericpol.jpeg","link":"http://www.ericpol.pl"},
-                    {"name":"Harman","logo_url":"/images/sponsors/harman.jpeg","link":"http://services.harman.com/"},
+                    {
+                        "name": "Cybercom",
+                        "logo_url": "/images/sponsors/cybercom.png",
+                        "link": "http://www.cybercom.com/pl/Poland/"
+                    },
+                    {"name": "Ericpol", "logo_url": "/images/sponsors/ericpol.jpeg", "link": "http://www.ericpol.pl"},
+                    {
+                        "name": "Harman",
+                        "logo_url": "/images/sponsors/harman.jpeg",
+                        "link": "http://services.harman.com/"
+                    },
                     {
                         "name": "Mobica",
                         "logo_url": "/images/sponsors/mobica.png",
                         "description_html": "<p>Mobica provides high-end software development and integration services for consumer electronics manufacturers, operators, application vendors and platform providers. We work on all mainstream mobile platforms and operating systems and can work on virtually any component of a device: from embedded systems and device drivers, core multimedia components and middleware, through to innovative applications/UI design and connectivity solutions.</p><p>We have grown a world-class team of architects, project managers and software engineers based in our UK and Poland development centres, enabling us to provide consultancy services across the software and product lifecycle from initial concept definition and design, through to implementation and testing.</p><p>Mobica adds value to our customers through a combination of flexible consultancy services, the highest levels of technical expertise, and the creation of innovative, technically optimised software component design.</p><p>Mobica are listed in The Sunday Times Tech Track 100 as the 4th fastest growing private technology company in the UK in 2009. See: <a href='http://www.fasttrack.co.uk/fasttrack2002/bin/techreport.pdf'>http://www.fasttrack.co.uk/fasttrack2002/bin/techreport.pdf</a></p><p>Mobica is hiring and looking for talented engineers! Check our current job offers at <a href='http://www.mobica.com/careers'>http://www.mobica.com/careers</a></p><p>&nbsp;</p>"
                     },
-                    {"name":"Oberthur Technologies R&D Poland","logo_url":"/images/sponsors/oberthur.png","link":"http://www.oberthur.com/"},
+                    {
+                        "name": "Oberthur Technologies R&D Poland",
+                        "logo_url": "/images/sponsors/oberthur.png",
+                        "link": "http://www.oberthur.com/"
+                    },
                     {"name": "Seqr", "logo_url": "/images/sponsors/seqr.png", "link": "https://www.seqr.com/int/"},
                     {
                         "name": "TomTom",
@@ -65,21 +77,33 @@ docpadConfig = {
                     },
                 ],
                 gold: [
-                    {"name":"Appyourself","logo_url":"/images/sponsors/appyourself.png","link":"http://www.appyourself.net/"},
+                    {
+                        "name": "Appyourself",
+                        "logo_url": "/images/sponsors/appyourself.png",
+                        "link": "http://www.appyourself.net/"
+                    },
                     {
                         "name": "Ceri International",
                         "logo_url": "/images/sponsors/ceri.png",
                         "link": "http://www.ceri.pl/"
                     },
-                    {"name":"Intive","logo_url":"/images/sponsors/intive.png","link":"https://www.intive.com/en"},
-                    {"name":"Pracuj.pl","logo_url":"/images/sponsors/pracujpl.png","link":"http://www.pracuj.pl/"},
+                    {"name": "Intive", "logo_url": "/images/sponsors/intive.png", "link": "https://www.intive.com/en"},
+                    {"name": "Pracuj.pl", "logo_url": "/images/sponsors/pracujpl.png", "link": "http://www.pracuj.pl/"},
                 ],
                 silver: [
-                    {"name":"ITKontrakt","logo_url":"/images/sponsors/itkontrakt.png","link":"https://www.itkontrakt.pl/"},
-                    {"name":"Sii","logo_url":"/images/sponsors/sii.png","link":"http://sii.pl/oddzialy/lodz/"},
+                    {
+                        "name": "ITKontrakt",
+                        "logo_url": "/images/sponsors/itkontrakt.png",
+                        "link": "https://www.itkontrakt.pl/"
+                    },
+                    {"name": "Sii", "logo_url": "/images/sponsors/sii.png", "link": "http://sii.pl/oddzialy/lodz/"},
                 ],
                 copper: [
-                    {"name":"Jetbrains","logo_url":"/images/sponsors/jetbrains.png","link":"http://www.jetbrains.com/"}
+                    {
+                        "name": "Jetbrains",
+                        "logo_url": "/images/sponsors/jetbrains.png",
+                        "link": "http://www.jetbrains.com/"
+                    }
                 ],
             },
             partners: {
@@ -108,7 +132,7 @@ docpadConfig = {
                         "name": "Łódź WiOSłuje",
                         "logo_url": "/images/partners/lodz-wiosluje.png",
                         "description_html": "The best place for iOS developers based in Łódź. A group with monthly meetings with tech talks, fantastic speakers and unbeatable atmosphere! Join us on facebook: www.facebook.com/lodzwiosluje",
-			            "link": "http://www.meetup.com/Lodz-w-iOS-luje/"
+                        "link": "http://www.meetup.com/Lodz-w-iOS-luje/"
                     },
                     // {"name":"Toruń JUG","logo_url":"/images/partners/jugtorun5d_3_square.png","description_html":"Toruń JUG is a group of JVM technologies developers and enthusiasts. The main goal of the group is to gather people interested in JVM languages both professionally and personally. Our group contains programmers from many companies, scientists working on Toruń university, students and other technology passionates. We are encouraging knowledge sharing and collaboration in open source projects. Although we are the youngest JUG in Poland we are growing fast already having several big partners supporting us. More about Toruń JUG you can find at: torun.jug.pl"},
                     {
@@ -118,13 +142,33 @@ docpadConfig = {
                     },
                     // {"name":"Polish Java User Group","logo_url":"/images/partners/polish-jug.png","description_html":"Polish Java User Group is a group of Java technology developers and enthusiasts. The main goal of the group is to popularize Java and modern software development methodologies. Since the beginning in 1999, the group had great impact on the Polish Java community growth. They main activity are meetings with students, programmers and project managers as well as conferences with famous professionals."},
                     // {"name":"Mobile Central Europe 2016","logo_url":"/images/partners/mce2016.png","description_html":"We put our best effort into creating a stimulating experience for everyone involved. Help us make it one of the best mobile events in Europe! MCE is about bringing together the greatest minds in tech to exchange groundbreaking ideas. For Mobilization attendees promo-code will be offered giving 20% discount. Code will be visible during Mobilization event so you have to be on Mobilization! With this discount and early bird the ticket for MCE is really good price."},
-                    {"name":"GDG Kraków","logo_url":"/images/partners/gdgkrakow.jpeg","link":"http://www.meetup.com/GDG-Krakow/"},
-                    {"name":"Let Swift","logo_url":"/images/partners/letswift.png","link":"https://www.facebook.com/letswiftwroclaw/"},
+                    {
+                        "name": "GDG Kraków",
+                        "logo_url": "/images/partners/gdgkrakow.jpeg",
+                        "link": "http://www.meetup.com/GDG-Krakow/"
+                    },
+                    {
+                        "name": "Let Swift",
+                        "logo_url": "/images/partners/letswift.png",
+                        "link": "https://www.facebook.com/letswiftwroclaw/"
+                    },
                     // {"name":"Dev Day 2015","logo_url":"/images/partners/abb-dev-day.png","link":"http://devday.pl"},
                     // {"name":"Codepot.pl","logo_url":"/images/partners/codepot-logo.png","link":"http://codepot.pl"},
-                    {"name":"Zwinna Łódź","logo_url":"/images/partners/zwinna_lodz.jpeg","link":"http://zwinnalodz.eu/"},
-                    {"name":"Mobile Warsaw","logo_url":"/images/partners/mw-logo.png","link":"http://mobile-warsaw.pl"},
-                    {"name":"Meet Mobile", "logo_url":"/images/partners/meet-mobile.png", "link":"https://www.meetup.com/meet-mobile/"},
+                    {
+                        "name": "Zwinna Łódź",
+                        "logo_url": "/images/partners/zwinna_lodz.jpeg",
+                        "link": "http://zwinnalodz.eu/"
+                    },
+                    {
+                        "name": "Mobile Warsaw",
+                        "logo_url": "/images/partners/mw-logo.png",
+                        "link": "http://mobile-warsaw.pl"
+                    },
+                    {
+                        "name": "Meet Mobile",
+                        "logo_url": "/images/partners/meet-mobile.png",
+                        "link": "https://www.meetup.com/meet-mobile/"
+                    },
                     {
                         "name": "Droidcon Poland",
                         "logo_url": "/images/partners/droidcon.png",
@@ -148,11 +192,23 @@ docpadConfig = {
                     // {"name":"4tech.tv","logo_url":"/images/partners/4techmobile.png","link":"http://testytelefonow.pl"},
                     // {"name":"StartUpTV","logo_url":"/images/partners/startuptv.png","link":"http://startuptv.pl"},
                     // {"name":"Linux Magazine","logo_url":"/images/partners/linuxmag.png","link":"http://www.linux-magazine.pl"},
-                    {"name":"Packt Publishing","logo_url":"/images/partners/packt.png","link":"https://www.packtpub.com/"},
+                    {
+                        "name": "Packt Publishing",
+                        "logo_url": "/images/partners/packt.png",
+                        "link": "https://www.packtpub.com/"
+                    },
                     // {"name":"Młodzi w Łodzi","logo_url":"/images/partners/mlodzi-w-lodzi.jpg","link":"http://mlodziwlodzi.pl"},
-                    {"name":"Helion","logo_url":"/images/partners/helionpl.png","link":"http://helion.pl"},
-                    {"name":"Manning Publications","logo_url":"/images/partners/manning.png","link":"http://www.manning.com"},
-                    {"name":"Pluralsight","logo_url":"/images/partners/pluralsight.png","link":"https://www.pluralsight.com/"}
+                    {"name": "Helion", "logo_url": "/images/partners/helionpl.png", "link": "http://helion.pl"},
+                    {
+                        "name": "Manning Publications",
+                        "logo_url": "/images/partners/manning.png",
+                        "link": "http://www.manning.com"
+                    },
+                    {
+                        "name": "Pluralsight",
+                        "logo_url": "/images/partners/pluralsight.png",
+                        "link": "https://www.pluralsight.com/"
+                    }
                 ]
             },
             slots: {
@@ -188,7 +244,7 @@ docpadConfig = {
                     from: '12:10',
                     to: '13:15'
                 },
-                'slot-during-lunch' : {
+                'slot-during-lunch': {
                     from: '12:20',
                     to: '13:05'
                 },
@@ -237,112 +293,112 @@ docpadConfig = {
             speakers: {
                 //1
                 "speaker-jens-ravens": {
-                   "firstname": "Jens",
-                     "lastname": "Ravens",
-                     "bio_html": "Jens is an iOS, macOS and backend Developer, writing ObjC since 2006. Currently working at nerdgeschoss helping clients to create awesome apps. Organiser of the monthly swift.berlin meetup. Scaring people with functional concepts since 2014.",
-                "www": "http://jensravens.com/",
-                "twitter": "https://twitter.com/jensravens",
-                "facebook": "",
-                "github": "https://github.com/JensRavens",
-                "linkedin": "https://www.linkedin.com/in/jens-ravens-31416251",
-                "photo_url": "/images/speakers/jens-ravens.jpg"
-                 },
-                 //2
-                 "speaker-pedro-buendia": {
-                     "firstname": "Pedro",
-                     "lastname": "Piñera Buendía",
-                     "bio_html": "Pedro is an iOS Developer at SoundCloud. Open source lover and runner in his free time. He loves coding and contributing with his own libraries. In his spare time, Pedro is starting his own project, GitDo. Open to learning new concepts and paradigms, of late he is interested in architectures like VIPER, and reactive programming.",
-                     "www": "http://www.ppinera.es/",
-                     "github": "https://github.com/pepibumur",
-                     "twitter": "https://twitter.com/pepibumur",
-                     "photo_url": "/images/speakers/pedro-buendia.jpeg"
-                 },
-                 //3
-                 "speaker-konstantin-raev": {
-                     "firstname": "Konstantin",
-                     "lastname": "Raev",
-                     "bio_html": "Konstantin is a Developer at Facebook who is working in React Native team. For the last few years his passions were infrastructure, Continuous Delivery, JavaScript and stable builds. Before joining Facebook he worked at a New Zealand startup <a href='www.booktrack.com'>Booktrack</a>.",
-                     "wwww": "",
-                     "github": "https://github.com/bestander/",
-                     "linkedin": "https://uk.linkedin.com/in/koraev",
-                     "twitter": "https://twitter.com/bestander_nz",
-                     "medium": "https://medium.com/@bestander_nz",
-                     "photo_url": "/images/speakers/konstantin-raev.jpeg"
-                 },
-                 //4
-                 "speaker-gautier-mechling": {
-                     "firstname": "Gautier",
-                     "lastname": "Mechling",
-                     "bio_html": "Gautier is an aspiring Software Craftsman in Paris, France. Agile thinker passionate in Android Development, he creates and maintains some FOSS tools to improve productivity. Talk to him about Kotlin, Clean Code, or Free Software and you will see his eyes light up.",
-                     "wwww": "http://nilhcem.com",
-                     "github": "https://github.com/Nilhcem",
-                     "twitter": "https://twitter.com/Nilhcem",
-                     "photo_url": "/images/speakers/gautier-mechling.jpeg"
-                 },
-                 //5
-                 "speaker-nicola-zaghini": {
-                     "firstname": "Nicola",
-                     "lastname": "Zaghini",
-                     "bio_html": "Nicola Zaghini is a software architect at Mobile Travel Technologies. He has been developing mobile apps since the first iOS SDK was released, from indie game development to major airlines and travel companies. Prior to that, he enjoyed Java development as professional and researcher in academia. He is currently in charge of mobile architecture in MTT and helps teams deliver amazing apps.",
-                     "www": "",
-                     "twitter": "https://twitter.com/nzaghini",
-                     "photo_url": "/images/speakers/nicola-zaghini.jpeg"
-                 },
-                 //6
-                 "speaker-roberto-orgiu": {
-                     "firstname": "Roberto",
-                     "lastname": "Orgiu",
-                     "bio_html": "Android developer and enthusiastic, DroidCon and community fan, I love the Android environment and pushing the limits of the platform.",
-                     "www": "",
-                     "twitter": "https://github.com/tiwiz",
-                     "photo_url": "/images/speakers/roberto-orgiu.jpeg"
-                 },
-                 //7
-                 "speaker-eric-kok": {
-                     "firstname": "Eric",
-                     "lastname": "Kok",
-                     "bio_html": "Hi, I'm Eric. I currently work as a contractor at KBC Bank in Belgium creating the next mobile banking app. But if you know me, it is through my open-source work published under the 2312 development name. I build apps, such as RateBeer, and libraries, such as RxCupboard. I love brewing and drinking craft beer, chatting about Android and building with Legos with my son.",
-                     "www": "",
-                     "twitter": "https://twitter.com/erickoknl",
-                     "photo_url": "/images/speakers/eric-kok.jpeg"
-                 },
-                 //8
-                 "speaker-dan-cuellar": {
-                     "firstname": "Dan",
-                     "lastname": "Cuellar",
-                     "bio_html": "Dan Cuellar is the creator of the open source mobile automation framework Appium, and Head of Test Engineering at FOODit in London. Previously, he headed the test organisation at Shazam in London and Zoosk in San Francisco, and worked as a software engineer on Microsoft Outlook for Mac, and other products in the Microsoft Office suite. He is an advocate of open source technologies and technical software testing. He earned a Bachelor’s degree in Computer Science, with a minor in Music Technology, from the world-renowned School of Computer Science at Carnegie Mellon University in Pittsburgh.",
-                     "github": "https://github.com/penguinho",
-                     "linkedin": "https://uk.linkedin.com/in/dacuellar",
-                     "www": "",
-                     "twitter": "https://twitter.com/thedancuellar",
-                     "photo_url": "/images/speakers/dan-cuellar.jpeg"
-                 },
-                 //9
-                 "speaker-roman-mazur": {
-                     "firstname": "Roman",
-                     "lastname": "Mazur",
-                     "bio_html": "Roman has been working with Android for more than 6 years. You can find him delivering fixes and new features to a plenty of Android libraries and frameworks including support library, Robolectric, Madge, Spoon, Retrofit, and Helium. At Stanfy he is working on a customized Android OS for in-room tablets installed at hotels by KEYPR.",
-                     "www": "https://www.stanfy.com/",
-                     "github":"https://github.com/roman-mazur",
-                     "twitter": "https://twitter.com/roman_mazur",
-                     "photo_url": "/images/speakers/roman-mazur.jpeg"
-                 },
-                 //10
-                 "speaker-markus-junginger": {
-                     "firstname": "Markus",
-                     "lastname": "Junginger",
-                     "bio_html": "Markus Junginger is an Android enthusiast and developer since the first SDK release in 2007. His mobile software company greenrobot focuses on high quality Android apps and open source libraries, which are widely used by many popular apps. Markus has 15+ years experience with Java and did his first mobile software project in 2001. He regularly speaks and writes about Android, gives Android trainings, and develops for Android.",
-                     "www": "",
-                     "twitter": "https://twitter.com/greenrobot_de",
-                     "photo_url": "/images/speakers/markus-junginger.jpeg"
-                 },
+                    "firstname": "Jens",
+                    "lastname": "Ravens",
+                    "bio_html": "Jens is an iOS, macOS and backend Developer, writing ObjC since 2006. Currently working at nerdgeschoss helping clients to create awesome apps. Organiser of the monthly swift.berlin meetup. Scaring people with functional concepts since 2014.",
+                    "www": "http://jensravens.com/",
+                    "twitter": "https://twitter.com/jensravens",
+                    "facebook": "",
+                    "github": "https://github.com/JensRavens",
+                    "linkedin": "https://www.linkedin.com/in/jens-ravens-31416251",
+                    "photo_url": "/images/speakers/jens-ravens.jpg"
+                },
+                //2
+                "speaker-pedro-buendia": {
+                    "firstname": "Pedro",
+                    "lastname": "Piñera Buendía",
+                    "bio_html": "Pedro is an iOS Developer at SoundCloud. Open source lover and runner in his free time. He loves coding and contributing with his own libraries. In his spare time, Pedro is starting his own project, GitDo. Open to learning new concepts and paradigms, of late he is interested in architectures like VIPER, and reactive programming.",
+                    "www": "http://www.ppinera.es/",
+                    "github": "https://github.com/pepibumur",
+                    "twitter": "https://twitter.com/pepibumur",
+                    "photo_url": "/images/speakers/pedro-buendia.jpeg"
+                },
+                //3
+                "speaker-konstantin-raev": {
+                    "firstname": "Konstantin",
+                    "lastname": "Raev",
+                    "bio_html": "Konstantin is a Developer at Facebook who is working in React Native team. For the last few years his passions were infrastructure, Continuous Delivery, JavaScript and stable builds. Before joining Facebook he worked at a New Zealand startup <a href='www.booktrack.com'>Booktrack</a>.",
+                    "wwww": "",
+                    "github": "https://github.com/bestander/",
+                    "linkedin": "https://uk.linkedin.com/in/koraev",
+                    "twitter": "https://twitter.com/bestander_nz",
+                    "medium": "https://medium.com/@bestander_nz",
+                    "photo_url": "/images/speakers/konstantin-raev.jpeg"
+                },
+                //4
+                "speaker-gautier-mechling": {
+                    "firstname": "Gautier",
+                    "lastname": "Mechling",
+                    "bio_html": "Gautier is an aspiring Software Craftsman in Paris, France. Agile thinker passionate in Android Development, he creates and maintains some FOSS tools to improve productivity. Talk to him about Kotlin, Clean Code, or Free Software and you will see his eyes light up.",
+                    "wwww": "http://nilhcem.com",
+                    "github": "https://github.com/Nilhcem",
+                    "twitter": "https://twitter.com/Nilhcem",
+                    "photo_url": "/images/speakers/gautier-mechling.jpeg"
+                },
+                //5
+                "speaker-nicola-zaghini": {
+                    "firstname": "Nicola",
+                    "lastname": "Zaghini",
+                    "bio_html": "Nicola Zaghini is a software architect at Mobile Travel Technologies. He has been developing mobile apps since the first iOS SDK was released, from indie game development to major airlines and travel companies. Prior to that, he enjoyed Java development as professional and researcher in academia. He is currently in charge of mobile architecture in MTT and helps teams deliver amazing apps.",
+                    "www": "",
+                    "twitter": "https://twitter.com/nzaghini",
+                    "photo_url": "/images/speakers/nicola-zaghini.jpeg"
+                },
+                //6
+                "speaker-roberto-orgiu": {
+                    "firstname": "Roberto",
+                    "lastname": "Orgiu",
+                    "bio_html": "Android developer and enthusiastic, DroidCon and community fan, I love the Android environment and pushing the limits of the platform.",
+                    "www": "",
+                    "twitter": "https://github.com/tiwiz",
+                    "photo_url": "/images/speakers/roberto-orgiu.jpeg"
+                },
+                //7
+                "speaker-eric-kok": {
+                    "firstname": "Eric",
+                    "lastname": "Kok",
+                    "bio_html": "Hi, I'm Eric. I currently work as a contractor at KBC Bank in Belgium creating the next mobile banking app. But if you know me, it is through my open-source work published under the 2312 development name. I build apps, such as RateBeer, and libraries, such as RxCupboard. I love brewing and drinking craft beer, chatting about Android and building with Legos with my son.",
+                    "www": "",
+                    "twitter": "https://twitter.com/erickoknl",
+                    "photo_url": "/images/speakers/eric-kok.jpeg"
+                },
+                //8
+                "speaker-dan-cuellar": {
+                    "firstname": "Dan",
+                    "lastname": "Cuellar",
+                    "bio_html": "Dan Cuellar is the creator of the open source mobile automation framework Appium, and Head of Test Engineering at FOODit in London. Previously, he headed the test organisation at Shazam in London and Zoosk in San Francisco, and worked as a software engineer on Microsoft Outlook for Mac, and other products in the Microsoft Office suite. He is an advocate of open source technologies and technical software testing. He earned a Bachelor’s degree in Computer Science, with a minor in Music Technology, from the world-renowned School of Computer Science at Carnegie Mellon University in Pittsburgh.",
+                    "github": "https://github.com/penguinho",
+                    "linkedin": "https://uk.linkedin.com/in/dacuellar",
+                    "www": "",
+                    "twitter": "https://twitter.com/thedancuellar",
+                    "photo_url": "/images/speakers/dan-cuellar.jpeg"
+                },
+                //9
+                "speaker-roman-mazur": {
+                    "firstname": "Roman",
+                    "lastname": "Mazur",
+                    "bio_html": "Roman has been working with Android for more than 6 years. You can find him delivering fixes and new features to a plenty of Android libraries and frameworks including support library, Robolectric, Madge, Spoon, Retrofit, and Helium. At Stanfy he is working on a customized Android OS for in-room tablets installed at hotels by KEYPR.",
+                    "www": "https://www.stanfy.com/",
+                    "github": "https://github.com/roman-mazur",
+                    "twitter": "https://twitter.com/roman_mazur",
+                    "photo_url": "/images/speakers/roman-mazur.jpeg"
+                },
+                //10
+                "speaker-markus-junginger": {
+                    "firstname": "Markus",
+                    "lastname": "Junginger",
+                    "bio_html": "Markus Junginger is an Android enthusiast and developer since the first SDK release in 2007. His mobile software company greenrobot focuses on high quality Android apps and open source libraries, which are widely used by many popular apps. Markus has 15+ years experience with Java and did his first mobile software project in 2001. He regularly speaks and writes about Android, gives Android trainings, and develops for Android.",
+                    "www": "",
+                    "twitter": "https://twitter.com/greenrobot_de",
+                    "photo_url": "/images/speakers/markus-junginger.jpeg"
+                },
                 //11
                 "speaker-madis-pink": {
                     "firstname": "Madis",
                     "lastname": "Pink",
                     "bio_html": "Madis is currently working on JRebel for Android at ZeroTurnaround. He started hacking on Android apps on a T-Mobile G1 more than 7 years ago and quickly grew a particular interest in build systems and developer tooling. His previous experience includes working on the Android Platform team at Spotify and producing multiple apps at Mobi Lab. During his free time he likes to dabble around with guitars and home recording.",
                     "www": "",
-                    "github":"https://github.com/madisp",
+                    "github": "https://github.com/madisp",
                     "twitter": "https://twitter.com/madisp",
                     "photo_url": "/images/speakers/madis-pink.jpeg"
                 },
@@ -363,7 +419,7 @@ docpadConfig = {
                     "bio_html": "Jorge Castillo is a spanish experienced Android developer currently working as an Android Engineer at Jobandtalent, an important International product company from Madrid. Its main work is focused on Open Source projects.",
                     "www": "http://jorgecastillo.xyz/",
                     "twitter": "https://twitter.com/JorgeCastilloPr",
-                    "github" : "https://github.com/JorgeCastilloPrz/",
+                    "github": "https://github.com/JorgeCastilloPrz/",
                     "photo_url": "/images/speakers/jorge-castillo.jpeg"
                 },
                 //14
@@ -372,7 +428,7 @@ docpadConfig = {
                     "lastname": "Villar",
                     "bio_html": "Android Developer since 5 years ago. I worked with Bank apps in Spain for three years. Later I moved to Ireland to work with apps of Airlines and GSM carriers. Actually I'm living in Thailand working for Agoda. I'm Google Developer Expert and I enjoy being involve with the android community.",
                     "www": "",
-                    "github" : "https://github.com/cdsap",
+                    "github": "https://github.com/cdsap",
                     "twitter": "https://twitter.com/inyaki_mwc",
                     "photo_url": "/images/speakers/inaki-villar.jpeg"
                 },
@@ -381,9 +437,9 @@ docpadConfig = {
                     "firstname": "Enrique",
                     "lastname": "López Mañas",
                     "bio_html": "Enrique López-Mañas is a Google Developer Expert and independent IT consultor. He has been working with mobile technologies and learning from then since 2007.  He is an avid contributor to the Open Source community and a FLOSS (Free Libre Open Source Software) kind of guy, being among the top 10 Open Source Java Contributors in Germany. He is a part of the Google LaunchPad accelerator, where he participates in Google global initiatives to influence over hundreds of the best startups from all around the globe. He is also a Big Data and Machine Learning aficionado. On his free time he rides his bike, take pictures and travel until extenuation. He also writes literature and enjoys all kind of arts. He also likes to write about himself in third person.",
-                    "www" : "http://www.lopez-manas.com/",
-                    "github" : "https://github.com/kikoso",
-                    "twitter" : "https://twitter.com/eenriquelopez",
+                    "www": "http://www.lopez-manas.com/",
+                    "github": "https://github.com/kikoso",
+                    "twitter": "https://twitter.com/eenriquelopez",
                     "photo_url": "/images/speakers/enrique-manas.jpeg"
                 },
                 //16
@@ -412,7 +468,7 @@ docpadConfig = {
                     "bio_html": "Paco Estevez is an Android developer at Hudl by day, and an opensource contributor by night. He's been an early adopter of new paradigms and techniques in Android, like reactive programming with RxJava or a functional approach to Kotlin. You can follow his thoughts on his <a href='http://www.pacoworks.com'>blog</a>, or his <a href='https://github.com/pakoito'>libraries</a>",
                     "www": "http://www.pacoworks.com",
                     "twitter": "",
-                    "github" : "https://github.com/pakoito",
+                    "github": "https://github.com/pakoito",
                     "photo_url": "/images/speakers/francisco-estevez.jpeg"
                 },
                 //19
@@ -430,7 +486,7 @@ docpadConfig = {
                     "lastname": "Marmelstein",
                     "bio_html": "Creator of PhoneNumberKit, Interpolate and Localize.",
                     "www": "http://marmelroy.github.io/",
-                    "github" : "https://github.com/marmelroy",
+                    "github": "https://github.com/marmelroy",
                     "twitter": "https://twitter.com/marmelroy",
                     "photo_url": "/images/speakers/roy-marmelstein.jpeg"
                 },
@@ -440,7 +496,7 @@ docpadConfig = {
                     "lastname": "Torres",
                     "bio_html": "iOS Developer for over 5 years. Big proponent of OSS and head organizer of CocoaHeads Costa Rica.",
                     "www": "http://estebantorr.es",
-                    "github" : "https://github.com/esttorhe",
+                    "github": "https://github.com/esttorhe",
                     "twitter": "https://twitter.com/esttorhe",
                     "photo_url": "/images/speakers/esteban-torres.png"
                 },
@@ -475,7 +531,7 @@ docpadConfig = {
                     "firstname": "Wojciech",
                     "lastname": "Łukaszuk",
                     "bio_html": "Software engineer at mBank. Lifelong learner. Can’t stand workarounds and spaghetti code.",
-                    "twitter" : "https://twitter.com/wojteklu",
+                    "twitter": "https://twitter.com/wojteklu",
                     "www": "http://wojteklu.com/",
                     "photo_url": "/images/speakers/wojciech-lukaszuk.png"
                 },
@@ -501,46 +557,46 @@ docpadConfig = {
                     "photo_url": "/images/speakers/rafal-tulwin.png"
                 },
                 //27
-                "speaker-lukasz-mroz" : {
-                    "firstname" : "Łukasz",
-                    "lastname" : "Mróz",
-                    "bio_html" : "Started as a back-end web developer, quickly found a new home in iOS. In ❤︎ with Swift, learning and everything that's being reactive. Endorsed on LinkedIn for coffee skills.",
-                    "photo_url" : "/images/speakers/lukasz-mroz.png"
+                "speaker-lukasz-mroz": {
+                    "firstname": "Łukasz",
+                    "lastname": "Mróz",
+                    "bio_html": "Started as a back-end web developer, quickly found a new home in iOS. In ❤︎ with Swift, learning and everything that's being reactive. Endorsed on LinkedIn for coffee skills.",
+                    "photo_url": "/images/speakers/lukasz-mroz.png"
                 },
                 //28
-                "speaker-anton-minashkin" : {
-                    "firstname" : "Anton",
-                    "lastname" : "Minashkin",
-                    "bio_html" : "Lead Android developer, speaker, GDG Lviv organizer and co-founder of GDG Kremenchuk, currently works at EPAM. Have experience in both server and mobile side development. All my free time I spend on the endless search of silver bullets, perfect architectures and holy wars",
-                    "photo_url" : "/images/speakers/anton-minashkin.png"
+                "speaker-anton-minashkin": {
+                    "firstname": "Anton",
+                    "lastname": "Minashkin",
+                    "bio_html": "Lead Android developer, speaker, GDG Lviv organizer and co-founder of GDG Kremenchuk, currently works at EPAM. Have experience in both server and mobile side development. All my free time I spend on the endless search of silver bullets, perfect architectures and holy wars",
+                    "photo_url": "/images/speakers/anton-minashkin.png"
                 },
                 //29
                 "speaker-cybercom-mastercorder": {
                     "firstname": "Master",
                     "lastname": "Coder",
                     "bio_html": "MasterCoder is a national programming contest organized by Cybercom Poland. It is a competition created by programmers for programmers. This year over 300 participants from Poland joined the unique coding challenge. The challenge includes accomplishing ten different tasks in ten days. It fosters creativity, innovation and enables participants to test their ability to perform under pressure. During the finals we will see 10 best ranked coders who will fight for MasterCoder title and Samsung Galaxy S6, Samsung Gear VR, AirWheel X3, GoPro Hero Session Full HD! The semi-final will include a variety of tasks such as live programming. Join the audience and become a part of real programming battle !!!",
-                    "photo_url" : "/images/speakers/master-coder.png"
+                    "photo_url": "/images/speakers/master-coder.png"
                 },
                 //30
                 "speaker-krzysztof-kudrynski": {
                     "firstname": "Krzysztof",
                     "lastname": "Kudryński",
                     "bio_html": "Passionate problem solver with experience in algorithms prototyping, software design and optimization for mobile platforms. Perfectionist in public presentations. On a daily basis working for Tomtom, trying to squeeze the self-driving-car's imagination within an SD card, and the cars' eyes and ears within the tip of a side mirror",
-                    "photo_url" : "/images/speakers/krzysztof-kudrynski.png"
+                    "photo_url": "/images/speakers/krzysztof-kudrynski.png"
                 },
                 //30.5
                 "speaker-blazej-kubiak": {
                     "firstname": "Błażej",
                     "lastname": "Kubiak",
                     "bio_html": "An enthusiast of all aspects of big data processing and all technologies that bring this enthusiasm from dream into reality. Blazej has been working in Tele Atlas and TomTom for eight years and has been involved in many challenging projects related to image and laser data processing. Blazej is one of the authors of automated traffic signs detection systems and bird-eye image mosaic creation tools. Currently he works as Expert Software Engineer in areas of Deep Neural Networks for object detection and recognition.",
-                    "photo_url" : "/images/speakers/blazej-kubiak.png"
+                    "photo_url": "/images/speakers/blazej-kubiak.png"
                 },
                 //31
                 "speaker-pawel-karpinski": {
                     "firstname": "Paweł",
                     "lastname": "Karpiński",
-                    "bio_html" : "9+ lat w zawodzie, w przeszłości zajmowałem się dostarczeniem aplikacji bankowości internetowej (stack JEE). Obecnie od prawie 2 lat zajmuję się dostarczeniem aplikacji dla sektora telekomunikacji, gdzie bezpieczeństwo jest priorytetem numer 1.",
-                    "photo_url" : "/images/speakers/pawel-karpinski.png"
+                    "bio_html": "9+ lat w zawodzie, w przeszłości zajmowałem się dostarczeniem aplikacji bankowości internetowej (stack JEE). Obecnie od prawie 2 lat zajmuję się dostarczeniem aplikacji dla sektora telekomunikacji, gdzie bezpieczeństwo jest priorytetem numer 1.",
+                    "photo_url": "/images/speakers/pawel-karpinski.png"
                 }
             },
             talks: {
@@ -622,7 +678,7 @@ docpadConfig = {
                     "speakers_keys": [
                         "speaker-roman-mazur"
                     ],
-                
+
                     "language": "EN"
                 },
                 "talk-how-jrebel-for-android-does-performance-testing": { //11
@@ -771,46 +827,46 @@ docpadConfig = {
                     ],
                     "language": "EN"
                 },
-                "talk-master-coder-final" : { //29
+                "talk-master-coder-final": { //29
                     "title": "MASTERCODER VOL. 3 – NATIONAL PROGRAMMING CONTEST FINALS",
-                    "description_html" : "MasterCoder is a national programming contest organized by Cybercom Poland. It is a competition created by programmers for programmers. This year over 300 participants from Poland joined the unique coding challenge. The challenge includes accomplishing ten different tasks in ten days. It fosters creativity, innovation and enables participants to test their ability to perform under pressure. During the finals we will see 10 best ranked coders who will fight for MasterCoder title and Samsung Galaxy S6, Samsung Gear VR, AirWheel X3, GoPro Hero Session Full HD! The semi-final will include a variety of tasks such as live programming. Join the audience and become a part of real programming battle !!!",
-                    "speakers_keys" : [
+                    "description_html": "MasterCoder is a national programming contest organized by Cybercom Poland. It is a competition created by programmers for programmers. This year over 300 participants from Poland joined the unique coding challenge. The challenge includes accomplishing ten different tasks in ten days. It fosters creativity, innovation and enables participants to test their ability to perform under pressure. During the finals we will see 10 best ranked coders who will fight for MasterCoder title and Samsung Galaxy S6, Samsung Gear VR, AirWheel X3, GoPro Hero Session Full HD! The semi-final will include a variety of tasks such as live programming. Join the audience and become a part of real programming battle !!!",
+                    "speakers_keys": [
                         "speaker-cybercom-mastercorder"
                     ],
-                    "langauge" : "EN"
+                    "langauge": "EN"
                 },
-                "talk-master-coder-eliminations" : { //29.5
+                "talk-master-coder-eliminations": { //29.5
                     "title": "MASTERCODER VOL. 3 – NATIONAL PROGRAMMING CONTEST ELIMINATIONS",
-                    "description_html" : "MasterCoder is a national programming contest organized by Cybercom Poland. It is a competition created by programmers for programmers. This year over 300 participants from Poland joined the unique coding challenge. The challenge includes accomplishing ten different tasks in ten days. It fosters creativity, innovation and enables participants to test their ability to perform under pressure. During the finals we will see 10 best ranked coders who will fight for MasterCoder title and Samsung Galaxy S6, Samsung Gear VR, AirWheel X3, GoPro Hero Session Full HD! The semi-final will include a variety of tasks such as live programming. Join the audience and become a part of real programming battle !!!",
-                    "speakers_keys" : [
+                    "description_html": "MasterCoder is a national programming contest organized by Cybercom Poland. It is a competition created by programmers for programmers. This year over 300 participants from Poland joined the unique coding challenge. The challenge includes accomplishing ten different tasks in ten days. It fosters creativity, innovation and enables participants to test their ability to perform under pressure. During the finals we will see 10 best ranked coders who will fight for MasterCoder title and Samsung Galaxy S6, Samsung Gear VR, AirWheel X3, GoPro Hero Session Full HD! The semi-final will include a variety of tasks such as live programming. Join the audience and become a part of real programming battle !!!",
+                    "speakers_keys": [
                         "speaker-cybercom-mastercorder"
                     ],
-                    "langauge" : "EN"
+                    "langauge": "EN"
                 }
                 ,
-                "talk-flying-services-using-mobile-phone-paired-with-drone" : { //30
+                "talk-flying-services-using-mobile-phone-paired-with-drone": { //30
                     "title": "Flying services using mobile phone paired with drone",
-                    "description_html" : "Android mobile phone, a drone, strong passion and a lot of patience. These are all the ingredients you need to start your adventure in the emerging world of flying services. During this presentation we will show you how we started ours. Hovewer funny and amusing, this will be a presentation about serious, high-level technology, unpredictable ideas and insistent scientific struggle to make all the algorithmic meat work on a mobile phone communicating with the flying machine. If you are planning to start a remote post office on the Moon, you cannot miss this presentation.",
-                    "speakers_keys" : [
+                    "description_html": "Android mobile phone, a drone, strong passion and a lot of patience. These are all the ingredients you need to start your adventure in the emerging world of flying services. During this presentation we will show you how we started ours. Hovewer funny and amusing, this will be a presentation about serious, high-level technology, unpredictable ideas and insistent scientific struggle to make all the algorithmic meat work on a mobile phone communicating with the flying machine. If you are planning to start a remote post office on the Moon, you cannot miss this presentation.",
+                    "speakers_keys": [
                         "speaker-krzysztof-kudrynski",
                         "speaker-blazej-kubiak"
                     ],
-                    "langauge" : "EN"
+                    "langauge": "EN"
                 },
-                "talk-prawdziwe-bezpieczenstwo-w-aplikacjach-mobilnych" : { //31
+                "talk-prawdziwe-bezpieczenstwo-w-aplikacjach-mobilnych": { //31
                     "title": "Prawdziwe bezpieczeństwo w aplikacjach mobilnych",
                     "description_html": "Najbardziej popularne zabezpieczenie to szyfrowanie danych na telefonie, ale czy to jest bezpieczne? Tak, o ile ustawisz bardzo długie hasło, ale czy długie hasło jest praktyczne? Nie, bo normalny użytkownik nie będzie go w stanie zapamiętać. Więc jak dostarczyć prawdzie bezpieczeństwo? Trzeba skorzystać z embedded secure elementu (eSE) lub eUICC. W ramach prezentacji dowiesz się czym jest eSE, czym różni się od eUICC (następcy karty SIM). Dowiesz się również jak wygląda ekosystem zarządzania eUICC/eSE (live demo) i bezpiecznymi aplikacji. A jak starczy czasu, to dowiesz się jak zacząć przygodę z secure elementem i Androidem.",
-                    "speakers_keys" : [
+                    "speakers_keys": [
                         "speaker-pawel-karpinski"
                     ],
-                    "langauge" : "EN"
+                    "langauge": "EN"
                 }
             },
             breaks: {
                 'break-registration': {
                     title: 'Registration',
                     description_html: 'If you do not want to miss any presentation please register between 7:30-9:10. However, registration will be opened all day!'
-                },      
+                },
                 'break-hello-world': {
                     title: 'Hello World',
                     description_html: 'This is couple of words about Mobilization. For community by community.'
@@ -845,7 +901,7 @@ docpadConfig = {
                 },
                 "venue-mobica": {
                     "title": "Mobica"
-                },                
+                },
                 "venue-seqr": {
                     "title": "SEQR"
                 },
@@ -910,7 +966,7 @@ docpadConfig = {
                     }
                 },
                 "slot-lunch": {"break_key": "break-lunch"},
-                "slot-during-lunch" : {
+                "slot-during-lunch": {
                     "venue-tomtom": {
                         "talk_key": "talk-master-coder-eliminations"
                     }
@@ -1071,7 +1127,7 @@ docpadConfig = {
                     "www": "",
                     "twitter": "",
                     "photo_url": "/images/team/rafal-lenarczyk.jpeg"
-                },       
+                },
                 //10
                 "volunteer-anna-defecinska": {
                     "firstname": "Anna",
@@ -1080,7 +1136,7 @@ docpadConfig = {
                     "www": "",
                     "twitter": "",
                     "photo_url": "/images/team/anna-defecinska.jpeg"
-                },  
+                },
                 //11
                 "volunteer-andrzej-jozwiak": {
                     "firstname": "Andrzej",
@@ -1099,8 +1155,8 @@ docpadConfig = {
                     "twitter": "",
                     "photo_url": "/images/team/krzysztof-gutowski.jpeg"
                 },
-		//13
-		"volunteer-krystian-laskowski": {
+                //13
+                "volunteer-krystian-laskowski": {
                     "firstname": "Krystian",
                     "lastname": "Laskowski",
                     "bio_html": "",
