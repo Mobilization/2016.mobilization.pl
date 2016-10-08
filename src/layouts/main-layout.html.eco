@@ -24,15 +24,15 @@
           type='text/css'>
 
     <!-- STYLESHEETS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-    <link href="assets/css/flexslider.min.css" rel="stylesheet">
-    <link href="assets/css/animate.min.css" rel="stylesheet">
-    <link href="assets/css/schedule.min.css" rel="stylesheet">
+    <link href="assets/css/flexslider.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/animate.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/schedule.min.css" rel="stylesheet" type="text/css">
     <link href="assets/css/gridgallery.min.css" rel="stylesheet" type="text/css"/>
     <link href="assets/css/venobox.min.css" rel="stylesheet" type="text/css"/>
-    <link href="assets/css/styles.min.css" rel="stylesheet"/>
-    <link href="assets/css/queries.min.css" rel="stylesheet"/>
+    <link href="assets/css/styles.min.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/css/queries.min.css" rel="stylesheet" type="text/css"/>
 
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.min.js"></script>
