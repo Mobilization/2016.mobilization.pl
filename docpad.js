@@ -847,7 +847,7 @@ docpadConfig = {
                     "speakers_keys": [
                         "speaker-cybercom-mastercorder"
                     ],
-                    "langauge": "EN"
+                    "language": "EN"
                 },
                 "talk-master-coder-eliminations": { //29.5
                     "title": "MASTERCODER VOL. 3 – NATIONAL PROGRAMMING CONTEST ELIMINATIONS",
@@ -855,7 +855,7 @@ docpadConfig = {
                     "speakers_keys": [
                         "speaker-cybercom-mastercorder"
                     ],
-                    "langauge": "EN"
+                    "language": "EN"
                 }
                 ,
                 "talk-flying-services-using-mobile-phone-paired-with-drone": { //30
@@ -865,7 +865,7 @@ docpadConfig = {
                         "speaker-krzysztof-kudrynski",
                         "speaker-blazej-kubiak"
                     ],
-                    "langauge": "EN"
+                    "language": "EN"
                 },
                 "talk-prawdziwe-bezpieczenstwo-w-aplikacjach-mobilnych": { //31
                     "title": "Prawdziwe bezpieczeństwo w aplikacjach mobilnych",
@@ -873,7 +873,7 @@ docpadConfig = {
                     "speakers_keys": [
                         "speaker-pawel-karpinski"
                     ],
-                    "langauge": "PL"
+                    "language": "PL"
                 },
                 "talk-make-your-mobile-more-mobile": { //32
                     "title": "Make your mobile more mobile",
@@ -882,7 +882,7 @@ docpadConfig = {
                         "speaker-jacek-rondio",
                         "speaker-krzysztof-sasiak"
                     ],
-                    "langauge": "EN"
+                    "language": "EN"
                 }
             },
             breaks: {
