@@ -592,13 +592,19 @@ docpadConfig = {
                     "photo_url": "/images/speakers/blazej-kubiak.png"
                 },
                 //31
-                "speaker-pawel-karpinski": {
-                    "firstname": "Paweł",
-                    "lastname": "Karpiński",
-                    "bio_html": "9+ lat w zawodzie, w przeszłości zajmowałem się dostarczeniem aplikacji bankowości internetowej (stack JEE). Obecnie od prawie 2 lat zajmuję się dostarczeniem aplikacji dla sektora telekomunikacji, gdzie bezpieczeństwo jest priorytetem numer 1.",
-                    "photo_url": "/images/speakers/pawel-karpinski.png"
+                "speaker-michal-mela": {
+                    "firstname": "Michał",
+                    "lastname": "Mela",
+                    "bio_html": "",
+                    "photo_url": "/images/speakers/michal-mela.png"
+                },//31.5
+                "speaker-michal-kaminski": {
+                    "firstname": "Michał",
+                    "lastname": "Kamiński",
+                    "bio_html": "",
+                    "photo_url": "/images/speakers/michal-kaminski.png"
                 },
-                //32
+		//32
                 "speaker-jacek-rondio": {
                     "firstname": "Jacek",
                     "lastname": "Rondio",
@@ -871,7 +877,8 @@ docpadConfig = {
                     "title": "Prawdziwe bezpieczeństwo w aplikacjach mobilnych",
                     "description_html": "Najbardziej popularne zabezpieczenie to szyfrowanie danych na telefonie, ale czy to jest bezpieczne? Tak, o ile ustawisz bardzo długie hasło, ale czy długie hasło jest praktyczne? Nie, bo normalny użytkownik nie będzie go w stanie zapamiętać. Więc jak dostarczyć prawdzie bezpieczeństwo? Trzeba skorzystać z embedded secure elementu (eSE) lub eUICC. W ramach prezentacji dowiesz się czym jest eSE, czym różni się od eUICC (następcy karty SIM). Dowiesz się również jak wygląda ekosystem zarządzania eUICC/eSE (live demo) i bezpiecznymi aplikacji. A jak starczy czasu, to dowiesz się jak zacząć przygodę z secure elementem i Androidem.",
                     "speakers_keys": [
-                        "speaker-pawel-karpinski"
+                        "speaker-michal-mela",
+			"speaker-michal-kaminski"
                     ],
                     "langauge": "PL"
                 },
