@@ -78,7 +78,12 @@ td.std {
 		<% for venue_key, venue of @site.venues: %>
 			<td class="std presentation <% if i++ % 2 == 0: %>odd<% else: %>even<% end %>">
 			<% if venue_key of slot: %>
-				<p><strong><%- @site.talks[slot[venue_key].talk_key].title %></strong></p>
+				<p>
+					<strong><%- @site.talks[slot[venue_key].talk_key].title %></strong>
+					<% if 'language' of @site.talks[slot[venue_key].talk_key]: %>
+						<small>(<%- @site.talks[slot[venue_key].talk_key].language %>)</small>
+					<% end %>
+				</p>
 				<% speakers = new Array() %>
  				<% for speaker_key in @site.talks[slot[venue_key].talk_key].speakers_keys: %>
 					<% speakers.push(@site.speakers[speaker_key].firstname + ' ' + @site.speakers[speaker_key].lastname) %>

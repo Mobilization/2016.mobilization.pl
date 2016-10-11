@@ -2186,3 +2186,9 @@ ul.legals li:last-child::after {
 	text-transform: uppercase;
 	margin: 0;
 }
+
+span.venue-name {
+	float: right;
+	margin-right: 10px;
+	color: #1bce7c;
+}

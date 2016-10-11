@@ -38,7 +38,9 @@
                                             <div class="time col-md-3 col-sm-12 col-xs-12">
                                                 <%= @site.slots[slot_key].from %> - <%= @site.slots[slot_key].to %>
                                             </div>
-                                            <div class="title col-md-9 col-sm-12 col-xs-12"><%= break_.title %></div>
+                                            <div class="title col-md-9 col-sm-12 col-xs-12">
+                                                <%= break_.title %>
+                                            </div>
                                         </div>
                                     </div>
                                 <% else: %>
@@ -49,7 +51,10 @@
                                                 <div class="time col-md-3 col-sm-12 col-xs-12">
                                                     <%= @site.slots[slot_key].from %> - <%= @site.slots[slot_key].to %>
                                                 </div>
-                                                <div class="e-title col-md-9 col-sm-12 col-xs-12"><strong><%= _talk.title %></strong><br/>
+                                                <div class="e-title col-md-9 col-sm-12 col-xs-12">
+                                                    <strong><%= _talk.title %></strong>
+                                                    <%- @getHtmlLangImg(_talk) %>
+                                                    <br/>
                                                     <% speakers = new Array() %>
                                                     <% for speaker_key in _talk.speakers_keys: %>
                                                     <% speakers.push(@site.speakers[speaker_key].firstname + ' ' + @site.speakers[speaker_key].lastname) %>
@@ -99,18 +104,23 @@
                                                     <div class="time col-md-3 col-sm-12 col-xs-12" <% if iter > 0: %> style="border:none !important;"<% end %>>
                                                         <% if iter == 0: %><%= @site.slots[slot_key].from %> - <%= @site.slots[slot_key].to %><% end %>
                                                     </div>
-                                                    <div class="e-title col-md-9 col-sm-12 col-xs-12"><strong><%= _talk.title %></strong><br/>
+                                                    <div class="e-title col-md-9 col-sm-12 col-xs-12">
+                                                        <strong><%= _talk.title %></strong>
+                                                        <%- @getHtmlLangImg(_talk) %>
+                                                        <br/>
                                                         <% speakers = new Array() %>
                                                         <% for speaker_key in _talk.speakers_keys: %>
                                                         <% speakers.push(@site.speakers[speaker_key].firstname + ' ' + @site.speakers[speaker_key].lastname) %>
                                                         <% end %>
 
                                                         <%- speakers.join(', ') %>
+
+                                                        <span class="venue-name"><%= venue.title %></span>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-12 col-sm-12 col-xs-12">
                                                     <div class="content venue col-md-3 col-sm-12 col-xs-12">
-                                                        <%= venue.title %>
+
                                                     </div>
                                                     <div class="content details col-md-9 col-sm-12 col-xs-12">
                                                         <%- _talk.description_html %>
