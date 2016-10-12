@@ -645,7 +645,7 @@ docpadConfig = {
                     "firstname": "Paweł",
                     "lastname": "Czapnik",
                     "bio_html": " Full time Android developer with still short but pretty solid work background. Paweł has managed to work on couple of most popular mobile apps in Poland. He knows how to point out worst mistakes in the project without making everyone miserable. „Quiet one” type of guy ;-)",
-                    "photo_url": "/images/speakers/mobilization-soldier.png",
+                    "photo_url": "/images/speakers/pawel-czapnik.jpg",
                 },
             },
             talks: {
