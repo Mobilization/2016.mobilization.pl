@@ -991,7 +991,7 @@ docpadConfig = {
                 "slot-hello-world": {"break_key": "break-hello-world"},
                 "slot-1": {
                     "venue-rndity": {
-                        "talk_key": "talk-beacon-idea"
+                        "talk_key": "talk-mvp-business"
                     },
                     // "venue-ericpol": {
                     //     "talk_key": ""
@@ -1092,7 +1092,7 @@ docpadConfig = {
                         "talk_key": "talk-design-that-breaks-down-barriers"
                     },
                     "venue-mobica": {
-                        "talk_key": "talk-mvp-business"
+                        "talk_key": "talk-beacon-idea"
                     },
                     "venue-seqr": {
                         "talk_key": "talk-break-the-monolith-with-b-viper-modules"
