@@ -623,7 +623,7 @@ docpadConfig = {
                     "firstname": "Ola",
                     "lastname": "Rosińska",
                     "bio_html": "Handling all aspects of marketing and communications in rndity; Ola balances between creation, strategy and technology to properly verify and develop new business ideas. Restless advocate of empirical studies, not a big fan of „we already know it all” kind of chitchats ;-) Believes that there is always something you can learn and explore in any situation.",
-                    "linkedin": "https://pl.linkedin.com/in/ola-rosińska-87b352104",
+                    "linkedin": "https://www.linkedin.com/in/ola-rosi%C5%84ska-87b352104/en",
                     "photo_url": "/images/speakers/ola-rosinska.jpg"
                 }, //33.5
                 "speaker-piotrek-stanislawski": {
