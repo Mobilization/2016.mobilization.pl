@@ -617,7 +617,36 @@ docpadConfig = {
                     "lastname": "Sasiak",
                     "bio_html": "A software engineer, Linux enthusiast. Currently working at Harman Connected Services, assumed a role of Bluetooth and Telephony architect in one of the projects. Doesn’t like Facebook and Twitter, likes to build things and getting his hands dirty. Afterwards, he always washes his hands.",
                     "photo_url": "/images/speakers/krzysztof-sasiak.png"
-                }
+                },
+                //33
+                "speaker-ola-rosinska": {
+                    "firstname": "Ola",
+                    "lastname": "Rosińska",
+                    "bio_html": "Handling all aspects of marketing and communications in rndity; Ola balances between creation, strategy and technology to properly verify and develop new business ideas. Restless advocate of empirical studies, not a big fan of „we already know it all” kind of chitchats ;-) Believes that there is always something you can learn and explore in any situation.",
+                    "linkedin": "https://pl.linkedin.com/in/ola-rosińska-87b352104",
+                    "photo_url": "/images/speakers/ola-rosinska.jpg"
+                }, //33.5
+                "speaker-piotrek-stanislawski": {
+                    "firstname": "Piotrek",
+                    "lastname": "Stanisławski",
+                    "bio_html": "UX designer with strong believe that in order to carry out the project perfectly you simply need pencil, open mind and aroused empathy. He always combines user needs with clients’ business objectives using available UX techniques. Not so secretly addicted to the post-it notes.",
+                    "linkedin": "https://www.linkedin.com/in/stanislawskipiotr/en",
+                    "photo_url": "/images/speakers/piotrek-stanislawski.jpg"
+                }, //34
+                "speaker-bartek-swiercz": {
+                    "firstname": "Bartek",
+                    "lastname": "Świercz",
+                    "bio_html": "Addicted to speed, challenges and technology, constantly using his passion to design and develop challenging projects. Bartek has been involved in mobile technologies ever since first smartphones, always looking for the best tech mixes that deliver highest performance possible.",
+                    "linkedin": "https://www.linkedin.com/in/swierczu",
+                    "twitter": "https://twitter.com/BartekSwiercz",
+                    "photo_url": "/images/speakers/bartek-swiercz.jpg"
+                }, //34.5
+                "speaker-pawel-czapnik": {
+                    "firstname": "Paweł",
+                    "lastname": "Czapnik",
+                    "bio_html": " Full time Android developer with still short but pretty solid work background. Paweł has managed to work on couple of most popular mobile apps in Poland. He knows how to point out worst mistakes in the project without making everyone miserable. „Quiet one” type of guy ;-)",
+                    "photo_url": "/images/speakers/mobilization-soldier.png",
+                },
             },
             talks: {
                 "talk-modularizing-your-apps-framework-oriented-programming": {//1
@@ -878,7 +907,7 @@ docpadConfig = {
                     "description_html": "Najbardziej popularne zabezpieczenie to szyfrowanie danych na telefonie, ale czy to jest bezpieczne? Tak, o ile ustawisz bardzo długie hasło, ale czy długie hasło jest praktyczne? Nie, bo normalny użytkownik nie będzie go w stanie zapamiętać. Więc jak dostarczyć prawdzie bezpieczeństwo? Trzeba skorzystać z embedded secure elementu (eSE) lub eUICC. W ramach prezentacji dowiesz się czym jest eSE, czym różni się od eUICC (następcy karty SIM). Dowiesz się również jak wygląda ekosystem zarządzania eUICC/eSE (live demo) i bezpiecznymi aplikacji. A jak starczy czasu, to dowiesz się jak zacząć przygodę z secure elementem i Androidem.",
                     "speakers_keys": [
                         "speaker-michal-mela",
-			"speaker-michal-kaminski"
+			            "speaker-michal-kaminski"
                     ],
                     "language": "PL"
                 },
@@ -890,7 +919,25 @@ docpadConfig = {
                         "speaker-krzysztof-sasiak"
                     ],
                     "language": "EN"
-                }
+                },
+                "talk-mvp-business": { //33
+                    "title": "MVP - getting business, design and technology together.",
+                    "description_html": "Getting started with new product development we often forget that making it work requires more then just a great idea. Big ideas come with huge responsibilities which we not always know how to handle. The dilemma that we’ll be trying to find answer to is how to minimize the risk of the concept overgrowing us?",
+                    "speakers_keys": [
+                        "speaker-ola-rosinska",
+                        "speaker-piotrek-stanislawski"
+                    ],
+                    "language": "EN"
+                },
+                "talk-beacon-idea": { //34
+                    "title": "Z beaconem przez projekt - od pomysłu do klęski, od klęski do wdrożenia",
+                    "description_html": "Na podstawie wykonanego i wdrożonego projektu przedstawiamy fakty i mity ze świata beaconów. Przekonacie się, że wdrożenie projektu beaconowego wymaga wielu testów, a otrzymywane wyniki mogą Was nie raz zaskoczyć.",
+                    "speakers_keys": [
+                        "speaker-bartek-swiercz",
+                        "speaker-pawel-czapnik"
+                    ],
+                    "language": "PL"
+                },
             },
             breaks: {
                 'break-registration': {
@@ -943,9 +990,9 @@ docpadConfig = {
                 "slot-registration": {"break_key": "break-registration"},
                 "slot-hello-world": {"break_key": "break-hello-world"},
                 "slot-1": {
-                    // "venue-rndity": {
-                    //     "talk_key": ""
-                    // },
+                    "venue-rndity": {
+                        "talk_key": "talk-beacon-idea"
+                    },
                     // "venue-ericpol": {
                     //     "talk_key": ""
                     // },
@@ -1044,9 +1091,9 @@ docpadConfig = {
                     "venue-ericpol": {
                         "talk_key": "talk-make-your-mobile-more-mobile"
                     },
-                    // "venue-mobica": {
-                    //     "talk_key": ""
-                    // },
+                    "venue-mobica": {
+                        "talk_key": "talk-mvp-business"
+                    },
                     "venue-seqr": {
                         "talk_key": "talk-break-the-monolith-with-b-viper-modules"
                     },
