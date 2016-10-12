@@ -1,6 +1,6 @@
 8:00;Registration;Registration;Registration;Registration;Registration;
 9:00;Hello World;Hello World;Hello World;Hello World;Hello World;
-9:15;Z beaconem przez projekt - od pomysłu do klęski, od klęski do wdrożenia - Bartek Świercz, Paweł Czapnik;;Mobile and application security based on Man-in-the-middle (MITM) vectors - Michał Kucharski;Prawdziwe bezpieczeństwo w aplikacjach mobilnych - Michał Mela, Michał Kamiński;Flying services using mobile phone paired with drone - Krzysztof Kudryński, Błażej Kubiak;
+9:15;;;Mobile and application security based on Man-in-the-middle (MITM) vectors - Michał Kucharski;Prawdziwe bezpieczeństwo w aplikacjach mobilnych - Michał Mela, Michał Kamiński;Flying services using mobile phone paired with drone - Krzysztof Kudryński, Błażej Kubiak;
 10:00;Coffee Break;Coffee Break;Coffee Break;Coffee Break;Coffee Break;
 10:20;Android High Performance - Enrique López Mañas;Swift at scale - Tomasz Gebarowski, Wojciech Łukaszuk;Modularizing your apps: Framework Oriented Programming - Pedro Piñera Buendía;Revisiting types in Kotlin - Francisco Estevez;Taming node_modules at Facebook - Konstantin Raev;
 11:05;Coffee Break;Coffee Break;Coffee Break;Coffee Break;Coffee Break;
@@ -11,7 +11,7 @@
 14:00;Coffee Break;Coffee Break;Coffee Break;Coffee Break;Coffee Break;
 14:15;The 2016 Android Developer Toolbox - Gautier Mechling;How JRebel for Android Does Performance Testing - Madis Pink;Interacting with your app through command line - Roman Mazur;Custom Annotation processors for your production code - Jorge Castillo;The Objective C runtime and Swift dynamism - a 2016 perspective - Roy Marmelstein;
 15:00;Coffee Break;Coffee Break;Coffee Break;Coffee Break;Coffee Break;
-15:15;How to design your app and not be damned by maintenance team - Anton Minashkin;Make your mobile more mobile - Jacek Rondio, Krzysztof Sasiak;MVP - getting business, design and technology together. - Ola Rosińska, Piotrek Stanisławski;Break the monolith with (B)VIPER Modules. Or how do I start modularising my code for a better (engineering) life. - Nicola Zaghini;Getting down to business with Firebase - Saúl Díaz;
+15:15;How to design your app and not be damned by maintenance team - Anton Minashkin;Make your mobile more mobile - Jacek Rondio, Krzysztof Sasiak;;Break the monolith with (B)VIPER Modules. Or how do I start modularising my code for a better (engineering) life. - Nicola Zaghini;Getting down to business with Firebase - Saúl Díaz;
 16:00;Coffee Break;Coffee Break;Coffee Break;Coffee Break;Coffee Break;
 16:15;Elegant?? Unit Testing - Pablo Guardiola;Crafting Reactive Apps with Realm - Marius Rackwitz;Swift rEvolution - Kostiantyn Koval;Appium: Automation for Apps - Dan Cuellar;MASTERCODER VOL. 3 – NATIONAL PROGRAMMING CONTEST FINALS - Master Coder;
 17:00;No Coffee Break;No Coffee Break;No Coffee Break;No Coffee Break;No Coffee Break;
