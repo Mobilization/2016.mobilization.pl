@@ -1030,7 +1030,7 @@ docpadConfig = {
                         "talk_key": "talk-rx-java-for-the-rest-of-us"
                     },
                     "venue-ericpol": {
-                        "talk_key": "talk-design-that-breaks-down-barriers"
+                        "talk_key": "talk-make-your-mobile-more-mobile"
                     },
                     "venue-mobica": {
                         "talk_key": "talk-security-at-your-fingertips"
@@ -1089,7 +1089,7 @@ docpadConfig = {
                         "talk_key": "talk-how-to-design-your-app-and-not-to-be-damned-by-maitenance-team"
                     },
                     "venue-ericpol": {
-                        "talk_key": "talk-make-your-mobile-more-mobile"
+                        "talk_key": "talk-design-that-breaks-down-barriers"
                     },
                     "venue-mobica": {
                         "talk_key": "talk-mvp-business"
