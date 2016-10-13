@@ -902,8 +902,8 @@ docpadConfig = {
                     "language": "EN"
                 },
                 "talk-prawdziwe-bezpieczenstwo-w-aplikacjach-mobilnych": { //31
-                    "title": "Prawdziwe bezpieczeństwo w aplikacjach mobilnych",
-                    "description_html": "Najbardziej popularne zabezpieczenie to szyfrowanie danych na telefonie, ale czy to jest bezpieczne? Tak, o ile ustawisz bardzo długie hasło, ale czy długie hasło jest praktyczne? Nie, bo normalny użytkownik nie będzie go w stanie zapamiętać. Więc jak dostarczyć prawdzie bezpieczeństwo? Trzeba skorzystać z embedded secure elementu (eSE) lub eUICC. W ramach prezentacji dowiesz się czym jest eSE, czym różni się od eUICC (następcy karty SIM). Dowiesz się również jak wygląda ekosystem zarządzania eUICC/eSE (live demo) i bezpiecznymi aplikacji. A jak starczy czasu, to dowiesz się jak zacząć przygodę z secure elementem i Androidem.",
+                    "title": "(Prawdziwe) bezpieczeństwo danych w urządzeniach mobilnych",
+                    "description_html": "Bezpieczeństwo to temat-rzeka i choć wiele jego aspektów pomoże rozwiązać Ci wujek Google, stan wiedzy internetu na temat bezpieczeństwa danych w urządzeniach mobilnych uznajemy za niesatysfakcjonujący, przesycony starymi i niekompletnymi informacjami. Dlatego opowiemy Ci o praktycznych problemach, z którymi mierzymy się na co dzień,  zapewniając najwyższy możliwy poziom zabezpieczeń w mobilnych zastosowaniach płatniczych oraz uchylimy rąbka tajemnicy o najnowszych rozwiązaniach w tym zakresie. Na prezentacji zapoznasz się z aspektami bezpieczeństwa danych w urządzeniach mobilnych od trzech stron: <ul><li>kryptografii – o czym należy pamiętać, jak jej (i jakiej) używać <li>bezpieczeństwa transportu – co musisz zapewnić i w jaki sposób<li>bezpieczeństwa przechowywania – jakie masz możliwości, jakie są ich wady i zalety",
                     "speakers_keys": [
                         "speaker-michal-mela",
 			            "speaker-michal-kaminski"
