@@ -540,7 +540,7 @@ docpadConfig = {
                     "firstname": "Michał",
                     "lastname": "Kucharski",
                     "bio_html": "Fan of technological solutions that makes life easier. From own proof-of-concept hardware, to designed IoT devices or ConnectedCar solution. Carpenter with love and passion, claiming that the best way to relax is a chisel, plane and a piece of wood. With testing and security connected from childhood - Everything can be breached and everything can be automated :)",
-                    "photo_url": "/images/speakers/mobilization-soldier.png"
+                    "photo_url": "/images/speakers/michal-kucharski.png"
                 },
                 //26
                 "speaker-agnieszka-czyzak": {
