@@ -691,7 +691,8 @@ docpadConfig = {
                 },
                 "talk-green-dao-3-and-beyond": {//6
                     "title": "greenDAO 3 and beyond",
-                    "description_html": "greenDAO is the fastest ORM for Android. greenDAO 3 brings annotations and prepares the way for further enhancements like RX support. The author of greenDAO gives deep insights about how to best use ORM to make app development productive and fun. But SQL is not your thing? We also have a sneak peek at a new alternative to greenDAO/SQLite.",                   "speakers_keys": [
+                    "description_html": "greenDAO is the fastest ORM for Android. greenDAO 3 brings annotations and prepares the way for further enhancements like RX support. The author of greenDAO gives deep insights about how to best use ORM to make app development productive and fun. But SQL is not your thing? We also have a sneak peek at a new alternative to greenDAO/SQLite.",
+                    "speakers_keys": [
                         "speaker-markus-junginger"
                     ],
                     "language": "EN"
