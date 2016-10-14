@@ -604,19 +604,33 @@ docpadConfig = {
                     "bio_html": "",
                     "photo_url": "/images/speakers/michal-kaminski.png"
                 },
-		//32
+		        //32
                 "speaker-jacek-rondio": {
                     "firstname": "Jacek",
                     "lastname": "Rondio",
                     "bio_html": "A software engineer currently working at HARMAN Connected Services mainly focused on Android applications development, however not afraid of deeper layers of the system. Team leader in the project dedicated to advanced head unit software development for Mercedes cars.",
                     "photo_url": "/images/speakers/jacek-rondio.png"
                 },
-                //32.5
+                //32.25
                 "speaker-krzysztof-sasiak": {
                     "firstname": "Krzysztof",
                     "lastname": "Sasiak",
                     "bio_html": "A software engineer, Linux enthusiast. Currently working at Harman Connected Services, assumed a role of Bluetooth and Telephony architect in one of the projects. Doesn’t like Facebook and Twitter, likes to build things and getting his hands dirty. Afterwards, he always washes his hands.",
                     "photo_url": "/images/speakers/krzysztof-sasiak.png"
+                },
+                //32.5
+                "speaker-lukasz-kwiecinski": {
+                    "firstname": "Łukasz",
+                    "lastname": "Kwieciński",
+                    "bio_html": "Software engineer at Harman Connected Services department. Strongly interested in c/c++ programming in Unix-like systems. Works on the project where implements the solutions, which integrate mobile applications together with cars’ head units.",
+                    "photo_url": "/images/speakers/lukasz-kwiecinski.png"
+                },
+                //32.75
+                "speaker-mariusz-kazmierczak": {
+                    "firstname": "Mariusz",
+                    "lastname": "Kaźmierczak",
+                    "bio_html": "Software engineer working at Harman Connected Services. Strongly interested in c++ programming in Unix-like systems. Works on the project where implements the solutions allowing to integrate mobile applications together with cars' head units.",
+                    "photo_url": "/images/speakers/mariusz-kazmierczak.png"
                 },
                 //33
                 "speaker-ola-rosinska": {
