@@ -604,7 +604,7 @@ docpadConfig = {
                     "bio_html": "",
                     "photo_url": "/images/speakers/michal-kaminski.png"
                 },
-		        //32
+                //32
                 "speaker-jacek-rondio": {
                     "firstname": "Jacek",
                     "lastname": "Rondio",
@@ -639,14 +639,16 @@ docpadConfig = {
                     "bio_html": "Handling all aspects of marketing and communications in rndity; Ola balances between creation, strategy and technology to properly verify and develop new business ideas. Restless advocate of empirical studies, not a big fan of „we already know it all” kind of chitchats ;-) Believes that there is always something you can learn and explore in any situation.",
                     "linkedin": "https://www.linkedin.com/in/ola-rosi%C5%84ska-87b352104/en",
                     "photo_url": "/images/speakers/ola-rosinska.jpg"
-                }, //33.5
+                },
+                //33.5
                 "speaker-piotrek-stanislawski": {
                     "firstname": "Piotrek",
                     "lastname": "Stanisławski",
                     "bio_html": "UX designer with strong believe that in order to carry out the project perfectly you simply need pencil, open mind and aroused empathy. He always combines user needs with clients’ business objectives using available UX techniques. Not so secretly addicted to the post-it notes.",
                     "linkedin": "https://www.linkedin.com/in/stanislawskipiotr/en",
                     "photo_url": "/images/speakers/piotrek-stanislawski.jpg"
-                }, //34
+                },
+                //34
                 "speaker-bartek-swiercz": {
                     "firstname": "Bartek",
                     "lastname": "Świercz",
@@ -654,14 +656,29 @@ docpadConfig = {
                     "linkedin": "https://www.linkedin.com/in/swierczu",
                     "twitter": "https://twitter.com/BartekSwiercz",
                     "photo_url": "/images/speakers/bartek-swiercz.jpg"
-                }, //34.5
+                },
+                //34.5
                 "speaker-pawel-czapnik": {
                     "firstname": "Paweł",
                     "lastname": "Czapnik",
-                    "bio_html": " Full time Android developer with still short but pretty solid work background. Paweł has managed to work on couple of most popular mobile apps in Poland. He knows how to point out worst mistakes in the project without making everyone miserable. „Quiet one” type of guy ;-)",
-                    "photo_url": "/images/speakers/pawel-czapnik.jpg",
+                    "bio_html": "Full time Android developer with still short but pretty solid work background. Paweł has managed to work on couple of most popular mobile apps in Poland. He knows how to point out worst mistakes in the project without making everyone miserable. „Quiet one” type of guy ;-)",
+                    "photo_url": "/images/speakers/pawel-czapnik.jpg"
                 },
-           },
+                //35
+                "speaker-marek-wyrwicki": {
+                    "firstname": "Marek",
+                    "lastname": "Wyrwicki",
+                    "bio_html": "ERICSSON Managers R&D",
+                    "photo_url": "/images/speakers/marek-wyrwicki.png"
+                },
+                //35.5
+                "speaker-christer-lindell": {
+                    "firstname": "Christer",
+                    "lastname": "Lindell",
+                    "bio_html": "ERICSSON Managers R&D",
+                    "photo_url": "/images/speakers/christer-lindell.png"
+                }
+            },
             talks: {
                 "talk-modularizing-your-apps-framework-oriented-programming": {//1
                     "title": "Modularizing your apps: Framework Oriented Programming",
@@ -921,7 +938,7 @@ docpadConfig = {
                     "description_html": "Bezpieczeństwo to temat-rzeka i choć wiele jego aspektów pomoże rozwiązać Ci wujek Google, stan wiedzy internetu na temat bezpieczeństwa danych w urządzeniach mobilnych uznajemy za niesatysfakcjonujący, przesycony starymi i niekompletnymi informacjami. Dlatego opowiemy Ci o praktycznych problemach, z którymi mierzymy się na co dzień,  zapewniając najwyższy możliwy poziom zabezpieczeń w mobilnych zastosowaniach płatniczych oraz uchylimy rąbka tajemnicy o najnowszych rozwiązaniach w tym zakresie. Na prezentacji zapoznasz się z aspektami bezpieczeństwa danych w urządzeniach mobilnych od trzech stron: <ul><li>kryptografii – o czym należy pamiętać, jak jej (i jakiej) używać <li>bezpieczeństwa transportu – co musisz zapewnić i w jaki sposób<li>bezpieczeństwa przechowywania – jakie masz możliwości, jakie są ich wady i zalety",
                     "speakers_keys": [
                         "speaker-michal-mela",
-			            "speaker-michal-kaminski"
+                        "speaker-michal-kaminski"
                     ],
                     "language": "PL"
                 },
@@ -932,7 +949,7 @@ docpadConfig = {
                         "speaker-jacek-rondio",
                         "speaker-krzysztof-sasiak",
                         "speaker-lukasz-kwiecinski",
-		        "speaker-mariusz-kazmierczak",
+                        "speaker-mariusz-kazmierczak"
                     ],
                     "language": "EN"
                 },
@@ -954,6 +971,15 @@ docpadConfig = {
                     ],
                     "language": "PL"
                 },
+                "talk-networked-society": { //35
+                    "title": "Networked Society",
+                    "description_html": "Connectivity is the starting point for new ways of innovating, collaborating and socializing. The Networked Society starts with connections, between devices and things but more importantly it is about the big ideas that become possible and will shape benefits to people. The Networked Society, as we see it, is based on four key elements: People: all of us, using connectivity to live, work and play more freely Things: everything that benefits from being connected is connected – from phones and tablets, to cars and containers, to classrooms and clinics Interactivity: the ways that all these people and things communicate with each other, for example through mobile broadband and cloud Big ideas: game-changing innovations and services that connects what people want and need with things and interactivity and create something entirely new and beneficial to people, business and society Seen in that light, the Networked Society is a global movement. It is positive change driven across borders by people, business, governments and NGOs. The shaping of the Networked Society is a constant collaboration where we aspire to take a key role.",
+                    "speakers_keys": [
+                        "speaker-marek-wyrwicki",
+                        "speaker-christer-lindell"
+                    ],
+                    "language": "EN"
+                }
             },
             breaks: {
                 'break-registration': {
@@ -1009,9 +1035,9 @@ docpadConfig = {
                     "venue-rndity": {
                         "talk_key": "talk-mvp-business"
                     },
-                    // "venue-ericpol": {
-                    //     "talk_key": ""
-                    // },
+                    "venue-ericpol": {
+                        "talk_key": "talk-networked-society"
+                    },
                     "venue-mobica": {
                         "talk_key": "talk-mobile-and-application-security-based-on-man-in-the-middle-MITM-vectors"
                     },
@@ -1272,7 +1298,7 @@ docpadConfig = {
         getPreparedKeywords: function () {
             return this.site.keywords.concat(this.document.keywords || []).join(', ');
         },
-        getHtmlLangImg: function(_talk) {
+        getHtmlLangImg: function (_talk) {
             if (_talk.language == "EN") {
                 return "<img src=\"/assets/img/page/lang_en.png\" alt=\"English\" class=\"language\" />";
             }
