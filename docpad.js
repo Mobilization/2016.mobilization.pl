@@ -647,25 +647,7 @@ docpadConfig = {
                     "bio_html": " Full time Android developer with still short but pretty solid work background. Paweł has managed to work on couple of most popular mobile apps in Poland. He knows how to point out worst mistakes in the project without making everyone miserable. „Quiet one” type of guy ;-)",
                     "photo_url": "/images/speakers/pawel-czapnik.jpg",
                 },
-                //45
-		  "speaker-lukasz-kwiecinski":{
-          			  "firstname": "Łukasz",
-          			  "lastname":"Kwieciński",
-          			  "bio_html":"Software engineer at Harman Connected Services department. Strongly interested in c/c++ programming in Unix-like systems. Works on the project where implements the solutions, which integrate mobile applications together with cars’ head units.",
-          			  "www":"",
-          			  "twitter":"",
-          			  "photo_url":"/images/speakers/lukasz-kwiecinski.jpg"
-          		  },
-          //46
-          "speaker-mariusz-kazmierczak":{
-          			  "firstname": "Mariusz",
-          			  "lastname":"Kaźmierczak",
-          			  "bio_html":"",
-          			  "www":"Software engineer working at Harman Connected Services. Strongly interested in c++ programming in Unix-like systems. Works on the project where implements the solutions allowing to integrate mobile applications together with cars' head units.",
-          			  "twitter":"",
-          			  "photo_url":"/images/speakers/mariusz-kazmierczak.png"
-          		  },
-            },
+           },
             talks: {
                 "talk-modularizing-your-apps-framework-oriented-programming": {//1
                     "title": "Modularizing your apps: Framework Oriented Programming",
