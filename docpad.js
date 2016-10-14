@@ -196,7 +196,7 @@ docpadConfig = {
                         "logo_url": "/images/partners/packt.png",
                         "link": "https://www.packtpub.com/"
                     },
-                    // {"name":"Młodzi w Łodzi","logo_url":"/images/partners/mlodzi-w-lodzi.jpg","link":"http://mlodziwlodzi.pl"},
+                    {"name":"Młodzi w Łodzi","logo_url":"/images/partners/mlodzi-w-lodzi.jpg","link":"http://mlodziwlodzi.pl"},
                     {"name": "Helion", "logo_url": "/images/partners/helionpl.png", "link": "http://helion.pl"},
                     {
                         "name": "Manning Publications",
