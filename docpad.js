@@ -311,7 +311,7 @@ docpadConfig = {
                     "www": "http://www.ppinera.es/",
                     "github": "https://github.com/pepibumur",
                     "twitter": "https://twitter.com/pepibumur",
-                    "photo_url": "/images/speakers/pedro-buendia.jpeg"
+                    "photo_url": "/images/speakers/pedro-buendia.jpg"
                 },
                 //3
                 "speaker-konstantin-raev": {
@@ -323,7 +323,7 @@ docpadConfig = {
                     "linkedin": "https://uk.linkedin.com/in/koraev",
                     "twitter": "https://twitter.com/bestander_nz",
                     "medium": "https://medium.com/@bestander_nz",
-                    "photo_url": "/images/speakers/konstantin-raev.jpeg"
+                    "photo_url": "/images/speakers/konstantin-raev.jpg"
                 },
                 //4
                 "speaker-gautier-mechling": {
@@ -333,7 +333,7 @@ docpadConfig = {
                     "wwww": "http://nilhcem.com",
                     "github": "https://github.com/Nilhcem",
                     "twitter": "https://twitter.com/Nilhcem",
-                    "photo_url": "/images/speakers/gautier-mechling.jpeg"
+                    "photo_url": "/images/speakers/gautier-mechling.jpg"
                 },
                 //5
                 "speaker-nicola-zaghini": {
@@ -342,7 +342,7 @@ docpadConfig = {
                     "bio_html": "Nicola Zaghini is a software architect at Mobile Travel Technologies. He has been developing mobile apps since the first iOS SDK was released, from indie game development to major airlines and travel companies. Prior to that, he enjoyed Java development as professional and researcher in academia. He is currently in charge of mobile architecture in MTT and helps teams deliver amazing apps.",
                     "www": "",
                     "twitter": "https://twitter.com/nzaghini",
-                    "photo_url": "/images/speakers/nicola-zaghini.jpeg"
+                    "photo_url": "/images/speakers/nicola-zaghini.jpg"
                 },
                 //6
                 "speaker-roberto-orgiu": {
@@ -351,7 +351,7 @@ docpadConfig = {
                     "bio_html": "Android developer and enthusiastic, DroidCon and community fan, I love the Android environment and pushing the limits of the platform.",
                     "www": "",
                     "twitter": "https://github.com/tiwiz",
-                    "photo_url": "/images/speakers/roberto-orgiu.jpeg"
+                    "photo_url": "/images/speakers/roberto-orgiu.jpg"
                 },
                 //7
                 "speaker-eric-kok": {
@@ -360,7 +360,7 @@ docpadConfig = {
                     "bio_html": "Hi, I'm Eric. I currently work as a contractor at KBC Bank in Belgium creating the next mobile banking app. But if you know me, it is through my open-source work published under the 2312 development name. I build apps, such as RateBeer, and libraries, such as RxCupboard. I love brewing and drinking craft beer, chatting about Android and building with Legos with my son.",
                     "www": "",
                     "twitter": "https://twitter.com/erickoknl",
-                    "photo_url": "/images/speakers/eric-kok.jpeg"
+                    "photo_url": "/images/speakers/eric-kok.jpg"
                 },
                 //8
                 "speaker-dan-cuellar": {
@@ -371,7 +371,7 @@ docpadConfig = {
                     "linkedin": "https://uk.linkedin.com/in/dacuellar",
                     "www": "",
                     "twitter": "https://twitter.com/thedancuellar",
-                    "photo_url": "/images/speakers/dan-cuellar.jpeg"
+                    "photo_url": "/images/speakers/dan-cuellar.jpg"
                 },
                 //9
                 "speaker-roman-mazur": {
@@ -381,7 +381,7 @@ docpadConfig = {
                     "www": "https://www.stanfy.com/",
                     "github": "https://github.com/roman-mazur",
                     "twitter": "https://twitter.com/roman_mazur",
-                    "photo_url": "/images/speakers/roman-mazur.jpeg"
+                    "photo_url": "/images/speakers/roman-mazur.jpg"
                 },
                 //10
                 "speaker-markus-junginger": {
@@ -390,7 +390,7 @@ docpadConfig = {
                     "bio_html": "Markus Junginger is an Android enthusiast and developer since the first SDK release in 2007. His mobile software company greenrobot focuses on high quality Android apps and open source libraries, which are widely used by many popular apps. Markus has 15+ years experience with Java and did his first mobile software project in 2001. He regularly speaks and writes about Android, gives Android trainings, and develops for Android.",
                     "www": "",
                     "twitter": "https://twitter.com/greenrobot_de",
-                    "photo_url": "/images/speakers/markus-junginger.jpeg"
+                    "photo_url": "/images/speakers/markus-junginger.jpg"
                 },
                 //11
                 "speaker-madis-pink": {
@@ -400,7 +400,7 @@ docpadConfig = {
                     "www": "",
                     "github": "https://github.com/madisp",
                     "twitter": "https://twitter.com/madisp",
-                    "photo_url": "/images/speakers/madis-pink.jpeg"
+                    "photo_url": "/images/speakers/madis-pink.jpg"
                 },
                 //12
                 "speaker-pablo-guardiola": {
@@ -410,7 +410,7 @@ docpadConfig = {
                     "www": "http://pguardiola.com/",
                     "github": "https://github.com/Guardiola31337",
                     "twitter": "https://twitter.com/guardiola31337",
-                    "photo_url": "/images/speakers/pablo-guardiola.jpeg"
+                    "photo_url": "/images/speakers/pablo-guardiola.jpg"
                 },
                 //13
                 "speaker-jorge-castillo": {
@@ -420,7 +420,7 @@ docpadConfig = {
                     "www": "http://jorgecastillo.xyz/",
                     "twitter": "https://twitter.com/JorgeCastilloPr",
                     "github": "https://github.com/JorgeCastilloPrz/",
-                    "photo_url": "/images/speakers/jorge-castillo.jpeg"
+                    "photo_url": "/images/speakers/jorge-castillo.jpg"
                 },
                 //14
                 "speaker-inaki-villar": {
@@ -430,7 +430,7 @@ docpadConfig = {
                     "www": "",
                     "github": "https://github.com/cdsap",
                     "twitter": "https://twitter.com/inyaki_mwc",
-                    "photo_url": "/images/speakers/inaki-villar.jpeg"
+                    "photo_url": "/images/speakers/inaki-villar.jpg"
                 },
                 //15
                 "speaker-enrique-manas": {
@@ -440,7 +440,7 @@ docpadConfig = {
                     "www": "http://www.lopez-manas.com/",
                     "github": "https://github.com/kikoso",
                     "twitter": "https://twitter.com/eenriquelopez",
-                    "photo_url": "/images/speakers/enrique-manas.jpeg"
+                    "photo_url": "/images/speakers/enrique-manas.jpg"
                 },
                 //16
                 "speaker-hugo-visser": {
@@ -450,7 +450,7 @@ docpadConfig = {
                     "www": "http://littlerobots.nl/",
                     "github": "https://github.com/hvisser",
                     "twitter": "https://twitter.com/botteaap",
-                    "photo_url": "/images/speakers/hugo-visser.jpeg"
+                    "photo_url": "/images/speakers/hugo-visser.jpg"
                 },
                 //17
                 "speaker-saul-diaz": {
@@ -459,7 +459,7 @@ docpadConfig = {
                     "bio_html": "Saúl Díaz has been developing Android since 2010. Currently he is working on Chicisimo, and Android app selected as one of the best of 2015 on Spain, and featured on Google Play by the Google Play Team. Previously he has worked as Android Lead on Fever and Android Developer on Tuenti, two renowned companies of Spain. He is an active member of the Spanish Android Development community and regularly participates in events and conferences.",
                     "www": "",
                     "twitter": "https://twitter.com/sefford",
-                    "photo_url": "/images/speakers/saul-diaz.jpeg"
+                    "photo_url": "/images/speakers/saul-diaz.jpg"
                 },
                 //18
                 "speaker-francisco-estevez": {
@@ -469,7 +469,7 @@ docpadConfig = {
                     "www": "http://www.pacoworks.com",
                     "twitter": "",
                     "github": "https://github.com/pakoito",
-                    "photo_url": "/images/speakers/francisco-estevez.jpeg"
+                    "photo_url": "/images/speakers/francisco-estevez.jpg"
                 },
                 //19
                 "speaker-frederik-schweiger": {
@@ -478,7 +478,7 @@ docpadConfig = {
                     "bio_html": "Frederik is a young computer science student from Germany who's chief interest is creating and inventing new stuff. He currently works as an Android Developer at trivago. Besides writing code he loves jumping out of airplanes and to go skiing.",
                     "www": "",
                     "twitter": "",
-                    "photo_url": "/images/speakers/frederik-schweiger.jpeg"
+                    "photo_url": "/images/speakers/frederik-schweiger.jpg"
                 },
                 //20
                 "speaker-roy-marmelstein": {
@@ -488,7 +488,7 @@ docpadConfig = {
                     "www": "http://marmelroy.github.io/",
                     "github": "https://github.com/marmelroy",
                     "twitter": "https://twitter.com/marmelroy",
-                    "photo_url": "/images/speakers/roy-marmelstein.jpeg"
+                    "photo_url": "/images/speakers/roy-marmelstein.jpg"
                 },
                 //21
                 "speaker-esteban-torres": {
@@ -498,7 +498,7 @@ docpadConfig = {
                     "www": "http://estebantorr.es",
                     "github": "https://github.com/esttorhe",
                     "twitter": "https://twitter.com/esttorhe",
-                    "photo_url": "/images/speakers/esteban-torres.png"
+                    "photo_url": "/images/speakers/esteban-torres.jpg"
                 },
                 //22
                 "speaker-kostiantyn-koval": {
@@ -508,7 +508,7 @@ docpadConfig = {
                     "www": "http://kostiakoval.github.io/",
                     "github": "https://github.com/kostiakoval",
                     "twitter": "https://twitter.com/KostiaKoval",
-                    "photo_url": "/images/speakers/kostiantyn-koval.png"
+                    "photo_url": "/images/speakers/kostiantyn-koval.jpg"
                 },
                 //23
                 "speaker-marius-rackwitz": {
@@ -517,14 +517,14 @@ docpadConfig = {
                     "bio_html": "Marius has been developing mobile & web applications ever since he graduated from university. In more recent years, he's shifted his focus towards mobile development, especially iOS and Objective-C, and since it came out a growing portion of Swift. With his work on the CocoaPods team, he hasn't forgotten about Ruby either.",
                     "github": "https://github.com/mrackwitz",
                     "twitter": "https://twitter.com/mrackwitz",
-                    "photo_url": "/images/speakers/marius-rackwitz.png"
+                    "photo_url": "/images/speakers/marius-rackwitz.jpg"
                 },
                 //24"
                 "speaker-tomasz-gebarowski": {
                     "firstname": "Tomasz",
                     "lastname": "Gebarowski",
                     "bio_html": "Software Engineer, currently working as an iOS Developer at mBank. Working full time in Swift. Switched to Mobile apps development after +4 years of C/C++ and writing distributed VoIP servers. Experienced in maintaining large and long term projects.",
-                    "photo_url": "/images/speakers/tomasz-gebarowski.png"
+                    "photo_url": "/images/speakers/tomasz-gebarowski.jpg"
                 },
                 //24.5
                 "speaker-wojciech-lukaszuk": {
@@ -533,104 +533,104 @@ docpadConfig = {
                     "bio_html": "Software engineer at mBank. Lifelong learner. Can’t stand workarounds and spaghetti code.",
                     "twitter": "https://twitter.com/wojteklu",
                     "www": "http://wojteklu.com/",
-                    "photo_url": "/images/speakers/wojciech-lukaszuk.png"
+                    "photo_url": "/images/speakers/wojciech-lukaszuk.jpg"
                 },
                 //25
                 "speaker-michal-kucharski": {
                     "firstname": "Michał",
                     "lastname": "Kucharski",
                     "bio_html": "Fan of technological solutions that makes life easier. From own proof-of-concept hardware, to designed IoT devices or ConnectedCar solution. Carpenter with love and passion, claiming that the best way to relax is a chisel, plane and a piece of wood. With testing and security connected from childhood - Everything can be breached and everything can be automated :)",
-                    "photo_url": "/images/speakers/michal-kucharski.png"
+                    "photo_url": "/images/speakers/michal-kucharski.jpg"
                 },
                 //26
                 "speaker-agnieszka-czyzak": {
                     "firstname": "Agnieszka",
                     "lastname": "Czyżak",
                     "bio_html": "Agnieszka is currently working as a UI Designer at Polidea. She graduated from the Warsaw Academy of Arts in 2016. Her bottomless passion for humans beings developed her constant question-asking attitude, and her love for design and design thinking lead her career path toward Service and Experience Design. It is during a Summer School at the Copenhagen Institute of Interactive Design that she polished her skills in user research, prototyping, design thinking, basic programming, workability and teamwork",
-                    "photo_url": "/images/speakers/agnieszka-czyzak.png"
+                    "photo_url": "/images/speakers/agnieszka-czyzak.jpg"
                 },
                 //26.5
                 "speaker-rafal-tulwin": {
                     "firstname": "Rafał",
                     "lastname": "Tulwin",
                     "bio_html": "For the past 4 years Rafał has been involved in mobile app development. He is Currently working at Polidea as a senior iOS developer. Passionate programmer and triathlete he is constantly looking for new thrills both in app development and in sports",
-                    "photo_url": "/images/speakers/rafal-tulwin.png"
+                    "photo_url": "/images/speakers/rafal-tulwin.jpg"
                 },
                 //27
                 "speaker-lukasz-mroz": {
                     "firstname": "Łukasz",
                     "lastname": "Mróz",
                     "bio_html": "Started as a back-end web developer, quickly found a new home in iOS. In ❤︎ with Swift, learning and everything that's being reactive. Endorsed on LinkedIn for coffee skills.",
-                    "photo_url": "/images/speakers/lukasz-mroz.png"
+                    "photo_url": "/images/speakers/lukasz-mroz.jpg"
                 },
                 //28
                 "speaker-anton-minashkin": {
                     "firstname": "Anton",
                     "lastname": "Minashkin",
                     "bio_html": "Lead Android developer, speaker, GDG Lviv organizer and co-founder of GDG Kremenchuk, currently works at EPAM. Have experience in both server and mobile side development. All my free time I spend on the endless search of silver bullets, perfect architectures and holy wars",
-                    "photo_url": "/images/speakers/anton-minashkin.png"
+                    "photo_url": "/images/speakers/anton-minashkin.jpg"
                 },
                 //29
                 "speaker-cybercom-mastercorder": {
                     "firstname": "Master",
                     "lastname": "Coder",
                     "bio_html": "MasterCoder is a national programming contest organized by Cybercom Poland. It is a competition created by programmers for programmers. This year over 300 participants from Poland joined the unique coding challenge. The challenge includes accomplishing ten different tasks in ten days. It fosters creativity, innovation and enables participants to test their ability to perform under pressure. During the finals we will see 10 best ranked coders who will fight for MasterCoder title and Samsung Galaxy S6, Samsung Gear VR, AirWheel X3, GoPro Hero Session Full HD! The semi-final will include a variety of tasks such as live programming. Join the audience and become a part of real programming battle !!!",
-                    "photo_url": "/images/speakers/master-coder.png"
+                    "photo_url": "/images/speakers/master-coder.jpg"
                 },
                 //30
                 "speaker-krzysztof-kudrynski": {
                     "firstname": "Krzysztof",
                     "lastname": "Kudryński",
                     "bio_html": "Passionate problem solver with experience in algorithms prototyping, software design and optimization for mobile platforms. Perfectionist in public presentations. On a daily basis working for Tomtom, trying to squeeze the self-driving-car's imagination within an SD card, and the cars' eyes and ears within the tip of a side mirror",
-                    "photo_url": "/images/speakers/krzysztof-kudrynski.png"
+                    "photo_url": "/images/speakers/krzysztof-kudrynski.jpg"
                 },
                 //30.5
                 "speaker-blazej-kubiak": {
                     "firstname": "Błażej",
                     "lastname": "Kubiak",
                     "bio_html": "An enthusiast of all aspects of big data processing and all technologies that bring this enthusiasm from dream into reality. Blazej has been working in Tele Atlas and TomTom for eight years and has been involved in many challenging projects related to image and laser data processing. Blazej is one of the authors of automated traffic signs detection systems and bird-eye image mosaic creation tools. Currently he works as Expert Software Engineer in areas of Deep Neural Networks for object detection and recognition.",
-                    "photo_url": "/images/speakers/blazej-kubiak.png"
+                    "photo_url": "/images/speakers/blazej-kubiak.jpg"
                 },
                 //31
                 "speaker-michal-mela": {
                     "firstname": "Michał",
                     "lastname": "Mela",
                     "bio_html": "",
-                    "photo_url": "/images/speakers/michal-mela.png"
+                    "photo_url": "/images/speakers/michal-mela.jpg"
                 },//31.5
                 "speaker-michal-kaminski": {
                     "firstname": "Michał",
                     "lastname": "Kamiński",
                     "bio_html": "",
-                    "photo_url": "/images/speakers/michal-kaminski.png"
+                    "photo_url": "/images/speakers/michal-kaminski.jpg"
                 },
                 //32
                 "speaker-jacek-rondio": {
                     "firstname": "Jacek",
                     "lastname": "Rondio",
                     "bio_html": "A software engineer currently working at HARMAN Connected Services mainly focused on Android applications development, however not afraid of deeper layers of the system. Team leader in the project dedicated to advanced head unit software development for Mercedes cars.",
-                    "photo_url": "/images/speakers/jacek-rondio.png"
+                    "photo_url": "/images/speakers/jacek-rondio.jpg"
                 },
                 //32.25
                 "speaker-krzysztof-sasiak": {
                     "firstname": "Krzysztof",
                     "lastname": "Sasiak",
                     "bio_html": "A software engineer, Linux enthusiast. Currently working at Harman Connected Services, assumed a role of Bluetooth and Telephony architect in one of the projects. Doesn’t like Facebook and Twitter, likes to build things and getting his hands dirty. Afterwards, he always washes his hands.",
-                    "photo_url": "/images/speakers/krzysztof-sasiak.png"
+                    "photo_url": "/images/speakers/krzysztof-sasiak.jpg"
                 },
                 //32.5
                 "speaker-lukasz-kwiecinski": {
                     "firstname": "Łukasz",
                     "lastname": "Kwieciński",
                     "bio_html": "Software engineer at Harman Connected Services department. Strongly interested in c/c++ programming in Unix-like systems. Works on the project where implements the solutions, which integrate mobile applications together with cars’ head units.",
-                    "photo_url": "/images/speakers/lukasz-kwiecinski.png"
+                    "photo_url": "/images/speakers/lukasz-kwiecinski.jpg"
                 },
                 //32.75
                 "speaker-mariusz-kazmierczak": {
                     "firstname": "Mariusz",
                     "lastname": "Kaźmierczak",
                     "bio_html": "Software engineer working at Harman Connected Services. Strongly interested in c++ programming in Unix-like systems. Works on the project where implements the solutions allowing to integrate mobile applications together with cars' head units.",
-                    "photo_url": "/images/speakers/mariusz-kazmierczak.png"
+                    "photo_url": "/images/speakers/mariusz-kazmierczak.jpg"
                 },
                 //33
                 "speaker-ola-rosinska": {
@@ -638,7 +638,7 @@ docpadConfig = {
                     "lastname": "Rosińska",
                     "bio_html": "Handling all aspects of marketing and communications in rndity; Ola balances between creation, strategy and technology to properly verify and develop new business ideas. Restless advocate of empirical studies, not a big fan of „we already know it all” kind of chitchats ;-) Believes that there is always something you can learn and explore in any situation.",
                     "linkedin": "https://www.linkedin.com/in/ola-rosi%C5%84ska-87b352104/en",
-                    "photo_url": "/images/speakers/ola-rosinska.png"
+                    "photo_url": "/images/speakers/ola-rosinska.jpg"
                 },
                 //33.5
                 "speaker-piotrek-stanislawski": {
@@ -646,7 +646,7 @@ docpadConfig = {
                     "lastname": "Stanisławski",
                     "bio_html": "UX designer with strong believe that in order to carry out the project perfectly you simply need pencil, open mind and aroused empathy. He always combines user needs with clients’ business objectives using available UX techniques. Not so secretly addicted to the post-it notes.",
                     "linkedin": "https://www.linkedin.com/in/stanislawskipiotr/en",
-                    "photo_url": "/images/speakers/piotrek-stanislawski.png"
+                    "photo_url": "/images/speakers/piotrek-stanislawski.jpg"
                 },
                 //34
                 "speaker-bartek-swiercz": {
@@ -655,28 +655,28 @@ docpadConfig = {
                     "bio_html": "Addicted to speed, challenges and technology, constantly using his passion to design and develop challenging projects. Bartek has been involved in mobile technologies ever since first smartphones, always looking for the best tech mixes that deliver highest performance possible.",
                     "linkedin": "https://www.linkedin.com/in/swierczu",
                     "twitter": "https://twitter.com/BartekSwiercz",
-                    "photo_url": "/images/speakers/bartek-swiercz.png"
+                    "photo_url": "/images/speakers/bartek-swiercz.jpg"
                 },
                 //34.5
                 "speaker-pawel-czapnik": {
                     "firstname": "Paweł",
                     "lastname": "Czapnik",
                     "bio_html": "Full time Android developer with still short but pretty solid work background. Paweł has managed to work on couple of most popular mobile apps in Poland. He knows how to point out worst mistakes in the project without making everyone miserable. „Quiet one” type of guy ;-)",
-                    "photo_url": "/images/speakers/pawel-czapnik.png"
+                    "photo_url": "/images/speakers/pawel-czapnik.jpg"
                 },
                 //35
                 "speaker-marek-wyrwicki": {
                     "firstname": "Marek",
                     "lastname": "Wyrwicki",
                     "bio_html": "ERICSSON Managers R&D",
-                    "photo_url": "/images/speakers/marek-wyrwicki.png"
+                    "photo_url": "/images/speakers/marek-wyrwicki.jpg"
                 },
                 //35.5
                 "speaker-christer-lindell": {
                     "firstname": "Christer",
                     "lastname": "Lindell",
                     "bio_html": "ERICSSON Managers R&D",
-                    "photo_url": "/images/speakers/christer-lindell.png"
+                    "photo_url": "/images/speakers/christer-lindell.jpg"
                 }
             },
             talks: {
