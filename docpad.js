@@ -638,7 +638,7 @@ docpadConfig = {
                     "lastname": "Rosińska",
                     "bio_html": "Handling all aspects of marketing and communications in rndity; Ola balances between creation, strategy and technology to properly verify and develop new business ideas. Restless advocate of empirical studies, not a big fan of „we already know it all” kind of chitchats ;-) Believes that there is always something you can learn and explore in any situation.",
                     "linkedin": "https://www.linkedin.com/in/ola-rosi%C5%84ska-87b352104/en",
-                    "photo_url": "/images/speakers/ola-rosinska.jpg"
+                    "photo_url": "/images/speakers/ola-rosinska.png"
                 },
                 //33.5
                 "speaker-piotrek-stanislawski": {
@@ -646,7 +646,7 @@ docpadConfig = {
                     "lastname": "Stanisławski",
                     "bio_html": "UX designer with strong believe that in order to carry out the project perfectly you simply need pencil, open mind and aroused empathy. He always combines user needs with clients’ business objectives using available UX techniques. Not so secretly addicted to the post-it notes.",
                     "linkedin": "https://www.linkedin.com/in/stanislawskipiotr/en",
-                    "photo_url": "/images/speakers/piotrek-stanislawski.jpg"
+                    "photo_url": "/images/speakers/piotrek-stanislawski.png"
                 },
                 //34
                 "speaker-bartek-swiercz": {
@@ -655,14 +655,14 @@ docpadConfig = {
                     "bio_html": "Addicted to speed, challenges and technology, constantly using his passion to design and develop challenging projects. Bartek has been involved in mobile technologies ever since first smartphones, always looking for the best tech mixes that deliver highest performance possible.",
                     "linkedin": "https://www.linkedin.com/in/swierczu",
                     "twitter": "https://twitter.com/BartekSwiercz",
-                    "photo_url": "/images/speakers/bartek-swiercz.jpg"
+                    "photo_url": "/images/speakers/bartek-swiercz.png"
                 },
                 //34.5
                 "speaker-pawel-czapnik": {
                     "firstname": "Paweł",
                     "lastname": "Czapnik",
                     "bio_html": "Full time Android developer with still short but pretty solid work background. Paweł has managed to work on couple of most popular mobile apps in Poland. He knows how to point out worst mistakes in the project without making everyone miserable. „Quiet one” type of guy ;-)",
-                    "photo_url": "/images/speakers/pawel-czapnik.jpg"
+                    "photo_url": "/images/speakers/pawel-czapnik.png"
                 },
                 //35
                 "speaker-marek-wyrwicki": {
