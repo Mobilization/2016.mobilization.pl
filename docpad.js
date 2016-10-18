@@ -912,7 +912,7 @@ docpadConfig = {
                     "speakers_keys": [
                         "speaker-cybercom-mastercorder"
                     ],
-                    "language": "EN"
+                    "language": "PL"
                 },
                 "talk-master-coder-eliminations": { //29.5
                     "title": "MASTERCODER VOL. 3 – NATIONAL PROGRAMMING CONTEST ELIMINATIONS",
@@ -920,7 +920,7 @@ docpadConfig = {
                     "speakers_keys": [
                         "speaker-cybercom-mastercorder"
                     ],
-                    "language": "EN"
+                    "language": "PL"
                 }
                 ,
                 "talk-flying-services-using-mobile-phone-paired-with-drone": { //30
