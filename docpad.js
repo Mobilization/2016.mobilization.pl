@@ -1012,19 +1012,19 @@ docpadConfig = {
             },
             venues: {
                 "venue-rndity": {
-                    "title": "Rndity"
+                    "title": "Rndity (Aula)"
                 },
                 "venue-ericpol": {
-                    "title": "Ericpol"
+                    "title": "Ericpol (A)"
                 },
                 "venue-mobica": {
-                    "title": "Mobica"
+                    "title": "Mobica (B)"
                 },
                 "venue-seqr": {
-                    "title": "SEQR"
+                    "title": "SEQR (C)"
                 },
                 "venue-tomtom": {
-                    "title": "TomTom"
+                    "title": "TomTom (D)"
                 }
             },
             schedule: {
