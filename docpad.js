@@ -290,18 +290,26 @@ docpadConfig = {
 
             },
             speakers: {
+                //0
+              "speaker-pawel-byszewski":{
+                  "firstname":"Paweł",
+                  "lastname":"Byszewski",
+                  "bio_html":"Jestem programistą z serwerową przeszłością, którego zafascynowały technologie mobilne. Głęboko wierzę, że bezkompromisowa jakość jest kluczem do długofalowego sukcesu dlatego skupiam się na utrzymaniu wysokiej jakości kodu źródłowego i przejrzystej architektury. Aktywne udzielanie się w społeczności i dzielenie się wiedzą traktuję jako najprzyjemniejszą drogę do ciągłego rozwoju. Zawsze można mnie spotkać na spotkaniach <a href=\"http://mobile-warsaw.pl/\" rel=\"nofollow\">MobileWarsaw</a>, które wspłorganizuję.</p>",
+                  "www":"",
+                  "photo_url":"/images/speakers/pawel-byszewski.jpg"
+              },
                 //1
-                "speaker-jens-ravens": {
-                    "firstname": "Jens",
-                    "lastname": "Ravens",
-                    "bio_html": "Jens is an iOS, macOS and backend Developer, writing ObjC since 2006. Currently working at nerdgeschoss helping clients to create awesome apps. Organiser of the monthly swift.berlin meetup. Scaring people with functional concepts since 2014.",
-                    "www": "http://jensravens.com/",
-                    "twitter": "https://twitter.com/jensravens",
-                    "facebook": "",
-                    "github": "https://github.com/JensRavens",
-                    "linkedin": "https://www.linkedin.com/in/jens-ravens-31416251",
-                    "photo_url": "/images/speakers/jens-ravens.jpg"
-                },
+                // "speaker-jens-ravens": {
+                //     "firstname": "Jens",
+                //     "lastname": "Ravens",
+                //     "bio_html": "Jens is an iOS, macOS and backend Developer, writing ObjC since 2006. Currently working at nerdgeschoss helping clients to create awesome apps. Organiser of the monthly swift.berlin meetup. Scaring people with functional concepts since 2014.",
+                //     "www": "http://jensravens.com/",
+                //     "twitter": "https://twitter.com/jensravens",
+                //     "facebook": "",
+                //     "github": "https://github.com/JensRavens",
+                //     "linkedin": "https://www.linkedin.com/in/jens-ravens-31416251",
+                //     "photo_url": "/images/speakers/jens-ravens.jpg"
+                // },
                 //2
                 "speaker-pedro-buendia": {
                     "firstname": "Pedro",
@@ -687,13 +695,21 @@ docpadConfig = {
                     ],
                     "language": "EN"
                 },
-                "talk-reactive-programming-for-ios-with-interstellar-2": {//2
-                    "title": "Reactive Programming for iOS with Interstellar 2",
-                    "description_html": "Have a look at how to make Swift and Objective-C interoperability seamless. Basics of including Swift code in your new or existing Objective-C based projects and helping yourself when you want to deliver some parts of Swift-based application using Objective-C code.",
+                // "talk-reactive-programming-for-ios-with-interstellar-2": {//2
+                //     "title": "Reactive Programming for iOS with Interstellar 2",
+                //     "description_html": "Have a look at how to make Swift and Objective-C interoperability seamless. Basics of including Swift code in your new or existing Objective-C based projects and helping yourself when you want to deliver some parts of Swift-based application using Objective-C code.",
+                //     "speakers_keys": [
+                //         "speaker-jens-ravens"
+                //     ],
+                //     "language": "EN"
+                // },
+                "talk-kotlin-why": {
+                    "title": "Kotlin, why?",
+                    "description_html": "Programiści aplikacji Mobilnych na Androida, uwięzieni w czasach Java 1.7 od pewnego czasu eksperymentowali z innymi językami programowania. Żaden nie zdobył do tej pory takiej popularności jak Kotlin. Ale czy faktycznie jest to coś rewolucyjnego? Przecież getery, settery i konstruktory wygenerujemy za pomocą Lomboka. Używając Retrolamby zyskamy wsparcie dla dopełnień. A dodatkowo od niedawna Android ma wsparcie dla Javy 8. Zatem co decyduje o sile Kotlina, które konstrukcje i właściwości języka powodują, że warto zastosować go w swoim projekcie? Jaki wpływ będzie to miało na architekturę aplikacji i wydajność? Kotlin jest tylko ciekawostką czy spowoduje, że będziesz kodował efektywniej? Z tej prezentacji wyniesiesz pełen zestaw informacji pozwalający odpowiedzieć na wszystkie te pytania.",
                     "speakers_keys": [
-                        "speaker-jens-ravens"
+                      "speaker-pawel-byszewski"
                     ],
-                    "language": "EN"
+                    "language": "PL"
                 },
                 "talk-taming-node-modules-at-facebook": {//3
                     "title": "Taming node_modules at Facebook",
@@ -1094,7 +1110,7 @@ docpadConfig = {
                         "talk_key": "talk-functional-on-android-lambdas-rx-and-streams-in-your-app"
                     },
                     "venue-ericpol": {
-                        "talk_key": "talk-reactive-programming-for-ios-with-interstellar-2"
+                        "talk_key": "talk-kotlin-why"
                     },
                     "venue-mobica": {
                         "talk_key": "talk-espresso-beyond-the-basics"
