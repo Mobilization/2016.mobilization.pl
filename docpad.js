@@ -114,7 +114,6 @@ docpadConfig = {
                     }
                 ],
                 supporters: [
-                    // {"name": "Miliataria Łódź", "logo_url":"/images/partners/militaria.png", "link":"http://militaria.lodz.pl/"},
                     {
                         "name": "Krawka",
                         "logo_url": "/images/partners/krawka.png",
@@ -125,6 +124,7 @@ docpadConfig = {
                         "logo_url": "/images/partners/medialab.png",
                         "link": "http://www.medialab.pl/"
                     },
+                    {"name": "All Star Klubokawiarnia", "logo_url":"/images/partners/allstar.png", "link":"https://www.facebook.com/AllStarLodz/"},
                 ],
                 community: [
                     {
